@@ -21,35 +21,16 @@
           "type": "title",
           "settings": {}
         },
-        "text_benefits_intro": {
-          "type": "text",
-          "settings": {
-            "text": "Für Tage, an denen Stillen nicht immer genau dann möglich ist, wenn dein Baby Hunger hat. Die Zento Milchpumpe hilft dir, Muttermilch vorzubereiten, Vorrat aufzubauen und flexibler durch deinen Alltag zu kommen.",
-            "text_style": "body"
-          }
-        },
         "icon_with_text_benefits_1": {
           "type": "icon-with-text",
           "settings": {
             "layout": "vertical",
             "icon_1": "check_mark",
-            "heading_1": "<strong>Mehr Freiheit im Alltag:</strong> Bereite Muttermilch vor, damit auch dein Partner oder eine vertraute Person füttern kann, während du kurz durchatmest, schläfst oder unterwegs bist.",
+            "heading_1": "<strong>Kabellos &amp; freihändig</strong> – passt in jeden Still-BH",
             "icon_2": "check_mark",
-            "heading_2": "<strong>Freihändig & kabellos:</strong> Kein Kabel, kein Schlauch, keine feste Position – einfach in den BH einsetzen und währenddessen bewegen oder entspannen.",
+            "heading_2": "<strong>Anpassbare Saugstufen</strong> für deinen Komfort",
             "icon_3": "check_mark",
-            "heading_3": "<strong>Sanft anpassbare Saugstufen:</strong> Wähle die Intensität Schritt für Schritt so, wie sie sich für dich angenehm anfühlt."
-          }
-        },
-        "icon_with_text_benefits_2": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "vertical",
-            "icon_1": "check_mark",
-            "heading_1": "<strong>Diskret im Alltag tragbar:</strong> Das kompakte Design sitzt direkt im BH und macht Abpumpen unkomplizierter – ohne große Geräte oder auffällige Flaschen.",
-            "icon_2": "check_mark",
-            "heading_2": "<strong>Vorrat &amp; Sicherheit aufbauen:</strong> Abgepumpte Muttermilch gibt dir mehr Planungssicherheit für Termine, Nächte, Arbeit oder kleine Pausen.",
-            "icon_3": "check_mark",
-            "heading_3": "<strong>Einfach zu reinigen:</strong> Die abnehmbaren Teile lassen sich nach dem Abpumpen unkompliziert reinigen und schnell wieder zusammensetzen."
+            "heading_3": "<strong>30 Tage</strong> risikofrei testen"
           }
         },
         "price": {
@@ -145,9 +126,7 @@
         "rating_bar",
         "vendor",
         "title",
-        "text_benefits_intro",
         "icon_with_text_benefits_1",
-        "icon_with_text_benefits_2",
         "price",
         "variant_picker",
         "quantity_selector",
@@ -167,8 +146,8 @@
         "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "stacked",
-        "mobile_thumbnails": "hide",
+        "gallery_layout": "thumbnail",
+        "mobile_thumbnails": "show",
         "media_position": "left",
         "image_zoom": "lightbox",
         "hide_variants": false,
