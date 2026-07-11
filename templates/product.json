@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -74,7 +65,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Produktbeschreibung",
-            "icon": "none",
+            "icon": "clipboard",
             "content": "<p>Die Zento One ist eine tragbare elektrische Milchpumpe für Mütter, die Muttermilch flexibler in ihren Alltag integrieren möchten. Sie sitzt direkt im BH, funktioniert kabellos und unterstützt dich beim Abpumpen zuhause, unterwegs oder in ruhigen Momenten zwischendurch.</p><p>Durch anpassbare Saugstufen kannst du die Intensität Schritt für Schritt auf dein persönliches Wohlbefinden einstellen. Das kompakte Design macht die Anwendung diskreter als bei klassischen Milchpumpen mit Kabeln, Schläuchen oder großen Flaschen.</p>",
             "page": ""
           }
@@ -89,7 +80,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Für wen eignet sich die Zento One?",
-            "icon": "none",
+            "icon": "question_mark",
             "content": "<p>Die Zento One eignet sich für Mütter, die Muttermilch abpumpen möchten, um Vorrat aufzubauen, flexibler zu planen oder das Füttern mit dem Partner oder einer vertrauten Person zu teilen.</p>",
             "page": ""
           }
@@ -98,7 +89,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Wie funktioniert die Milchpumpe?",
-            "icon": "none",
+            "icon": "question_mark",
             "content": "<p>Setze die Pumpe in deinen Still-BH ein, wähle den passenden Modus und passe die Saugintensität an. Die Muttermilch wird direkt im integrierten Auffangbehälter gesammelt und kann danach umgefüllt werden.</p>",
             "page": ""
           }
@@ -107,7 +98,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Ist die Pumpe für unterwegs geeignet?",
-            "icon": "none",
+            "icon": "question_mark",
             "content": "<p>Ja. Durch das kabellose und kompakte Design kannst du die Zento One auch außerhalb von Zuhause nutzen. Besonders praktisch ist sie für Reisen, Arbeit, kurze Pausen oder Momente, in denen du nicht an eine Steckdose gebunden sein möchtest.</p>",
             "page": ""
           }
@@ -116,7 +107,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Wie reinige ich die Zento One?",
-            "icon": "none",
+            "icon": "question_mark",
             "content": "<p>Die abnehmbaren Teile können nach dem Abpumpen gereinigt werden. Bitte achte darauf, nur die dafür vorgesehenen Teile mit Wasser zu reinigen und die elektrische Motoreinheit trocken zu halten.</p>",
             "page": ""
           }
@@ -125,7 +116,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Gibt es eine Geld-zurück-Garantie?",
-            "icon": "none",
+            "icon": "question_mark",
             "content": "<p>Du kannst die Zento One 30 Tage testen. Wenn sie dich nicht überzeugt, kannst du sie innerhalb der Rückgabefrist zurücksenden. Die genauen Bedingungen findest du in deiner Rückgaberichtlinie.</p>",
             "page": ""
           }
