@@ -49,14 +49,22 @@
 
 /* Product benefit checkmarks (icon-with-text blocks in main-product) */
 .product__info-container .icon-with-text--vertical .svg-wrapper {
-  fill: #c9966f;
   min-width: 1.8rem;
   min-height: 1.8rem;
+  position: relative;
 }
 
 .product__info-container .icon-with-text--vertical .svg-wrapper > svg {
-  width: 60%;
-  height: 60%;
+  display: none;
+}
+
+.product__info-container .icon-with-text--vertical .svg-wrapper::before {
+  content: '\2713';
+  display: block;
+  color: #c9966f;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
 }
 
 /* Problem images section (sections/zento-problem-images.liquid) */

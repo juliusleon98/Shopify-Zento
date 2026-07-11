@@ -58,7 +58,6 @@
         },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {}
         },
         "collapsible_tab_description": {
@@ -126,12 +125,12 @@
         "rating_bar",
         "vendor",
         "title",
+        "description",
         "icon_with_text_benefits_1",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons_jQVaAp",
-        "description",
         "collapsible_tab_description",
         "custom_liquid_trust_icons",
         "collapsible_tab_faq_1",
@@ -147,7 +146,7 @@
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "gallery_layout": "thumbnail",
-        "mobile_thumbnails": "show",
+        "mobile_thumbnails": "hide",
         "media_position": "left",
         "image_zoom": "lightbox",
         "hide_variants": false,
