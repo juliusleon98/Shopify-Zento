@@ -94,7 +94,28 @@
   .product__title h1,
   .product__title .h1 {
     font-size: calc(var(--font-heading-scale) * 3rem);
-    font-weight: 700;
+  }
+}
+
+.product__title h1,
+.product__title .h1 {
+  font-weight: 700;
+  font-size: calc(var(--font-heading-scale) * 2.6rem);
+}
+
+.product__info-container .icon-with-text--vertical .icon-with-text__item {
+  margin-bottom: 1.2rem;
+}
+
+@media screen and (max-width: 749px) {
+  .product__info-container .product-form,
+  .product__info-container .product__description,
+  .product__info-container .icon-with-text {
+    margin: 1.6rem 0;
+  }
+
+  .product__info-container > * + * {
+    margin: 1.2rem 0;
   }
 }
 
