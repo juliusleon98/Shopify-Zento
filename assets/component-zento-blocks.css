@@ -1,3 +1,397 @@
+/* Product benefit checkmarks (icon-with-text blocks in main-product) */
+.product__info-container .icon-with-text--vertical .svg-wrapper {
+  background: #fff8ef;
+  border-radius: 50%;
+  fill: #c9966f;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.product__info-container .icon-with-text--vertical .svg-wrapper > svg {
+  width: 60%;
+  height: 60%;
+}
+
+/* Problem images section (sections/zento-problem-images.liquid) */
+.zento-problem-images {
+  padding: 0;
+}
+
+.zento-problem-images__inner {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.zento-problem-images__header {
+  max-width: 760px;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+
+.zento-problem-images__eyebrow {
+  margin: 0 0 12px;
+  color: #c9966f;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.16em;
+  font-weight: 800;
+}
+
+.zento-problem-images__title {
+  margin: 0;
+  color: #17202f;
+  font-size: 40px;
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+  font-weight: 750;
+}
+
+.zento-problem-images__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.zento-problem-images__card {
+  position: relative;
+  min-height: 430px;
+  border-radius: 26px;
+  overflow: hidden;
+  background: #f8f6f2;
+}
+
+.zento-problem-images__card img {
+  width: 100%;
+  height: 100%;
+  min-height: 430px;
+  object-fit: cover;
+  display: block;
+}
+
+.zento-problem-images__overlay {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  padding: 16px 18px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.zento-problem-images__overlay h3 {
+  margin: 0 0 5px;
+  color: #17202f;
+  font-size: 18px;
+  line-height: 1.18;
+  font-weight: 800;
+  letter-spacing: -0.015em;
+}
+
+.zento-problem-images__overlay p {
+  margin: 0;
+  color: #3d4655;
+  font-size: 13.5px;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 989px) {
+  .zento-problem-images__title {
+    font-size: 34px;
+  }
+
+  .zento-problem-images__grid {
+    display: flex;
+    overflow-x: auto;
+    gap: 14px;
+    padding-bottom: 6px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .zento-problem-images__grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .zento-problem-images__card {
+    flex: 0 0 78%;
+    min-height: 390px;
+    scroll-snap-align: start;
+  }
+
+  .zento-problem-images__card img {
+    min-height: 390px;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .zento-problem-images__header {
+    text-align: left;
+    margin-bottom: 22px;
+  }
+
+  .zento-problem-images__eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    margin-bottom: 10px;
+  }
+
+  .zento-problem-images__title {
+    font-size: 28px;
+    line-height: 1.12;
+  }
+
+  .zento-problem-images__grid {
+    gap: 12px;
+    margin-right: -4px;
+  }
+
+  .zento-problem-images__card {
+    flex: 0 0 84%;
+    min-height: 350px;
+    border-radius: 22px;
+  }
+
+  .zento-problem-images__card img {
+    min-height: 350px;
+  }
+
+  .zento-problem-images__overlay {
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    padding: 13px 14px;
+    border-radius: 16px;
+  }
+
+  .zento-problem-images__overlay h3 {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+
+  .zento-problem-images__overlay p {
+    font-size: 12.8px;
+    line-height: 1.35;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .zento-problem-images__title {
+    font-size: 25px;
+  }
+
+  .zento-problem-images__card {
+    flex: 0 0 86%;
+    min-height: 330px;
+  }
+
+  .zento-problem-images__card img {
+    min-height: 330px;
+  }
+
+  .zento-problem-images__overlay h3 {
+    font-size: 15px;
+  }
+
+  .zento-problem-images__overlay p {
+    font-size: 12.4px;
+  }
+}
+
+/* Solution section (sections/zento-solution.liquid) */
+.zento-solution-section {
+  padding: 0;
+}
+
+.zento-solution-section__inner {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 0.92fr;
+  gap: 52px;
+  align-items: center;
+}
+
+.zento-solution-section__image-wrap {
+  border-radius: 28px;
+  overflow: hidden;
+  background: #f8f6f2;
+}
+
+.zento-solution-section__image-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+  aspect-ratio: 1 / 0.86;
+  object-fit: cover;
+}
+
+.zento-solution-section__content {
+  max-width: 560px;
+}
+
+.zento-solution-section__eyebrow {
+  margin: 0 0 12px;
+  color: #c9966f;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.16em;
+  font-weight: 800;
+}
+
+.zento-solution-section__title {
+  margin: 0 0 18px;
+  color: #17202f;
+  font-size: 42px;
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+  font-weight: 750;
+}
+
+.zento-solution-section__text {
+  margin: 0 0 26px;
+  color: #3d4655;
+  font-size: 16.5px;
+  line-height: 1.62;
+  font-weight: 400;
+}
+
+.zento-solution-section__benefits {
+  display: grid;
+  gap: 14px;
+}
+
+.zento-solution-section__benefit {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.zento-solution-section__benefit span {
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background: #fff8ef;
+  color: #c9966f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 800;
+  margin-top: 1px;
+  flex-shrink: 0;
+}
+
+.zento-solution-section__benefit p {
+  margin: 0;
+  color: #17202f;
+  font-size: 15px;
+  line-height: 1.45;
+  font-weight: 400;
+}
+
+.zento-solution-section__benefit strong {
+  font-weight: 800;
+  color: #17202f;
+}
+
+@media screen and (max-width: 989px) {
+  .zento-solution-section__inner {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .zento-solution-section__content {
+    max-width: 100%;
+  }
+
+  .zento-solution-section__title {
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .zento-solution-section__inner {
+    gap: 24px;
+  }
+
+  .zento-solution-section__image-wrap {
+    border-radius: 22px;
+  }
+
+  .zento-solution-section__image-wrap img {
+    aspect-ratio: 1 / 0.9;
+  }
+
+  .zento-solution-section__eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    margin-bottom: 10px;
+  }
+
+  .zento-solution-section__title {
+    font-size: 28px;
+    line-height: 1.12;
+    margin-bottom: 14px;
+  }
+
+  .zento-solution-section__text {
+    font-size: 14.5px;
+    line-height: 1.55;
+    margin-bottom: 22px;
+  }
+
+  .zento-solution-section__benefits {
+    gap: 12px;
+  }
+
+  .zento-solution-section__benefit {
+    grid-template-columns: 25px 1fr;
+    gap: 10px;
+  }
+
+  .zento-solution-section__benefit span {
+    width: 25px;
+    height: 25px;
+    font-size: 13px;
+  }
+
+  .zento-solution-section__benefit p {
+    font-size: 13.8px;
+    line-height: 1.42;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .zento-solution-section__title {
+    font-size: 25px;
+  }
+
+  .zento-solution-section__text {
+    font-size: 14px;
+  }
+
+  .zento-solution-section__benefit p {
+    font-size: 13.4px;
+  }
+
+  .zento-solution-section__benefit {
+    grid-template-columns: 23px 1fr;
+  }
+
+  .zento-solution-section__benefit span {
+    width: 23px;
+    height: 23px;
+    font-size: 12px;
+  }
+}
+
 /* Rating bar block (main-product) */
 .zento-rating-bar {
   display: flex;

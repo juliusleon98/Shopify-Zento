@@ -88,26 +88,6 @@
             "content": "<p>Die Zento One ist eine tragbare elektrische Milchpumpe für Mütter, die Muttermilch flexibler in ihren Alltag integrieren möchten. Sie sitzt direkt im BH, funktioniert kabellos und unterstützt dich beim Abpumpen zuhause, unterwegs oder in ruhigen Momenten zwischendurch.</p><p>Durch anpassbare Saugstufen kannst du die Intensität Schritt für Schritt auf dein persönliches Wohlbefinden einstellen. Das kompakte Design macht die Anwendung diskreter als bei klassischen Milchpumpen mit Kabeln, Schläuchen oder großen Flaschen.</p>"
           }
         },
-        "icon_with_text_trust_1": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "horizontal",
-            "icon_1": "return",
-            "heading_1": "<strong>30 Tage</strong> · Testen",
-            "icon_2": "truck",
-            "heading_2": "<strong>Gratis</strong> · Lieferung"
-          }
-        },
-        "icon_with_text_trust_2": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "horizontal",
-            "icon_1": "chat_bubble",
-            "heading_1": "<strong>24/5</strong> · Support",
-            "icon_2": "star",
-            "heading_2": "<strong>4,8 ★</strong> · Bewertung"
-          }
-        },
         "collapsible_tab_faq_1": {
           "type": "collapsible_tab",
           "settings": {
@@ -147,6 +127,12 @@
             "icon": "question_mark",
             "content": "<p>Du kannst die Zento One 30 Tage testen. Wenn sie dich nicht überzeugt, kannst du sie innerhalb der Rückgabefrist zurücksenden. Die genauen Bedingungen findest du in deiner Rückgaberichtlinie.</p>"
           }
+        },
+        "custom_liquid_trust_icons": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"zento-trust-icons\">\n      <div class=\"zento-trust-icons__item\">\n        <div class=\"zento-trust-icons__icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n            <path d=\"M12 3L5 6V11C5 15.5 8 19.5 12 21C16 19.5 19 15.5 19 11V6L12 3Z\" stroke=\"currentColor\" stroke-width=\"1.8\"/>\n            <path d=\"M9 12L11 14L15 9.5\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n          </svg>\n        </div>\n        <p><strong>30 Tage</strong><span>Testen</span></p>\n      </div>\n\n      <div class=\"zento-trust-icons__item\">\n        <div class=\"zento-trust-icons__icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n            <path d=\"M3 7H15V17H3V7Z\" stroke=\"currentColor\" stroke-width=\"1.8\"/>\n            <path d=\"M15 10H19L21 13V17H15V10Z\" stroke=\"currentColor\" stroke-width=\"1.8\"/>\n            <path d=\"M7 19.5C8.10457 19.5 9 18.6046 9 17.5C9 16.3954 8.10457 15.5 7 15.5C5.89543 15.5 5 16.3954 5 17.5C5 18.6046 5.89543 19.5 7 19.5Z\" stroke=\"currentColor\" stroke-width=\"1.8\"/>\n            <path d=\"M18 19.5C19.1046 19.5 20 18.6046 20 17.5C20 16.3954 19.1046 15.5 18 15.5C16.8954 15.5 16 16.3954 16 17.5C16 18.6046 16.8954 19.5 18 19.5Z\" stroke=\"currentColor\" stroke-width=\"1.8\"/>\n          </svg>\n        </div>\n        <p><strong>Gratis</strong><span>Lieferung</span></p>\n      </div>\n\n      <div class=\"zento-trust-icons__item\">\n        <div class=\"zento-trust-icons__icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n            <path d=\"M5 12C5 8.13401 8.13401 5 12 5C15.866 5 19 8.13401 19 12\" stroke=\"currentColor\" stroke-width=\"1.8\"/>\n            <path d=\"M5 12V16C5 17.1046 5.89543 18 7 18H8V12H5Z\" stroke=\"currentColor\" stroke-width=\"1.8\"/>\n            <path d=\"M19 12V16C19 17.1046 18.1046 18 17 18H16V12H19Z\" stroke=\"currentColor\" stroke-width=\"1.8\"/>\n          </svg>\n        </div>\n        <p><strong>24/5</strong><span>Support</span></p>\n      </div>\n\n      <div class=\"zento-trust-icons__item\">\n        <div class=\"zento-trust-icons__icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\">\n            <path d=\"M12 3.5L14.6 8.8L20.4 9.6L16.2 13.7L17.2 19.5L12 16.8L6.8 19.5L7.8 13.7L3.6 9.6L9.4 8.8L12 3.5Z\"/>\n          </svg>\n        </div>\n        <p><strong>4,8 ★</strong><span>Bewertung</span></p>\n      </div>\n    </div>\n\n<style>\n  .zento-trust-icons {\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    gap: 14px;\n    padding: 24px 0 24px;\n    border-bottom: 1px solid rgba(23, 32, 47, 0.12);\n  }\n\n  .zento-trust-icons__item {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    text-align: center;\n  }\n\n  .zento-trust-icons__icon {\n    width: 48px;\n    height: 48px;\n    border-radius: 15px;\n    background: #fbf3ea;\n    color: #c9966f;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin-bottom: 10px;\n  }\n\n  .zento-trust-icons__icon svg {\n    width: 22px;\n    height: 22px;\n  }\n\n  .zento-trust-icons__item p {\n    margin: 0;\n    color: #17202f;\n    font-size: 14px;\n    line-height: 1.18;\n  }\n\n  .zento-trust-icons__item strong {\n    display: block;\n    font-weight: 800;\n    letter-spacing: 0.01em;\n  }\n\n  .zento-trust-icons__item span {\n    display: block;\n    color: #6d7a8d;\n    margin-top: 3px;\n    font-weight: 400;\n  }\n\n  @media screen and (max-width: 749px) {\n    .zento-trust-icons {\n      grid-template-columns: repeat(4, 1fr);\n      gap: 8px;\n      padding: 20px 0 20px;\n    }\n\n    .zento-trust-icons__icon {\n      width: 42px;\n      height: 42px;\n      border-radius: 13px;\n      margin-bottom: 8px;\n    }\n\n    .zento-trust-icons__icon svg {\n      width: 20px;\n      height: 20px;\n    }\n\n    .zento-trust-icons__item p {\n      font-size: 12.5px;\n      line-height: 1.15;\n    }\n  }\n\n  @media screen and (max-width: 430px) {\n    .zento-trust-icons {\n      gap: 6px;\n    }\n\n    .zento-trust-icons__icon {\n      width: 38px;\n      height: 38px;\n      border-radius: 12px;\n    }\n\n    .zento-trust-icons__icon svg {\n      width: 18px;\n      height: 18px;\n    }\n\n    .zento-trust-icons__item p {\n      font-size: 11.8px;\n    }\n  }\n</style>"
+          }
         }
       },
       "block_order": [
@@ -162,8 +148,7 @@
         "buy_buttons_jQVaAp",
         "description",
         "collapsible_tab_description",
-        "icon_with_text_trust_1",
-        "icon_with_text_trust_2",
+        "custom_liquid_trust_icons",
         "collapsible_tab_faq_1",
         "collapsible_tab_faq_2",
         "collapsible_tab_faq_3",
@@ -203,86 +188,6 @@
         "show_rating": false,
         "padding_top": 36,
         "padding_bottom": 68
-      }
-    },
-    "multicolumn_zento_problem": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_43_05.png",
-            "title": "Entlastung im Alltag",
-            "text": "<p>Damit nicht immer alles an dir hängt.</p>"
-          }
-        },
-        "column_2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_57.png",
-            "title": "Flexibel unterwegs",
-            "text": "<p>Für Termine, Reisen oder kleine Pausen.</p>"
-          }
-        },
-        "column_3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_50.png",
-            "title": "Mehr Sicherheit",
-            "text": "<p>Ein kleiner Vorrat gibt dir mehr Ruhe.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "column_1",
-        "column_2",
-        "column_3"
-      ],
-      "settings": {
-        "title": "Für mehr Freiheit, wenn Stillen gerade nicht möglich ist.",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "column_alignment": "left",
-        "background_style": "none",
-        "color_scheme": "scheme-2",
-        "columns_desktop": 3,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "multirow_zento_solution": {
-      "type": "multirow",
-      "blocks": {
-        "row_1": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_50.png",
-            "caption": "DIE LÖSUNG FÜR MEHR FLEXIBILITÄT",
-            "heading": "Kabellos abpumpen, ohne deinen Alltag zu unterbrechen.",
-            "text": "<p>Zento One sitzt direkt im BH, kommt ohne Kabel oder Schläuche aus und lässt sich an dein persönliches Wohlbefinden anpassen – damit Abpumpen weniger nach Aufwand und mehr nach Entlastung fühlt.</p><ul><li><strong>Freihändig tragbar</strong> – Einfach in den Still-BH einsetzen und flexibler bleiben.</li><li><strong>Kabellos &amp; kompakt</strong> – Keine Schläuche, keine Steckdose, kein großes Gerät.</li><li><strong>Anpassbare Saugstufen</strong> – Stelle die Intensität so ein, wie sie sich für dich angenehm anfühlt.</li><li><strong>Einfach zu reinigen</strong> – Abnehmbare Teile machen die Reinigung unkompliziert.</li></ul>"
-          }
-        }
-      },
-      "block_order": [
-        "row_1"
-      ],
-      "settings": {
-        "image_height": "adapt",
-        "desktop_image_width": "medium",
-        "image_layout": "alternate-left",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "solid",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "scheme-1",
-        "row_color_scheme": "scheme-1",
-        "padding_top": 20,
-        "padding_bottom": 0
       }
     },
     "zento_comparison": {
@@ -529,13 +434,102 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "zento_problem_images": {
+      "type": "zento-problem-images",
+      "blocks": {
+        "card_1": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_43_05.png",
+            "heading": "Entlastung im Alltag",
+            "text": "Damit nicht immer alles an dir hängt."
+          }
+        },
+        "card_2": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_57.png",
+            "heading": "Flexibel unterwegs",
+            "text": "Für Termine, Reisen oder kleine Pausen."
+          }
+        },
+        "card_3": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_50.png",
+            "heading": "Mehr Sicherheit",
+            "text": "Ein kleiner Vorrat gibt dir mehr Ruhe."
+          }
+        }
+      },
+      "block_order": [
+        "card_1",
+        "card_2",
+        "card_3"
+      ],
+      "settings": {
+        "eyebrow": "WARUM EINE MILCHPUMPE?",
+        "heading": "Für mehr Freiheit, wenn Stillen gerade nicht möglich ist.",
+        "color_scheme": "scheme-2",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "zento_solution": {
+      "type": "zento-solution",
+      "blocks": {
+        "benefit_1": {
+          "type": "benefit",
+          "settings": {
+            "heading": "Freihändig tragbar",
+            "text": "Einfach in den Still-BH einsetzen und flexibler bleiben."
+          }
+        },
+        "benefit_2": {
+          "type": "benefit",
+          "settings": {
+            "heading": "Kabellos & kompakt",
+            "text": "Keine Schläuche, keine Steckdose, kein großes Gerät."
+          }
+        },
+        "benefit_3": {
+          "type": "benefit",
+          "settings": {
+            "heading": "Anpassbare Saugstufen",
+            "text": "Stelle die Intensität so ein, wie sie sich für dich angenehm anfühlt."
+          }
+        },
+        "benefit_4": {
+          "type": "benefit",
+          "settings": {
+            "heading": "Einfach zu reinigen",
+            "text": "Abnehmbare Teile machen die Reinigung unkompliziert."
+          }
+        }
+      },
+      "block_order": [
+        "benefit_1",
+        "benefit_2",
+        "benefit_3",
+        "benefit_4"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_50.png",
+        "eyebrow": "DIE LÖSUNG FÜR MEHR FLEXIBILITÄT",
+        "heading": "Kabellos abpumpen, ohne deinen Alltag zu unterbrechen.",
+        "text": "<p>Zento One sitzt direkt im BH, kommt ohne Kabel oder Schläuche aus und lässt sich an dein persönliches Wohlbefinden anpassen – damit Abpumpen weniger nach Aufwand und mehr nach Entlastung fühlt.</p>",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
-    "multicolumn_zento_problem",
+    "zento_problem_images",
     "related-products",
-    "multirow_zento_solution",
+    "zento_solution",
     "zento_comparison",
     "zento_reviews",
     "collapsible_content_faq"
