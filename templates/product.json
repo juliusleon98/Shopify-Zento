@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -98,33 +89,6 @@
             "page": ""
           }
         },
-<<<<<<< HEAD
-=======
-        "icon_with_text_trust_1": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "horizontal",
-            "icon_1": "return",
-            "heading_1": "<strong>30 Tage</strong> · Testen",
-            "icon_2": "truck",
-            "heading_2": "<strong>Gratis</strong> · Lieferung",
-            "icon_3": "truck",
-            "heading_3": "Titel"
-          }
-        },
-        "icon_with_text_trust_2": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "horizontal",
-            "icon_1": "chat_bubble",
-            "heading_1": "<strong>24/5</strong> · Support",
-            "icon_2": "star",
-            "heading_2": "<strong>4,8 ★</strong> · Bewertung",
-            "icon_3": "truck",
-            "heading_3": "Titel"
-          }
-        },
->>>>>>> 158ffe00b0d0ee7f0d07f06c64ac9fb7716caebb
         "collapsible_tab_faq_1": {
           "type": "collapsible_tab",
           "settings": {
@@ -213,62 +177,6 @@
         "padding_bottom": 24
       }
     },
-    "multicolumn_zento_problem": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_43_05.png",
-            "title": "Entlastung im Alltag",
-            "text": "<p>Damit nicht immer alles an dir hängt.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_57.png",
-            "title": "Flexibel unterwegs",
-            "text": "<p>Für Termine, Reisen oder kleine Pausen.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_50.png",
-            "title": "Mehr Sicherheit",
-            "text": "<p>Ein kleiner Vorrat gibt dir mehr Ruhe.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_1",
-        "column_2",
-        "column_3"
-      ],
-      "settings": {
-        "title": "Für mehr Freiheit, wenn Stillen gerade nicht möglich ist.",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "button_label": "Schaltflächenbeschriftung",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -288,43 +196,6 @@
         "padding_bottom": 68
       }
     },
-<<<<<<< HEAD
-=======
-    "multirow_zento_solution": {
-      "type": "multirow",
-      "blocks": {
-        "row_1": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_50.png",
-            "caption": "DIE LÖSUNG FÜR MEHR FLEXIBILITÄT",
-            "heading": "Kabellos abpumpen, ohne deinen Alltag zu unterbrechen.",
-            "text": "<p>Zento One sitzt direkt im BH, kommt ohne Kabel oder Schläuche aus und lässt sich an dein persönliches Wohlbefinden anpassen – damit Abpumpen weniger nach Aufwand und mehr nach Entlastung fühlt.</p><ul><li><strong>Freihändig tragbar</strong> – Einfach in den Still-BH einsetzen und flexibler bleiben.</li><li><strong>Kabellos &amp; kompakt</strong> – Keine Schläuche, keine Steckdose, kein großes Gerät.</li><li><strong>Anpassbare Saugstufen</strong> – Stelle die Intensität so ein, wie sie sich für dich angenehm anfühlt.</li><li><strong>Einfach zu reinigen</strong> – Abnehmbare Teile machen die Reinigung unkompliziert.</li></ul>",
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_1"
-      ],
-      "settings": {
-        "image_height": "adapt",
-        "desktop_image_width": "medium",
-        "image_layout": "alternate-left",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "solid",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "scheme-1",
-        "row_color_scheme": "scheme-1",
-        "padding_top": 20,
-        "padding_bottom": 0
-      }
-    },
->>>>>>> 158ffe00b0d0ee7f0d07f06c64ac9fb7716caebb
     "zento_comparison": {
       "type": "zento-comparison",
       "blocks": {
