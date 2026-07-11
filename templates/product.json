@@ -35,11 +35,11 @@
           "settings": {
             "layout": "vertical",
             "icon_1": "check_mark",
-            "heading_1": "<strong>Kabellos & freihändig</strong> – passt in jeden Still-BH",
+            "heading_1": "Kabellos & freihändig – passt in jeden Still-BH",
             "icon_2": "check_mark",
-            "heading_2": "<strong>Anpassbare Saugstufen</strong> für deinen Komfort",
+            "heading_2": "Anpassbare Saugstufen für deinen Komfort",
             "icon_3": "check_mark",
-            "heading_3": "<strong>30 Tage</strong> risikofrei testen"
+            "heading_3": "30 Tage risikofrei testen"
           }
         },
         "price": {
