@@ -117,6 +117,10 @@
   .product__info-container > * + * {
     margin: 1.2rem 0;
   }
+
+  .product__info-container .h4 {
+    font-size: 1.15rem;
+  }
 }
 
 /* Product benefit checkmarks (icon-with-text blocks in main-product) */
@@ -141,7 +145,7 @@
 
 /* Problem images section (sections/zento-problem-images.liquid) */
 .zento-problem-images {
-  padding: 0;
+  padding: 0 20px;
 }
 
 .zento-problem-images__inner {
@@ -271,18 +275,24 @@
   }
 
   .zento-problem-images__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow-x: visible;
     gap: 12px;
-    margin-right: -4px;
+    margin-right: 0;
+    padding-bottom: 0;
+    scroll-snap-type: none;
   }
 
   .zento-problem-images__card {
-    flex: 0 0 84%;
-    min-height: 350px;
+    flex: none;
+    min-height: 260px;
     border-radius: 22px;
+    scroll-snap-align: none;
   }
 
   .zento-problem-images__card img {
-    min-height: 350px;
+    min-height: 260px;
   }
 
   .zento-problem-images__overlay {
@@ -329,7 +339,7 @@
 
 /* Solution section (sections/zento-solution.liquid) */
 .zento-solution-section {
-  padding: 0;
+  padding: 0 20px;
 }
 
 .zento-solution-section__inner {
@@ -759,7 +769,6 @@
   }
 
   .zento-comparison__pair {
-    grid-template-columns: 1fr;
     gap: 10px;
   }
 }
@@ -827,34 +836,35 @@
 
   .zento-comparison__benefit {
     min-height: auto;
-    border-radius: 16px;
-    padding: 17px 18px;
-    gap: 14px;
+    border-radius: 14px;
+    padding: 12px 12px;
+    gap: 8px;
   }
 
   .zento-comparison__benefit--zento {
-    grid-template-columns: 1fr 34px;
+    grid-template-columns: 1fr 26px;
   }
 
   .zento-comparison__benefit--classic {
-    grid-template-columns: 34px 1fr;
+    grid-template-columns: 26px 1fr;
   }
 
   .zento-comparison__benefit h3 {
-    font-size: 15.5px;
-    margin-bottom: 5px;
+    font-size: 13px;
+    margin-bottom: 4px;
+    line-height: 1.2;
   }
 
   .zento-comparison__benefit p {
-    font-size: 13px;
-    line-height: 1.42;
+    font-size: 11px;
+    line-height: 1.32;
   }
 
   .zento-comparison__check,
   .zento-comparison__cross {
-    width: 32px;
-    height: 32px;
-    font-size: 20px;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
   }
 }
 
@@ -868,11 +878,11 @@
   }
 
   .zento-comparison__benefit h3 {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .zento-comparison__benefit p {
-    font-size: 12.5px;
+    font-size: 10.5px;
   }
 }
 
