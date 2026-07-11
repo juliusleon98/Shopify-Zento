@@ -18,6 +18,30 @@
     </summary>
     <div id="menu-drawer" class="gradient menu-drawer motion-reduce color-{{ section.settings.menu_color_scheme }}">
       <div class="menu-drawer__inner-container">
+        {%- if section.settings.show_bestsellers and section.settings.bestsellers_collection != blank -%}
+          <div class="menu-drawer__bestsellers">
+            <p class="menu-drawer__bestsellers-heading caption-with-letter-spacing">Bestseller</p>
+            <ul class="menu-drawer__bestsellers-grid list-unstyled" role="list">
+              {%- for product in section.settings.bestsellers_collection.products limit: 3 -%}
+                <li class="menu-drawer__bestsellers-item">
+                  <a href="{{ product.url }}" class="menu-drawer__bestsellers-link">
+                    <div class="menu-drawer__bestsellers-image">
+                      {%- if product.featured_media -%}
+                        {{
+                          product.featured_media
+                          | image_url: width: 300
+                          | image_tag: loading: 'lazy', widths: '150, 300', alt: product.featured_media.alt
+                        }}
+                      {%- endif -%}
+                    </div>
+                    <span class="menu-drawer__bestsellers-title">{{ product.title }}</span>
+                    <span class="menu-drawer__bestsellers-price">{{ product.price | money }}</span>
+                  </a>
+                </li>
+              {%- endfor -%}
+            </ul>
+          </div>
+        {%- endif -%}
         <div class="menu-drawer__navigation-container">
           <nav class="menu-drawer__navigation">
             <ul class="menu-drawer__menu has-submenu list-menu" role="list">

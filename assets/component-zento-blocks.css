@@ -1,3 +1,54 @@
+/* Mobile menu bestsellers grid (snippets/header-drawer.liquid) */
+.menu-drawer__bestsellers {
+  padding: 2rem 0 1.5rem;
+  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  margin-bottom: 1.5rem;
+}
+
+.menu-drawer__bestsellers-heading {
+  margin: 0 0 1.2rem;
+  color: rgba(var(--color-foreground), 0.75);
+}
+
+.menu-drawer__bestsellers-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+
+.menu-drawer__bestsellers-link {
+  display: flex;
+  flex-direction: column;
+  color: rgb(var(--color-foreground));
+  text-decoration: none;
+}
+
+.menu-drawer__bestsellers-image {
+  aspect-ratio: 1 / 1;
+  background: rgba(var(--color-foreground), 0.04);
+  border-radius: 0.8rem;
+  overflow: hidden;
+  margin-bottom: 0.6rem;
+}
+
+.menu-drawer__bestsellers-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.menu-drawer__bestsellers-title {
+  font-size: 1.2rem;
+  line-height: 1.3;
+  margin-bottom: 0.2rem;
+}
+
+.menu-drawer__bestsellers-price {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
 /* Product gallery: thumbnail rail to the left of the main image on desktop */
 @media screen and (min-width: 750px) {
   .product__media-wrapper media-gallery {
