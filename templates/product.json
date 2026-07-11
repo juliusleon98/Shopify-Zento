@@ -65,7 +65,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Produktbeschreibung",
-            "icon": "clipboard",
+            "icon": "none",
             "content": "<p>Die Zento One ist eine tragbare elektrische Milchpumpe für Mütter, die Muttermilch flexibler in ihren Alltag integrieren möchten. Sie sitzt direkt im BH, funktioniert kabellos und unterstützt dich beim Abpumpen zuhause, unterwegs oder in ruhigen Momenten zwischendurch.</p><p>Durch anpassbare Saugstufen kannst du die Intensität Schritt für Schritt auf dein persönliches Wohlbefinden einstellen. Das kompakte Design macht die Anwendung diskreter als bei klassischen Milchpumpen mit Kabeln, Schläuchen oder großen Flaschen.</p>",
             "page": ""
           }
@@ -80,7 +80,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Für wen eignet sich die Zento One?",
-            "icon": "question_mark",
+            "icon": "none",
             "content": "<p>Die Zento One eignet sich für Mütter, die Muttermilch abpumpen möchten, um Vorrat aufzubauen, flexibler zu planen oder das Füttern mit dem Partner oder einer vertrauten Person zu teilen.</p>",
             "page": ""
           }
@@ -89,7 +89,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Wie funktioniert die Milchpumpe?",
-            "icon": "question_mark",
+            "icon": "none",
             "content": "<p>Setze die Pumpe in deinen Still-BH ein, wähle den passenden Modus und passe die Saugintensität an. Die Muttermilch wird direkt im integrierten Auffangbehälter gesammelt und kann danach umgefüllt werden.</p>",
             "page": ""
           }
@@ -98,7 +98,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Ist die Pumpe für unterwegs geeignet?",
-            "icon": "question_mark",
+            "icon": "none",
             "content": "<p>Ja. Durch das kabellose und kompakte Design kannst du die Zento One auch außerhalb von Zuhause nutzen. Besonders praktisch ist sie für Reisen, Arbeit, kurze Pausen oder Momente, in denen du nicht an eine Steckdose gebunden sein möchtest.</p>",
             "page": ""
           }
@@ -107,7 +107,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Wie reinige ich die Zento One?",
-            "icon": "question_mark",
+            "icon": "none",
             "content": "<p>Die abnehmbaren Teile können nach dem Abpumpen gereinigt werden. Bitte achte darauf, nur die dafür vorgesehenen Teile mit Wasser zu reinigen und die elektrische Motoreinheit trocken zu halten.</p>",
             "page": ""
           }
@@ -116,7 +116,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Gibt es eine Geld-zurück-Garantie?",
-            "icon": "question_mark",
+            "icon": "none",
             "content": "<p>Du kannst die Zento One 30 Tage testen. Wenn sie dich nicht überzeugt, kannst du sie innerhalb der Rückgabefrist zurücksenden. Die genauen Bedingungen findest du in deiner Rückgaberichtlinie.</p>",
             "page": ""
           }
@@ -434,7 +434,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Ist es sinnvoll, eine elektrische Milchpumpe zu verwenden?",
-            "icon": "question_mark",
+            "icon": "none",
             "row_content": "<p>Ja, eine elektrische Milchpumpe kann besonders praktisch sein, wenn du regelmäßig abpumpen möchtest, flexibler im Alltag sein willst oder Milch für später aufbewahren möchtest. Sie kann das Abpumpen komfortabler und gleichmäßiger machen als eine manuelle Pumpe.</p>",
             "page": ""
           }
@@ -443,7 +443,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Wie lange sollte ich eine elektrische Milchpumpe verwenden?",
-            "icon": "question_mark",
+            "icon": "none",
             "row_content": "<p>Viele Mütter pumpen pro Seite etwa 10–20 Minuten ab. Die genaue Dauer hängt aber von deinem Milchfluss, deinem Komfort und deiner persönlichen Routine ab. Wichtig ist, dass sich das Abpumpen angenehm anfühlt und kein Schmerz entsteht.</p>",
             "page": ""
           }
@@ -452,7 +452,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Reduzieren tragbare Milchpumpen die Milchmenge?",
-            "icon": "question_mark",
+            "icon": "none",
             "row_content": "<p>Eine tragbare Milchpumpe reduziert die Milchmenge nicht automatisch. Entscheidend sind eine passende Positionierung, ein guter Sitz, regelmäßiges Abpumpen und eine für dich angenehme Saugstärke. Wenn die Pumpe nicht richtig sitzt, kann die Entleerung weniger effektiv sein.</p>",
             "page": ""
           }
@@ -461,7 +461,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Was ist weniger schmerzhaft: manuelle oder elektrische Milchpumpe?",
-            "icon": "question_mark",
+            "icon": "none",
             "row_content": "<p>Das hängt stark vom Modell und der richtigen Anwendung ab. Eine elektrische Milchpumpe kann angenehmer sein, weil sie gleichmäßig arbeitet und verschiedene Modi bietet. Wichtig ist ein weicher Aufsatz, eine passende Größe und eine Saugstufe, die nicht zu stark eingestellt ist.</p>",
             "page": ""
           }
@@ -470,7 +470,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Wie wähle ich die richtige elektrische Milchpumpe aus?",
-            "icon": "question_mark",
+            "icon": "none",
             "row_content": "<p>Achte auf Komfort, Lautstärke, Akkulaufzeit, einfache Reinigung, verschiedene Saugmodi und darauf, ob die Pumpe zu deinem Alltag passt. Wenn du flexibel bleiben möchtest, ist eine kabellose und tragbare Pumpe besonders praktisch.</p>",
             "page": ""
           }
@@ -479,7 +479,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Wie reinige und sterilisiere ich die Zubehörteile?",
-            "icon": "question_mark",
+            "icon": "none",
             "row_content": "<p>Alle Teile, die mit Milch in Kontakt kommen, sollten nach jeder Nutzung gereinigt werden. Spüle sie zuerst mit kaltem Wasser ab, reinige sie anschließend mit warmem Wasser und mildem Spülmittel und lasse sie vollständig trocknen. Beachte zusätzlich immer die Pflegehinweise des Herstellers.</p>",
             "page": ""
           }
@@ -488,7 +488,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Warum fühlt sich die Saugkraft nach der Reinigung schwächer an?",
-            "icon": "question_mark",
+            "icon": "none",
             "row_content": "<p>Das kann passieren, wenn einzelne Teile nicht vollständig trocken sind, nicht korrekt zusammengesetzt wurden oder ein Ventil nicht richtig sitzt. Prüfe nach der Reinigung, ob alle Teile sauber, trocken und fest verbunden sind.</p>",
             "page": ""
           }

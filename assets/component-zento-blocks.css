@@ -14,8 +14,8 @@
 
   .product__media-wrapper media-gallery > slider-component.thumbnail-slider {
     display: block !important;
-    flex: 0 0 8rem;
-    width: 8rem;
+    flex: 0 0 8.4rem;
+    width: 8.4rem;
     margin: 0;
   }
 
@@ -27,7 +27,7 @@
     max-height: 60rem;
     overflow-y: auto;
     overflow-x: hidden;
-    padding-right: 0;
+    padding: 0.2rem;
   }
 
   .product__media-wrapper .thumbnail-slider .thumbnail-list__item {
@@ -38,6 +38,12 @@
   .product__media-wrapper .thumbnail-slider .slider-button,
   .product__media-wrapper .thumbnail-slider .slider-counter {
     display: none !important;
+  }
+
+  .product__title h1,
+  .product__title .h1 {
+    font-size: calc(var(--font-heading-scale) * 3rem);
+    font-weight: 700;
   }
 }
 
