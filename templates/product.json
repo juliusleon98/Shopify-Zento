@@ -93,9 +93,9 @@
           "settings": {
             "layout": "horizontal",
             "icon_1": "return",
-            "heading_1": "<strong>30 Tage</strong><br>Testen",
+            "heading_1": "<strong>30 Tage</strong> · Testen",
             "icon_2": "truck",
-            "heading_2": "<strong>Gratis</strong><br>Lieferung"
+            "heading_2": "<strong>Gratis</strong> · Lieferung"
           }
         },
         "icon_with_text_trust_2": {
@@ -103,9 +103,9 @@
           "settings": {
             "layout": "horizontal",
             "icon_1": "chat_bubble",
-            "heading_1": "<strong>24/5</strong><br>Support",
+            "heading_1": "<strong>24/5</strong> · Support",
             "icon_2": "star",
-            "heading_2": "<strong>4,8 ★</strong><br>Bewertung"
+            "heading_2": "<strong>4,8 ★</strong> · Bewertung"
           }
         },
         "collapsible_tab_faq_1": {
