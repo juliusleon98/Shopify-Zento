@@ -100,7 +100,7 @@
 .product__title h1,
 .product__title .h1 {
   font-weight: 700;
-  font-size: calc(var(--font-heading-scale) * 2.6rem);
+  font-size: clamp(2rem, 7vw, 2.6rem);
 }
 
 .product__info-container .icon-with-text--vertical .icon-with-text__item {
