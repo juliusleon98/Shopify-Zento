@@ -1,8 +1,24 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-product",
       "blocks": {
+        "rating_bar": {
+          "type": "rating_bar",
+          "settings": {
+            "rating_value": "4,8",
+            "review_count_text": "450+ Mütter vertrauen zento"
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -13,6 +29,37 @@
         "title": {
           "type": "title",
           "settings": {}
+        },
+        "text_benefits_intro": {
+          "type": "text",
+          "settings": {
+            "text": "Für Tage, an denen Stillen nicht immer genau dann möglich ist, wenn dein Baby Hunger hat. Die Zento Milchpumpe hilft dir, Muttermilch vorzubereiten, Vorrat aufzubauen und flexibler durch deinen Alltag zu kommen.",
+            "text_style": "body"
+          }
+        },
+        "icon_with_text_benefits_1": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "check_mark",
+            "heading_1": "<strong>Mehr Freiheit im Alltag:</strong> Bereite Muttermilch vor, damit auch dein Partner oder eine vertraute Person füttern kann, während du kurz durchatmest, schläfst oder unterwegs bist.",
+            "icon_2": "check_mark",
+            "heading_2": "<strong>Freihändig & kabellos:</strong> Kein Kabel, kein Schlauch, keine feste Position – einfach in den BH einsetzen und währenddessen bewegen oder entspannen.",
+            "icon_3": "check_mark",
+            "heading_3": "<strong>Sanft anpassbare Saugstufen:</strong> Wähle die Intensität Schritt für Schritt so, wie sie sich für dich angenehm anfühlt."
+          }
+        },
+        "icon_with_text_benefits_2": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "check_mark",
+            "heading_1": "<strong>Diskret im Alltag tragbar:</strong> Das kompakte Design sitzt direkt im BH und macht Abpumpen unkomplizierter – ohne große Geräte oder auffällige Flaschen.",
+            "icon_2": "check_mark",
+            "heading_2": "<strong>Vorrat &amp; Sicherheit aufbauen:</strong> Abgepumpte Muttermilch gibt dir mehr Planungssicherheit für Termine, Nächte, Arbeit oder kleine Pausen.",
+            "icon_3": "check_mark",
+            "heading_3": "<strong>Einfach zu reinigen:</strong> Die abnehmbaren Teile lassen sich nach dem Abpumpen unkompliziert reinigen und schnell wieder zusammensetzen."
+          }
         },
         "price": {
           "type": "price",
@@ -42,50 +89,13 @@
           "disabled": true,
           "settings": {}
         },
-        "rating_bar": {
-          "type": "rating_bar",
-          "settings": {
-            "rating_value": "4,8",
-            "review_count_text": "450+ Mütter vertrauen zento"
-          }
-        },
-        "text_benefits_intro": {
-          "type": "text",
-          "settings": {
-            "text": "Für Tage, an denen Stillen nicht immer genau dann möglich ist, wenn dein Baby Hunger hat. Die Zento Milchpumpe hilft dir, Muttermilch vorzubereiten, Vorrat aufzubauen und flexibler durch deinen Alltag zu kommen.",
-            "text_style": "body"
-          }
-        },
-        "icon_with_text_benefits_1": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "vertical",
-            "icon_1": "check_mark",
-            "heading_1": "<strong>Mehr Freiheit im Alltag:</strong> Bereite Muttermilch vor, damit auch dein Partner oder eine vertraute Person füttern kann, während du kurz durchatmest, schläfst oder unterwegs bist.",
-            "icon_2": "check_mark",
-            "heading_2": "<strong>Freihändig &amp; kabellos:</strong> Kein Kabel, kein Schlauch, keine feste Position – einfach in den BH einsetzen und währenddessen bewegen oder entspannen.",
-            "icon_3": "check_mark",
-            "heading_3": "<strong>Sanft anpassbare Saugstufen:</strong> Wähle die Intensität Schritt für Schritt so, wie sie sich für dich angenehm anfühlt."
-          }
-        },
-        "icon_with_text_benefits_2": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "vertical",
-            "icon_1": "check_mark",
-            "heading_1": "<strong>Diskret im Alltag tragbar:</strong> Das kompakte Design sitzt direkt im BH und macht Abpumpen unkomplizierter – ohne große Geräte oder auffällige Flaschen.",
-            "icon_2": "check_mark",
-            "heading_2": "<strong>Vorrat &amp; Sicherheit aufbauen:</strong> Abgepumpte Muttermilch gibt dir mehr Planungssicherheit für Termine, Nächte, Arbeit oder kleine Pausen.",
-            "icon_3": "check_mark",
-            "heading_3": "<strong>Einfach zu reinigen:</strong> Die abnehmbaren Teile lassen sich nach dem Abpumpen unkompliziert reinigen und schnell wieder zusammensetzen."
-          }
-        },
         "collapsible_tab_description": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Produktbeschreibung",
             "icon": "clipboard",
-            "content": "<p>Die Zento One ist eine tragbare elektrische Milchpumpe für Mütter, die Muttermilch flexibler in ihren Alltag integrieren möchten. Sie sitzt direkt im BH, funktioniert kabellos und unterstützt dich beim Abpumpen zuhause, unterwegs oder in ruhigen Momenten zwischendurch.</p><p>Durch anpassbare Saugstufen kannst du die Intensität Schritt für Schritt auf dein persönliches Wohlbefinden einstellen. Das kompakte Design macht die Anwendung diskreter als bei klassischen Milchpumpen mit Kabeln, Schläuchen oder großen Flaschen.</p>"
+            "content": "<p>Die Zento One ist eine tragbare elektrische Milchpumpe für Mütter, die Muttermilch flexibler in ihren Alltag integrieren möchten. Sie sitzt direkt im BH, funktioniert kabellos und unterstützt dich beim Abpumpen zuhause, unterwegs oder in ruhigen Momenten zwischendurch.</p><p>Durch anpassbare Saugstufen kannst du die Intensität Schritt für Schritt auf dein persönliches Wohlbefinden einstellen. Das kompakte Design macht die Anwendung diskreter als bei klassischen Milchpumpen mit Kabeln, Schläuchen oder großen Flaschen.</p>",
+            "page": ""
           }
         },
         "icon_with_text_trust_1": {
@@ -95,7 +105,9 @@
             "icon_1": "return",
             "heading_1": "<strong>30 Tage</strong> · Testen",
             "icon_2": "truck",
-            "heading_2": "<strong>Gratis</strong> · Lieferung"
+            "heading_2": "<strong>Gratis</strong> · Lieferung",
+            "icon_3": "truck",
+            "heading_3": "Titel"
           }
         },
         "icon_with_text_trust_2": {
@@ -105,7 +117,9 @@
             "icon_1": "chat_bubble",
             "heading_1": "<strong>24/5</strong> · Support",
             "icon_2": "star",
-            "heading_2": "<strong>4,8 ★</strong> · Bewertung"
+            "heading_2": "<strong>4,8 ★</strong> · Bewertung",
+            "icon_3": "truck",
+            "heading_3": "Titel"
           }
         },
         "collapsible_tab_faq_1": {
@@ -113,7 +127,8 @@
           "settings": {
             "heading": "Für wen eignet sich die Zento One?",
             "icon": "question_mark",
-            "content": "<p>Die Zento One eignet sich für Mütter, die Muttermilch abpumpen möchten, um Vorrat aufzubauen, flexibler zu planen oder das Füttern mit dem Partner oder einer vertrauten Person zu teilen.</p>"
+            "content": "<p>Die Zento One eignet sich für Mütter, die Muttermilch abpumpen möchten, um Vorrat aufzubauen, flexibler zu planen oder das Füttern mit dem Partner oder einer vertrauten Person zu teilen.</p>",
+            "page": ""
           }
         },
         "collapsible_tab_faq_2": {
@@ -121,7 +136,8 @@
           "settings": {
             "heading": "Wie funktioniert die Milchpumpe?",
             "icon": "question_mark",
-            "content": "<p>Setze die Pumpe in deinen Still-BH ein, wähle den passenden Modus und passe die Saugintensität an. Die Muttermilch wird direkt im integrierten Auffangbehälter gesammelt und kann danach umgefüllt werden.</p>"
+            "content": "<p>Setze die Pumpe in deinen Still-BH ein, wähle den passenden Modus und passe die Saugintensität an. Die Muttermilch wird direkt im integrierten Auffangbehälter gesammelt und kann danach umgefüllt werden.</p>",
+            "page": ""
           }
         },
         "collapsible_tab_faq_3": {
@@ -129,7 +145,8 @@
           "settings": {
             "heading": "Ist die Pumpe für unterwegs geeignet?",
             "icon": "question_mark",
-            "content": "<p>Ja. Durch das kabellose und kompakte Design kannst du die Zento One auch außerhalb von Zuhause nutzen. Besonders praktisch ist sie für Reisen, Arbeit, kurze Pausen oder Momente, in denen du nicht an eine Steckdose gebunden sein möchtest.</p>"
+            "content": "<p>Ja. Durch das kabellose und kompakte Design kannst du die Zento One auch außerhalb von Zuhause nutzen. Besonders praktisch ist sie für Reisen, Arbeit, kurze Pausen oder Momente, in denen du nicht an eine Steckdose gebunden sein möchtest.</p>",
+            "page": ""
           }
         },
         "collapsible_tab_faq_4": {
@@ -137,7 +154,8 @@
           "settings": {
             "heading": "Wie reinige ich die Zento One?",
             "icon": "question_mark",
-            "content": "<p>Die abnehmbaren Teile können nach dem Abpumpen gereinigt werden. Bitte achte darauf, nur die dafür vorgesehenen Teile mit Wasser zu reinigen und die elektrische Motoreinheit trocken zu halten.</p>"
+            "content": "<p>Die abnehmbaren Teile können nach dem Abpumpen gereinigt werden. Bitte achte darauf, nur die dafür vorgesehenen Teile mit Wasser zu reinigen und die elektrische Motoreinheit trocken zu halten.</p>",
+            "page": ""
           }
         },
         "collapsible_tab_faq_5": {
@@ -145,7 +163,8 @@
           "settings": {
             "heading": "Gibt es eine Geld-zurück-Garantie?",
             "icon": "question_mark",
-            "content": "<p>Du kannst die Zento One 30 Tage testen. Wenn sie dich nicht überzeugt, kannst du sie innerhalb der Rückgabefrist zurücksenden. Die genauen Bedingungen findest du in deiner Rückgaberichtlinie.</p>"
+            "content": "<p>Du kannst die Zento One 30 Tage testen. Wenn sie dich nicht überzeugt, kannst du sie innerhalb der Rückgabefrist zurücksenden. Die genauen Bedingungen findest du in deiner Rückgaberichtlinie.</p>",
+            "page": ""
           }
         }
       },
@@ -186,6 +205,62 @@
         "padding_bottom": 24
       }
     },
+    "multicolumn_zento_problem": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_43_05.png",
+            "title": "Entlastung im Alltag",
+            "text": "<p>Damit nicht immer alles an dir hängt.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_57.png",
+            "title": "Flexibel unterwegs",
+            "text": "<p>Für Termine, Reisen oder kleine Pausen.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_50.png",
+            "title": "Mehr Sicherheit",
+            "text": "<p>Ein kleiner Vorrat gibt dir mehr Ruhe.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_1",
+        "column_2",
+        "column_3"
+      ],
+      "settings": {
+        "title": "Für mehr Freiheit, wenn Stillen gerade nicht möglich ist.",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "button_label": "Schaltflächenbeschriftung",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -205,54 +280,6 @@
         "padding_bottom": 68
       }
     },
-    "multicolumn_zento_problem": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_43_05.png",
-            "title": "Entlastung im Alltag",
-            "text": "<p>Damit nicht immer alles an dir hängt.</p>"
-          }
-        },
-        "column_2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_57.png",
-            "title": "Flexibel unterwegs",
-            "text": "<p>Für Termine, Reisen oder kleine Pausen.</p>"
-          }
-        },
-        "column_3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_50.png",
-            "title": "Mehr Sicherheit",
-            "text": "<p>Ein kleiner Vorrat gibt dir mehr Ruhe.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "column_1",
-        "column_2",
-        "column_3"
-      ],
-      "settings": {
-        "title": "Für mehr Freiheit, wenn Stillen gerade nicht möglich ist.",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "column_alignment": "left",
-        "background_style": "none",
-        "color_scheme": "scheme-2",
-        "columns_desktop": 3,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "multirow_zento_solution": {
       "type": "multirow",
       "blocks": {
@@ -262,7 +289,9 @@
             "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_50.png",
             "caption": "DIE LÖSUNG FÜR MEHR FLEXIBILITÄT",
             "heading": "Kabellos abpumpen, ohne deinen Alltag zu unterbrechen.",
-            "text": "<p>Zento One sitzt direkt im BH, kommt ohne Kabel oder Schläuche aus und lässt sich an dein persönliches Wohlbefinden anpassen – damit Abpumpen weniger nach Aufwand und mehr nach Entlastung fühlt.</p><ul><li><strong>Freihändig tragbar</strong> – Einfach in den Still-BH einsetzen und flexibler bleiben.</li><li><strong>Kabellos &amp; kompakt</strong> – Keine Schläuche, keine Steckdose, kein großes Gerät.</li><li><strong>Anpassbare Saugstufen</strong> – Stelle die Intensität so ein, wie sie sich für dich angenehm anfühlt.</li><li><strong>Einfach zu reinigen</strong> – Abnehmbare Teile machen die Reinigung unkompliziert.</li></ul>"
+            "text": "<p>Zento One sitzt direkt im BH, kommt ohne Kabel oder Schläuche aus und lässt sich an dein persönliches Wohlbefinden anpassen – damit Abpumpen weniger nach Aufwand und mehr nach Entlastung fühlt.</p><ul><li><strong>Freihändig tragbar</strong> – Einfach in den Still-BH einsetzen und flexibler bleiben.</li><li><strong>Kabellos &amp; kompakt</strong> – Keine Schläuche, keine Steckdose, kein großes Gerät.</li><li><strong>Anpassbare Saugstufen</strong> – Stelle die Intensität so ein, wie sie sich für dich angenehm anfühlt.</li><li><strong>Einfach zu reinigen</strong> – Abnehmbare Teile machen die Reinigung unkompliziert.</li></ul>",
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": ""
           }
         }
       },
@@ -300,9 +329,9 @@
         "comparison_row_2": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Kabellos &amp; kompakt",
+            "zento_heading": "Kabellos & kompakt",
             "zento_text": "<p>Keine Schläuche, keine Steckdose, kein großes Gerät – ideal für zuhause und unterwegs.</p>",
-            "classic_heading": "Kabel, Schläuche &amp; Zubehör",
+            "classic_heading": "Kabel, Schläuche & Zubehör",
             "classic_text": "<p>Mehr Teile bedeuten oft mehr Vorbereitung, mehr Platzbedarf und mehr Reinigung.</p>"
           }
         },
@@ -456,7 +485,8 @@
           "settings": {
             "heading": "Ist es sinnvoll, eine elektrische Milchpumpe zu verwenden?",
             "icon": "question_mark",
-            "row_content": "<p>Ja, eine elektrische Milchpumpe kann besonders praktisch sein, wenn du regelmäßig abpumpen möchtest, flexibler im Alltag sein willst oder Milch für später aufbewahren möchtest. Sie kann das Abpumpen komfortabler und gleichmäßiger machen als eine manuelle Pumpe.</p>"
+            "row_content": "<p>Ja, eine elektrische Milchpumpe kann besonders praktisch sein, wenn du regelmäßig abpumpen möchtest, flexibler im Alltag sein willst oder Milch für später aufbewahren möchtest. Sie kann das Abpumpen komfortabler und gleichmäßiger machen als eine manuelle Pumpe.</p>",
+            "page": ""
           }
         },
         "collapsible_row_2": {
@@ -464,7 +494,8 @@
           "settings": {
             "heading": "Wie lange sollte ich eine elektrische Milchpumpe verwenden?",
             "icon": "question_mark",
-            "row_content": "<p>Viele Mütter pumpen pro Seite etwa 10–20 Minuten ab. Die genaue Dauer hängt aber von deinem Milchfluss, deinem Komfort und deiner persönlichen Routine ab. Wichtig ist, dass sich das Abpumpen angenehm anfühlt und kein Schmerz entsteht.</p>"
+            "row_content": "<p>Viele Mütter pumpen pro Seite etwa 10–20 Minuten ab. Die genaue Dauer hängt aber von deinem Milchfluss, deinem Komfort und deiner persönlichen Routine ab. Wichtig ist, dass sich das Abpumpen angenehm anfühlt und kein Schmerz entsteht.</p>",
+            "page": ""
           }
         },
         "collapsible_row_3": {
@@ -472,7 +503,8 @@
           "settings": {
             "heading": "Reduzieren tragbare Milchpumpen die Milchmenge?",
             "icon": "question_mark",
-            "row_content": "<p>Eine tragbare Milchpumpe reduziert die Milchmenge nicht automatisch. Entscheidend sind eine passende Positionierung, ein guter Sitz, regelmäßiges Abpumpen und eine für dich angenehme Saugstärke. Wenn die Pumpe nicht richtig sitzt, kann die Entleerung weniger effektiv sein.</p>"
+            "row_content": "<p>Eine tragbare Milchpumpe reduziert die Milchmenge nicht automatisch. Entscheidend sind eine passende Positionierung, ein guter Sitz, regelmäßiges Abpumpen und eine für dich angenehme Saugstärke. Wenn die Pumpe nicht richtig sitzt, kann die Entleerung weniger effektiv sein.</p>",
+            "page": ""
           }
         },
         "collapsible_row_4": {
@@ -480,7 +512,8 @@
           "settings": {
             "heading": "Was ist weniger schmerzhaft: manuelle oder elektrische Milchpumpe?",
             "icon": "question_mark",
-            "row_content": "<p>Das hängt stark vom Modell und der richtigen Anwendung ab. Eine elektrische Milchpumpe kann angenehmer sein, weil sie gleichmäßig arbeitet und verschiedene Modi bietet. Wichtig ist ein weicher Aufsatz, eine passende Größe und eine Saugstufe, die nicht zu stark eingestellt ist.</p>"
+            "row_content": "<p>Das hängt stark vom Modell und der richtigen Anwendung ab. Eine elektrische Milchpumpe kann angenehmer sein, weil sie gleichmäßig arbeitet und verschiedene Modi bietet. Wichtig ist ein weicher Aufsatz, eine passende Größe und eine Saugstufe, die nicht zu stark eingestellt ist.</p>",
+            "page": ""
           }
         },
         "collapsible_row_5": {
@@ -488,7 +521,8 @@
           "settings": {
             "heading": "Wie wähle ich die richtige elektrische Milchpumpe aus?",
             "icon": "question_mark",
-            "row_content": "<p>Achte auf Komfort, Lautstärke, Akkulaufzeit, einfache Reinigung, verschiedene Saugmodi und darauf, ob die Pumpe zu deinem Alltag passt. Wenn du flexibel bleiben möchtest, ist eine kabellose und tragbare Pumpe besonders praktisch.</p>"
+            "row_content": "<p>Achte auf Komfort, Lautstärke, Akkulaufzeit, einfache Reinigung, verschiedene Saugmodi und darauf, ob die Pumpe zu deinem Alltag passt. Wenn du flexibel bleiben möchtest, ist eine kabellose und tragbare Pumpe besonders praktisch.</p>",
+            "page": ""
           }
         },
         "collapsible_row_6": {
@@ -496,7 +530,8 @@
           "settings": {
             "heading": "Wie reinige und sterilisiere ich die Zubehörteile?",
             "icon": "question_mark",
-            "row_content": "<p>Alle Teile, die mit Milch in Kontakt kommen, sollten nach jeder Nutzung gereinigt werden. Spüle sie zuerst mit kaltem Wasser ab, reinige sie anschließend mit warmem Wasser und mildem Spülmittel und lasse sie vollständig trocknen. Beachte zusätzlich immer die Pflegehinweise des Herstellers.</p>"
+            "row_content": "<p>Alle Teile, die mit Milch in Kontakt kommen, sollten nach jeder Nutzung gereinigt werden. Spüle sie zuerst mit kaltem Wasser ab, reinige sie anschließend mit warmem Wasser und mildem Spülmittel und lasse sie vollständig trocknen. Beachte zusätzlich immer die Pflegehinweise des Herstellers.</p>",
+            "page": ""
           }
         },
         "collapsible_row_7": {
@@ -504,7 +539,8 @@
           "settings": {
             "heading": "Warum fühlt sich die Saugkraft nach der Reinigung schwächer an?",
             "icon": "question_mark",
-            "row_content": "<p>Das kann passieren, wenn einzelne Teile nicht vollständig trocken sind, nicht korrekt zusammengesetzt wurden oder ein Ventil nicht richtig sitzt. Prüfe nach der Reinigung, ob alle Teile sauber, trocken und fest verbunden sind.</p>"
+            "row_content": "<p>Das kann passieren, wenn einzelne Teile nicht vollständig trocken sind, nicht korrekt zusammengesetzt wurden oder ein Ventil nicht richtig sitzt. Prüfe nach der Reinigung, ob alle Teile sauber, trocken und fest verbunden sind.</p>",
+            "page": ""
           }
         }
       },
@@ -520,12 +556,14 @@
       "settings": {
         "caption": "",
         "heading": "Alles über elektrische Milchpumpen – FAQ",
-        "heading_size": "h0",
+        "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",
         "container_color_scheme": "scheme-2",
         "color_scheme": "scheme-1",
         "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
         "padding_top": 40,
         "padding_bottom": 52
       }
