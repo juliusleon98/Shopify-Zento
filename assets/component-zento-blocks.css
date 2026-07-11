@@ -1,0 +1,1026 @@
+/* Rating bar block (main-product) */
+.zento-rating-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 22px 0;
+  width: 100%;
+}
+
+.zento-rating-bar__stars {
+  color: #c99368;
+  font-size: 17px;
+  letter-spacing: 0.6px;
+  line-height: 1;
+  white-space: nowrap;
+  transform: translateY(-1px);
+}
+
+.zento-rating-bar__text {
+  font-size: 14.5px;
+  line-height: 1.25;
+  color: #4a4a4a;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.zento-rating-bar__text strong {
+  color: #111111;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 749px) {
+  .zento-rating-bar {
+    gap: 7px;
+    margin-bottom: 16px;
+  }
+
+  .zento-rating-bar__stars {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+  }
+
+  .zento-rating-bar__text {
+    font-size: 13px;
+    white-space: normal;
+  }
+}
+
+/* Comparison section (sections/zento-comparison.liquid) */
+.zento-comparison {
+  padding: 72px 20px;
+}
+
+.zento-comparison__inner {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.zento-comparison__header {
+  max-width: 780px;
+  margin: 0 auto 38px;
+  text-align: center;
+}
+
+.zento-comparison__eyebrow {
+  margin: 0 0 12px;
+  color: #c9966f;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.16em;
+  font-weight: 800;
+}
+
+.zento-comparison__title {
+  margin: 0 0 16px;
+  color: #17202f;
+  font-size: 40px;
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+  font-weight: 750;
+}
+
+.zento-comparison__subtitle {
+  margin: 0 auto;
+  max-width: 700px;
+  color: #3d4655;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.zento-comparison__products {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  max-width: 640px;
+  margin: 0 auto 34px;
+}
+
+.zento-comparison__product-card {
+  border-radius: 22px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 12px 32px rgba(23, 32, 47, 0.06);
+}
+
+.zento-comparison__product-card--zento {
+  border: 1px solid #c7d9e8;
+}
+
+.zento-comparison__product-image {
+  aspect-ratio: 1 / 0.86;
+  background: #f8f6f2;
+  overflow: hidden;
+}
+
+.zento-comparison__product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.zento-comparison__product-name {
+  padding: 16px 14px 18px;
+  text-align: center;
+  color: #17202f;
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: 850;
+  background: rgba(255, 255, 255, 0.88);
+}
+
+.zento-comparison__product-card--zento .zento-comparison__product-name {
+  background: #dce8f3;
+}
+
+.zento-comparison__vs {
+  position: absolute;
+  left: 50%;
+  top: 42%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 58px;
+  height: 58px;
+  border-radius: 999px;
+  background: #c9966f;
+  border: 5px solid #ffffff;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 850;
+  box-shadow: 0 12px 26px rgba(23, 32, 47, 0.12);
+}
+
+.zento-comparison__rows {
+  display: grid;
+  gap: 14px;
+}
+
+.zento-comparison__pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.zento-comparison__benefit {
+  min-height: 118px;
+  border-radius: 18px;
+  padding: 22px 24px;
+  display: grid;
+  align-items: center;
+  gap: 18px;
+}
+
+.zento-comparison__benefit--zento {
+  grid-template-columns: 1fr 42px;
+  background: #dce8f3;
+  color: #17202f;
+  border: 1px solid #c7d9e8;
+}
+
+.zento-comparison__benefit--classic {
+  grid-template-columns: 42px 1fr;
+  background: rgba(255, 255, 255, 0.68);
+  color: #17202f;
+  border: 1px solid rgba(23, 32, 47, 0.06);
+}
+
+.zento-comparison__benefit h3 {
+  margin: 0 0 6px;
+  font-size: 18px;
+  line-height: 1.22;
+  font-weight: 850;
+  letter-spacing: -0.01em;
+  color: #17202f;
+}
+
+.zento-comparison__benefit p {
+  margin: 0;
+  font-size: 14.5px;
+  line-height: 1.45;
+}
+
+.zento-comparison__benefit--zento p {
+  color: #3f4b5d;
+}
+
+.zento-comparison__benefit--classic p {
+  color: #3d4655;
+}
+
+.zento-comparison__check,
+.zento-comparison__cross {
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+  line-height: 1;
+  font-weight: 900;
+}
+
+.zento-comparison__check {
+  background: #8fb4d1;
+  color: #ffffff;
+}
+
+.zento-comparison__cross {
+  background: #a8b3c2;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 989px) {
+  .zento-comparison {
+    padding: 58px 18px;
+  }
+
+  .zento-comparison__title {
+    font-size: 34px;
+  }
+
+  .zento-comparison__inner {
+    max-width: 760px;
+  }
+
+  .zento-comparison__pair {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .zento-comparison {
+    padding: 44px 16px;
+  }
+
+  .zento-comparison__header {
+    text-align: left;
+    margin-bottom: 26px;
+  }
+
+  .zento-comparison__eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    margin-bottom: 10px;
+  }
+
+  .zento-comparison__title {
+    font-size: 28px;
+    line-height: 1.12;
+    margin-bottom: 14px;
+  }
+
+  .zento-comparison__subtitle {
+    font-size: 14.5px;
+    line-height: 1.55;
+  }
+
+  .zento-comparison__products {
+    gap: 10px;
+    margin-bottom: 26px;
+  }
+
+  .zento-comparison__product-card {
+    border-radius: 18px;
+  }
+
+  .zento-comparison__product-image {
+    aspect-ratio: 1 / 0.92;
+  }
+
+  .zento-comparison__product-name {
+    padding: 12px 8px 13px;
+    font-size: 13.5px;
+  }
+
+  .zento-comparison__vs {
+    width: 46px;
+    height: 46px;
+    border-width: 4px;
+    font-size: 12px;
+    top: 41%;
+  }
+
+  .zento-comparison__rows {
+    gap: 12px;
+  }
+
+  .zento-comparison__pair {
+    gap: 10px;
+  }
+
+  .zento-comparison__benefit {
+    min-height: auto;
+    border-radius: 16px;
+    padding: 17px 18px;
+    gap: 14px;
+  }
+
+  .zento-comparison__benefit--zento {
+    grid-template-columns: 1fr 34px;
+  }
+
+  .zento-comparison__benefit--classic {
+    grid-template-columns: 34px 1fr;
+  }
+
+  .zento-comparison__benefit h3 {
+    font-size: 15.5px;
+    margin-bottom: 5px;
+  }
+
+  .zento-comparison__benefit p {
+    font-size: 13px;
+    line-height: 1.42;
+  }
+
+  .zento-comparison__check,
+  .zento-comparison__cross {
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .zento-comparison__title {
+    font-size: 25px;
+  }
+
+  .zento-comparison__product-name {
+    font-size: 12.8px;
+  }
+
+  .zento-comparison__benefit h3 {
+    font-size: 15px;
+  }
+
+  .zento-comparison__benefit p {
+    font-size: 12.5px;
+  }
+}
+
+/* Reviews section (sections/zento-reviews.liquid) */
+.zento-reviews {
+  padding: 76px 20px;
+}
+
+.zento-reviews__inner {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.zento-reviews__top {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: flex-end;
+  margin-bottom: 34px;
+}
+
+.zento-reviews__eyebrow {
+  margin: 0 0 10px;
+  color: #c9966f;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.16em;
+  font-weight: 800;
+}
+
+.zento-reviews__title {
+  margin: 0 0 18px;
+  color: #17202f;
+  font-size: 40px;
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+  font-weight: 750;
+}
+
+.zento-reviews__summary {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.zento-reviews__score {
+  color: #17202f;
+  font-size: 38px;
+  line-height: 1;
+  font-weight: 850;
+}
+
+.zento-reviews__stars,
+.zento-reviews-highlight__stars,
+.zento-reviews-feed__stars {
+  color: #c9966f;
+  letter-spacing: 0.05em;
+}
+
+.zento-reviews__summary p {
+  margin: 3px 0 0;
+  color: #6f6d68;
+  font-size: 14px;
+}
+
+.zento-reviews__button,
+.zento-reviews-form__button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 999px;
+  background: #c9966f;
+  color: #ffffff;
+  padding: 14px 24px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 0.18s ease, opacity 0.18s ease;
+}
+
+.zento-reviews__button:hover,
+.zento-reviews-form__button:hover {
+  transform: translateY(-1px);
+  opacity: 0.94;
+}
+
+.zento-reviews__highlights {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-bottom: 32px;
+}
+
+.zento-reviews-highlight {
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(23, 32, 47, 0.08);
+  border-radius: 26px;
+  overflow: hidden;
+  box-shadow: 0 14px 36px rgba(23, 32, 47, 0.06);
+}
+
+.zento-reviews-highlight__image {
+  aspect-ratio: 1 / 0.68;
+  background: #f8f3ec;
+  overflow: hidden;
+}
+
+.zento-reviews-highlight__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.zento-reviews-highlight__body {
+  padding: 22px 24px 24px;
+}
+
+.zento-reviews-highlight__stars {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.zento-reviews-highlight h3 {
+  margin: 0 0 9px;
+  color: #17202f;
+  font-size: 19px;
+  line-height: 1.22;
+  font-weight: 850;
+}
+
+.zento-reviews-highlight p {
+  margin: 0;
+  color: #3d4655;
+  font-size: 14.5px;
+  line-height: 1.55;
+}
+
+.zento-reviews-highlight__author {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.zento-reviews-highlight__author strong {
+  color: #17202f;
+  font-size: 14.5px;
+  font-weight: 850;
+}
+
+.zento-reviews-highlight__author span {
+  color: #6f6d68;
+  font-size: 12.5px;
+}
+
+.zento-reviews-feed {
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(23, 32, 47, 0.08);
+  border-radius: 26px;
+  overflow: hidden;
+  margin-bottom: 34px;
+}
+
+.zento-reviews-feed__item {
+  padding: 26px 28px;
+  border-bottom: 1px solid rgba(23, 32, 47, 0.1);
+}
+
+.zento-reviews-feed__item:last-child {
+  border-bottom: none;
+}
+
+.zento-reviews-feed__item--with-image {
+  display: grid;
+  grid-template-columns: 1fr 170px;
+  gap: 22px;
+  align-items: start;
+}
+
+.zento-reviews-feed__item--with-image > img {
+  width: 170px;
+  aspect-ratio: 1 / 0.78;
+  object-fit: cover;
+  border-radius: 18px;
+  background: #f8f3ec;
+}
+
+.zento-reviews-feed__header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.zento-reviews-feed__avatar {
+  width: 46px;
+  height: 46px;
+  border-radius: 999px;
+  background: #fff8ef;
+  color: #17202f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 850;
+  flex-shrink: 0;
+}
+
+.zento-reviews-feed__header strong {
+  display: block;
+  color: #17202f;
+  font-size: 15.5px;
+  font-weight: 850;
+  margin-bottom: 2px;
+}
+
+.zento-reviews-feed__header span {
+  display: block;
+  color: #6f6d68;
+  font-size: 13px;
+}
+
+.zento-reviews-feed__stars {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.zento-reviews-feed h3 {
+  margin: 0 0 8px;
+  color: #17202f;
+  font-size: 20px;
+  line-height: 1.25;
+  font-weight: 850;
+}
+
+.zento-reviews-feed p {
+  margin: 0;
+  color: #17202f;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.zento-reviews-form {
+  background: linear-gradient(180deg, #fbf8f4 0%, #f6f1ea 100%);
+  border: 1px solid rgba(155, 187, 209, 0.24);
+  border-radius: 28px;
+  padding: 30px;
+  box-shadow: 0 14px 36px rgba(23, 32, 47, 0.05);
+}
+
+.zento-reviews-form__header {
+  max-width: 640px;
+  margin-bottom: 24px;
+}
+
+.zento-reviews-form__header h2 {
+  margin: 0 0 10px;
+  color: #17202f;
+  font-size: 32px;
+  line-height: 1.12;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+}
+
+.zento-reviews-form__header p {
+  margin: 0;
+  color: #3d4655;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.zento-reviews-form__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.zento-reviews-form__field {
+  margin-bottom: 14px;
+}
+
+.zento-reviews-form__field label {
+  display: block;
+  margin-bottom: 7px;
+  color: #17202f;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.zento-reviews-form__field input,
+.zento-reviews-form__field select,
+.zento-reviews-form__field textarea {
+  width: 100%;
+  border: 1px solid rgba(23, 32, 47, 0.14);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.86);
+  color: #17202f;
+  font-size: 14px;
+  line-height: 1.4;
+  padding: 13px 14px;
+  outline: none;
+  font-family: inherit;
+}
+
+.zento-reviews-form__field textarea {
+  resize: vertical;
+}
+
+.zento-reviews-form__field input:focus,
+.zento-reviews-form__field select:focus,
+.zento-reviews-form__field textarea:focus {
+  border-color: #9bbbd1;
+  box-shadow: 0 0 0 3px rgba(155, 187, 209, 0.22);
+}
+
+.zento-reviews-form__success {
+  background: #dce8f3;
+  color: #17202f;
+  padding: 12px 14px;
+  border-radius: 14px;
+  margin-bottom: 18px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.zento-reviews-form__error {
+  background: #fff0ee;
+  color: #8a3b2c;
+  padding: 12px 14px;
+  border-radius: 14px;
+  margin-bottom: 18px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 989px) {
+  .zento-reviews {
+    padding: 58px 18px;
+  }
+
+  .zento-reviews__top {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .zento-reviews__title {
+    font-size: 34px;
+  }
+
+  .zento-reviews__highlights {
+    display: flex;
+    overflow-x: auto;
+    gap: 14px;
+    padding-bottom: 6px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .zento-reviews__highlights::-webkit-scrollbar {
+    display: none;
+  }
+
+  .zento-reviews-highlight {
+    flex: 0 0 72%;
+    scroll-snap-align: start;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .zento-reviews {
+    padding: 44px 16px;
+  }
+
+  .zento-reviews__top {
+    margin-bottom: 26px;
+  }
+
+  .zento-reviews__eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.14em;
+  }
+
+  .zento-reviews__title {
+    font-size: 28px;
+    line-height: 1.12;
+  }
+
+  .zento-reviews__score {
+    font-size: 32px;
+  }
+
+  .zento-reviews__button {
+    width: 100%;
+    padding: 14px 20px;
+  }
+
+  .zento-reviews-highlight {
+    flex: 0 0 84%;
+    border-radius: 22px;
+  }
+
+  .zento-reviews-highlight__body {
+    padding: 18px 18px 20px;
+  }
+
+  .zento-reviews-highlight h3 {
+    font-size: 17px;
+  }
+
+  .zento-reviews-highlight p {
+    font-size: 13.6px;
+  }
+
+  .zento-reviews-feed {
+    border-radius: 22px;
+  }
+
+  .zento-reviews-feed__item {
+    padding: 22px 18px;
+  }
+
+  .zento-reviews-feed__item--with-image {
+    grid-template-columns: 1fr;
+  }
+
+  .zento-reviews-feed__item--with-image > img {
+    width: 100%;
+    max-width: 260px;
+  }
+
+  .zento-reviews-feed h3 {
+    font-size: 18px;
+  }
+
+  .zento-reviews-feed p {
+    font-size: 14px;
+  }
+
+  .zento-reviews-form {
+    border-radius: 22px;
+    padding: 22px 18px;
+  }
+
+  .zento-reviews-form__header h2 {
+    font-size: 25px;
+  }
+
+  .zento-reviews-form__grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .zento-reviews-form__button {
+    width: 100%;
+    padding: 14px 20px;
+  }
+}
+
+/* Trust strip section (sections/zento-trust-strip.liquid) */
+.zento-trust-strip {
+  padding: 24px 20px 10px;
+}
+
+.zento-trust-strip__inner {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.zento-trust-strip__badge {
+  width: fit-content;
+  margin: 0 auto 14px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #fff8ef;
+  color: #b88b66;
+  font-size: 11px;
+  line-height: 1;
+  letter-spacing: 0.14em;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.zento-trust-strip__box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: linear-gradient(180deg, #fbf8f4 0%, #f6f1ea 100%);
+  border: 1px solid rgba(155, 187, 209, 0.24);
+  border-radius: 26px;
+  overflow: hidden;
+  box-shadow: 0 12px 32px rgba(23, 32, 47, 0.045);
+}
+
+.zento-trust-strip__item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 24px 22px;
+  min-width: 0;
+}
+
+.zento-trust-strip__item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 0;
+  width: 1px;
+  height: calc(100% - 40px);
+  background: rgba(23, 32, 47, 0.08);
+}
+
+.zento-trust-strip__icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #a7c4d9 0%, #92b4cb 100%);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.zento-trust-strip__icon svg {
+  width: 22px;
+  height: 22px;
+  fill: currentColor;
+}
+
+.zento-trust-strip__text strong {
+  display: block;
+  margin: 0 0 4px;
+  color: #17202f;
+  font-size: 16px;
+  line-height: 1.18;
+  font-weight: 800;
+}
+
+.zento-trust-strip__text span {
+  display: block;
+  color: #6f6d68;
+  font-size: 13px;
+  line-height: 1.35;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 989px) {
+  .zento-trust-strip {
+    padding: 20px 18px 8px;
+  }
+
+  .zento-trust-strip__box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .zento-trust-strip__item:nth-child(2)::after {
+    display: none;
+  }
+
+  .zento-trust-strip__item:nth-child(1),
+  .zento-trust-strip__item:nth-child(2) {
+    border-bottom: 1px solid rgba(23, 32, 47, 0.08);
+  }
+
+  .zento-trust-strip__item {
+    padding: 20px 18px;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .zento-trust-strip {
+    padding: 18px 14px 6px;
+  }
+
+  .zento-trust-strip__badge {
+    margin-bottom: 12px;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    padding: 7px 12px;
+  }
+
+  .zento-trust-strip__box {
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 20px;
+  }
+
+  .zento-trust-strip__item {
+    gap: 10px;
+    padding: 16px 14px;
+    align-items: flex-start;
+  }
+
+  .zento-trust-strip__item::after {
+    display: none !important;
+  }
+
+  .zento-trust-strip__item:nth-child(1),
+  .zento-trust-strip__item:nth-child(2) {
+    border-bottom: 1px solid rgba(23, 32, 47, 0.08);
+  }
+
+  .zento-trust-strip__item:nth-child(1),
+  .zento-trust-strip__item:nth-child(3) {
+    border-right: 1px solid rgba(23, 32, 47, 0.08);
+  }
+
+  .zento-trust-strip__icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 13px;
+  }
+
+  .zento-trust-strip__icon svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .zento-trust-strip__text strong {
+    font-size: 13.2px;
+    line-height: 1.15;
+    margin-bottom: 3px;
+  }
+
+  .zento-trust-strip__text span {
+    font-size: 11.3px;
+    line-height: 1.28;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .zento-trust-strip__item {
+    padding: 14px 12px;
+    gap: 9px;
+  }
+
+  .zento-trust-strip__icon {
+    width: 37px;
+    height: 37px;
+    border-radius: 12px;
+  }
+
+  .zento-trust-strip__icon svg {
+    width: 17px;
+    height: 17px;
+  }
+
+  .zento-trust-strip__text strong {
+    font-size: 12.4px;
+  }
+
+  .zento-trust-strip__text span {
+    font-size: 10.8px;
+  }
+}

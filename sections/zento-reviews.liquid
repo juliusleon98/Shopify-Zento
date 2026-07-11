@@ -1,0 +1,384 @@
+{% comment %}
+  The highlight/feed review blocks below ship with placeholder example content (fictional names and
+  quotes) so the section has something to preview. Replace every block's content with genuine customer
+  reviews before this section goes live — displaying fabricated testimonials as real customer feedback
+  is misleading to shoppers and can run afoul of consumer-protection law.
+{% endcomment %}
+{{ 'component-zento-blocks.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+  <div class="zento-reviews page-width">
+    <div class="zento-reviews__inner">
+      <div class="zento-reviews__top">
+        <div>
+          {%- if section.settings.eyebrow != blank -%}
+            <p class="zento-reviews__eyebrow">{{ section.settings.eyebrow | escape }}</p>
+          {%- endif -%}
+          {%- if section.settings.heading != blank -%}
+            <h2 class="zento-reviews__title">{{ section.settings.heading }}</h2>
+          {%- endif -%}
+          <div class="zento-reviews__summary">
+            <div class="zento-reviews__score">{{ section.settings.score }}</div>
+            <div>
+              <div class="zento-reviews__stars" aria-hidden="true">★★★★★</div>
+              <p>{{ section.settings.review_count_text }}</p>
+            </div>
+          </div>
+        </div>
+
+        {%- if section.settings.button_label != blank -%}
+          <a href="#zento-review-form-{{ section.id }}" class="zento-reviews__button">
+            {{ section.settings.button_label | escape }}
+          </a>
+        {%- endif -%}
+      </div>
+
+      {%- assign highlight_reviews = section.blocks | where: 'type', 'highlight_review' -%}
+      {%- if highlight_reviews.size > 0 -%}
+        <div class="zento-reviews__highlights">
+          {%- for block in highlight_reviews -%}
+            <article class="zento-reviews-highlight" {{ block.shopify_attributes }}>
+              {%- if block.settings.image != blank -%}
+                <div class="zento-reviews-highlight__image">
+                  {{ block.settings.image | image_url: width: 700 | image_tag: loading: 'lazy', widths: '350, 500, 700' }}
+                </div>
+              {%- endif -%}
+              <div class="zento-reviews-highlight__body">
+                <div class="zento-reviews-highlight__stars" aria-hidden="true">
+                  {%- for i in (1..5) -%}{% if i <= block.settings.rating %}★{% else %}☆{% endif %}{%- endfor -%}
+                </div>
+                <h3>{{ block.settings.heading | escape }}</h3>
+                <p>{{ block.settings.quote }}</p>
+                <div class="zento-reviews-highlight__author">
+                  <strong>{{ block.settings.author_name | escape }}</strong>
+                  <span>{{ block.settings.author_label | escape }}</span>
+                </div>
+              </div>
+            </article>
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+
+      {%- assign feed_reviews = section.blocks | where: 'type', 'feed_review' -%}
+      {%- if feed_reviews.size > 0 -%}
+        <div class="zento-reviews-feed">
+          {%- for block in feed_reviews -%}
+            <article
+              class="zento-reviews-feed__item{% if block.settings.image != blank %} zento-reviews-feed__item--with-image{% endif %}"
+              {{ block.shopify_attributes }}
+            >
+              <div>
+                <div class="zento-reviews-feed__header">
+                  <div class="zento-reviews-feed__avatar" aria-hidden="true">
+                    {{ block.settings.author_name | slice: 0 | upcase }}
+                  </div>
+                  <div>
+                    <strong>{{ block.settings.author_name | escape }}</strong>
+                    <span>{{ block.settings.date_text | escape }}</span>
+                  </div>
+                </div>
+                <div class="zento-reviews-feed__stars" aria-hidden="true">
+                  {%- for i in (1..5) -%}{% if i <= block.settings.rating %}★{% else %}☆{% endif %}{%- endfor -%}
+                </div>
+                <h3>{{ block.settings.heading | escape }}</h3>
+                <p>{{ block.settings.text }}</p>
+              </div>
+              {%- if block.settings.image != blank -%}
+                {{ block.settings.image | image_url: width: 340 | image_tag: loading: 'lazy', widths: '170, 340' }}
+              {%- endif -%}
+            </article>
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+
+      <div class="zento-reviews-form" id="zento-review-form-{{ section.id }}">
+        <div class="zento-reviews-form__header">
+          {%- if section.settings.form_eyebrow != blank -%}
+            <p class="zento-reviews__eyebrow">{{ section.settings.form_eyebrow | escape }}</p>
+          {%- endif -%}
+          {%- if section.settings.form_heading != blank -%}
+            <h2>{{ section.settings.form_heading | escape }}</h2>
+          {%- endif -%}
+          {%- if section.settings.form_text != blank -%}
+            <p>{{ section.settings.form_text }}</p>
+          {%- endif -%}
+        </div>
+
+        {% form 'contact' %}
+          {% if form.posted_successfully? %}
+            <div class="zento-reviews-form__success">
+              {{ section.settings.form_success_text | escape }}
+            </div>
+          {% endif %}
+
+          {% if form.errors %}
+            <div class="zento-reviews-form__error">
+              {{ section.settings.form_error_text | escape }}
+            </div>
+          {% endif %}
+
+          <input type="hidden" name="contact[Betreff]" value="Neue Produktbewertung für {{ product.title | default: shop.name }}">
+
+          <div class="zento-reviews-form__grid">
+            <div class="zento-reviews-form__field">
+              <label for="review-name-{{ section.id }}">{{ 'templates.contact.form.name' | t }}</label>
+              <input id="review-name-{{ section.id }}" type="text" name="contact[Name]" required>
+            </div>
+
+            <div class="zento-reviews-form__field">
+              <label for="review-email-{{ section.id }}">{{ 'templates.contact.form.email' | t }}</label>
+              <input id="review-email-{{ section.id }}" type="email" name="contact[email]" required>
+            </div>
+          </div>
+
+          <div class="zento-reviews-form__grid">
+            <div class="zento-reviews-form__field">
+              <label for="review-rating-{{ section.id }}">Bewertung</label>
+              <select id="review-rating-{{ section.id }}" name="contact[Bewertung]" required>
+                <option value="">Sterne auswählen</option>
+                <option value="5 Sterne">★★★★★ 5</option>
+                <option value="4 Sterne">★★★★☆ 4</option>
+                <option value="3 Sterne">★★★☆☆ 3</option>
+                <option value="2 Sterne">★★☆☆☆ 2</option>
+                <option value="1 Stern">★☆☆☆☆ 1</option>
+              </select>
+            </div>
+
+            <div class="zento-reviews-form__field">
+              <label for="review-title-{{ section.id }}">Titel der Bewertung</label>
+              <input id="review-title-{{ section.id }}" type="text" name="contact[Titel der Bewertung]" required>
+            </div>
+          </div>
+
+          <div class="zento-reviews-form__field">
+            <label for="review-message-{{ section.id }}">Deine Bewertung</label>
+            <textarea id="review-message-{{ section.id }}" name="contact[body]" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="zento-reviews-form__button">
+            {{ section.settings.form_submit_label | escape }}
+          </button>
+        {% endform %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Zento reviews",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow text",
+      "default": "KUNDENBEWERTUNGEN"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Was Mamas über Zento sagen"
+    },
+    {
+      "type": "text",
+      "id": "score",
+      "label": "Score",
+      "default": "4,8"
+    },
+    {
+      "type": "text",
+      "id": "review_count_text",
+      "label": "Review count text",
+      "default": "Basierend auf 20 Bewertungen"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "\"Write a review\" button label",
+      "default": "Bewertung schreiben"
+    },
+    {
+      "type": "header",
+      "content": "Review form"
+    },
+    {
+      "type": "text",
+      "id": "form_eyebrow",
+      "label": "Form eyebrow",
+      "default": "DEINE ERFAHRUNG"
+    },
+    {
+      "type": "text",
+      "id": "form_heading",
+      "label": "Form heading",
+      "default": "Bewertung schreiben"
+    },
+    {
+      "type": "richtext",
+      "id": "form_text",
+      "label": "Form intro text",
+      "default": "<p>Teile deine Erfahrung mit Zento. Deine Bewertung hilft anderen Mamas bei ihrer Entscheidung.</p>"
+    },
+    {
+      "type": "text",
+      "id": "form_submit_label",
+      "label": "Submit button label",
+      "default": "Bewertung abschicken"
+    },
+    {
+      "type": "text",
+      "id": "form_success_text",
+      "label": "Success message",
+      "default": "Danke für deine Bewertung. Wir prüfen sie und veröffentlichen sie anschließend."
+    },
+    {
+      "type": "text",
+      "id": "form_error_text",
+      "label": "Error message",
+      "default": "Bitte prüfe deine Eingaben und versuche es erneut."
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 76
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 76
+    }
+  ],
+  "blocks": [
+    {
+      "type": "highlight_review",
+      "name": "Highlight review",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "range",
+          "id": "rating",
+          "label": "Rating",
+          "min": 1,
+          "max": 5,
+          "step": 1,
+          "default": 5
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "quote",
+          "label": "Quote"
+        },
+        {
+          "type": "text",
+          "id": "author_name",
+          "label": "Author name"
+        },
+        {
+          "type": "text",
+          "id": "author_label",
+          "label": "Author label",
+          "default": "Verifizierte Kundin"
+        }
+      ]
+    },
+    {
+      "type": "feed_review",
+      "name": "Feed review",
+      "settings": [
+        {
+          "type": "text",
+          "id": "author_name",
+          "label": "Author name"
+        },
+        {
+          "type": "text",
+          "id": "date_text",
+          "label": "Date text"
+        },
+        {
+          "type": "range",
+          "id": "rating",
+          "label": "Rating",
+          "min": 1,
+          "max": 5,
+          "step": 1,
+          "default": 5
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image (optional)"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Zento reviews",
+      "blocks": [
+        { "type": "highlight_review" },
+        { "type": "highlight_review" },
+        { "type": "highlight_review" },
+        { "type": "feed_review" },
+        { "type": "feed_review" }
+      ]
+    }
+  ]
+}
+{% endschema %}

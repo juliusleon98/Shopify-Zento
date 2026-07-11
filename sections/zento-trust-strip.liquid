@@ -1,0 +1,167 @@
+{{ 'component-zento-blocks.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+  <div class="zento-trust-strip page-width">
+    <div class="zento-trust-strip__inner">
+      {%- if section.settings.badge_text != blank -%}
+        <div class="zento-trust-strip__badge">{{ section.settings.badge_text | escape }}</div>
+      {%- endif -%}
+
+      {%- if section.blocks.size > 0 -%}
+        <div class="zento-trust-strip__box">
+          {%- for block in section.blocks -%}
+            <div class="zento-trust-strip__item" {{ block.shopify_attributes }}>
+              <div class="zento-trust-strip__icon">
+                {% render 'icon-accordion', icon: block.settings.icon %}
+              </div>
+              <div class="zento-trust-strip__text">
+                <strong>{{ block.settings.heading | escape }}</strong>
+                <span>{{ block.settings.text | escape }}</span>
+              </div>
+            </div>
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Zento trust strip",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "badge_text",
+      "label": "Badge text",
+      "default": "Warum Mamas Zento lieben"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 10
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Trust item",
+      "settings": [
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icon",
+          "options": [
+            { "value": "apple", "label": "Apple" },
+            { "value": "banana", "label": "Banana" },
+            { "value": "bottle", "label": "Bottle" },
+            { "value": "box", "label": "Box" },
+            { "value": "carrot", "label": "Carrot" },
+            { "value": "chat_bubble", "label": "Chat bubble" },
+            { "value": "check_mark", "label": "Check mark" },
+            { "value": "clipboard", "label": "Clipboard" },
+            { "value": "dairy", "label": "Dairy" },
+            { "value": "dairy_free", "label": "Dairy free" },
+            { "value": "dryer", "label": "Dryer" },
+            { "value": "eye", "label": "Eye" },
+            { "value": "fire", "label": "Fire" },
+            { "value": "gluten_free", "label": "Gluten free" },
+            { "value": "heart", "label": "Heart" },
+            { "value": "iron", "label": "Iron" },
+            { "value": "leaf", "label": "Leaf" },
+            { "value": "leather", "label": "Leather" },
+            { "value": "lightning_bolt", "label": "Lightning bolt" },
+            { "value": "lipstick", "label": "Lipstick" },
+            { "value": "lock", "label": "Lock" },
+            { "value": "map_pin", "label": "Map pin" },
+            { "value": "nut_free", "label": "Nut free" },
+            { "value": "pants", "label": "Pants" },
+            { "value": "paw_print", "label": "Paw print" },
+            { "value": "pepper", "label": "Pepper" },
+            { "value": "perfume", "label": "Perfume" },
+            { "value": "plane", "label": "Plane" },
+            { "value": "plant", "label": "Plant" },
+            { "value": "price_tag", "label": "Price tag" },
+            { "value": "question_mark", "label": "Question mark" },
+            { "value": "recycle", "label": "Recycle" },
+            { "value": "return", "label": "Return" },
+            { "value": "ruler", "label": "Ruler" },
+            { "value": "serving_dish", "label": "Serving dish" },
+            { "value": "shirt", "label": "Shirt" },
+            { "value": "shoe", "label": "Shoe" },
+            { "value": "silhouette", "label": "Silhouette" },
+            { "value": "snowflake", "label": "Snowflake" },
+            { "value": "star", "label": "Star" },
+            { "value": "stopwatch", "label": "Stopwatch" },
+            { "value": "truck", "label": "Truck" },
+            { "value": "washing", "label": "Washing" }
+          ],
+          "default": "return"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Zento trust strip",
+      "blocks": [
+        { "type": "item", "settings": { "icon": "return", "heading": "30 Tage testen", "text": "Risikofrei zuhause ausprobieren" } },
+        { "type": "item", "settings": { "icon": "truck", "heading": "Kostenloser Versand", "text": "Schnell & sicher geliefert" } },
+        { "type": "item", "settings": { "icon": "heart", "heading": "Sanft im Alltag", "text": "Für moderne Mama-Routinen" } },
+        { "type": "item", "settings": { "icon": "star", "heading": "4,8/5 Bewertung", "text": "Von Mamas empfohlen" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

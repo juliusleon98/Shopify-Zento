@@ -15,6 +15,7 @@
   {{ 'component-slider.css' | asset_url | stylesheet_tag }}
   {{ 'component-rating.css' | asset_url | stylesheet_tag }}
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+  {{ 'component-zento-blocks.css' | asset_url | stylesheet_tag }}
 
   {% unless product.has_only_default_variant %}
     {{ 'component-product-variant-picker.css' | asset_url | stylesheet_tag }}
@@ -209,6 +210,14 @@
                 </p>
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
+              {%- when 'rating_bar' -%}
+                <div class="zento-rating-bar" {{ block.shopify_attributes }}>
+                  <span class="zento-rating-bar__stars" aria-hidden="true">★★★★★</span>
+                  <span class="zento-rating-bar__text">
+                    <strong>{{ block.settings.rating_value }}</strong>
+                    {%- if block.settings.review_count_text != blank %} · {{ block.settings.review_count_text }}{% endif -%}
+                  </span>
+                </div>
               {%- when 'collapsible_tab' -%}
                 <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
                   <details id="Details-{{ block.id }}-{{ section.id }}">
@@ -955,6 +964,28 @@
           "id": "custom_liquid",
           "label": "t:sections.custom-liquid.settings.custom_liquid.label",
           "info": "t:sections.custom-liquid.settings.custom_liquid.info"
+        }
+      ]
+    },
+    {
+      "type": "rating_bar",
+      "name": "Rating bar",
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Shows a manually entered rating badge. Once a reviews app is installed, replace this block with the native Rating block instead."
+        },
+        {
+          "type": "text",
+          "id": "rating_value",
+          "label": "Rating value",
+          "default": "4,8"
+        },
+        {
+          "type": "text",
+          "id": "review_count_text",
+          "label": "Review count text",
+          "default": "450+ Mütter vertrauen zento"
         }
       ]
     },

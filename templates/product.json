@@ -1,1 +1,543 @@
-{"sections":{"main":{"type":"main-product","blocks":{"custom_liquid_fUaBjD":{"type":"custom_liquid","settings":{"custom_liquid":"<div class=\"zento-rating-bar\">\n  <span class=\"zento-stars\">★★★★★<\/span>\n  <span class=\"zento-rating-text\">\n    <strong>4,8<\/strong> · 450+ Mütter vertrauen zento\n  <\/span>\n<\/div>\n\n<style>\n  .zento-rating-bar {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    margin: 0 0 22px 0;\n    font-family: inherit;\n    width: 100%;\n  }\n\n  .zento-stars {\n    color: #c99368;\n    font-size: 17px;\n    letter-spacing: 0.6px;\n    line-height: 1;\n    white-space: nowrap;\n    transform: translateY(-1px);\n  }\n\n  .zento-rating-text {\n    font-size: 14.5px;\n    line-height: 1.25;\n    color: #4a4a4a;\n    font-weight: 400;\n    white-space: nowrap;\n  }\n\n  .zento-rating-text strong {\n    color: #111111;\n    font-weight: 700;\n  }\n\n  @media screen and (max-width: 749px) {\n    .zento-rating-bar {\n      gap: 7px;\n      margin-bottom: 16px;\n    }\n\n    .zento-stars {\n      font-size: 14px;\n      letter-spacing: 0.4px;\n    }\n\n    .zento-rating-text {\n      font-size: 13px;\n      white-space: normal;\n    }\n  }\n<\/style>"}},"vendor":{"type":"text","settings":{"text":"FÜR MAMAS, DIE FREIHEIT UND KOMFORT WOLLEN","text_style":"uppercase"}},"title":{"type":"title","settings":{}},"custom_liquid_chkX9A":{"type":"custom_liquid","settings":{"custom_liquid":"<section class=\"zento-product-benefits\">\n  <div class=\"zento-product-benefits__inner\">\n\n    <p class=\"zento-product-benefits__intro\">\n      Für Tage, an denen Stillen nicht immer genau dann möglich ist, wenn dein Baby Hunger hat. Die Zento Milchpumpe hilft dir, Muttermilch vorzubereiten, Vorrat aufzubauen und flexibler durch deinen Alltag zu kommen.\n    <\/p>\n\n    <div class=\"zento-product-benefits__list\">\n\n      <div class=\"zento-product-benefits__item\">\n        <div class=\"zento-product-benefits__icon\">✓<\/div>\n        <p>\n          <strong>Mehr Freiheit im Alltag:<\/strong>\n          Bereite Muttermilch vor, damit auch dein Partner oder eine vertraute Person füttern kann, während du kurz durchatmest, schläfst oder unterwegs bist.\n        <\/p>\n      <\/div>\n\n      <div class=\"zento-product-benefits__item\">\n        <div class=\"zento-product-benefits__icon\">✓<\/div>\n        <p>\n          <strong>Freihändig & kabellos:<\/strong>\n          Kein Kabel, kein Schlauch, keine feste Position – einfach in den BH einsetzen und währenddessen bewegen oder entspannen.\n        <\/p>\n      <\/div>\n\n      <div class=\"zento-product-benefits__item\">\n        <div class=\"zento-product-benefits__icon\">✓<\/div>\n        <p>\n          <strong>Sanft anpassbare Saugstufen:<\/strong>\n          Wähle die Intensität Schritt für Schritt so, wie sie sich für dich angenehm anfühlt.\n        <\/p>\n      <\/div>\n\n      <div class=\"zento-product-benefits__item\">\n        <div class=\"zento-product-benefits__icon\">✓<\/div>\n        <p>\n          <strong>Diskret im Alltag tragbar:<\/strong>\n          Das kompakte Design sitzt direkt im BH und macht Abpumpen unkomplizierter – ohne große Geräte oder auffällige Flaschen.\n        <\/p>\n      <\/div>\n\n      <div class=\"zento-product-benefits__item\">\n        <div class=\"zento-product-benefits__icon\">✓<\/div>\n        <p>\n          <strong>Vorrat & Sicherheit aufbauen:<\/strong>\n          Abgepumpte Muttermilch gibt dir mehr Planungssicherheit für Termine, Nächte, Arbeit oder kleine Pausen.\n        <\/p>\n      <\/div>\n\n      <div class=\"zento-product-benefits__item\">\n        <div class=\"zento-product-benefits__icon\">✓<\/div>\n        <p>\n          <strong>Einfach zu reinigen:<\/strong>\n          Die abnehmbaren Teile lassen sich nach dem Abpumpen unkompliziert reinigen und schnell wieder zusammensetzen.\n        <\/p>\n      <\/div>\n\n    <\/div>\n\n  <\/div>\n<\/section>\n\n<style>\n  .zento-product-benefits {\n    width: 100%;\n    background: transparent !important;\n    padding: 0;\n    margin: 18px 0 0;\n  }\n\n  .zento-product-benefits__inner {\n    width: 100%;\n    max-width: 640px;\n    margin: 0;\n    background: transparent !important;\n  }\n\n  .zento-product-benefits__intro {\n    margin: 0 0 18px;\n    color: #17202f;\n    font-size: 15.5px;\n    line-height: 1.55;\n    font-weight: 400;\n    letter-spacing: 0.005em;\n    background: transparent !important;\n  }\n\n  .zento-product-benefits__list {\n    display: flex;\n    flex-direction: column;\n    gap: 13px;\n    background: transparent !important;\n  }\n\n  .zento-product-benefits__item {\n    display: grid;\n    grid-template-columns: 22px 1fr;\n    gap: 12px;\n    align-items: start;\n    background: transparent !important;\n  }\n\n  .zento-product-benefits__icon {\n    width: 22px;\n    height: 22px;\n    border-radius: 50%;\n    background: #fff8ef;\n    color: #c9966f;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 13px;\n    line-height: 1;\n    font-weight: 700;\n    margin-top: 1px;\n  }\n\n  .zento-product-benefits__item p {\n    margin: 0;\n    color: #17202f;\n    font-size: 15px;\n    line-height: 1.48;\n    font-weight: 400;\n    letter-spacing: 0.005em;\n    background: transparent !important;\n  }\n\n  .zento-product-benefits__item strong {\n    color: #17202f;\n    font-weight: 800;\n  }\n\n  @media screen and (max-width: 749px) {\n    .zento-product-benefits {\n      margin-top: 16px;\n      background: transparent !important;\n    }\n\n    .zento-product-benefits__inner {\n      max-width: 100%;\n    }\n\n    .zento-product-benefits__intro {\n      font-size: 14.5px;\n      line-height: 1.5;\n      margin-bottom: 16px;\n    }\n\n    .zento-product-benefits__list {\n      gap: 12px;\n    }\n\n    .zento-product-benefits__item {\n      grid-template-columns: 21px 1fr;\n      gap: 10px;\n    }\n\n    .zento-product-benefits__icon {\n      width: 21px;\n      height: 21px;\n      font-size: 12px;\n      margin-top: 1px;\n    }\n\n    .zento-product-benefits__item p {\n      font-size: 14px;\n      line-height: 1.48;\n    }\n  }\n\n  @media screen and (max-width: 380px) {\n    .zento-product-benefits__intro {\n      font-size: 14px;\n    }\n\n    .zento-product-benefits__item p {\n      font-size: 13.5px;\n    }\n\n    .zento-product-benefits__item {\n      grid-template-columns: 20px 1fr;\n      gap: 9px;\n    }\n\n    .zento-product-benefits__icon {\n      width: 20px;\n      height: 20px;\n      font-size: 11.5px;\n    }\n  }\n<\/style>"}},"price":{"type":"price","settings":{}},"variant_picker":{"type":"variant_picker","disabled":true,"settings":{"picker_type":"button","swatch_shape":"circle"}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons_jQVaAp":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"show_gift_card_recipient":true}},"description":{"type":"description","disabled":true,"settings":{}},"custom_liquid_JDb7wt":{"type":"custom_liquid","settings":{"custom_liquid":"<section class=\"zento-product-accordion\">\n  <div class=\"zento-product-accordion__inner\">\n\n    <div class=\"zento-accordion-list\">\n\n      <details class=\"zento-accordion-item zento-accordion-item--description\">\n        <summary>\n          <span>Produktbeschreibung<\/span>\n          <span class=\"zento-accordion-plus\">+<\/span>\n        <\/summary>\n        <div class=\"zento-accordion-content\">\n          <p>\n            Die Zento One ist eine tragbare elektrische Milchpumpe für Mütter, die Muttermilch flexibler in ihren Alltag integrieren möchten. Sie sitzt direkt im BH, funktioniert kabellos und unterstützt dich beim Abpumpen zuhause, unterwegs oder in ruhigen Momenten zwischendurch.\n          <\/p>\n          <p>\n            Durch anpassbare Saugstufen kannst du die Intensität Schritt für Schritt auf dein persönliches Wohlbefinden einstellen. Das kompakte Design macht die Anwendung diskreter als bei klassischen Milchpumpen mit Kabeln, Schläuchen oder großen Flaschen.\n          <\/p>\n        <\/div>\n      <\/details>\n\n    <\/div>\n\n    <div class=\"zento-trust-icons\">\n      <div class=\"zento-trust-icons__item\">\n        <div class=\"zento-trust-icons__icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n            <path d=\"M12 3L5 6V11C5 15.5 8 19.5 12 21C16 19.5 19 15.5 19 11V6L12 3Z\" stroke=\"currentColor\" stroke-width=\"1.8\"\/>\n            <path d=\"M9 12L11 14L15 9.5\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\/>\n          <\/svg>\n        <\/div>\n        <p><strong>30 Tage<\/strong><span>Testen<\/span><\/p>\n      <\/div>\n\n      <div class=\"zento-trust-icons__item\">\n        <div class=\"zento-trust-icons__icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n            <path d=\"M3 7H15V17H3V7Z\" stroke=\"currentColor\" stroke-width=\"1.8\"\/>\n            <path d=\"M15 10H19L21 13V17H15V10Z\" stroke=\"currentColor\" stroke-width=\"1.8\"\/>\n            <path d=\"M7 19.5C8.10457 19.5 9 18.6046 9 17.5C9 16.3954 8.10457 15.5 7 15.5C5.89543 15.5 5 16.3954 5 17.5C5 18.6046 5.89543 19.5 7 19.5Z\" stroke=\"currentColor\" stroke-width=\"1.8\"\/>\n            <path d=\"M18 19.5C19.1046 19.5 20 18.6046 20 17.5C20 16.3954 19.1046 15.5 18 15.5C16.8954 15.5 16 16.3954 16 17.5C16 18.6046 16.8954 19.5 18 19.5Z\" stroke=\"currentColor\" stroke-width=\"1.8\"\/>\n          <\/svg>\n        <\/div>\n        <p><strong>Gratis<\/strong><span>Lieferung<\/span><\/p>\n      <\/div>\n\n      <div class=\"zento-trust-icons__item\">\n        <div class=\"zento-trust-icons__icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n            <path d=\"M5 12C5 8.13401 8.13401 5 12 5C15.866 5 19 8.13401 19 12\" stroke=\"currentColor\" stroke-width=\"1.8\"\/>\n            <path d=\"M5 12V16C5 17.1046 5.89543 18 7 18H8V12H5Z\" stroke=\"currentColor\" stroke-width=\"1.8\"\/>\n            <path d=\"M19 12V16C19 17.1046 18.1046 18 17 18H16V12H19Z\" stroke=\"currentColor\" stroke-width=\"1.8\"\/>\n          <\/svg>\n        <\/div>\n        <p><strong>24\/5<\/strong><span>Support<\/span><\/p>\n      <\/div>\n\n      <div class=\"zento-trust-icons__item\">\n        <div class=\"zento-trust-icons__icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\">\n            <path d=\"M12 3.5L14.6 8.8L20.4 9.6L16.2 13.7L17.2 19.5L12 16.8L6.8 19.5L7.8 13.7L3.6 9.6L9.4 8.8L12 3.5Z\"\/>\n          <\/svg>\n        <\/div>\n        <p><strong>4,8 ★<\/strong><span>Bewertung<\/span><\/p>\n      <\/div>\n    <\/div>\n\n    <div class=\"zento-accordion-list\">\n\n      <details class=\"zento-accordion-item\">\n        <summary>\n          <span>Für wen eignet sich die Zento One?<\/span>\n          <span class=\"zento-accordion-plus\">+<\/span>\n        <\/summary>\n        <div class=\"zento-accordion-content\">\n          <p>\n            Die Zento One eignet sich für Mütter, die Muttermilch abpumpen möchten, um Vorrat aufzubauen, flexibler zu planen oder das Füttern mit dem Partner oder einer vertrauten Person zu teilen.\n          <\/p>\n        <\/div>\n      <\/details>\n\n      <details class=\"zento-accordion-item\">\n        <summary>\n          <span>Wie funktioniert die Milchpumpe?<\/span>\n          <span class=\"zento-accordion-plus\">+<\/span>\n        <\/summary>\n        <div class=\"zento-accordion-content\">\n          <p>\n            Setze die Pumpe in deinen Still-BH ein, wähle den passenden Modus und passe die Saugintensität an. Die Muttermilch wird direkt im integrierten Auffangbehälter gesammelt und kann danach umgefüllt werden.\n          <\/p>\n        <\/div>\n      <\/details>\n\n      <details class=\"zento-accordion-item\">\n        <summary>\n          <span>Ist die Pumpe für unterwegs geeignet?<\/span>\n          <span class=\"zento-accordion-plus\">+<\/span>\n        <\/summary>\n        <div class=\"zento-accordion-content\">\n          <p>\n            Ja. Durch das kabellose und kompakte Design kannst du die Zento One auch außerhalb von Zuhause nutzen. Besonders praktisch ist sie für Reisen, Arbeit, kurze Pausen oder Momente, in denen du nicht an eine Steckdose gebunden sein möchtest.\n          <\/p>\n        <\/div>\n      <\/details>\n\n      <details class=\"zento-accordion-item\">\n        <summary>\n          <span>Wie reinige ich die Zento One?<\/span>\n          <span class=\"zento-accordion-plus\">+<\/span>\n        <\/summary>\n        <div class=\"zento-accordion-content\">\n          <p>\n            Die abnehmbaren Teile können nach dem Abpumpen gereinigt werden. Bitte achte darauf, nur die dafür vorgesehenen Teile mit Wasser zu reinigen und die elektrische Motoreinheit trocken zu halten.\n          <\/p>\n        <\/div>\n      <\/details>\n\n      <details class=\"zento-accordion-item\">\n        <summary>\n          <span>Gibt es eine Geld-zurück-Garantie?<\/span>\n          <span class=\"zento-accordion-plus\">+<\/span>\n        <\/summary>\n        <div class=\"zento-accordion-content\">\n          <p>\n            Du kannst die Zento One 30 Tage testen. Wenn sie dich nicht überzeugt, kannst du sie innerhalb der Rückgabefrist zurücksenden. Die genauen Bedingungen findest du in deiner Rückgaberichtlinie.\n          <\/p>\n        <\/div>\n      <\/details>\n\n    <\/div>\n\n  <\/div>\n<\/section>\n\n<style>\n  .zento-product-accordion {\n    width: 100%;\n    background: transparent !important;\n    padding: 18px 0 0;\n    margin: 0;\n  }\n\n  .zento-product-accordion__inner {\n    width: 100%;\n    max-width: 100%;\n    margin: 0;\n    background: transparent !important;\n  }\n\n  .zento-accordion-list {\n    width: 100%;\n  }\n\n  .zento-accordion-item {\n    border-bottom: 1px solid rgba(23, 32, 47, 0.12);\n    background: transparent !important;\n  }\n\n  .zento-accordion-item--description {\n    border-top: 1px solid rgba(23, 32, 47, 0.12);\n  }\n\n  .zento-accordion-item summary {\n    list-style: none;\n    cursor: pointer;\n    padding: 18px 0;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    gap: 16px;\n    color: #17202f;\n    font-size: 16px;\n    line-height: 1.3;\n    font-weight: 750;\n    background: transparent !important;\n  }\n\n  .zento-accordion-item summary::-webkit-details-marker {\n    display: none;\n  }\n\n  .zento-accordion-plus {\n    font-size: 24px;\n    line-height: 1;\n    font-weight: 600;\n    color: #6d7a8d;\n    transition: transform 0.2s ease;\n    flex-shrink: 0;\n  }\n\n  .zento-accordion-item[open] .zento-accordion-plus {\n    transform: rotate(45deg);\n  }\n\n  .zento-accordion-content {\n    padding: 0 0 18px;\n    color: #17202f;\n    font-size: 14px;\n    line-height: 1.58;\n    font-weight: 400;\n    background: transparent !important;\n  }\n\n  .zento-accordion-content p {\n    margin: 0 0 10px;\n  }\n\n  .zento-accordion-content p:last-child {\n    margin-bottom: 0;\n  }\n\n  .zento-trust-icons {\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    gap: 14px;\n    padding: 24px 0 24px;\n    border-bottom: 1px solid rgba(23, 32, 47, 0.12);\n    background: transparent !important;\n  }\n\n  .zento-trust-icons__item {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    text-align: center;\n    background: transparent !important;\n  }\n\n  .zento-trust-icons__icon {\n    width: 48px;\n    height: 48px;\n    border-radius: 15px;\n    background: #fbf3ea;\n    color: #c9966f;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin-bottom: 10px;\n  }\n\n  .zento-trust-icons__icon svg {\n    width: 22px;\n    height: 22px;\n  }\n\n  .zento-trust-icons__item p {\n    margin: 0;\n    color: #17202f;\n    font-size: 14px;\n    line-height: 1.18;\n  }\n\n  .zento-trust-icons__item strong {\n    display: block;\n    font-weight: 800;\n    letter-spacing: 0.01em;\n  }\n\n  .zento-trust-icons__item span {\n    display: block;\n    color: #6d7a8d;\n    margin-top: 3px;\n    font-weight: 400;\n  }\n\n  @media screen and (max-width: 749px) {\n    .zento-product-accordion {\n      padding-top: 16px;\n    }\n\n    .zento-accordion-item summary {\n      padding: 16px 0;\n      font-size: 14.5px;\n      line-height: 1.28;\n      gap: 12px;\n      font-weight: 750;\n    }\n\n    .zento-accordion-plus {\n      font-size: 22px;\n    }\n\n    .zento-accordion-content {\n      font-size: 13.5px;\n      line-height: 1.55;\n      padding-bottom: 16px;\n    }\n\n    .zento-trust-icons {\n      grid-template-columns: repeat(4, 1fr);\n      gap: 8px;\n      padding: 20px 0 20px;\n    }\n\n    .zento-trust-icons__icon {\n      width: 42px;\n      height: 42px;\n      border-radius: 13px;\n      margin-bottom: 8px;\n    }\n\n    .zento-trust-icons__icon svg {\n      width: 20px;\n      height: 20px;\n    }\n\n    .zento-trust-icons__item p {\n      font-size: 12.5px;\n      line-height: 1.15;\n    }\n  }\n\n  @media screen and (max-width: 430px) {\n    .zento-accordion-item summary {\n      font-size: 14px;\n      padding: 15px 0;\n    }\n\n    .zento-accordion-content {\n      font-size: 13px;\n    }\n\n    .zento-trust-icons {\n      gap: 6px;\n    }\n\n    .zento-trust-icons__icon {\n      width: 38px;\n      height: 38px;\n      border-radius: 12px;\n    }\n\n    .zento-trust-icons__icon svg {\n      width: 18px;\n      height: 18px;\n    }\n\n    .zento-trust-icons__item p {\n      font-size: 11.8px;\n    }\n  }\n<\/style>"}}},"block_order":["custom_liquid_fUaBjD","vendor","title","custom_liquid_chkX9A","price","variant_picker","quantity_selector","buy_buttons_jQVaAp","description","custom_liquid_JDb7wt"],"settings":{"enable_sticky_info":true,"color_scheme":"scheme-1","media_size":"medium","constrain_to_viewport":true,"media_fit":"contain","gallery_layout":"stacked","mobile_thumbnails":"hide","media_position":"left","image_zoom":"lightbox","hide_variants":false,"enable_video_looping":false,"padding_top":24,"padding_bottom":24}},"custom_liquid_gR7wgk":{"type":"custom-liquid","name":"Problem Liquid","settings":{"custom_liquid":"<section class=\"zento-problem-images\">\n  <div class=\"zento-problem-images__inner\">\n\n    <div class=\"zento-problem-images__header\">\n      <p class=\"zento-problem-images__eyebrow\">WARUM EINE MILCHPUMPE?<\/p>\n\n      <h2 class=\"zento-problem-images__title\">\n        Für mehr Freiheit, wenn Stillen gerade nicht möglich ist.\n      <\/h2>\n    <\/div>\n\n    <div class=\"zento-problem-images__grid\">\n\n      <div class=\"zento-problem-images__card\">\n        <img \n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1047\/9891\/2842\/files\/ChatGPT_Image_27._Juni_2026_23_43_05.png?v=1782596776\" \n          alt=\"Mutter bekommt Unterstützung beim Füttern\"\n          loading=\"lazy\"\n        >\n        <div class=\"zento-problem-images__overlay\">\n          <h3>Entlastung im Alltag<\/h3>\n          <p>Damit nicht immer alles an dir hängt.<\/p>\n        <\/div>\n      <\/div>\n\n      <div class=\"zento-problem-images__card\">\n        <img \n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1047\/9891\/2842\/files\/ChatGPT_Image_27._Juni_2026_23_40_57.png?v=1782596776\" \n          alt=\"Mutter unterwegs mit Kinderwagen\"\n          loading=\"lazy\"\n        >\n        <div class=\"zento-problem-images__overlay\">\n          <h3>Flexibel unterwegs<\/h3>\n          <p>Für Termine, Reisen oder kleine Pausen.<\/p>\n        <\/div>\n      <\/div>\n\n      <div class=\"zento-problem-images__card\">\n        <img \n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1047\/9891\/2842\/files\/ChatGPT_Image_27._Juni_2026_23_40_50.png?v=1782596775\" \n          alt=\"Zento Milchpumpe und vorbereitete Muttermilch\"\n          loading=\"lazy\"\n        >\n        <div class=\"zento-problem-images__overlay\">\n          <h3>Mehr Sicherheit<\/h3>\n          <p>Ein kleiner Vorrat gibt dir mehr Ruhe.<\/p>\n        <\/div>\n      <\/div>\n\n    <\/div>\n\n  <\/div>\n<\/section>\n\n<style>\n  .zento-problem-images {\n    background: transparent !important;\n    padding: 64px 20px;\n  }\n\n  .zento-problem-images__inner {\n    max-width: 1240px;\n    margin: 0 auto;\n  }\n\n  .zento-problem-images__header {\n    max-width: 760px;\n    margin: 0 auto 30px;\n    text-align: center;\n  }\n\n  .zento-problem-images__eyebrow {\n    margin: 0 0 12px;\n    color: #c9966f;\n    font-size: 12px;\n    line-height: 1.2;\n    letter-spacing: 0.16em;\n    font-weight: 800;\n  }\n\n  .zento-problem-images__title {\n    margin: 0;\n    color: #17202f;\n    font-size: 40px;\n    line-height: 1.08;\n    letter-spacing: -0.035em;\n    font-weight: 750;\n  }\n\n  .zento-problem-images__grid {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 18px;\n  }\n\n  .zento-problem-images__card {\n    position: relative;\n    min-height: 430px;\n    border-radius: 26px;\n    overflow: hidden;\n    background: #f8f6f2;\n  }\n\n  .zento-problem-images__card img {\n    width: 100%;\n    height: 100%;\n    min-height: 430px;\n    object-fit: cover;\n    display: block;\n  }\n\n  .zento-problem-images__overlay {\n    position: absolute;\n    left: 16px;\n    right: 16px;\n    bottom: 16px;\n    padding: 16px 18px;\n    border-radius: 18px;\n    background: rgba(255, 255, 255, 0.88);\n    backdrop-filter: blur(10px);\n    -webkit-backdrop-filter: blur(10px);\n  }\n\n  .zento-problem-images__overlay h3 {\n    margin: 0 0 5px;\n    color: #17202f;\n    font-size: 18px;\n    line-height: 1.18;\n    font-weight: 800;\n    letter-spacing: -0.015em;\n  }\n\n  .zento-problem-images__overlay p {\n    margin: 0;\n    color: #3d4655;\n    font-size: 13.5px;\n    line-height: 1.4;\n  }\n\n  @media screen and (max-width: 989px) {\n    .zento-problem-images {\n      padding: 54px 18px;\n    }\n\n    .zento-problem-images__title {\n      font-size: 34px;\n    }\n\n    .zento-problem-images__grid {\n      display: flex;\n      overflow-x: auto;\n      gap: 14px;\n      padding-bottom: 6px;\n      scroll-snap-type: x mandatory;\n      -webkit-overflow-scrolling: touch;\n      scrollbar-width: none;\n    }\n\n    .zento-problem-images__grid::-webkit-scrollbar {\n      display: none;\n    }\n\n    .zento-problem-images__card {\n      flex: 0 0 78%;\n      min-height: 390px;\n      scroll-snap-align: start;\n    }\n\n    .zento-problem-images__card img {\n      min-height: 390px;\n    }\n  }\n\n  @media screen and (max-width: 749px) {\n    .zento-problem-images {\n      padding: 44px 16px;\n    }\n\n    .zento-problem-images__header {\n      text-align: left;\n      margin-bottom: 22px;\n    }\n\n    .zento-problem-images__eyebrow {\n      font-size: 11px;\n      letter-spacing: 0.14em;\n      margin-bottom: 10px;\n    }\n\n    .zento-problem-images__title {\n      font-size: 28px;\n      line-height: 1.12;\n    }\n\n    .zento-problem-images__grid {\n      gap: 12px;\n      margin-right: -4px;\n    }\n\n    .zento-problem-images__card {\n      flex: 0 0 84%;\n      min-height: 350px;\n      border-radius: 22px;\n    }\n\n    .zento-problem-images__card img {\n      min-height: 350px;\n    }\n\n    .zento-problem-images__overlay {\n      left: 12px;\n      right: 12px;\n      bottom: 12px;\n      padding: 13px 14px;\n      border-radius: 16px;\n    }\n\n    .zento-problem-images__overlay h3 {\n      font-size: 16px;\n      margin-bottom: 4px;\n    }\n\n    .zento-problem-images__overlay p {\n      font-size: 12.8px;\n      line-height: 1.35;\n    }\n  }\n\n  @media screen and (max-width: 430px) {\n    .zento-problem-images__title {\n      font-size: 25px;\n    }\n\n    .zento-problem-images__card {\n      flex: 0 0 86%;\n      min-height: 330px;\n    }\n\n    .zento-problem-images__card img {\n      min-height: 330px;\n    }\n\n    .zento-problem-images__overlay h3 {\n      font-size: 15px;\n    }\n\n    .zento-problem-images__overlay p {\n      font-size: 12.4px;\n    }\n  }\n<\/style>","color_scheme":"scheme-2","padding_top":40,"padding_bottom":52}},"related-products":{"type":"related-products","disabled":true,"settings":{"heading":"You may also like","heading_size":"h2","products_to_show":4,"columns_desktop":4,"columns_mobile":"2","color_scheme":"scheme-1","image_ratio":"adapt","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"padding_top":36,"padding_bottom":68}},"custom_liquid_xKReQC":{"type":"custom-liquid","name":"Lösung Liquid","settings":{"custom_liquid":"<section class=\"zento-solution-section\">\n  <div class=\"zento-solution-section__inner\">\n\n    <div class=\"zento-solution-section__image-wrap\">\n      <img \n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1047\/9891\/2842\/files\/ChatGPT_Image_27._Juni_2026_23_40_50.png?v=1782596775\" \n        alt=\"Zento One Milchpumpe im Alltag\"\n        loading=\"lazy\"\n      >\n    <\/div>\n\n    <div class=\"zento-solution-section__content\">\n      <p class=\"zento-solution-section__eyebrow\">\n        DIE LÖSUNG FÜR MEHR FLEXIBILITÄT\n      <\/p>\n\n      <h2 class=\"zento-solution-section__title\">\n        Kabellos abpumpen, ohne deinen Alltag zu unterbrechen.\n      <\/h2>\n\n      <p class=\"zento-solution-section__text\">\n        Zento One sitzt direkt im BH, kommt ohne Kabel oder Schläuche aus und lässt sich an dein persönliches Wohlbefinden anpassen – damit Abpumpen weniger nach Aufwand und mehr nach Entlastung fühlt.\n      <\/p>\n\n      <div class=\"zento-solution-section__benefits\">\n\n        <div class=\"zento-solution-section__benefit\">\n          <span>✓<\/span>\n          <p>\n            <strong>Freihändig tragbar<\/strong><br>\n            Einfach in den Still-BH einsetzen und flexibler bleiben.\n          <\/p>\n        <\/div>\n\n        <div class=\"zento-solution-section__benefit\">\n          <span>✓<\/span>\n          <p>\n            <strong>Kabellos & kompakt<\/strong><br>\n            Keine Schläuche, keine Steckdose, kein großes Gerät.\n          <\/p>\n        <\/div>\n\n        <div class=\"zento-solution-section__benefit\">\n          <span>✓<\/span>\n          <p>\n            <strong>Anpassbare Saugstufen<\/strong><br>\n            Stelle die Intensität so ein, wie sie sich für dich angenehm anfühlt.\n          <\/p>\n        <\/div>\n\n        <div class=\"zento-solution-section__benefit\">\n          <span>✓<\/span>\n          <p>\n            <strong>Einfach zu reinigen<\/strong><br>\n            Abnehmbare Teile machen die Reinigung unkompliziert.\n          <\/p>\n        <\/div>\n\n      <\/div>\n    <\/div>\n\n  <\/div>\n<\/section>\n\n<style>\n  .zento-solution-section {\n    background: transparent !important;\n    padding: 72px 20px;\n  }\n\n  .zento-solution-section__inner {\n    max-width: 1240px;\n    margin: 0 auto;\n    display: grid;\n    grid-template-columns: 1fr 0.92fr;\n    gap: 52px;\n    align-items: center;\n  }\n\n  .zento-solution-section__image-wrap {\n    border-radius: 28px;\n    overflow: hidden;\n    background: #f8f6f2;\n  }\n\n  .zento-solution-section__image-wrap img {\n    width: 100%;\n    height: auto;\n    display: block;\n    aspect-ratio: 1 \/ 0.86;\n    object-fit: cover;\n  }\n\n  .zento-solution-section__content {\n    max-width: 560px;\n  }\n\n  .zento-solution-section__eyebrow {\n    margin: 0 0 12px;\n    color: #c9966f;\n    font-size: 12px;\n    line-height: 1.2;\n    letter-spacing: 0.16em;\n    font-weight: 800;\n  }\n\n  .zento-solution-section__title {\n    margin: 0 0 18px;\n    color: #17202f;\n    font-size: 42px;\n    line-height: 1.08;\n    letter-spacing: -0.035em;\n    font-weight: 750;\n  }\n\n  .zento-solution-section__text {\n    margin: 0 0 26px;\n    color: #3d4655;\n    font-size: 16.5px;\n    line-height: 1.62;\n    font-weight: 400;\n  }\n\n  .zento-solution-section__benefits {\n    display: grid;\n    gap: 14px;\n  }\n\n  .zento-solution-section__benefit {\n    display: grid;\n    grid-template-columns: 28px 1fr;\n    gap: 12px;\n    align-items: flex-start;\n  }\n\n  .zento-solution-section__benefit span {\n    width: 28px;\n    height: 28px;\n    border-radius: 999px;\n    background: #fff8ef;\n    color: #c9966f;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 15px;\n    line-height: 1;\n    font-weight: 800;\n    margin-top: 1px;\n    flex-shrink: 0;\n  }\n\n  .zento-solution-section__benefit p {\n    margin: 0;\n    color: #17202f;\n    font-size: 15px;\n    line-height: 1.45;\n    font-weight: 400;\n  }\n\n  .zento-solution-section__benefit strong {\n    font-weight: 800;\n    color: #17202f;\n  }\n\n  @media screen and (max-width: 989px) {\n    .zento-solution-section {\n      padding: 58px 18px;\n    }\n\n    .zento-solution-section__inner {\n      grid-template-columns: 1fr;\n      gap: 30px;\n      max-width: 720px;\n    }\n\n    .zento-solution-section__content {\n      max-width: 100%;\n    }\n\n    .zento-solution-section__title {\n      font-size: 34px;\n    }\n  }\n\n  @media screen and (max-width: 749px) {\n    .zento-solution-section {\n      padding: 44px 16px;\n    }\n\n    .zento-solution-section__inner {\n      gap: 24px;\n    }\n\n    .zento-solution-section__image-wrap {\n      border-radius: 22px;\n    }\n\n    .zento-solution-section__image-wrap img {\n      aspect-ratio: 1 \/ 0.9;\n    }\n\n    .zento-solution-section__eyebrow {\n      font-size: 11px;\n      letter-spacing: 0.14em;\n      margin-bottom: 10px;\n    }\n\n    .zento-solution-section__title {\n      font-size: 28px;\n      line-height: 1.12;\n      margin-bottom: 14px;\n    }\n\n    .zento-solution-section__text {\n      font-size: 14.5px;\n      line-height: 1.55;\n      margin-bottom: 22px;\n    }\n\n    .zento-solution-section__benefits {\n      gap: 12px;\n    }\n\n    .zento-solution-section__benefit {\n      grid-template-columns: 25px 1fr;\n      gap: 10px;\n    }\n\n    .zento-solution-section__benefit span {\n      width: 25px;\n      height: 25px;\n      font-size: 13px;\n    }\n\n    .zento-solution-section__benefit p {\n      font-size: 13.8px;\n      line-height: 1.42;\n    }\n  }\n\n  @media screen and (max-width: 430px) {\n    .zento-solution-section {\n      padding: 40px 16px;\n    }\n\n    .zento-solution-section__title {\n      font-size: 25px;\n    }\n\n    .zento-solution-section__text {\n      font-size: 14px;\n    }\n\n    .zento-solution-section__benefit p {\n      font-size: 13.4px;\n    }\n\n    .zento-solution-section__benefit {\n      grid-template-columns: 23px 1fr;\n    }\n\n    .zento-solution-section__benefit span {\n      width: 23px;\n      height: 23px;\n      font-size: 12px;\n    }\n  }\n<\/style>","color_scheme":"","padding_top":20,"padding_bottom":0}},"custom_liquid_FBKamy":{"type":"custom-liquid","name":"Vergleich Liquid","settings":{"custom_liquid":"<section class=\"zento-visual-compare\">\n  <div class=\"zento-visual-compare__inner\">\n\n    <div class=\"zento-visual-compare__header\">\n      <p class=\"zento-visual-compare__eyebrow\">ZENTO VS. KLASSISCHE MILCHPUMPEN<\/p>\n\n      <h2 class=\"zento-visual-compare__title\">\n        Weniger Aufwand. Mehr Freiheit im Alltag.\n      <\/h2>\n\n      <p class=\"zento-visual-compare__subtitle\">\n        Klassische Milchpumpen können unpraktisch, laut und einschränkend sein. Zento One wurde entwickelt, damit Abpumpen flexibler, diskreter und alltagstauglicher wird.\n      <\/p>\n    <\/div>\n\n    <div class=\"zento-visual-compare__products\">\n\n      <div class=\"zento-visual-compare__product-card zento-visual-compare__product-card--zento\">\n        <div class=\"zento-visual-compare__product-image\">\n          <img \n            src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1047\/9891\/2842\/files\/ChatGPT_Image_27._Juni_2026_23_40_50.png?v=1782596775\" \n            alt=\"Zento One Milchpumpe\"\n            loading=\"lazy\"\n          >\n        <\/div>\n        <div class=\"zento-visual-compare__product-name\">\n          Zento One\n        <\/div>\n      <\/div>\n\n      <div class=\"zento-visual-compare__vs\">VS<\/div>\n\n      <div class=\"zento-visual-compare__product-card\">\n        <div class=\"zento-visual-compare__product-image\">\n          <img \n            src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1047\/9891\/2842\/files\/ChatGPT_Image_27._Juni_2026_23_40_50.png?v=1782596775\" \n            alt=\"Klassische Milchpumpe\"\n            loading=\"lazy\"\n          >\n        <\/div>\n        <div class=\"zento-visual-compare__product-name\">\n          Klassische Pumpe\n        <\/div>\n      <\/div>\n\n    <\/div>\n\n    <div class=\"zento-visual-compare__rows\">\n\n      <div class=\"zento-visual-compare__pair\">\n        <div class=\"zento-visual-compare__benefit zento-visual-compare__benefit--zento\">\n          <div>\n            <h3>Freihändig im BH tragbar<\/h3>\n            <p>Du kannst abpumpen, während du dich bewegst, entspannst oder kleine Dinge erledigst.<\/p>\n          <\/div>\n          <span class=\"zento-visual-compare__check\">✓<\/span>\n        <\/div>\n\n        <div class=\"zento-visual-compare__benefit zento-visual-compare__benefit--classic\">\n          <span class=\"zento-visual-compare__cross\">×<\/span>\n          <div>\n            <h3>Oft an eine Position gebunden<\/h3>\n            <p>Klassische Pumpen brauchen häufig Hände, Kabel oder eine feste Sitzposition.<\/p>\n          <\/div>\n        <\/div>\n      <\/div>\n\n      <div class=\"zento-visual-compare__pair\">\n        <div class=\"zento-visual-compare__benefit zento-visual-compare__benefit--zento\">\n          <div>\n            <h3>Kabellos & kompakt<\/h3>\n            <p>Keine Schläuche, keine Steckdose, kein großes Gerät – ideal für zuhause und unterwegs.<\/p>\n          <\/div>\n          <span class=\"zento-visual-compare__check\">✓<\/span>\n        <\/div>\n\n        <div class=\"zento-visual-compare__benefit zento-visual-compare__benefit--classic\">\n          <span class=\"zento-visual-compare__cross\">×<\/span>\n          <div>\n            <h3>Kabel, Schläuche & Zubehör<\/h3>\n            <p>Mehr Teile bedeuten oft mehr Vorbereitung, mehr Platzbedarf und mehr Reinigung.<\/p>\n          <\/div>\n        <\/div>\n      <\/div>\n\n      <div class=\"zento-visual-compare__pair\">\n        <div class=\"zento-visual-compare__benefit zento-visual-compare__benefit--zento\">\n          <div>\n            <h3>Diskreter im Alltag<\/h3>\n            <p>Das tragbare Design sitzt direkt im BH und lässt sich unkompliziert in deinen Tag integrieren.<\/p>\n          <\/div>\n          <span class=\"zento-visual-compare__check\">✓<\/span>\n        <\/div>\n\n        <div class=\"zento-visual-compare__benefit zento-visual-compare__benefit--classic\">\n          <span class=\"zento-visual-compare__cross\">×<\/span>\n          <div>\n            <h3>Auffälliger in der Anwendung<\/h3>\n            <p>Große Flaschen und Schläuche machen das Abpumpen oft weniger diskret.<\/p>\n          <\/div>\n        <\/div>\n      <\/div>\n\n      <div class=\"zento-visual-compare__pair\">\n        <div class=\"zento-visual-compare__benefit zento-visual-compare__benefit--zento\">\n          <div>\n            <h3>Schnell einsatzbereit<\/h3>\n            <p>Einsetzen, Modus wählen und loslegen – ohne aufwendigen Aufbau.<\/p>\n          <\/div>\n          <span class=\"zento-visual-compare__check\">✓<\/span>\n        <\/div>\n\n        <div class=\"zento-visual-compare__benefit zento-visual-compare__benefit--classic\">\n          <span class=\"zento-visual-compare__cross\">×<\/span>\n          <div>\n            <h3>Mehr Vorbereitung nötig<\/h3>\n            <p>Mehr Einzelteile können den Ablauf im Alltag komplizierter machen.<\/p>\n          <\/div>\n        <\/div>\n      <\/div>\n\n    <\/div>\n\n  <\/div>\n<\/section>\n\n<style>\n  .zento-visual-compare {\n    background: transparent !important;\n    padding: 72px 20px;\n  }\n\n  .zento-visual-compare__inner {\n    max-width: 1180px;\n    margin: 0 auto;\n  }\n\n  .zento-visual-compare__header {\n    max-width: 780px;\n    margin: 0 auto 38px;\n    text-align: center;\n  }\n\n  .zento-visual-compare__eyebrow {\n    margin: 0 0 12px;\n    color: #c9966f;\n    font-size: 12px;\n    line-height: 1.2;\n    letter-spacing: 0.16em;\n    font-weight: 800;\n  }\n\n  .zento-visual-compare__title {\n    margin: 0 0 16px;\n    color: #17202f;\n    font-size: 40px;\n    line-height: 1.08;\n    letter-spacing: -0.035em;\n    font-weight: 750;\n  }\n\n  .zento-visual-compare__subtitle {\n    margin: 0 auto;\n    max-width: 700px;\n    color: #3d4655;\n    font-size: 16px;\n    line-height: 1.6;\n  }\n\n  .zento-visual-compare__products {\n    position: relative;\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 14px;\n    max-width: 640px;\n    margin: 0 auto 34px;\n  }\n\n  .zento-visual-compare__product-card {\n    border-radius: 22px;\n    overflow: hidden;\n    background: rgba(255, 255, 255, 0.82);\n    box-shadow: 0 12px 32px rgba(23, 32, 47, 0.06);\n  }\n\n  .zento-visual-compare__product-card--zento {\n    border: 1px solid #c7d9e8;\n  }\n\n  .zento-visual-compare__product-image {\n    aspect-ratio: 1 \/ 0.86;\n    background: #f8f6f2;\n    overflow: hidden;\n  }\n\n  .zento-visual-compare__product-image img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display: block;\n  }\n\n  .zento-visual-compare__product-name {\n    padding: 16px 14px 18px;\n    text-align: center;\n    color: #17202f;\n    font-size: 17px;\n    line-height: 1.2;\n    font-weight: 850;\n    background: rgba(255, 255, 255, 0.88);\n  }\n\n  .zento-visual-compare__product-card--zento .zento-visual-compare__product-name {\n    background: #dce8f3;\n  }\n\n  .zento-visual-compare__vs {\n    position: absolute;\n    left: 50%;\n    top: 42%;\n    transform: translate(-50%, -50%);\n    z-index: 3;\n    width: 58px;\n    height: 58px;\n    border-radius: 999px;\n    background: #c9966f;\n    border: 5px solid #ffffff;\n    color: #ffffff;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 15px;\n    line-height: 1;\n    font-weight: 850;\n    box-shadow: 0 12px 26px rgba(23, 32, 47, 0.12);\n  }\n\n  .zento-visual-compare__rows {\n    display: grid;\n    gap: 14px;\n  }\n\n  .zento-visual-compare__pair {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 14px;\n  }\n\n  .zento-visual-compare__benefit {\n    min-height: 118px;\n    border-radius: 18px;\n    padding: 22px 24px;\n    display: grid;\n    align-items: center;\n    gap: 18px;\n  }\n\n  .zento-visual-compare__benefit--zento {\n    grid-template-columns: 1fr 42px;\n    background: #dce8f3;\n    color: #17202f;\n    border: 1px solid #c7d9e8;\n  }\n\n  .zento-visual-compare__benefit--classic {\n    grid-template-columns: 42px 1fr;\n    background: rgba(255, 255, 255, 0.68);\n    color: #17202f;\n    border: 1px solid rgba(23, 32, 47, 0.06);\n  }\n\n  .zento-visual-compare__benefit h3 {\n    margin: 0 0 6px;\n    font-size: 18px;\n    line-height: 1.22;\n    font-weight: 850;\n    letter-spacing: -0.01em;\n    color: #17202f;\n  }\n\n  .zento-visual-compare__benefit p {\n    margin: 0;\n    font-size: 14.5px;\n    line-height: 1.45;\n  }\n\n  .zento-visual-compare__benefit--zento p {\n    color: #3f4b5d;\n  }\n\n  .zento-visual-compare__benefit--classic p {\n    color: #3d4655;\n  }\n\n  .zento-visual-compare__check,\n  .zento-visual-compare__cross {\n    width: 38px;\n    height: 38px;\n    border-radius: 999px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 23px;\n    line-height: 1;\n    font-weight: 900;\n  }\n\n  .zento-visual-compare__check {\n    background: #8fb4d1;\n    color: #ffffff;\n  }\n\n  .zento-visual-compare__cross {\n    background: #a8b3c2;\n    color: #ffffff;\n  }\n\n  @media screen and (max-width: 989px) {\n    .zento-visual-compare {\n      padding: 58px 18px;\n    }\n\n    .zento-visual-compare__title {\n      font-size: 34px;\n    }\n\n    .zento-visual-compare__inner {\n      max-width: 760px;\n    }\n\n    .zento-visual-compare__pair {\n      grid-template-columns: 1fr;\n      gap: 10px;\n    }\n  }\n\n  @media screen and (max-width: 749px) {\n    .zento-visual-compare {\n      padding: 44px 16px;\n    }\n\n    .zento-visual-compare__header {\n      text-align: left;\n      margin-bottom: 26px;\n    }\n\n    .zento-visual-compare__eyebrow {\n      font-size: 11px;\n      letter-spacing: 0.14em;\n      margin-bottom: 10px;\n    }\n\n    .zento-visual-compare__title {\n      font-size: 28px;\n      line-height: 1.12;\n      margin-bottom: 14px;\n    }\n\n    .zento-visual-compare__subtitle {\n      font-size: 14.5px;\n      line-height: 1.55;\n    }\n\n    .zento-visual-compare__products {\n      gap: 10px;\n      margin-bottom: 26px;\n    }\n\n    .zento-visual-compare__product-card {\n      border-radius: 18px;\n    }\n\n    .zento-visual-compare__product-image {\n      aspect-ratio: 1 \/ 0.92;\n    }\n\n    .zento-visual-compare__product-name {\n      padding: 12px 8px 13px;\n      font-size: 13.5px;\n    }\n\n    .zento-visual-compare__vs {\n      width: 46px;\n      height: 46px;\n      border-width: 4px;\n      font-size: 12px;\n      top: 41%;\n    }\n\n    .zento-visual-compare__rows {\n      gap: 12px;\n    }\n\n    .zento-visual-compare__pair {\n      gap: 10px;\n    }\n\n    .zento-visual-compare__benefit {\n      min-height: auto;\n      border-radius: 16px;\n      padding: 17px 18px;\n      gap: 14px;\n    }\n\n    .zento-visual-compare__benefit--zento {\n      grid-template-columns: 1fr 34px;\n    }\n\n    .zento-visual-compare__benefit--classic {\n      grid-template-columns: 34px 1fr;\n    }\n\n    .zento-visual-compare__benefit h3 {\n      font-size: 15.5px;\n      margin-bottom: 5px;\n    }\n\n    .zento-visual-compare__benefit p {\n      font-size: 13px;\n      line-height: 1.42;\n    }\n\n    .zento-visual-compare__check,\n    .zento-visual-compare__cross {\n      width: 32px;\n      height: 32px;\n      font-size: 20px;\n    }\n  }\n\n  @media screen and (max-width: 430px) {\n    .zento-visual-compare__title {\n      font-size: 25px;\n    }\n\n    .zento-visual-compare__product-name {\n      font-size: 12.8px;\n    }\n\n    .zento-visual-compare__benefit h3 {\n      font-size: 15px;\n    }\n\n    .zento-visual-compare__benefit p {\n      font-size: 12.5px;\n    }\n  }\n<\/style>","color_scheme":"scheme-2","padding_top":40,"padding_bottom":52}},"custom_liquid_9UQ6qt":{"type":"custom-liquid","name":"Review Liquid","settings":{"custom_liquid":"<section class=\"zento-real-reviews\">\n  <div class=\"zento-real-reviews__inner\">\n\n    <div class=\"zento-real-reviews__top\">\n      <div>\n        <p class=\"zento-real-reviews__eyebrow\">KUNDENBEWERTUNGEN<\/p>\n        <h2 class=\"zento-real-reviews__title\">Was Mamas über Zento sagen<\/h2>\n\n        <div class=\"zento-real-reviews__summary\">\n          <div class=\"zento-real-reviews__score\">4,8<\/div>\n          <div>\n            <div class=\"zento-real-reviews__stars\">★★★★★<\/div>\n            <p>Basierend auf 20 Bewertungen<\/p>\n          <\/div>\n        <\/div>\n      <\/div>\n\n      <a href=\"#zento-review-form\" class=\"zento-real-reviews__button\">\n        Bewertung schreiben\n      <\/a>\n    <\/div>\n\n    <div class=\"zento-real-reviews__highlights\">\n\n      <article class=\"zento-highlight-review\">\n        <div class=\"zento-highlight-review__image\">\n          <img \n            src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1047\/9891\/2842\/files\/ChatGPT_Image_27._Juni_2026_23_43_05.png?v=1782596776\" \n            alt=\"Zento One im Alltag mit Baby\"\n            loading=\"lazy\"\n          >\n        <\/div>\n        <div class=\"zento-highlight-review__body\">\n          <div class=\"zento-highlight-review__stars\">★★★★★<\/div>\n          <h3>Endlich etwas Entlastung<\/h3>\n          <p>\n            „Ich wollte weiter Muttermilch geben, aber nicht ständig komplett gebunden sein. Mit Zento kann mein Partner abends auch mal übernehmen.“\n          <\/p>\n          <div class=\"zento-highlight-review__author\">\n            <strong>Laura M.<\/strong>\n            <span>Verifizierte Kundin<\/span>\n          <\/div>\n        <\/div>\n      <\/article>\n\n      <article class=\"zento-highlight-review\">\n        <div class=\"zento-highlight-review__image\">\n          <img \n            src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1047\/9891\/2842\/files\/ChatGPT_Image_27._Juni_2026_23_40_57.png?v=1782596776\" \n            alt=\"Mutter unterwegs mit Kinderwagen\"\n            loading=\"lazy\"\n          >\n        <\/div>\n        <div class=\"zento-highlight-review__body\">\n          <div class=\"zento-highlight-review__stars\">★★★★★<\/div>\n          <h3>Praktisch für unterwegs<\/h3>\n          <p>\n            „Ich finde es super praktisch, dass ich nicht an Kabel oder Steckdose gebunden bin. Besonders morgens oder unterwegs ist es viel angenehmer.“\n          <\/p>\n          <div class=\"zento-highlight-review__author\">\n            <strong>Sophie K.<\/strong>\n            <span>Verifizierte Kundin<\/span>\n          <\/div>\n        <\/div>\n      <\/article>\n\n      <article class=\"zento-highlight-review\">\n        <div class=\"zento-highlight-review__image\">\n          <img \n            src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1047\/9891\/2842\/files\/ChatGPT_Image_27._Juni_2026_23_40_50.png?v=1782596775\" \n            alt=\"Zento Milchpumpe in der Küche\"\n            loading=\"lazy\"\n          >\n        <\/div>\n        <div class=\"zento-highlight-review__body\">\n          <div class=\"zento-highlight-review__stars\">★★★★★<\/div>\n          <h3>Mehr Ruhe im Alltag<\/h3>\n          <p>\n            „Für mich war wichtig, einen kleinen Vorrat aufzubauen. Die Anwendung ist einfach und fühlt sich deutlich unkomplizierter an.“\n          <\/p>\n          <div class=\"zento-highlight-review__author\">\n            <strong>Amina R.<\/strong>\n            <span>Verifizierte Kundin<\/span>\n          <\/div>\n        <\/div>\n      <\/article>\n\n    <\/div>\n\n    <div class=\"zento-review-feed\">\n\n      <article class=\"zento-review-feed__item\">\n        <div class=\"zento-review-feed__header\">\n          <div class=\"zento-review-feed__avatar\">L<\/div>\n          <div>\n            <strong>Lisa Winkler<\/strong>\n            <span>12.06.2026 · Verifizierte Kundin<\/span>\n          <\/div>\n        <\/div>\n        <div class=\"zento-review-feed__stars\">★★★★★<\/div>\n        <h3>Mein neuer Begleiter<\/h3>\n        <p>\n          Seit dem ersten Einsatz nutze ich Zento regelmäßig. Besonders nachts ist es schön, wenn mein Partner auch mal füttern kann.\n        <\/p>\n      <\/article>\n\n      <article class=\"zento-review-feed__item zento-review-feed__item--with-image\">\n        <div>\n          <div class=\"zento-review-feed__header\">\n            <div class=\"zento-review-feed__avatar\">M<\/div>\n            <div>\n              <strong>Miriam S.<\/strong>\n              <span>08.06.2026 · Verifizierte Kundin<\/span>\n            <\/div>\n          <\/div>\n          <div class=\"zento-review-feed__stars\">★★★★★<\/div>\n          <h3>Viel angenehmer als erwartet<\/h3>\n          <p>\n            Ich war am Anfang unsicher, aber die Pumpe ist leicht einzusetzen und im Alltag deutlich praktischer als meine alte Pumpe mit Schläuchen.\n          <\/p>\n        <\/div>\n        <img \n          src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1047\/9891\/2842\/files\/ChatGPT_Image_27._Juni_2026_23_40_50.png?v=1782596775\" \n          alt=\"Kundenbild Zento One\"\n          loading=\"lazy\"\n        >\n      <\/article>\n\n      <article class=\"zento-review-feed__item\">\n        <div class=\"zento-review-feed__header\">\n          <div class=\"zento-review-feed__avatar\">N<\/div>\n          <div>\n            <strong>Nina B.<\/strong>\n            <span>02.06.2026 · Verifizierte Kundin<\/span>\n          <\/div>\n        <\/div>\n        <div class=\"zento-review-feed__stars\">★★★★☆<\/div>\n        <h3>Sehr praktisch, besonders unterwegs<\/h3>\n        <p>\n          Für kurze Pump-Sessions super. Ich nutze sie vor allem, wenn ich nicht zuhause bin oder schnell etwas vorbereiten möchte.\n        <\/p>\n      <\/article>\n\n      <article class=\"zento-review-feed__item\">\n        <div class=\"zento-review-feed__header\">\n          <div class=\"zento-review-feed__avatar\">J<\/div>\n          <div>\n            <strong>Julia K.<\/strong>\n            <span>29.05.2026 · Verifizierte Kundin<\/span>\n          <\/div>\n        <\/div>\n        <div class=\"zento-review-feed__stars\">★★★★★<\/div>\n        <h3>Mehr Freiheit im Alltag<\/h3>\n        <p>\n          Ich liebe, dass ich nicht an eine Steckdose gebunden bin. Für mich macht das Stillen und Abpumpen deutlich entspannter.\n        <\/p>\n      <\/article>\n\n    <\/div>\n\n    <div class=\"zento-review-form\" id=\"zento-review-form\">\n      <div class=\"zento-review-form__header\">\n        <p class=\"zento-real-reviews__eyebrow\">DEINE ERFAHRUNG<\/p>\n        <h2>Bewertung schreiben<\/h2>\n        <p>Teile deine Erfahrung mit Zento. Deine Bewertung hilft anderen Mamas bei ihrer Entscheidung.<\/p>\n      <\/div>\n\n      {% form 'contact' %}\n        {% if form.posted_successfully? %}\n          <div class=\"zento-review-form__success\">\n            Danke für deine Bewertung. Wir prüfen sie und veröffentlichen sie anschließend.\n          <\/div>\n        {% endif %}\n\n        {% if form.errors %}\n          <div class=\"zento-review-form__error\">\n            Bitte prüfe deine Eingaben und versuche es erneut.\n          <\/div>\n        {% endif %}\n\n        <input type=\"hidden\" name=\"contact[Betreff]\" value=\"Neue Produktbewertung für Zento\">\n\n        <div class=\"zento-review-form__grid\">\n          <div class=\"zento-review-form__field\">\n            <label for=\"review-name\">Name<\/label>\n            <input id=\"review-name\" type=\"text\" name=\"contact[Name]\" placeholder=\"Dein Name\" required>\n          <\/div>\n\n          <div class=\"zento-review-form__field\">\n            <label for=\"review-email\">E-Mail<\/label>\n            <input id=\"review-email\" type=\"email\" name=\"contact[email]\" placeholder=\"deine@email.com\" required>\n          <\/div>\n        <\/div>\n\n        <div class=\"zento-review-form__grid\">\n          <div class=\"zento-review-form__field\">\n            <label for=\"review-rating\">Bewertung<\/label>\n            <select id=\"review-rating\" name=\"contact[Bewertung]\" required>\n              <option value=\"\">Sterne auswählen<\/option>\n              <option value=\"5 Sterne\">★★★★★ 5 Sterne<\/option>\n              <option value=\"4 Sterne\">★★★★☆ 4 Sterne<\/option>\n              <option value=\"3 Sterne\">★★★☆☆ 3 Sterne<\/option>\n              <option value=\"2 Sterne\">★★☆☆☆ 2 Sterne<\/option>\n              <option value=\"1 Stern\">★☆☆☆☆ 1 Stern<\/option>\n            <\/select>\n          <\/div>\n\n          <div class=\"zento-review-form__field\">\n            <label for=\"review-title\">Titel<\/label>\n            <input id=\"review-title\" type=\"text\" name=\"contact[Titel der Bewertung]\" placeholder=\"z. B. Mehr Freiheit im Alltag\" required>\n          <\/div>\n        <\/div>\n\n        <div class=\"zento-review-form__field\">\n          <label for=\"review-message\">Bewertung<\/label>\n          <textarea id=\"review-message\" name=\"contact[body]\" rows=\"5\" placeholder=\"Wie war deine Erfahrung mit Zento?\" required><\/textarea>\n        <\/div>\n\n        <button type=\"submit\" class=\"zento-review-form__button\">\n          Bewertung abschicken\n        <\/button>\n      {% endform %}\n    <\/div>\n\n  <\/div>\n<\/section>\n\n<style>\n  .zento-real-reviews {\n    background: transparent !important;\n    padding: 76px 20px;\n  }\n\n  .zento-real-reviews__inner {\n    max-width: 1240px;\n    margin: 0 auto;\n  }\n\n  .zento-real-reviews__top {\n    display: flex;\n    justify-content: space-between;\n    gap: 24px;\n    align-items: flex-end;\n    margin-bottom: 34px;\n  }\n\n  .zento-real-reviews__eyebrow {\n    margin: 0 0 10px;\n    color: #c9966f;\n    font-size: 12px;\n    line-height: 1.2;\n    letter-spacing: 0.16em;\n    font-weight: 800;\n  }\n\n  .zento-real-reviews__title {\n    margin: 0 0 18px;\n    color: #17202f;\n    font-size: 40px;\n    line-height: 1.08;\n    letter-spacing: -0.035em;\n    font-weight: 750;\n  }\n\n  .zento-real-reviews__summary {\n    display: flex;\n    align-items: center;\n    gap: 14px;\n  }\n\n  .zento-real-reviews__score {\n    color: #17202f;\n    font-size: 38px;\n    line-height: 1;\n    font-weight: 850;\n  }\n\n  .zento-real-reviews__stars,\n  .zento-highlight-review__stars,\n  .zento-review-feed__stars {\n    color: #c9966f;\n    letter-spacing: 0.05em;\n  }\n\n  .zento-real-reviews__summary p {\n    margin: 3px 0 0;\n    color: #6f6d68;\n    font-size: 14px;\n  }\n\n  .zento-real-reviews__button,\n  .zento-review-form__button {\n    display: inline-flex;\n    justify-content: center;\n    align-items: center;\n    border: none;\n    border-radius: 999px;\n    background: #c9966f;\n    color: #ffffff;\n    padding: 14px 24px;\n    text-decoration: none;\n    font-size: 14px;\n    line-height: 1;\n    font-weight: 800;\n    cursor: pointer;\n    transition: transform 0.18s ease, opacity 0.18s ease;\n  }\n\n  .zento-real-reviews__button:hover,\n  .zento-review-form__button:hover {\n    transform: translateY(-1px);\n    opacity: 0.94;\n  }\n\n  .zento-real-reviews__highlights {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 18px;\n    margin-bottom: 32px;\n  }\n\n  .zento-highlight-review {\n    background: rgba(255,255,255,0.82);\n    border: 1px solid rgba(23, 32, 47, 0.08);\n    border-radius: 26px;\n    overflow: hidden;\n    box-shadow: 0 14px 36px rgba(23, 32, 47, 0.06);\n  }\n\n  .zento-highlight-review__image {\n    aspect-ratio: 1 \/ 0.68;\n    background: #f8f3ec;\n    overflow: hidden;\n  }\n\n  .zento-highlight-review__image img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display: block;\n  }\n\n  .zento-highlight-review__body {\n    padding: 22px 24px 24px;\n  }\n\n  .zento-highlight-review__stars {\n    font-size: 16px;\n    margin-bottom: 12px;\n  }\n\n  .zento-highlight-review h3 {\n    margin: 0 0 9px;\n    color: #17202f;\n    font-size: 19px;\n    line-height: 1.22;\n    font-weight: 850;\n  }\n\n  .zento-highlight-review p {\n    margin: 0;\n    color: #3d4655;\n    font-size: 14.5px;\n    line-height: 1.55;\n  }\n\n  .zento-highlight-review__author {\n    margin-top: 16px;\n    display: flex;\n    flex-direction: column;\n    gap: 2px;\n  }\n\n  .zento-highlight-review__author strong {\n    color: #17202f;\n    font-size: 14.5px;\n    font-weight: 850;\n  }\n\n  .zento-highlight-review__author span {\n    color: #6f6d68;\n    font-size: 12.5px;\n  }\n\n  .zento-review-feed {\n    background: rgba(255,255,255,0.7);\n    border: 1px solid rgba(23, 32, 47, 0.08);\n    border-radius: 26px;\n    overflow: hidden;\n    margin-bottom: 34px;\n  }\n\n  .zento-review-feed__item {\n    padding: 26px 28px;\n    border-bottom: 1px solid rgba(23, 32, 47, 0.1);\n  }\n\n  .zento-review-feed__item:last-child {\n    border-bottom: none;\n  }\n\n  .zento-review-feed__item--with-image {\n    display: grid;\n    grid-template-columns: 1fr 170px;\n    gap: 22px;\n    align-items: start;\n  }\n\n  .zento-review-feed__item--with-image > img {\n    width: 170px;\n    aspect-ratio: 1 \/ 0.78;\n    object-fit: cover;\n    border-radius: 18px;\n    background: #f8f3ec;\n  }\n\n  .zento-review-feed__header {\n    display: flex;\n    align-items: center;\n    gap: 12px;\n    margin-bottom: 14px;\n  }\n\n  .zento-review-feed__avatar {\n    width: 46px;\n    height: 46px;\n    border-radius: 999px;\n    background: #fff8ef;\n    color: #17202f;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 17px;\n    font-weight: 850;\n    flex-shrink: 0;\n  }\n\n  .zento-review-feed__header strong {\n    display: block;\n    color: #17202f;\n    font-size: 15.5px;\n    font-weight: 850;\n    margin-bottom: 2px;\n  }\n\n  .zento-review-feed__header span {\n    display: block;\n    color: #6f6d68;\n    font-size: 13px;\n  }\n\n  .zento-review-feed__stars {\n    font-size: 15px;\n    margin-bottom: 10px;\n  }\n\n  .zento-review-feed h3 {\n    margin: 0 0 8px;\n    color: #17202f;\n    font-size: 20px;\n    line-height: 1.25;\n    font-weight: 850;\n  }\n\n  .zento-review-feed p {\n    margin: 0;\n    color: #17202f;\n    font-size: 15px;\n    line-height: 1.55;\n  }\n\n  .zento-review-form {\n    background: linear-gradient(180deg, #fbf8f4 0%, #f6f1ea 100%);\n    border: 1px solid rgba(155, 187, 209, 0.24);\n    border-radius: 28px;\n    padding: 30px;\n    box-shadow: 0 14px 36px rgba(23, 32, 47, 0.05);\n  }\n\n  .zento-review-form__header {\n    max-width: 640px;\n    margin-bottom: 24px;\n  }\n\n  .zento-review-form__header h2 {\n    margin: 0 0 10px;\n    color: #17202f;\n    font-size: 32px;\n    line-height: 1.12;\n    font-weight: 800;\n    letter-spacing: -0.025em;\n  }\n\n  .zento-review-form__header p {\n    margin: 0;\n    color: #3d4655;\n    font-size: 15px;\n    line-height: 1.55;\n  }\n\n  .zento-review-form__grid {\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n    gap: 14px;\n  }\n\n  .zento-review-form__field {\n    margin-bottom: 14px;\n  }\n\n  .zento-review-form__field label {\n    display: block;\n    margin-bottom: 7px;\n    color: #17202f;\n    font-size: 13px;\n    font-weight: 800;\n  }\n\n  .zento-review-form__field input,\n  .zento-review-form__field select,\n  .zento-review-form__field textarea {\n    width: 100%;\n    border: 1px solid rgba(23, 32, 47, 0.14);\n    border-radius: 14px;\n    background: rgba(255,255,255,0.86);\n    color: #17202f;\n    font-size: 14px;\n    line-height: 1.4;\n    padding: 13px 14px;\n    outline: none;\n    font-family: inherit;\n  }\n\n  .zento-review-form__field textarea {\n    resize: vertical;\n  }\n\n  .zento-review-form__field input:focus,\n  .zento-review-form__field select:focus,\n  .zento-review-form__field textarea:focus {\n    border-color: #9bbbd1;\n    box-shadow: 0 0 0 3px rgba(155,187,209,0.22);\n  }\n\n  .zento-review-form__success {\n    background: #dce8f3;\n    color: #17202f;\n    padding: 12px 14px;\n    border-radius: 14px;\n    margin-bottom: 18px;\n    font-size: 14px;\n    font-weight: 700;\n  }\n\n  .zento-review-form__error {\n    background: #fff0ee;\n    color: #8a3b2c;\n    padding: 12px 14px;\n    border-radius: 14px;\n    margin-bottom: 18px;\n    font-size: 14px;\n    font-weight: 700;\n  }\n\n  @media screen and (max-width: 989px) {\n    .zento-real-reviews {\n      padding: 58px 18px;\n    }\n\n    .zento-real-reviews__top {\n      align-items: flex-start;\n      flex-direction: column;\n    }\n\n    .zento-real-reviews__title {\n      font-size: 34px;\n    }\n\n    .zento-real-reviews__highlights {\n      display: flex;\n      overflow-x: auto;\n      gap: 14px;\n      padding-bottom: 6px;\n      scroll-snap-type: x mandatory;\n      -webkit-overflow-scrolling: touch;\n      scrollbar-width: none;\n    }\n\n    .zento-real-reviews__highlights::-webkit-scrollbar {\n      display: none;\n    }\n\n    .zento-highlight-review {\n      flex: 0 0 72%;\n      scroll-snap-align: start;\n    }\n  }\n\n  @media screen and (max-width: 749px) {\n    .zento-real-reviews {\n      padding: 44px 16px;\n    }\n\n    .zento-real-reviews__top {\n      margin-bottom: 26px;\n    }\n\n    .zento-real-reviews__eyebrow {\n      font-size: 11px;\n      letter-spacing: 0.14em;\n    }\n\n    .zento-real-reviews__title {\n      font-size: 28px;\n      line-height: 1.12;\n    }\n\n    .zento-real-reviews__score {\n      font-size: 32px;\n    }\n\n    .zento-real-reviews__button {\n      width: 100%;\n      padding: 14px 20px;\n    }\n\n    .zento-highlight-review {\n      flex: 0 0 84%;\n      border-radius: 22px;\n    }\n\n    .zento-highlight-review__body {\n      padding: 18px 18px 20px;\n    }\n\n    .zento-highlight-review h3 {\n      font-size: 17px;\n    }\n\n    .zento-highlight-review p {\n      font-size: 13.6px;\n    }\n\n    .zento-review-feed {\n      border-radius: 22px;\n    }\n\n    .zento-review-feed__item {\n      padding: 22px 18px;\n    }\n\n    .zento-review-feed__item--with-image {\n      grid-template-columns: 1fr;\n    }\n\n    .zento-review-feed__item--with-image > img {\n      width: 100%;\n      max-width: 260px;\n    }\n\n    .zento-review-feed h3 {\n      font-size: 18px;\n    }\n\n    .zento-review-feed p {\n      font-size: 14px;\n    }\n\n    .zento-review-form {\n      border-radius: 22px;\n      padding: 22px 18px;\n    }\n\n    .zento-review-form__header h2 {\n      font-size: 25px;\n    }\n\n    .zento-review-form__grid {\n      grid-template-columns: 1fr;\n      gap: 0;\n    }\n\n    .zento-review-form__button {\n      width: 100%;\n      padding: 14px 20px;\n    }\n  }\n<\/style>","color_scheme":"","padding_top":40,"padding_bottom":52}},"custom_liquid_Kt4Wp3":{"type":"custom-liquid","name":"FAQ Liquid","settings":{"custom_liquid":"<div class=\"zento-faq-section\">\n  <h2>Alles über elektrische Milchpumpen – FAQ<\/h2>\n\n  <div class=\"zento-faq-list\">\n    <details class=\"zento-faq-item\">\n      <summary>Ist es sinnvoll, eine elektrische Milchpumpe zu verwenden?<\/summary>\n      <div class=\"zento-faq-content\">\n        Ja, eine elektrische Milchpumpe kann besonders praktisch sein, wenn du regelmäßig abpumpen möchtest, flexibler im Alltag sein willst oder Milch für später aufbewahren möchtest. Sie kann das Abpumpen komfortabler und gleichmäßiger machen als eine manuelle Pumpe.\n      <\/div>\n    <\/details>\n\n    <details class=\"zento-faq-item\">\n      <summary>Wie lange sollte ich eine elektrische Milchpumpe verwenden?<\/summary>\n      <div class=\"zento-faq-content\">\n        Viele Mütter pumpen pro Seite etwa 10–20 Minuten ab. Die genaue Dauer hängt aber von deinem Milchfluss, deinem Komfort und deiner persönlichen Routine ab. Wichtig ist, dass sich das Abpumpen angenehm anfühlt und kein Schmerz entsteht.\n      <\/div>\n    <\/details>\n\n    <details class=\"zento-faq-item\">\n      <summary>Reduzieren tragbare Milchpumpen die Milchmenge?<\/summary>\n      <div class=\"zento-faq-content\">\n        Eine tragbare Milchpumpe reduziert die Milchmenge nicht automatisch. Entscheidend sind eine passende Positionierung, ein guter Sitz, regelmäßiges Abpumpen und eine für dich angenehme Saugstärke. Wenn die Pumpe nicht richtig sitzt, kann die Entleerung weniger effektiv sein.\n      <\/div>\n    <\/details>\n\n    <details class=\"zento-faq-item\">\n      <summary>Was ist weniger schmerzhaft: manuelle oder elektrische Milchpumpe?<\/summary>\n      <div class=\"zento-faq-content\">\n        Das hängt stark vom Modell und der richtigen Anwendung ab. Eine elektrische Milchpumpe kann angenehmer sein, weil sie gleichmäßig arbeitet und verschiedene Modi bietet. Wichtig ist ein weicher Aufsatz, eine passende Größe und eine Saugstufe, die nicht zu stark eingestellt ist.\n      <\/div>\n    <\/details>\n\n    <details class=\"zento-faq-item\">\n      <summary>Wie wähle ich die richtige elektrische Milchpumpe aus?<\/summary>\n      <div class=\"zento-faq-content\">\n        Achte auf Komfort, Lautstärke, Akkulaufzeit, einfache Reinigung, verschiedene Saugmodi und darauf, ob die Pumpe zu deinem Alltag passt. Wenn du flexibel bleiben möchtest, ist eine kabellose und tragbare Pumpe besonders praktisch.\n      <\/div>\n    <\/details>\n\n    <details class=\"zento-faq-item\">\n      <summary>Wie reinige und sterilisiere ich die Zubehörteile?<\/summary>\n      <div class=\"zento-faq-content\">\n        Alle Teile, die mit Milch in Kontakt kommen, sollten nach jeder Nutzung gereinigt werden. Spüle sie zuerst mit kaltem Wasser ab, reinige sie anschließend mit warmem Wasser und mildem Spülmittel und lasse sie vollständig trocknen. Beachte zusätzlich immer die Pflegehinweise des Herstellers.\n      <\/div>\n    <\/details>\n\n    <details class=\"zento-faq-item\">\n      <summary>Warum fühlt sich die Saugkraft nach der Reinigung schwächer an?<\/summary>\n      <div class=\"zento-faq-content\">\n        Das kann passieren, wenn einzelne Teile nicht vollständig trocken sind, nicht korrekt zusammengesetzt wurden oder ein Ventil nicht richtig sitzt. Prüfe nach der Reinigung, ob alle Teile sauber, trocken und fest verbunden sind.\n      <\/div>\n    <\/details>\n  <\/div>\n<\/div>\n\n<style>\n  .zento-faq-section {\n    max-width: 1120px;\n    margin: 90px auto;\n    padding: 0 24px;\n    font-family: inherit;\n  }\n\n  .zento-faq-section h2 {\n    margin: 0 0 42px 0;\n    text-align: center;\n    font-size: clamp(32px, 4vw, 52px);\n    line-height: 1.12;\n    font-weight: 400;\n    color: #1f2633;\n    letter-spacing: -0.03em;\n  }\n\n  .zento-faq-list {\n    border-top: 1px solid rgba(45, 57, 76, 0.14);\n  }\n\n  .zento-faq-item {\n    border-bottom: 1px solid rgba(45, 57, 76, 0.14);\n  }\n\n  .zento-faq-item summary {\n    list-style: none;\n    cursor: pointer;\n    padding: 26px 6px;\n    font-size: 21px;\n    line-height: 1.35;\n    font-weight: 400;\n    color: #111111;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    gap: 24px;\n  }\n\n  .zento-faq-item summary::-webkit-details-marker {\n    display: none;\n  }\n\n  .zento-faq-item summary::after {\n    content: \"+\";\n    flex: 0 0 auto;\n    font-size: 32px;\n    line-height: 1;\n    font-weight: 500;\n    color: #111111;\n    transition: transform 0.2s ease;\n  }\n\n  .zento-faq-item[open] summary::after {\n    content: \"−\";\n  }\n\n  .zento-faq-content {\n    padding: 0 56px 28px 6px;\n    font-size: 17px;\n    line-height: 1.65;\n    color: #4f4f4f;\n    max-width: 900px;\n  }\n\n  @media screen and (max-width: 749px) {\n    .zento-faq-section {\n      margin: 58px auto;\n      padding: 0 20px;\n    }\n\n    .zento-faq-section h2 {\n      text-align: left;\n      font-size: 31px;\n      line-height: 1.15;\n      margin-bottom: 28px;\n      letter-spacing: -0.025em;\n    }\n\n    .zento-faq-item summary {\n      padding: 21px 0;\n      font-size: 17px;\n      line-height: 1.35;\n      gap: 16px;\n    }\n\n    .zento-faq-item summary::after {\n      font-size: 26px;\n    }\n\n    .zento-faq-content {\n      padding: 0 34px 22px 0;\n      font-size: 15px;\n      line-height: 1.6;\n    }\n  }\n<\/style>","color_scheme":"scheme-1","padding_top":40,"padding_bottom":52}}},"order":["main","custom_liquid_gR7wgk","related-products","custom_liquid_xKReQC","custom_liquid_FBKamy","custom_liquid_9UQ6qt","custom_liquid_Kt4Wp3"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "FÜR MAMAS, DIE FREIHEIT UND KOMFORT WOLLEN",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_jQVaAp": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "rating_bar": {
+          "type": "rating_bar",
+          "settings": {
+            "rating_value": "4,8",
+            "review_count_text": "450+ Mütter vertrauen zento"
+          }
+        },
+        "text_benefits_intro": {
+          "type": "text",
+          "settings": {
+            "text": "Für Tage, an denen Stillen nicht immer genau dann möglich ist, wenn dein Baby Hunger hat. Die Zento Milchpumpe hilft dir, Muttermilch vorzubereiten, Vorrat aufzubauen und flexibler durch deinen Alltag zu kommen.",
+            "text_style": "body"
+          }
+        },
+        "icon_with_text_benefits_1": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "check_mark",
+            "heading_1": "<strong>Mehr Freiheit im Alltag:</strong> Bereite Muttermilch vor, damit auch dein Partner oder eine vertraute Person füttern kann, während du kurz durchatmest, schläfst oder unterwegs bist.",
+            "icon_2": "check_mark",
+            "heading_2": "<strong>Freihändig &amp; kabellos:</strong> Kein Kabel, kein Schlauch, keine feste Position – einfach in den BH einsetzen und währenddessen bewegen oder entspannen.",
+            "icon_3": "check_mark",
+            "heading_3": "<strong>Sanft anpassbare Saugstufen:</strong> Wähle die Intensität Schritt für Schritt so, wie sie sich für dich angenehm anfühlt."
+          }
+        },
+        "icon_with_text_benefits_2": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "check_mark",
+            "heading_1": "<strong>Diskret im Alltag tragbar:</strong> Das kompakte Design sitzt direkt im BH und macht Abpumpen unkomplizierter – ohne große Geräte oder auffällige Flaschen.",
+            "icon_2": "check_mark",
+            "heading_2": "<strong>Vorrat &amp; Sicherheit aufbauen:</strong> Abgepumpte Muttermilch gibt dir mehr Planungssicherheit für Termine, Nächte, Arbeit oder kleine Pausen.",
+            "icon_3": "check_mark",
+            "heading_3": "<strong>Einfach zu reinigen:</strong> Die abnehmbaren Teile lassen sich nach dem Abpumpen unkompliziert reinigen und schnell wieder zusammensetzen."
+          }
+        },
+        "collapsible_tab_description": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Produktbeschreibung",
+            "icon": "clipboard",
+            "content": "<p>Die Zento One ist eine tragbare elektrische Milchpumpe für Mütter, die Muttermilch flexibler in ihren Alltag integrieren möchten. Sie sitzt direkt im BH, funktioniert kabellos und unterstützt dich beim Abpumpen zuhause, unterwegs oder in ruhigen Momenten zwischendurch.</p><p>Durch anpassbare Saugstufen kannst du die Intensität Schritt für Schritt auf dein persönliches Wohlbefinden einstellen. Das kompakte Design macht die Anwendung diskreter als bei klassischen Milchpumpen mit Kabeln, Schläuchen oder großen Flaschen.</p>"
+          }
+        },
+        "icon_with_text_trust_1": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "return",
+            "heading_1": "<strong>30 Tage</strong><br>Testen",
+            "icon_2": "truck",
+            "heading_2": "<strong>Gratis</strong><br>Lieferung"
+          }
+        },
+        "icon_with_text_trust_2": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "chat_bubble",
+            "heading_1": "<strong>24/5</strong><br>Support",
+            "icon_2": "star",
+            "heading_2": "<strong>4,8 ★</strong><br>Bewertung"
+          }
+        },
+        "collapsible_tab_faq_1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Für wen eignet sich die Zento One?",
+            "icon": "question_mark",
+            "content": "<p>Die Zento One eignet sich für Mütter, die Muttermilch abpumpen möchten, um Vorrat aufzubauen, flexibler zu planen oder das Füttern mit dem Partner oder einer vertrauten Person zu teilen.</p>"
+          }
+        },
+        "collapsible_tab_faq_2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Wie funktioniert die Milchpumpe?",
+            "icon": "question_mark",
+            "content": "<p>Setze die Pumpe in deinen Still-BH ein, wähle den passenden Modus und passe die Saugintensität an. Die Muttermilch wird direkt im integrierten Auffangbehälter gesammelt und kann danach umgefüllt werden.</p>"
+          }
+        },
+        "collapsible_tab_faq_3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ist die Pumpe für unterwegs geeignet?",
+            "icon": "question_mark",
+            "content": "<p>Ja. Durch das kabellose und kompakte Design kannst du die Zento One auch außerhalb von Zuhause nutzen. Besonders praktisch ist sie für Reisen, Arbeit, kurze Pausen oder Momente, in denen du nicht an eine Steckdose gebunden sein möchtest.</p>"
+          }
+        },
+        "collapsible_tab_faq_4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Wie reinige ich die Zento One?",
+            "icon": "question_mark",
+            "content": "<p>Die abnehmbaren Teile können nach dem Abpumpen gereinigt werden. Bitte achte darauf, nur die dafür vorgesehenen Teile mit Wasser zu reinigen und die elektrische Motoreinheit trocken zu halten.</p>"
+          }
+        },
+        "collapsible_tab_faq_5": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Gibt es eine Geld-zurück-Garantie?",
+            "icon": "question_mark",
+            "content": "<p>Du kannst die Zento One 30 Tage testen. Wenn sie dich nicht überzeugt, kannst du sie innerhalb der Rückgabefrist zurücksenden. Die genauen Bedingungen findest du in deiner Rückgaberichtlinie.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "rating_bar",
+        "vendor",
+        "title",
+        "text_benefits_intro",
+        "icon_with_text_benefits_1",
+        "icon_with_text_benefits_2",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons_jQVaAp",
+        "description",
+        "collapsible_tab_description",
+        "icon_with_text_trust_1",
+        "icon_with_text_trust_2",
+        "collapsible_tab_faq_1",
+        "collapsible_tab_faq_2",
+        "collapsible_tab_faq_3",
+        "collapsible_tab_faq_4",
+        "collapsible_tab_faq_5"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "mobile_thumbnails": "hide",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 68
+      }
+    },
+    "multicolumn_zento_problem": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_43_05.png",
+            "title": "Entlastung im Alltag",
+            "text": "<p>Damit nicht immer alles an dir hängt.</p>"
+          }
+        },
+        "column_2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_57.png",
+            "title": "Flexibel unterwegs",
+            "text": "<p>Für Termine, Reisen oder kleine Pausen.</p>"
+          }
+        },
+        "column_3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_50.png",
+            "title": "Mehr Sicherheit",
+            "text": "<p>Ein kleiner Vorrat gibt dir mehr Ruhe.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_1",
+        "column_2",
+        "column_3"
+      ],
+      "settings": {
+        "title": "Für mehr Freiheit, wenn Stillen gerade nicht möglich ist.",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "scheme-2",
+        "columns_desktop": 3,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_zento_solution": {
+      "type": "multirow",
+      "blocks": {
+        "row_1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_50.png",
+            "caption": "DIE LÖSUNG FÜR MEHR FLEXIBILITÄT",
+            "heading": "Kabellos abpumpen, ohne deinen Alltag zu unterbrechen.",
+            "text": "<p>Zento One sitzt direkt im BH, kommt ohne Kabel oder Schläuche aus und lässt sich an dein persönliches Wohlbefinden anpassen – damit Abpumpen weniger nach Aufwand und mehr nach Entlastung fühlt.</p><ul><li><strong>Freihändig tragbar</strong> – Einfach in den Still-BH einsetzen und flexibler bleiben.</li><li><strong>Kabellos &amp; kompakt</strong> – Keine Schläuche, keine Steckdose, kein großes Gerät.</li><li><strong>Anpassbare Saugstufen</strong> – Stelle die Intensität so ein, wie sie sich für dich angenehm anfühlt.</li><li><strong>Einfach zu reinigen</strong> – Abnehmbare Teile machen die Reinigung unkompliziert.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "row_1"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "solid",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "row_color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "zento_comparison": {
+      "type": "zento-comparison",
+      "blocks": {
+        "comparison_row_1": {
+          "type": "comparison_row",
+          "settings": {
+            "zento_heading": "Freihändig im BH tragbar",
+            "zento_text": "<p>Du kannst abpumpen, während du dich bewegst, entspannst oder kleine Dinge erledigst.</p>",
+            "classic_heading": "Oft an eine Position gebunden",
+            "classic_text": "<p>Klassische Pumpen brauchen häufig Hände, Kabel oder eine feste Sitzposition.</p>"
+          }
+        },
+        "comparison_row_2": {
+          "type": "comparison_row",
+          "settings": {
+            "zento_heading": "Kabellos &amp; kompakt",
+            "zento_text": "<p>Keine Schläuche, keine Steckdose, kein großes Gerät – ideal für zuhause und unterwegs.</p>",
+            "classic_heading": "Kabel, Schläuche &amp; Zubehör",
+            "classic_text": "<p>Mehr Teile bedeuten oft mehr Vorbereitung, mehr Platzbedarf und mehr Reinigung.</p>"
+          }
+        },
+        "comparison_row_3": {
+          "type": "comparison_row",
+          "settings": {
+            "zento_heading": "Diskreter im Alltag",
+            "zento_text": "<p>Das tragbare Design sitzt direkt im BH und lässt sich unkompliziert in deinen Tag integrieren.</p>",
+            "classic_heading": "Auffälliger in der Anwendung",
+            "classic_text": "<p>Große Flaschen und Schläuche machen das Abpumpen oft weniger diskret.</p>"
+          }
+        },
+        "comparison_row_4": {
+          "type": "comparison_row",
+          "settings": {
+            "zento_heading": "Schnell einsatzbereit",
+            "zento_text": "<p>Einsetzen, Modus wählen und loslegen – ohne aufwendigen Aufbau.</p>",
+            "classic_heading": "Mehr Vorbereitung nötig",
+            "classic_text": "<p>Mehr Einzelteile können den Ablauf im Alltag komplizierter machen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "comparison_row_1",
+        "comparison_row_2",
+        "comparison_row_3",
+        "comparison_row_4"
+      ],
+      "settings": {
+        "eyebrow": "ZENTO VS. KLASSISCHE MILCHPUMPEN",
+        "heading": "Weniger Aufwand. Mehr Freiheit im Alltag.",
+        "subtitle": "<p>Klassische Milchpumpen können unpraktisch, laut und einschränkend sein. Zento One wurde entwickelt, damit Abpumpen flexibler, diskreter und alltagstauglicher wird.</p>",
+        "zento_image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_50.png",
+        "zento_name": "Zento One",
+        "competitor_image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_50.png",
+        "competitor_name": "Klassische Pumpe",
+        "color_scheme": "scheme-2",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "zento_reviews": {
+      "type": "zento-reviews",
+      "blocks": {
+        "highlight_1": {
+          "type": "highlight_review",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_43_05.png",
+            "rating": 5,
+            "heading": "Endlich etwas Entlastung",
+            "quote": "<p>„Ich wollte weiter Muttermilch geben, aber nicht ständig komplett gebunden sein. Mit Zento kann mein Partner abends auch mal übernehmen.“</p>",
+            "author_name": "Laura M.",
+            "author_label": "Verifizierte Kundin"
+          }
+        },
+        "highlight_2": {
+          "type": "highlight_review",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_57.png",
+            "rating": 5,
+            "heading": "Praktisch für unterwegs",
+            "quote": "<p>„Ich finde es super praktisch, dass ich nicht an Kabel oder Steckdose gebunden bin. Besonders morgens oder unterwegs ist es viel angenehmer.“</p>",
+            "author_name": "Sophie K.",
+            "author_label": "Verifizierte Kundin"
+          }
+        },
+        "highlight_3": {
+          "type": "highlight_review",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_50.png",
+            "rating": 5,
+            "heading": "Mehr Ruhe im Alltag",
+            "quote": "<p>„Für mich war wichtig, einen kleinen Vorrat aufzubauen. Die Anwendung ist einfach und fühlt sich deutlich unkomplizierter an.“</p>",
+            "author_name": "Amina R.",
+            "author_label": "Verifizierte Kundin"
+          }
+        },
+        "feed_1": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Lisa Winkler",
+            "date_text": "12.06.2026 · Verifizierte Kundin",
+            "rating": 5,
+            "heading": "Mein neuer Begleiter",
+            "text": "<p>Seit dem ersten Einsatz nutze ich Zento regelmäßig. Besonders nachts ist es schön, wenn mein Partner auch mal füttern kann.</p>"
+          }
+        },
+        "feed_2": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Miriam S.",
+            "date_text": "08.06.2026 · Verifizierte Kundin",
+            "rating": 5,
+            "heading": "Viel angenehmer als erwartet",
+            "text": "<p>Ich war am Anfang unsicher, aber die Pumpe ist leicht einzusetzen und im Alltag deutlich praktischer als meine alte Pumpe mit Schläuchen.</p>",
+            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_50.png"
+          }
+        },
+        "feed_3": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Nina B.",
+            "date_text": "02.06.2026 · Verifizierte Kundin",
+            "rating": 4,
+            "heading": "Sehr praktisch, besonders unterwegs",
+            "text": "<p>Für kurze Pump-Sessions super. Ich nutze sie vor allem, wenn ich nicht zuhause bin oder schnell etwas vorbereiten möchte.</p>"
+          }
+        },
+        "feed_4": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Julia K.",
+            "date_text": "29.05.2026 · Verifizierte Kundin",
+            "rating": 5,
+            "heading": "Mehr Freiheit im Alltag",
+            "text": "<p>Ich liebe, dass ich nicht an eine Steckdose gebunden bin. Für mich macht das Stillen und Abpumpen deutlich entspannter.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "highlight_1",
+        "highlight_2",
+        "highlight_3",
+        "feed_1",
+        "feed_2",
+        "feed_3",
+        "feed_4"
+      ],
+      "settings": {
+        "eyebrow": "KUNDENBEWERTUNGEN",
+        "heading": "Was Mamas über Zento sagen",
+        "score": "4,8",
+        "review_count_text": "Basierend auf 20 Bewertungen",
+        "button_label": "Bewertung schreiben",
+        "form_eyebrow": "DEINE ERFAHRUNG",
+        "form_heading": "Bewertung schreiben",
+        "form_text": "<p>Teile deine Erfahrung mit Zento. Deine Bewertung hilft anderen Mamas bei ihrer Entscheidung.</p>",
+        "form_submit_label": "Bewertung abschicken",
+        "form_success_text": "Danke für deine Bewertung. Wir prüfen sie und veröffentlichen sie anschließend.",
+        "form_error_text": "Bitte prüfe deine Eingaben und versuche es erneut.",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ist es sinnvoll, eine elektrische Milchpumpe zu verwenden?",
+            "icon": "question_mark",
+            "row_content": "<p>Ja, eine elektrische Milchpumpe kann besonders praktisch sein, wenn du regelmäßig abpumpen möchtest, flexibler im Alltag sein willst oder Milch für später aufbewahren möchtest. Sie kann das Abpumpen komfortabler und gleichmäßiger machen als eine manuelle Pumpe.</p>"
+          }
+        },
+        "collapsible_row_2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie lange sollte ich eine elektrische Milchpumpe verwenden?",
+            "icon": "question_mark",
+            "row_content": "<p>Viele Mütter pumpen pro Seite etwa 10–20 Minuten ab. Die genaue Dauer hängt aber von deinem Milchfluss, deinem Komfort und deiner persönlichen Routine ab. Wichtig ist, dass sich das Abpumpen angenehm anfühlt und kein Schmerz entsteht.</p>"
+          }
+        },
+        "collapsible_row_3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Reduzieren tragbare Milchpumpen die Milchmenge?",
+            "icon": "question_mark",
+            "row_content": "<p>Eine tragbare Milchpumpe reduziert die Milchmenge nicht automatisch. Entscheidend sind eine passende Positionierung, ein guter Sitz, regelmäßiges Abpumpen und eine für dich angenehme Saugstärke. Wenn die Pumpe nicht richtig sitzt, kann die Entleerung weniger effektiv sein.</p>"
+          }
+        },
+        "collapsible_row_4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Was ist weniger schmerzhaft: manuelle oder elektrische Milchpumpe?",
+            "icon": "question_mark",
+            "row_content": "<p>Das hängt stark vom Modell und der richtigen Anwendung ab. Eine elektrische Milchpumpe kann angenehmer sein, weil sie gleichmäßig arbeitet und verschiedene Modi bietet. Wichtig ist ein weicher Aufsatz, eine passende Größe und eine Saugstufe, die nicht zu stark eingestellt ist.</p>"
+          }
+        },
+        "collapsible_row_5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie wähle ich die richtige elektrische Milchpumpe aus?",
+            "icon": "question_mark",
+            "row_content": "<p>Achte auf Komfort, Lautstärke, Akkulaufzeit, einfache Reinigung, verschiedene Saugmodi und darauf, ob die Pumpe zu deinem Alltag passt. Wenn du flexibel bleiben möchtest, ist eine kabellose und tragbare Pumpe besonders praktisch.</p>"
+          }
+        },
+        "collapsible_row_6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie reinige und sterilisiere ich die Zubehörteile?",
+            "icon": "question_mark",
+            "row_content": "<p>Alle Teile, die mit Milch in Kontakt kommen, sollten nach jeder Nutzung gereinigt werden. Spüle sie zuerst mit kaltem Wasser ab, reinige sie anschließend mit warmem Wasser und mildem Spülmittel und lasse sie vollständig trocknen. Beachte zusätzlich immer die Pflegehinweise des Herstellers.</p>"
+          }
+        },
+        "collapsible_row_7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Warum fühlt sich die Saugkraft nach der Reinigung schwächer an?",
+            "icon": "question_mark",
+            "row_content": "<p>Das kann passieren, wenn einzelne Teile nicht vollständig trocken sind, nicht korrekt zusammengesetzt wurden oder ein Ventil nicht richtig sitzt. Prüfe nach der Reinigung, ob alle Teile sauber, trocken und fest verbunden sind.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_1",
+        "collapsible_row_2",
+        "collapsible_row_3",
+        "collapsible_row_4",
+        "collapsible_row_5",
+        "collapsible_row_6",
+        "collapsible_row_7"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Alles über elektrische Milchpumpen – FAQ",
+        "heading_size": "h0",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multicolumn_zento_problem",
+    "related-products",
+    "multirow_zento_solution",
+    "zento_comparison",
+    "zento_reviews",
+    "collapsible_content_faq"
+  ]
+}

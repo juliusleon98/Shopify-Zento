@@ -1,0 +1,205 @@
+{{ 'component-zento-blocks.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+  <div class="zento-comparison page-width">
+    <div class="zento-comparison__inner">
+      {%- if section.settings.eyebrow != blank or section.settings.heading != blank or section.settings.subtitle != blank -%}
+        <div class="zento-comparison__header">
+          {%- if section.settings.eyebrow != blank -%}
+            <p class="zento-comparison__eyebrow">{{ section.settings.eyebrow | escape }}</p>
+          {%- endif -%}
+          {%- if section.settings.heading != blank -%}
+            <h2 class="zento-comparison__title">{{ section.settings.heading }}</h2>
+          {%- endif -%}
+          {%- if section.settings.subtitle != blank -%}
+            <p class="zento-comparison__subtitle">{{ section.settings.subtitle }}</p>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+
+      {%- if section.settings.zento_image != blank or section.settings.competitor_image != blank -%}
+        <div class="zento-comparison__products">
+          <div class="zento-comparison__product-card zento-comparison__product-card--zento">
+            <div class="zento-comparison__product-image">
+              {%- if section.settings.zento_image != blank -%}
+                {{ section.settings.zento_image | image_url: width: 700 | image_tag: loading: 'lazy', widths: '350, 500, 700' }}
+              {%- endif -%}
+            </div>
+            <div class="zento-comparison__product-name">{{ section.settings.zento_name | escape }}</div>
+          </div>
+
+          <div class="zento-comparison__vs">VS</div>
+
+          <div class="zento-comparison__product-card">
+            <div class="zento-comparison__product-image">
+              {%- if section.settings.competitor_image != blank -%}
+                {{ section.settings.competitor_image | image_url: width: 700 | image_tag: loading: 'lazy', widths: '350, 500, 700' }}
+              {%- endif -%}
+            </div>
+            <div class="zento-comparison__product-name">{{ section.settings.competitor_name | escape }}</div>
+          </div>
+        </div>
+      {%- endif -%}
+
+      {%- if section.blocks.size > 0 -%}
+        <div class="zento-comparison__rows">
+          {%- for block in section.blocks -%}
+            <div class="zento-comparison__pair" {{ block.shopify_attributes }}>
+              <div class="zento-comparison__benefit zento-comparison__benefit--zento">
+                <div>
+                  <h3>{{ block.settings.zento_heading | escape }}</h3>
+                  <p>{{ block.settings.zento_text }}</p>
+                </div>
+                <span class="zento-comparison__check" aria-hidden="true">✓</span>
+              </div>
+
+              <div class="zento-comparison__benefit zento-comparison__benefit--classic">
+                <span class="zento-comparison__cross" aria-hidden="true">×</span>
+                <div>
+                  <h3>{{ block.settings.classic_heading | escape }}</h3>
+                  <p>{{ block.settings.classic_text }}</p>
+                </div>
+              </div>
+            </div>
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Zento comparison",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow text",
+      "default": "ZENTO VS. KLASSISCHE MILCHPUMPEN"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Weniger Aufwand. Mehr Freiheit im Alltag."
+    },
+    {
+      "type": "richtext",
+      "id": "subtitle",
+      "label": "Subtitle"
+    },
+    {
+      "type": "header",
+      "content": "Product cards"
+    },
+    {
+      "type": "image_picker",
+      "id": "zento_image",
+      "label": "Zento image"
+    },
+    {
+      "type": "text",
+      "id": "zento_name",
+      "label": "Zento name",
+      "default": "Zento One"
+    },
+    {
+      "type": "image_picker",
+      "id": "competitor_image",
+      "label": "Competitor image"
+    },
+    {
+      "type": "text",
+      "id": "competitor_name",
+      "label": "Competitor name",
+      "default": "Klassische Pumpe"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 72
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 72
+    }
+  ],
+  "blocks": [
+    {
+      "type": "comparison_row",
+      "name": "Comparison row",
+      "settings": [
+        {
+          "type": "text",
+          "id": "zento_heading",
+          "label": "Zento heading"
+        },
+        {
+          "type": "richtext",
+          "id": "zento_text",
+          "label": "Zento text"
+        },
+        {
+          "type": "text",
+          "id": "classic_heading",
+          "label": "Competitor heading"
+        },
+        {
+          "type": "richtext",
+          "id": "classic_text",
+          "label": "Competitor text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Zento comparison",
+      "blocks": [
+        { "type": "comparison_row" },
+        { "type": "comparison_row" },
+        { "type": "comparison_row" },
+        { "type": "comparison_row" }
+      ]
+    }
+  ]
+}
+{% endschema %}

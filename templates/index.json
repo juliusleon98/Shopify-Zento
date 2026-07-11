@@ -1,1 +1,170 @@
-{"sections":{"1780665668aa111eb6":{"type":"_blocks","settings":{}},"178066519293ed2304":{"type":"_blocks","blocks":{"ai_gen_block_b745291_Ly8ypr":{"type":"ai_gen_block_b745291","settings":{"background_image":"shopify:\/\/shop_images\/ChatGPT_Image_15._Juni_2026_17_57_05.png","min_height_desktop":600,"min_height_mobile":400,"show_overlay":true,"overlay_color":"#000000","overlay_opacity":30,"content_max_width":1200,"text_max_width":600,"text_alignment":"left","padding_vertical":60,"padding_horizontal":40,"eyebrow_text":"","eyebrow_size":12,"eyebrow_color":"#ffffff","eyebrow_spacing":15,"heading":"Für alles, was zuhause zählt.","heading_size":40,"heading_color":"#2a3b47","heading_spacing":15,"subheading":"Smarte Technik für Komfort und Familie","subheading_size":14,"subheading_color":"#2a3b47","subheading_spacing":30,"button_label":"Jetzt Entdecken","button_link":"","button_font_size":16,"button_padding_vertical":14,"button_padding_horizontal":32,"button_border_radius":36,"button_border_width":2,"button_background":"#b8896b","button_text_color":"#ffffff","button_border_color":"#b8896b","button_hover_background":"#be9982","button_hover_text_color":"#ffffff","button_hover_border_color":"#be9982"},"blocks":{}}},"block_order":["ai_gen_block_b745291_Ly8ypr"],"settings":{}},"featured-collection":{"type":"featured-collection","settings":{"collection":"all","products_to_show":4,"title":"Unsere Bestseller","heading_size":"h2","description":"","show_description":false,"description_style":"body","columns_desktop":4,"enable_desktop_slider":false,"full_width":false,"show_view_all":false,"view_all_style":"solid","color_scheme":"scheme-2","image_ratio":"square","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"quick_add":"none","columns_mobile":"2","swipe_on_mobile":true,"padding_top":56,"padding_bottom":68}},"178066703396371827":{"type":"_blocks","settings":{}},"custom_liquid_zcKqMe":{"type":"custom-liquid","name":"t:sections.custom-liquid.presets.name","settings":{"custom_liquid":"<section class=\"zento-trust-strip\">\n  <div class=\"zento-trust-strip__inner\">\n\n    <div class=\"zento-trust-strip__badge\">\n      Warum Mamas Zento lieben\n    <\/div>\n\n    <div class=\"zento-trust-strip__box\">\n\n      <div class=\"zento-trust-strip__item\">\n        <div class=\"zento-trust-strip__icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n            <path d=\"M12 3L5 6V11C5 15.5 8 19.5 12 21C16 19.5 19 15.5 19 11V6L12 3Z\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\"\/>\n            <path d=\"M9 12L11 14L15 9.5\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\/>\n          <\/svg>\n        <\/div>\n        <div class=\"zento-trust-strip__text\">\n          <strong>30 Tage testen<\/strong>\n          <span>Risikofrei zuhause ausprobieren<\/span>\n        <\/div>\n      <\/div>\n\n      <div class=\"zento-trust-strip__item\">\n        <div class=\"zento-trust-strip__icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n            <path d=\"M3 7H15V17H3V7Z\" stroke=\"currentColor\" stroke-width=\"1.8\"\/>\n            <path d=\"M15 10H19L21 13V17H15V10Z\" stroke=\"currentColor\" stroke-width=\"1.8\"\/>\n            <path d=\"M7 19.5C8.10457 19.5 9 18.6046 9 17.5C9 16.3954 8.10457 15.5 7 15.5C5.89543 15.5 5 16.3954 5 17.5C5 18.6046 5.89543 19.5 7 19.5Z\" stroke=\"currentColor\" stroke-width=\"1.8\"\/>\n            <path d=\"M18 19.5C19.1046 19.5 20 18.6046 20 17.5C20 16.3954 19.1046 15.5 18 15.5C16.8954 15.5 16 16.3954 16 17.5C16 18.6046 16.8954 19.5 18 19.5Z\" stroke=\"currentColor\" stroke-width=\"1.8\"\/>\n          <\/svg>\n        <\/div>\n        <div class=\"zento-trust-strip__text\">\n          <strong>Kostenloser Versand<\/strong>\n          <span>Schnell & sicher geliefert<\/span>\n        <\/div>\n      <\/div>\n\n      <div class=\"zento-trust-strip__item\">\n        <div class=\"zento-trust-strip__icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n            <path d=\"M12 21C12 21 5 16.5 5 10.5C5 7.5 7 5.5 9.6 5.5C11.1 5.5 12 6.4 12 6.4C12 6.4 12.9 5.5 14.4 5.5C17 5.5 19 7.5 19 10.5C19 16.5 12 21 12 21Z\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\"\/>\n          <\/svg>\n        <\/div>\n        <div class=\"zento-trust-strip__text\">\n          <strong>Sanft im Alltag<\/strong>\n          <span>Für moderne Mama-Routinen<\/span>\n        <\/div>\n      <\/div>\n\n      <div class=\"zento-trust-strip__item\">\n        <div class=\"zento-trust-strip__icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n            <path d=\"M12 3.5L14.6 8.8L20.4 9.6L16.2 13.7L17.2 19.5L12 16.8L6.8 19.5L7.8 13.7L3.6 9.6L9.4 8.8L12 3.5Z\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\"\/>\n          <\/svg>\n        <\/div>\n        <div class=\"zento-trust-strip__text\">\n          <strong>4,8\/5 Bewertung<\/strong>\n          <span>Von Mamas empfohlen<\/span>\n        <\/div>\n      <\/div>\n\n    <\/div>\n  <\/div>\n<\/section>\n\n<style>\n  .zento-trust-strip {\n    background: transparent !important;\n    padding: 24px 20px 10px;\n  }\n\n  .zento-trust-strip__inner {\n    max-width: 1240px;\n    margin: 0 auto;\n  }\n\n  .zento-trust-strip__badge {\n    width: fit-content;\n    margin: 0 auto 14px;\n    padding: 8px 14px;\n    border-radius: 999px;\n    background: #fff8ef;\n    color: #b88b66;\n    font-size: 11px;\n    line-height: 1;\n    letter-spacing: 0.14em;\n    font-weight: 800;\n    text-transform: uppercase;\n  }\n\n  .zento-trust-strip__box {\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    background: linear-gradient(180deg, #fbf8f4 0%, #f6f1ea 100%);\n    border: 1px solid rgba(155, 187, 209, 0.24);\n    border-radius: 26px;\n    overflow: hidden;\n    box-shadow: 0 12px 32px rgba(23, 32, 47, 0.045);\n  }\n\n  .zento-trust-strip__item {\n    position: relative;\n    display: flex;\n    align-items: center;\n    gap: 14px;\n    padding: 24px 22px;\n    min-width: 0;\n  }\n\n  .zento-trust-strip__item:not(:last-child)::after {\n    content: \"\";\n    position: absolute;\n    top: 20px;\n    right: 0;\n    width: 1px;\n    height: calc(100% - 40px);\n    background: rgba(23, 32, 47, 0.08);\n  }\n\n  .zento-trust-strip__icon {\n    width: 50px;\n    height: 50px;\n    border-radius: 16px;\n    background: linear-gradient(180deg, #a7c4d9 0%, #92b4cb 100%);\n    color: #ffffff;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    flex-shrink: 0;\n    box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);\n  }\n\n  .zento-trust-strip__icon svg {\n    width: 22px;\n    height: 22px;\n  }\n\n  .zento-trust-strip__text strong {\n    display: block;\n    margin: 0 0 4px;\n    color: #17202f;\n    font-size: 16px;\n    line-height: 1.18;\n    font-weight: 800;\n  }\n\n  .zento-trust-strip__text span {\n    display: block;\n    color: #6f6d68;\n    font-size: 13px;\n    line-height: 1.35;\n    font-weight: 400;\n  }\n\n  @media screen and (max-width: 989px) {\n    .zento-trust-strip {\n      padding: 20px 18px 8px;\n    }\n\n    .zento-trust-strip__box {\n      grid-template-columns: repeat(2, 1fr);\n    }\n\n    .zento-trust-strip__item:nth-child(2)::after {\n      display: none;\n    }\n\n    .zento-trust-strip__item:nth-child(1),\n    .zento-trust-strip__item:nth-child(2) {\n      border-bottom: 1px solid rgba(23, 32, 47, 0.08);\n    }\n\n    .zento-trust-strip__item {\n      padding: 20px 18px;\n    }\n  }\n\n  @media screen and (max-width: 749px) {\n    .zento-trust-strip {\n      padding: 18px 14px 6px;\n    }\n\n    .zento-trust-strip__badge {\n      margin-bottom: 12px;\n      font-size: 10px;\n      letter-spacing: 0.12em;\n      padding: 7px 12px;\n    }\n\n    .zento-trust-strip__box {\n      grid-template-columns: repeat(2, 1fr);\n      border-radius: 20px;\n    }\n\n    .zento-trust-strip__item {\n      gap: 10px;\n      padding: 16px 14px;\n      align-items: flex-start;\n    }\n\n    .zento-trust-strip__item::after {\n      display: none !important;\n    }\n\n    .zento-trust-strip__item:nth-child(1),\n    .zento-trust-strip__item:nth-child(2) {\n      border-bottom: 1px solid rgba(23, 32, 47, 0.08);\n    }\n\n    .zento-trust-strip__item:nth-child(1),\n    .zento-trust-strip__item:nth-child(3) {\n      border-right: 1px solid rgba(23, 32, 47, 0.08);\n    }\n\n    .zento-trust-strip__icon {\n      width: 40px;\n      height: 40px;\n      border-radius: 13px;\n    }\n\n    .zento-trust-strip__icon svg {\n      width: 18px;\n      height: 18px;\n    }\n\n    .zento-trust-strip__text strong {\n      font-size: 13.2px;\n      line-height: 1.15;\n      margin-bottom: 3px;\n    }\n\n    .zento-trust-strip__text span {\n      font-size: 11.3px;\n      line-height: 1.28;\n    }\n  }\n\n  @media screen and (max-width: 430px) {\n    .zento-trust-strip__item {\n      padding: 14px 12px;\n      gap: 9px;\n    }\n\n    .zento-trust-strip__icon {\n      width: 37px;\n      height: 37px;\n      border-radius: 12px;\n    }\n\n    .zento-trust-strip__icon svg {\n      width: 17px;\n      height: 17px;\n    }\n\n    .zento-trust-strip__text strong {\n      font-size: 12.4px;\n    }\n\n    .zento-trust-strip__text span {\n      font-size: 10.8px;\n    }\n  }\n<\/style>","color_scheme":"scheme-1","padding_top":20,"padding_bottom":40}},"image_banner_xbJg6P":{"type":"image-banner","name":"t:sections.image-banner.presets.name","settings":{"image":"shopify:\/\/shop_images\/ChatGPT_Image_15._Juni_2026_18_23_27.png","image_overlay_opacity":0,"image_height":"medium","image_behavior":"none","desktop_content_position":"middle-center","desktop_content_alignment":"center","show_text_box":true,"color_scheme":"","stack_images_on_mobile":true,"mobile_content_alignment":"center","show_text_below":true}},"1780853133e045e530":{"type":"_blocks","settings":{}}},"order":["1780665668aa111eb6","178066519293ed2304","featured-collection","178066703396371827","custom_liquid_zcKqMe","image_banner_xbJg6P","1780853133e045e530"]}
+{
+  "sections": {
+    "1780665668aa111eb6": {
+      "type": "_blocks",
+      "settings": {}
+    },
+    "178066519293ed2304": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_b745291_Ly8ypr": {
+          "type": "ai_gen_block_b745291",
+          "settings": {
+            "background_image": "shopify://shop_images/ChatGPT_Image_15._Juni_2026_17_57_05.png",
+            "min_height_desktop": 600,
+            "min_height_mobile": 400,
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "content_max_width": 1200,
+            "text_max_width": 600,
+            "text_alignment": "left",
+            "padding_vertical": 60,
+            "padding_horizontal": 40,
+            "eyebrow_text": "",
+            "eyebrow_size": 12,
+            "eyebrow_color": "#ffffff",
+            "eyebrow_spacing": 15,
+            "heading": "Für alles, was zuhause zählt.",
+            "heading_size": 40,
+            "heading_color": "#2a3b47",
+            "heading_spacing": 15,
+            "subheading": "Smarte Technik für Komfort und Familie",
+            "subheading_size": 14,
+            "subheading_color": "#2a3b47",
+            "subheading_spacing": 30,
+            "button_label": "Jetzt Entdecken",
+            "button_link": "",
+            "button_font_size": 16,
+            "button_padding_vertical": 14,
+            "button_padding_horizontal": 32,
+            "button_border_radius": 36,
+            "button_border_width": 2,
+            "button_background": "#b8896b",
+            "button_text_color": "#ffffff",
+            "button_border_color": "#b8896b",
+            "button_hover_background": "#be9982",
+            "button_hover_text_color": "#ffffff",
+            "button_hover_border_color": "#be9982"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_b745291_Ly8ypr"
+      ],
+      "settings": {}
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all",
+        "products_to_show": 4,
+        "title": "Unsere Bestseller",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-2",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 56,
+        "padding_bottom": 68
+      }
+    },
+    "178066703396371827": {
+      "type": "_blocks",
+      "settings": {}
+    },
+    "image_banner_xbJg6P": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/ChatGPT_Image_15._Juni_2026_18_23_27.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "1780853133e045e530": {
+      "type": "_blocks",
+      "settings": {}
+    },
+    "zento_trust_strip": {
+      "type": "zento-trust-strip",
+      "blocks": {
+        "item_1": {
+          "type": "item",
+          "settings": {
+            "icon": "return",
+            "heading": "30 Tage testen",
+            "text": "Risikofrei zuhause ausprobieren"
+          }
+        },
+        "item_2": {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "heading": "Kostenloser Versand",
+            "text": "Schnell & sicher geliefert"
+          }
+        },
+        "item_3": {
+          "type": "item",
+          "settings": {
+            "icon": "heart",
+            "heading": "Sanft im Alltag",
+            "text": "Für moderne Mama-Routinen"
+          }
+        },
+        "item_4": {
+          "type": "item",
+          "settings": {
+            "icon": "star",
+            "heading": "4,8/5 Bewertung",
+            "text": "Von Mamas empfohlen"
+          }
+        }
+      },
+      "block_order": [
+        "item_1",
+        "item_2",
+        "item_3",
+        "item_4"
+      ],
+      "settings": {
+        "badge_text": "Warum Mamas Zento lieben",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "1780665668aa111eb6",
+    "178066519293ed2304",
+    "featured-collection",
+    "178066703396371827",
+    "zento_trust_strip",
+    "image_banner_xbJg6P",
+    "1780853133e045e530"
+  ]
+}
