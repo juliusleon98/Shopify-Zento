@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -57,7 +66,7 @@
         "buy_buttons_jQVaAp": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
         },
@@ -336,7 +345,7 @@
         "highlight_1": {
           "type": "highlight_review",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_43_05.png",
+            "image": "shopify://shop_images/Review_1_Zento_One.png",
             "rating": 5,
             "heading": "Endlich etwas Entlastung",
             "quote": "<p>„Ich wollte weiter Muttermilch geben, aber nicht ständig komplett gebunden sein. Mit Zento kann mein Partner abends auch mal übernehmen.“</p>",
@@ -347,7 +356,7 @@
         "highlight_2": {
           "type": "highlight_review",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_57.png",
+            "image": "shopify://shop_images/Review_2_Zento_One.png",
             "rating": 5,
             "heading": "Praktisch für unterwegs",
             "quote": "<p>„Ich finde es super praktisch, dass ich nicht an Kabel oder Steckdose gebunden bin. Besonders morgens oder unterwegs ist es viel angenehmer.“</p>",
@@ -358,7 +367,7 @@
         "highlight_3": {
           "type": "highlight_review",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_50.png",
+            "image": "shopify://shop_images/Review_3_Zento_One.png",
             "rating": 5,
             "heading": "Mehr Ruhe im Alltag",
             "quote": "<p>„Für mich war wichtig, einen kleinen Vorrat aufzubauen. Die Anwendung ist einfach und fühlt sich deutlich unkomplizierter an.“</p>",
