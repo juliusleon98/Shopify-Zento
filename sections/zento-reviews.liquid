@@ -20,7 +20,7 @@
   }
 {%- endstyle -%}
 
-<div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+<div id="zento-reviews-anchor" class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   <div class="zento-reviews page-width">
     <div class="zento-reviews__inner">
       <div class="zento-reviews__top">
@@ -41,9 +41,11 @@
         </div>
 
         {%- if section.settings.button_label != blank -%}
-          <a href="#zento-review-form-{{ section.id }}" class="zento-reviews__button">
-            {{ section.settings.button_label | escape }}
-          </a>
+          <modal-opener data-modal="#ZentoReviewModal-{{ section.id }}">
+            <button type="button" class="zento-reviews__button" aria-haspopup="dialog">
+              {{ section.settings.button_label | escape }}
+            </button>
+          </modal-opener>
         {%- endif -%}
       </div>
 
@@ -105,20 +107,36 @@
         </div>
       {%- endif -%}
 
-      <div class="zento-reviews-form" id="zento-review-form-{{ section.id }}">
-        <div class="zento-reviews-form__header">
-          {%- if section.settings.form_eyebrow != blank -%}
-            <p class="zento-reviews__eyebrow">{{ section.settings.form_eyebrow | escape }}</p>
-          {%- endif -%}
-          {%- if section.settings.form_heading != blank -%}
-            <h2>{{ section.settings.form_heading | escape }}</h2>
-          {%- endif -%}
-          {%- if section.settings.form_text != blank -%}
-            <p>{{ section.settings.form_text }}</p>
-          {%- endif -%}
-        </div>
+      <modal-dialog id="ZentoReviewModal-{{ section.id }}" class="zento-reviews-modal">
+        <div
+          role="dialog"
+          aria-label="{{ section.settings.form_heading | escape }}"
+          aria-modal="true"
+          class="zento-reviews-modal__content"
+          tabindex="-1"
+        >
+          <button
+            id="ModalClose-{{ section.id }}"
+            type="button"
+            class="zento-reviews-modal__close"
+            aria-label="{{ 'accessibility.close' | t }}"
+          >
+            {{- 'icon-close.svg' | inline_asset_content -}}
+          </button>
+          <div class="zento-reviews-form">
+            <div class="zento-reviews-form__header">
+              {%- if section.settings.form_eyebrow != blank -%}
+                <p class="zento-reviews__eyebrow">{{ section.settings.form_eyebrow | escape }}</p>
+              {%- endif -%}
+              {%- if section.settings.form_heading != blank -%}
+                <h2>{{ section.settings.form_heading | escape }}</h2>
+              {%- endif -%}
+              {%- if section.settings.form_text != blank -%}
+                <p>{{ section.settings.form_text }}</p>
+              {%- endif -%}
+            </div>
 
-        {% form 'contact' %}
+            {% form 'contact' %}
           {% if form.posted_successfully? %}
             <div class="zento-reviews-form__success">
               {{ section.settings.form_success_text | escape }}
@@ -172,8 +190,10 @@
           <button type="submit" class="zento-reviews-form__button">
             {{ section.settings.form_submit_label | escape }}
           </button>
-        {% endform %}
-      </div>
+            {% endform %}
+          </div>
+        </div>
+      </modal-dialog>
     </div>
   </div>
 </div>

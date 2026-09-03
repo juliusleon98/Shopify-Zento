@@ -299,24 +299,18 @@
   }
 
   .zento-problem-images__grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    overflow-x: visible;
     gap: 12px;
-    margin-right: 0;
-    padding-bottom: 0;
-    scroll-snap-type: none;
+    margin-right: -4px;
   }
 
   .zento-problem-images__card {
-    flex: none;
-    min-height: 260px;
+    flex: 0 0 84%;
+    min-height: 350px;
     border-radius: 22px;
-    scroll-snap-align: none;
   }
 
   .zento-problem-images__card img {
-    min-height: 260px;
+    min-height: 350px;
   }
 
   .zento-problem-images__overlay {
@@ -547,7 +541,13 @@
   align-items: center;
   gap: 8px;
   margin: 0 0 22px 0;
-  width: 100%;
+  width: fit-content;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.zento-rating-bar:hover .zento-rating-bar__text {
+  text-decoration: underline;
 }
 
 .zento-rating-bar__stars {
@@ -1151,6 +1151,79 @@
   color: #17202f;
   font-size: 15px;
   line-height: 1.55;
+}
+
+/* Review form modal */
+.zento-reviews-modal {
+  box-sizing: border-box;
+  opacity: 0;
+  position: fixed;
+  visibility: hidden;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(23, 32, 47, 0.45);
+}
+
+.zento-reviews-modal[open] {
+  opacity: 1;
+  visibility: visible;
+  z-index: 101;
+}
+
+.zento-reviews-modal__content {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 4rem auto;
+  width: 92%;
+  max-width: 640px;
+  max-height: 85vh;
+  overflow: auto;
+  border-radius: 24px;
+  background: #ffffff;
+  padding: 2rem 1.6rem 1.6rem;
+}
+
+@media screen and (min-width: 750px) {
+  .zento-reviews-modal__content {
+    margin: 7rem auto;
+    padding: 2.4rem;
+  }
+}
+
+.zento-reviews-modal__close {
+  position: sticky;
+  top: 0;
+  float: right;
+  margin: -0.6rem -0.6rem 0.6rem 0;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(23, 32, 47, 0.1);
+  border-radius: 50%;
+  width: 3.6rem;
+  height: 3.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #17202f;
+}
+
+.zento-reviews-modal__close svg {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.zento-reviews-modal__content .zento-reviews-form {
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  background: none;
+  clear: both;
 }
 
 .zento-reviews-form {

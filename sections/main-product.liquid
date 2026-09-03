@@ -212,13 +212,13 @@
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
               {%- when 'rating_bar' -%}
-                <div class="zento-rating-bar" {{ block.shopify_attributes }}>
+                <a href="#zento-reviews-anchor" class="zento-rating-bar" {{ block.shopify_attributes }}>
                   <span class="zento-rating-bar__stars" aria-hidden="true">★★★★★</span>
                   <span class="zento-rating-bar__text">
                     <strong>{{ block.settings.rating_value }}</strong>
                     {%- if block.settings.review_count_text != blank %} · {{ block.settings.review_count_text }}{% endif -%}
                   </span>
-                </div>
+                </a>
               {%- when 'payment_icons' -%}
                 <div class="zento-payment-icons" {{ block.shopify_attributes }}>
                   {%- if block.settings.payment_icons_label != blank -%}
