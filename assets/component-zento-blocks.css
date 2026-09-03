@@ -5,6 +5,23 @@
   }
 }
 
+/* Payment icons block (main-product) */
+.zento-payment-icons {
+  text-align: center;
+}
+
+.zento-payment-icons__label {
+  margin: 0 0 0.6rem;
+  color: rgba(var(--color-foreground), 0.6);
+  font-size: 1.3rem;
+}
+
+.zento-payment-icons__list.list-payment {
+  justify-content: center;
+  margin: -0.5rem;
+  padding-top: 0;
+}
+
 /* Mobile menu bestsellers grid (snippets/header-drawer.liquid) */
 .menu-drawer__bestsellers {
   padding: 2rem 0 1.5rem;

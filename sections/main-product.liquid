@@ -15,6 +15,7 @@
   {{ 'component-slider.css' | asset_url | stylesheet_tag }}
   {{ 'component-rating.css' | asset_url | stylesheet_tag }}
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+  {{ 'component-list-payment.css' | asset_url | stylesheet_tag }}
   {{ 'component-zento-blocks.css' | asset_url | stylesheet_tag }}
 
   {% unless product.has_only_default_variant %}
@@ -217,6 +218,19 @@
                     <strong>{{ block.settings.rating_value }}</strong>
                     {%- if block.settings.review_count_text != blank %} · {{ block.settings.review_count_text }}{% endif -%}
                   </span>
+                </div>
+              {%- when 'payment_icons' -%}
+                <div class="zento-payment-icons" {{ block.shopify_attributes }}>
+                  {%- if block.settings.payment_icons_label != blank -%}
+                    <p class="zento-payment-icons__label">{{ block.settings.payment_icons_label | escape }}</p>
+                  {%- endif -%}
+                  <ul class="list list-payment zento-payment-icons__list" role="list">
+                    {%- for type in shop.enabled_payment_types -%}
+                      <li class="list-payment__item">
+                        {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
+                      </li>
+                    {%- endfor -%}
+                  </ul>
                 </div>
               {%- when 'collapsible_tab' -%}
                 <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
@@ -986,6 +1000,22 @@
           "id": "review_count_text",
           "label": "Review count text",
           "default": "450+ Mütter vertrauen zento"
+        }
+      ]
+    },
+    {
+      "type": "payment_icons",
+      "name": "Payment icons",
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Shows the payment methods enabled in Settings > Payments, the same way the footer's payment icons work."
+        },
+        {
+          "type": "text",
+          "id": "payment_icons_label",
+          "label": "Label",
+          "default": "Sichere & geschützte Zahlung"
         }
       ]
     },
