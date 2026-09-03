@@ -23,6 +23,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {}
         },
         "icon_with_text_benefits_1": {

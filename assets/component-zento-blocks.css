@@ -147,6 +147,21 @@
   }
 }
 
+@media screen and (min-width: 750px) {
+  .product__info-container .product-form,
+  .product__info-container .icon-with-text {
+    margin: 1.8rem 0;
+  }
+
+  .product__info-container > * + * {
+    margin: 1.3rem 0;
+  }
+
+  .product__info-container .h4 {
+    font-size: 1.35rem;
+  }
+}
+
 /* Product benefit checkmarks (icon-with-text blocks in main-product) */
 .product__info-container .icon-with-text--vertical .svg-wrapper {
   min-width: 1.8rem;
