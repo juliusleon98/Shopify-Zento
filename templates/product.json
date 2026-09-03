@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -19,6 +28,10 @@
         },
         "title": {
           "type": "title",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
           "settings": {}
         },
         "icon_with_text_benefits_1": {
@@ -55,10 +68,6 @@
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
-        },
-        "description": {
-          "type": "description",
-          "settings": {}
         },
         "collapsible_tab_description": {
           "type": "collapsible_tab",
@@ -313,7 +322,7 @@
         "eyebrow": "ZENTO VS. KLASSISCHE MILCHPUMPEN",
         "heading": "Weniger Aufwand. Mehr Freiheit im Alltag.",
         "subtitle": "<p>Klassische Milchpumpen können unpraktisch, laut und einschränkend sein. Zento One wurde entwickelt, damit Abpumpen flexibler, diskreter und alltagstauglicher wird.</p>",
-        "zento_image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_50.png",
+        "zento_image": "shopify://shop_images/Zento_One_3.png",
         "zento_name": "Zento One",
         "competitor_image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_50.png",
         "competitor_name": "Klassische Pumpe",
