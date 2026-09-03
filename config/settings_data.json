@@ -190,11 +190,11 @@
       },
       "scheme-5": {
         "settings": {
-          "background": "#5e3653",
-          "background_gradient": "linear-gradient(320deg, rgba(134, 16, 106, 1), rgba(94, 54, 83, 1) 100%)",
+          "background": "#8FAEC4",
+          "background_gradient": "linear-gradient(320deg, rgba(143, 174, 196, 1), rgba(94, 54, 83, 1) 100%)",
           "text": "#fdfbf7",
           "button": "#fdfbf7",
-          "button_label": "#5e3653",
+          "button_label": "#36555E",
           "secondary_button_label": "#fdfbf7",
           "shadow": "#2e2a39"
         }
