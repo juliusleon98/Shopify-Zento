@@ -10,7 +10,7 @@
     {%- for link in section.settings.menu.links -%}
       {%- liquid
         assign show_mega_menu_products = false
-        if link.handle == section.settings.mega_menu_handle and link.type == 'collection' and link.object != blank
+        if link.type == 'collection_link' and link.object != blank
           assign show_mega_menu_products = true
         endif
       -%}
