@@ -8,8 +8,14 @@
 <nav class="header__inline-menu">
   <ul class="list-menu list-menu--inline" role="list">
     {%- for link in section.settings.menu.links -%}
+      {%- liquid
+        assign show_mega_menu_products = false
+        if link.handle == section.settings.mega_menu_handle and link.type == 'collection' and link.object != blank
+          assign show_mega_menu_products = true
+        endif
+      -%}
       <li>
-        {%- if link.links != blank -%}
+        {%- if link.links != blank or show_mega_menu_products -%}
           <header-menu>
             <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
               <summary
@@ -30,57 +36,33 @@
                 class="mega-menu__content color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup"
                 tabindex="-1"
               >
-                {%- assign show_mega_menu_products = false -%}
-                {%- if link.handle == section.settings.mega_menu_handle -%}
-                  {%- if section.settings.mega_menu_product_1 != blank or section.settings.mega_menu_product_2 != blank -%}
-                    {%- assign show_mega_menu_products = true -%}
-                  {%- endif -%}
-                {%- endif -%}
                 {%- if show_mega_menu_products -%}
                   <ul class="mega-menu__products page-width" role="list">
-                    {%- if section.settings.mega_menu_product_1 != blank -%}
+                    {%- for mega_menu_product in link.object.products limit: section.settings.mega_menu_products_limit -%}
                       <li class="mega-menu__product-item">
                         <a
-                          id="HeaderMenu-{{ link.handle }}-{{ section.settings.mega_menu_product_1.handle }}"
-                          href="{{ section.settings.mega_menu_product_1.url }}"
+                          id="HeaderMenu-{{ link.handle }}-{{ mega_menu_product.handle }}"
+                          href="{{ mega_menu_product.url }}"
                           class="mega-menu__product-link link"
                         >
                           <div class="mega-menu__product-image">
-                            {%- if section.settings.mega_menu_product_1.featured_media -%}
+                            {%- if mega_menu_product.featured_media -%}
                               {{
-                                section.settings.mega_menu_product_1.featured_media
+                                mega_menu_product.featured_media
                                 | image_url: width: 300
-                                | image_tag: loading: 'lazy', widths: '150, 300', alt: section.settings.mega_menu_product_1.featured_media.alt
+                                | image_tag: loading: 'lazy', widths: '150, 300', alt: mega_menu_product.featured_media.alt
                               }}
                             {%- endif -%}
                           </div>
-                          <span class="mega-menu__product-title">{{ section.settings.mega_menu_product_1.title }}</span>
+                          <span class="mega-menu__product-title">{{ mega_menu_product.title }}</span>
                         </a>
                       </li>
-                    {%- endif -%}
-                    {%- if section.settings.mega_menu_product_2 != blank -%}
-                      <li class="mega-menu__product-item">
-                        <a
-                          id="HeaderMenu-{{ link.handle }}-{{ section.settings.mega_menu_product_2.handle }}"
-                          href="{{ section.settings.mega_menu_product_2.url }}"
-                          class="mega-menu__product-link link"
-                        >
-                          <div class="mega-menu__product-image">
-                            {%- if section.settings.mega_menu_product_2.featured_media -%}
-                              {{
-                                section.settings.mega_menu_product_2.featured_media
-                                | image_url: width: 300
-                                | image_tag: loading: 'lazy', widths: '150, 300', alt: section.settings.mega_menu_product_2.featured_media.alt
-                              }}
-                            {%- endif -%}
-                          </div>
-                          <span class="mega-menu__product-title">{{ section.settings.mega_menu_product_2.title }}</span>
-                        </a>
-                      </li>
-                    {%- endif -%}
+                    {%- endfor -%}
                   </ul>
-                {%- endif -%}
-                {%- unless show_mega_menu_products -%}
+                  <a href="{{ link.url }}" class="mega-menu__view-all page-width link">
+                    Alle anzeigen
+                  </a>
+                {%- else -%}
                   <ul
                     class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
                     role="list"
@@ -118,7 +100,7 @@
                       </li>
                     {%- endfor -%}
                   </ul>
-                {%- endunless -%}
+                {%- endif -%}
               </div>
             </details>
           </header-menu>

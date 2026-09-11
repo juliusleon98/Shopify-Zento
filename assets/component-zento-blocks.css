@@ -36,6 +36,12 @@
   font-size: 1.4rem;
 }
 
+.mega-menu__view-all {
+  display: block;
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+
 /* Footer columns side-by-side on mobile instead of full-width stacked */
 @media screen and (max-width: 749px) {
   .footer .grid {
