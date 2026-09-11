@@ -6,9 +6,10 @@
     column-gap: 1.5rem;
   }
 
-  .footer-block.grid__item {
+  .footer-block.grid__item,
+  .footer-block.grid__item:first-child {
     width: calc(50% - 0.75rem) !important;
-    margin: 2rem 0;
+    margin: 0 0 2rem !important;
   }
 
   .footer-block--newsletter.grid__item,
