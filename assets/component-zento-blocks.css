@@ -1,3 +1,22 @@
+/* Footer columns side-by-side on mobile instead of full-width stacked */
+@media screen and (max-width: 749px) {
+  .footer .grid {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1.5rem;
+  }
+
+  .footer-block.grid__item {
+    width: calc(50% - 0.75rem);
+    margin: 2rem 0;
+  }
+
+  .footer-block--newsletter.grid__item,
+  .footer-block.grid__item:only-child {
+    width: 100%;
+  }
+}
+
 /* Smaller mobile gallery thumbnails so more are visible at once */
 @media screen and (max-width: 749px) {
   .product__media-wrapper .thumbnail-list__item.slider__slide {
