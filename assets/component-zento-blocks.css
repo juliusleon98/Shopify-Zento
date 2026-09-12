@@ -1,3 +1,91 @@
+/* Generic page template (sections/page.liquid) - Impressum, Datenschutz,
+   AGB, Barrierefreiheit, and any other page without its own dedicated
+   template all share this styling */
+.zento-page__title {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  padding-bottom: 1.6rem;
+  margin-bottom: 1.6rem;
+  position: relative;
+}
+
+.zento-page__title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 5.6rem;
+  height: 0.3rem;
+  border-radius: 999px;
+  background: #c9966f;
+}
+
+.zento-page__body {
+  max-width: 60rem;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: rgba(var(--color-foreground), 0.85);
+}
+
+.zento-page__body h2,
+.zento-page__body h3 {
+  color: rgb(var(--color-foreground));
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 3.2rem 0 1.2rem;
+}
+
+.zento-page__body h2:first-child,
+.zento-page__body h3:first-child {
+  margin-top: 0;
+}
+
+.zento-page__body h2 {
+  font-size: 2.2rem;
+}
+
+.zento-page__body h3 {
+  font-size: 1.8rem;
+}
+
+.zento-page__body p {
+  margin: 0 0 1.4rem;
+}
+
+.zento-page__body ul,
+.zento-page__body ol {
+  margin: 0 0 1.4rem;
+  padding-left: 2rem;
+}
+
+.zento-page__body li {
+  margin-bottom: 0.6rem;
+}
+
+.zento-page__body a {
+  color: #c9966f;
+  text-decoration: underline;
+}
+
+.zento-page__body strong {
+  color: rgb(var(--color-foreground));
+  font-weight: 700;
+}
+
+@media screen and (max-width: 749px) {
+  .zento-page__body {
+    font-size: 1.5rem;
+  }
+
+  .zento-page__body h2 {
+    font-size: 1.9rem;
+  }
+
+  .zento-page__body h3 {
+    font-size: 1.65rem;
+  }
+}
+
 /* Footer columns side-by-side on mobile instead of full-width stacked */
 @media screen and (max-width: 749px) {
   .footer .grid {
