@@ -31,11 +31,13 @@
           "settings": {
             "layout": "vertical",
             "icon_1": "check_mark",
-            "heading_1": "Kabellos & freihändig – passt in jeden Still-BH",
+            "heading_1": "Minimalistisches Design, nur 230 g leicht",
             "icon_2": "check_mark",
-            "heading_2": "Anpassbare Saugstufen für deinen Komfort",
+            "heading_2": "180 ml Fassungsvermögen, ≤ 43 dB, leiser als ein normales Gespräch",
             "icon_3": "check_mark",
-            "heading_3": "30 Tage risikofrei testen"
+            "heading_3": "Eine Ladung reicht für rund 6 Tage (bei 30 Minuten Pumpen täglich)",
+            "icon_4": "check_mark",
+            "heading_4": "1 Jahr Garantie"
           }
         },
         "price": {
@@ -71,7 +73,7 @@
           "settings": {
             "heading": "Produktbeschreibung",
             "icon": "none",
-            "content": "<p>Die Zento One ist eine tragbare elektrische Milchpumpe für Mütter, die Muttermilch flexibler in ihren Alltag integrieren möchten. Sie sitzt direkt im BH, funktioniert kabellos und unterstützt dich beim Abpumpen zuhause, unterwegs oder in ruhigen Momenten zwischendurch.</p><p>Durch anpassbare Saugstufen kannst du die Intensität Schritt für Schritt auf dein persönliches Wohlbefinden einstellen. Das kompakte Design macht die Anwendung diskreter als bei klassischen Milchpumpen mit Kabeln, Schläuchen oder großen Flaschen.</p>",
+            "content": "<p>Zento One ist eine kabellose, tragbare Milchpumpe, die direkt im BH sitzt, ganz ohne Schläuche oder Kabel, die dich beim Pumpen einschränken. Mit nur 230 g ist sie leicht und lässt sich unkompliziert überallhin mitnehmen. Das minimalistische Design in warmem Creme fügt sich unauffällig in deinen Alltag ein, ob zuhause, im Büro oder unterwegs.</p><p>Mit 4 Modi und 15 Stufen, 60 Einstellungen insgesamt, lässt sich die Pumpe so fein justieren, wie es sich für dich richtig anfühlt: sanfter Massage-Modus, Stimulation, Pump-Modus oder der Biomimetische Modus, der den natürlichen Rhythmus eines nuckelnden Babys nachahmt. Bedient wird alles direkt an der Pumpe, eine App brauchst du nicht.</p><p>Das 180-ml-Fassungsvermögen bietet Platz für mehr Milch pro Sitzung. Eine Akkuladung reicht für rund 180 Minuten, bei täglich 30 Minuten Pumpen also etwa 6 Tage, bevor du wieder ans Ladekabel musst. Mit nur 3 Teilen neben der Haupteinheit sind Reinigung und Bedienung unkompliziert, ein Anti-Rückfluss-Ventil hält Milch vom Motor fern.</p><p>Im Lieferumfang: ein Flanschgrößen-Lineal und mehrere Einsatzgrößen, damit du zuhause selbst prüfen kannst, welche Passform für dich stimmt, plus eine Tragetasche für unterwegs. Zento One kommt mit 1 Jahr Garantie.</p>",
             "page": ""
           }
         },
@@ -119,6 +121,33 @@
             "content": "<p>Du kannst die Zento One 30 Tage testen. Wenn sie dich nicht überzeugt, kannst du sie innerhalb der Rückgabefrist zurücksenden. Die genauen Bedingungen findest du in deiner Rückgaberichtlinie.</p>",
             "page": ""
           }
+        },
+        "collapsible_tab_faq_6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Wie finde ich meine richtige Brusthauben-Größe?",
+            "icon": "none",
+            "content": "<p>Zento One kommt mit 4 Brusthauben-Größen im Set. Miss den Durchmesser deiner Brustwarze in Ruhe (ohne Warzenhof), am besten nach dem Stillen, wenn sie entspannt ist, und wähle danach die passende Größe:</p><table><thead><tr><th>Brusthaube</th><th>Brustwarzen-Durchmesser</th></tr></thead><tbody><tr><td>18 mm</td><td>13 bis 17 mm</td></tr><tr><td>20 mm</td><td>17 bis 19 mm</td></tr><tr><td>22 mm</td><td>19 bis 21 mm</td></tr><tr><td>24 mm</td><td>21 bis 24 mm</td></tr></tbody></table><p>Liegt dein Maß zwischen zwei Größen, empfehlen wir die größere Größe für mehr Komfort. Die Größe kann sich in den ersten Wochen noch ändern, ein erneutes Messen nach der Geburt lohnt sich also.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_faq_7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Sollte ich schon vor der Geburt eine Milchpumpe kaufen?",
+            "icon": "none",
+            "content": "<p>Das kommt auf deine Situation an. Manche Hebammen und Stillberaterinnen empfehlen, mit dem Abpumpen erst zu beginnen, wenn sich das Stillen eingespielt hat, meist nach den ersten Wochen, damit sich die Milchbildung natürlich einspielen kann. Andere Mamas kaufen bewusst vorher, um für den Fall der Fälle vorbereitet zu sein, etwa bei der Rückkehr in den Job oder bei Milchstau. Es gibt hier kein pauschal richtig oder falsch, sprich im Zweifel mit deiner Hebamme oder Stillberaterin, was für dich passt.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_faq_8": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Was ist, wenn die Pumpe kaputt geht?",
+            "icon": "none",
+            "content": "<p>Zento One kommt mit 1 Jahr Garantie. Solltest du innerhalb dieses Zeitraums ein Problem haben, melde dich bei unserem Support, wir kümmern uns um Ersatz oder Reparatur.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -137,7 +166,10 @@
         "collapsible_tab_faq_2",
         "collapsible_tab_faq_3",
         "collapsible_tab_faq_4",
-        "collapsible_tab_faq_5"
+        "collapsible_tab_faq_5",
+        "collapsible_tab_faq_6",
+        "collapsible_tab_faq_7",
+        "collapsible_tab_faq_8"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -162,24 +194,24 @@
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_43_05.png",
-            "heading": "Entlastung im Alltag",
-            "text": "Damit nicht immer alles an dir hängt."
+            "heading": "Sanft eingestellt",
+            "text": "60 Einstellungen in 4 Modi, damit sich Pumpen nie nach Zwang anfühlt."
           }
         },
         "card_2": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_57.png",
-            "heading": "Flexibel unterwegs",
-            "text": "Für Termine, Reisen oder kleine Pausen."
+            "heading": "Diskret im Job",
+            "text": "Kabellos und unter 43 dB, pumpt neben dir her, ohne aufzufallen, auch nicht unterm Blazer."
           }
         },
         "card_3": {
           "type": "card",
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_50.png",
-            "heading": "Mehr Sicherheit",
-            "text": "Ein kleiner Vorrat gibt dir mehr Ruhe."
+            "heading": "Für jede Passform",
+            "text": "4 Brusthauben-Größen im Set, mit Messanleitung, damit du die richtige findest."
           }
         }
       },
