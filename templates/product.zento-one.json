@@ -33,9 +33,9 @@
             "icon_1": "check_mark",
             "heading_1": "Minimalistisches Design, nur 230 g leicht",
             "icon_2": "check_mark",
-            "heading_2": "180 ml Fassungsvermögen, ≤ 43 dB, leiser als ein normales Gespräch",
+            "heading_2": "180 ml Fassungsvermögen, ≤ 43 dB leise",
             "icon_3": "check_mark",
-            "heading_3": "Eine Ladung reicht für rund 6 Tage (bei 30 Minuten Pumpen täglich)",
+            "heading_3": "3 Stunden Akkulaufzeit für 6 Tage Pumpen",
             "icon_4": "check_mark",
             "heading_4": "1 Jahr Garantie"
           }
@@ -104,15 +104,6 @@
             "page": ""
           }
         },
-        "collapsible_tab_faq_4": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Wie reinige ich die Zento One?",
-            "icon": "none",
-            "content": "<p>Die abnehmbaren Teile können nach dem Abpumpen gereinigt werden. Bitte achte darauf, nur die dafür vorgesehenen Teile mit Wasser zu reinigen und die elektrische Motoreinheit trocken zu halten.</p>",
-            "page": ""
-          }
-        },
         "collapsible_tab_faq_5": {
           "type": "collapsible_tab",
           "settings": {
@@ -165,7 +156,6 @@
         "collapsible_tab_faq_1",
         "collapsible_tab_faq_2",
         "collapsible_tab_faq_3",
-        "collapsible_tab_faq_4",
         "collapsible_tab_faq_5",
         "collapsible_tab_faq_6",
         "collapsible_tab_faq_7",

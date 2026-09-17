@@ -271,10 +271,17 @@
 }
 
 /* Product benefit checkmarks (icon-with-text blocks in main-product) */
+.product__info-container .icon-with-text--vertical .icon-with-text__item {
+  align-items: flex-start;
+}
+
 .product__info-container .icon-with-text--vertical .svg-wrapper {
   min-width: 1.8rem;
   min-height: 1.8rem;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .product__info-container .icon-with-text--vertical .svg-wrapper > svg {
