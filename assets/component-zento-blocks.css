@@ -1763,3 +1763,21 @@
     font-size: 10.8px;
   }
 }
+
+/* Disable the pinch/click-to-zoom product image lightbox on mobile only */
+@media screen and (max-width: 749px) {
+  .product__media-wrapper .product__media-icon {
+    display: none !important;
+  }
+
+  .product__media-wrapper .product__media-toggle {
+    pointer-events: none !important;
+  }
+}
+
+/* Hide the redundant slide counter/arrows under the homepage bestseller carousel on mobile — swiping already works */
+@media screen and (max-width: 749px) {
+  #shopify-section-featured-collection .slider-buttons {
+    display: none !important;
+  }
+}
