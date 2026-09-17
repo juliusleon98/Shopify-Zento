@@ -104,15 +104,6 @@
             "page": ""
           }
         },
-        "collapsible_tab_faq_5": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Gibt es eine Geld-zurück-Garantie?",
-            "icon": "none",
-            "content": "<p>Du kannst die Zento One 30 Tage testen. Wenn sie dich nicht überzeugt, kannst du sie innerhalb der Rückgabefrist zurücksenden. Die genauen Bedingungen findest du in deiner Rückgaberichtlinie.</p>",
-            "page": ""
-          }
-        },
         "collapsible_tab_faq_6": {
           "type": "collapsible_tab",
           "settings": {
@@ -156,7 +147,6 @@
         "collapsible_tab_faq_1",
         "collapsible_tab_faq_2",
         "collapsible_tab_faq_3",
-        "collapsible_tab_faq_5",
         "collapsible_tab_faq_6",
         "collapsible_tab_faq_7",
         "collapsible_tab_faq_8"
