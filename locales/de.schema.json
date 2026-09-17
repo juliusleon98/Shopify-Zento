@@ -1946,6 +1946,16 @@
               "label": "Überschrift",
               "default": "Titel"
             },
+            "icon_4": {
+              "label": "Symbol"
+            },
+            "image_4": {
+              "label": "Bild"
+            },
+            "heading_4": {
+              "label": "Überschrift",
+              "default": "Titel"
+            },
             "pairing_1": {
               "label": "Kombination 1",
               "info": "Wähle für jede Kombination ein Symbol oder ein Bild aus"
@@ -1955,6 +1965,9 @@
             },
             "pairing_3": {
               "label": "Kombination 3"
+            },
+            "pairing_4": {
+              "label": "Kombination 4"
             }
           }
         },
