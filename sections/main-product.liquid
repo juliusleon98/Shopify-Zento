@@ -500,6 +500,15 @@
 
               {%- when 'variant_picker' -%}
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
+                {%- assign zento_has_bundle = false -%}
+                {%- for value in product.options_with_values.first.values -%}
+                  {%- if value contains 'Doppelt' -%}
+                    {%- assign zento_has_bundle = true -%}
+                  {%- endif -%}
+                {%- endfor -%}
+                {%- if zento_has_bundle -%}
+                  <p class="zento-bundle-note">🎁 Bei „Doppelt" inklusive: gratis Tasche</p>
+                {%- endif -%}
               {%- when 'buy_buttons' -%}
                 {%- render 'buy-buttons',
                   block: block,

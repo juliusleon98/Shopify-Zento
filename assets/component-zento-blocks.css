@@ -270,6 +270,66 @@
   }
 }
 
+/* Tax caption: smaller and tucked right under the price, not spaced like a full block */
+.product__info-container > .product__tax {
+  margin-top: 0.3rem !important;
+  margin-bottom: 0 !important;
+  font-size: 1.1rem;
+  opacity: 0.65;
+}
+
+/* Hide the redundant "Variante" legend above the pill buttons */
+.product-form__input--pill .form__label {
+  display: none;
+}
+
+/* Variant pills as small cards: name + price + savings badge per option */
+.product__info-container .product-form__input--pill input[type='radio'] + label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 1.2rem 1.8rem;
+  min-width: 10rem;
+}
+
+.product__info-container .variant-option__name {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.product__info-container .variant-option__price {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.product__info-container .product-form__input--pill input[type='radio']:checked + label .variant-option__price {
+  opacity: 0.9;
+}
+
+.product__info-container .variant-option__badge {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  background: #c9966f;
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+/* Bundle bonus note under the variant picker */
+.zento-bundle-note {
+  margin-top: 0.8rem;
+  font-size: 1.3rem;
+  color: #c9966f;
+  font-weight: 600;
+}
+
 /* Product benefit checkmarks (icon-with-text blocks in main-product) */
 .product__info-container .icon-with-text--vertical .icon-with-text__item {
   align-items: flex-start;

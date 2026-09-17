@@ -95,7 +95,21 @@
       {{ input_dataset }}
     >
     <label for="{{ input_id }}">
-      {{ value -}}
+      <span class="variant-option__name">{{ value -}}</span>
+      {%- if value.variant and value.variant.price -%}
+        <span class="variant-option__price">
+          {{- value.variant.price | money -}}
+          {%- if value.variant.compare_at_price > value.variant.price -%}
+            <span class="variant-option__badge">
+              -{{ value.variant.compare_at_price
+                | minus: value.variant.price
+                | times: 100.0
+                | divided_by: value.variant.compare_at_price
+                | round -}}%
+            </span>
+          {%- endif -%}
+        </span>
+      {%- endif -%}
       {{ label_unavailable }}
     </label>
   {%- elsif picker_type == 'dropdown' or picker_type == 'swatch_dropdown' -%}
