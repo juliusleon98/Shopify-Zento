@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -380,17 +389,6 @@
             "text": "<p>Seit dem ersten Einsatz nutze ich Zento regelmäßig. Besonders nachts ist es schön, wenn mein Partner auch mal füttern kann.</p>"
           }
         },
-        "feed_2": {
-          "type": "feed_review",
-          "settings": {
-            "author_name": "Miriam S.",
-            "date_text": "08.06.2026 · Verifizierte Kundin",
-            "rating": 5,
-            "heading": "Viel angenehmer als erwartet",
-            "text": "<p>Ich war am Anfang unsicher, aber die Pumpe ist leicht einzusetzen und im Alltag deutlich praktischer als meine alte Pumpe mit Schläuchen.</p>",
-            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_50.png"
-          }
-        },
         "feed_3": {
           "type": "feed_review",
           "settings": {
@@ -417,7 +415,6 @@
         "highlight_2",
         "highlight_3",
         "feed_1",
-        "feed_2",
         "feed_3",
         "feed_4"
       ],
