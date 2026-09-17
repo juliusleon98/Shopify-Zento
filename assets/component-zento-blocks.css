@@ -272,7 +272,7 @@
 
 /* Tax caption: smaller and tucked right under the price, not spaced like a full block */
 .product__info-container > .product__tax {
-  margin-top: 0.3rem !important;
+  margin-top: -0.4rem !important;
   margin-bottom: 0 !important;
   font-size: 1.1rem;
   opacity: 0.65;
@@ -315,11 +315,33 @@
   display: inline-block;
   padding: 0.15rem 0.6rem;
   border-radius: 999px;
-  background: #c9966f;
+  background: #b8896b;
   color: #fff;
   font-size: 1.05rem;
   font-weight: 700;
   letter-spacing: 0.02em;
+}
+
+/* Selected variant pill: brand light blue instead of solid black */
+.product__info-container .product-form__input--pill input[type='radio'] + label {
+  border: 0.15rem solid rgba(23, 32, 47, 0.16);
+}
+
+.product__info-container .product-form__input--pill input[type='radio']:hover + label {
+  border-color: rgba(23, 32, 47, 0.32);
+}
+
+.product__info-container .product-form__input--pill input[type='radio']:checked + label {
+  background-color: #8faec4;
+  border-color: #8faec4;
+  color: #ffffff;
+}
+
+/* Sale badge: warm tan instead of light blue, so it doesn't clash with the selected variant pill */
+.product__info-container .price__badge-sale {
+  background-color: #b8896b;
+  border-color: #b8896b;
+  color: #ffffff;
 }
 
 /* Bundle bonus note under the variant picker */
