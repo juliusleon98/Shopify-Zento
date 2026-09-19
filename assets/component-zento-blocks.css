@@ -1870,3 +1870,18 @@
     display: none !important;
   }
 }
+
+/* Accordion answer text should read smaller than its question, not larger */
+.product__accordion .accordion__content {
+  font-size: 1.05rem;
+}
+
+@media screen and (min-width: 750px) {
+  .product__accordion .accordion__content {
+    font-size: 1.2rem;
+  }
+}
+
+.collapsible-content .accordion__content {
+  font-size: 1.4rem;
+}
