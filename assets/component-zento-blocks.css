@@ -1882,6 +1882,47 @@
   }
 }
 
-.collapsible-content .accordion__content {
-  font-size: 1.4rem;
+/* "Alles über elektrische Milchpumpen" FAQ section: card rows, proportional sizing */
+#shopify-section-collapsible_content_faq .collapsible-content__heading {
+  font-size: clamp(1.9rem, 4.5vw, 2.3rem) !important;
+}
+
+#shopify-section-collapsible_content_faq .accordion {
+  border: none;
+  background: #faf6f1;
+  border-radius: 16px;
+  margin-top: 1rem;
+  padding: 0 1.4rem;
+}
+
+#shopify-section-collapsible_content_faq .accordion:first-of-type {
+  margin-top: 2rem;
+}
+
+#shopify-section-collapsible_content_faq .accordion + .accordion {
+  margin-top: 1rem;
+  border-top: none;
+}
+
+#shopify-section-collapsible_content_faq .accordion summary {
+  padding: 1.3rem 0;
+}
+
+#shopify-section-collapsible_content_faq .accordion__title {
+  font-size: 1.2rem;
+}
+
+#shopify-section-collapsible_content_faq .accordion__content {
+  font-size: 1.1rem;
+  padding: 0 0 1.3rem;
+}
+
+@media screen and (min-width: 750px) {
+  #shopify-section-collapsible_content_faq .accordion__title {
+    font-size: 1.35rem;
+  }
+
+  #shopify-section-collapsible_content_faq .accordion__content {
+    font-size: 1.25rem;
+  }
 }
