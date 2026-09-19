@@ -1892,7 +1892,8 @@
   background: #ffffff;
   border-radius: 16px;
   margin-top: 1rem;
-  padding: 0 1.4rem;
+  padding: 0;
+  overflow: hidden;
 }
 
 [id$="__collapsible_content_faq"] .accordion:first-of-type {
@@ -1905,7 +1906,12 @@
 }
 
 [id$="__collapsible_content_faq"] .accordion summary {
-  padding: 1.3rem 0;
+  padding: 1.3rem 1.4rem;
+  background: transparent;
+}
+
+[id$="__collapsible_content_faq"] .accordion:hover summary {
+  background: rgba(23, 32, 47, 0.05);
 }
 
 [id$="__collapsible_content_faq"] .accordion summary:hover .accordion__title {
@@ -1918,7 +1924,7 @@
 
 [id$="__collapsible_content_faq"] .accordion__content {
   font-size: 1.1rem;
-  padding: 0 0 1.3rem;
+  padding: 0 1.4rem 1.3rem;
 }
 
 @media screen and (min-width: 750px) {
