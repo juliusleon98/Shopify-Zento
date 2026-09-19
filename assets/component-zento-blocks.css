@@ -1866,7 +1866,7 @@
 
 /* Hide the redundant slide counter/arrows under the homepage bestseller carousel on mobile — swiping already works */
 @media screen and (max-width: 749px) {
-  #shopify-section-featured-collection .slider-buttons {
+  [id$="__featured-collection"] .slider-buttons {
     display: none !important;
   }
 }
@@ -1883,46 +1883,50 @@
 }
 
 /* "Alles über elektrische Milchpumpen" FAQ section: card rows, proportional sizing */
-#shopify-section-collapsible_content_faq .collapsible-content__heading {
+[id$="__collapsible_content_faq"] .collapsible-content__heading {
   font-size: clamp(1.9rem, 4.5vw, 2.3rem) !important;
 }
 
-#shopify-section-collapsible_content_faq .accordion {
+[id$="__collapsible_content_faq"] .accordion {
   border: none;
-  background: #faf6f1;
+  background: #ffffff;
   border-radius: 16px;
   margin-top: 1rem;
   padding: 0 1.4rem;
 }
 
-#shopify-section-collapsible_content_faq .accordion:first-of-type {
-  margin-top: 2rem;
+[id$="__collapsible_content_faq"] .accordion:first-of-type {
+  margin-top: 1.2rem;
 }
 
-#shopify-section-collapsible_content_faq .accordion + .accordion {
+[id$="__collapsible_content_faq"] .accordion + .accordion {
   margin-top: 1rem;
   border-top: none;
 }
 
-#shopify-section-collapsible_content_faq .accordion summary {
+[id$="__collapsible_content_faq"] .accordion summary {
   padding: 1.3rem 0;
 }
 
-#shopify-section-collapsible_content_faq .accordion__title {
+[id$="__collapsible_content_faq"] .accordion summary:hover .accordion__title {
+  text-decoration: none;
+}
+
+[id$="__collapsible_content_faq"] .accordion__title {
   font-size: 1.2rem;
 }
 
-#shopify-section-collapsible_content_faq .accordion__content {
+[id$="__collapsible_content_faq"] .accordion__content {
   font-size: 1.1rem;
   padding: 0 0 1.3rem;
 }
 
 @media screen and (min-width: 750px) {
-  #shopify-section-collapsible_content_faq .accordion__title {
+  [id$="__collapsible_content_faq"] .accordion__title {
     font-size: 1.35rem;
   }
 
-  #shopify-section-collapsible_content_faq .accordion__content {
+  [id$="__collapsible_content_faq"] .accordion__content {
     font-size: 1.25rem;
   }
 }

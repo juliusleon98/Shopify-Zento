@@ -509,11 +509,11 @@
         "heading_alignment": "center",
         "layout": "none",
         "container_color_scheme": "scheme-2",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 40,
+        "padding_top": 32,
         "padding_bottom": 52
       }
     }
