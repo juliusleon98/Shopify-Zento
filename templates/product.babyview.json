@@ -1,0 +1,449 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "FÜR RUHIGE NÄCHTE UND EIN GUTES GEFÜHL",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "icon_with_text_benefits_1": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "check_mark",
+            "heading_1": "5-Zoll-HD-Display mit 720p-Kamera & Infrarot-Nachtsicht",
+            "icon_2": "check_mark",
+            "heading_2": "Bis zu 300 m Reichweite über sichere 2,4-GHz-FHSS-Funktechnik – kein WLAN-Hack-Risiko",
+            "icon_3": "check_mark",
+            "heading_3": "11 Kernfunktionen: Cry-Detection, VOX, Stillerinnerung u.v.m.",
+            "icon_4": "check_mark",
+            "heading_4": "1 Jahr Garantie"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_jQVaAp": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "payment_icons": {
+          "type": "payment_icons",
+          "settings": {
+            "payment_icons_label": "Sichere & geschützte Zahlung"
+          }
+        },
+        "collapsible_tab_description": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Produktbeschreibung",
+            "icon": "none",
+            "content": "<p>Der Zento View Pro ist ein Video-Babyphone, das auf verschlüsselte 2,4-GHz-FHSS-Funktechnik statt auf WLAN setzt – die Verbindung läuft direkt zwischen Kamera und Elterneinheit, unabhängig von deinem Heimnetz und ohne das Risiko gehackter Kamera-Apps. Mit bis zu 300 m Reichweite im offenen Feld bleibt ihr auch im Garten oder in einer größeren Wohnung verbunden.</p><p>Die 720p-HD-Kamera mit automatischer Infrarot-Nachtsicht zeigt dir dein Baby auch im Dunkeln zuverlässig, während das 5 Zoll große Display auf der Elterneinheit ein klares, ruhiges Bild liefert. Dank PTZ-Fernsteuerung (Schwenken, Neigen, Zoom) behältst du auch aus der Ferne den vollen Überblick über das Zimmer, und optional könnt ihr eine zweite Kamera fürs Geschwisterkind ergänzen.</p><p>Zu den 11 Kernfunktionen zählen automatische Rotation, Zwei-Wege-Audio, Temperaturerkennung, 8 Schlaflieder, Lautstärkeregelung, Stillerinnerung, VOX-Geräuschaktivierung und Schrei-Erkennung – alles Funktionen, die euch das nächtliche Aufwachen erleichtern, statt euch mit unnötigem Technik-Schnickschnack zu überfordern. Das Design ist EU-designpatentiert.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_faq_1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Für wen eignet sich der Zento View Pro?",
+            "icon": "none",
+            "content": "<p>Für Eltern, die ihr Baby zuverlässig sehen und hören möchten – ohne Sorge um WLAN-Sicherheit, Verbindungsabbrüche oder unrealistische Reichweitenangaben.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_faq_2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Wie funktioniert das Babyphone?",
+            "icon": "none",
+            "content": "<p>Kamera im Babyzimmer platzieren, Elterneinheit mitnehmen – die Verbindung wird automatisch über die sichere 2,4-GHz-FHSS-Funkverbindung aufgebaut, ganz ohne App oder WLAN-Setup.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_faq_3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Funktioniert der View Pro auch in einer größeren Wohnung oder im Garten?",
+            "icon": "none",
+            "content": "<p>Ja, im offenen Feld sind bis zu 300 m Reichweite möglich. In Innenräumen mit mehreren Wänden reduziert sich die tatsächliche Reichweite, wie bei jedem Funk-Babyphone – die Elterneinheit zeigt dir Verbindungsqualität und Akkustand jederzeit an.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_faq_4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Was ist, wenn das Gerät kaputt geht?",
+            "icon": "none",
+            "content": "<p>Der Zento View Pro kommt mit 1 Jahr Garantie. Bei Problemen innerhalb dieses Zeitraums kümmert sich unser Support um Ersatz oder Reparatur.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "description",
+        "icon_with_text_benefits_1",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons_jQVaAp",
+        "payment_icons",
+        "collapsible_tab_description",
+        "collapsible_tab_faq_1",
+        "collapsible_tab_faq_2",
+        "collapsible_tab_faq_3",
+        "collapsible_tab_faq_4"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail",
+        "mobile_thumbnails": "show",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "zento_problem_images": {
+      "type": "zento-problem-images",
+      "blocks": {
+        "card_1": {
+          "type": "card",
+          "settings": {
+            "image": "",
+            "heading": "Sicher statt anfällig",
+            "text": "Verschlüsselte 2,4-GHz-FHSS-Direktverbindung statt WLAN – kein Zugriff von außen möglich."
+          }
+        },
+        "card_2": {
+          "type": "card",
+          "settings": {
+            "image": "",
+            "heading": "Verlässlich auch bei Nacht",
+            "text": "720p-Kamera mit automatischer Infrarot-Nachtsicht für ein klares Bild rund um die Uhr."
+          }
+        },
+        "card_3": {
+          "type": "card",
+          "settings": {
+            "image": "",
+            "heading": "Mehr als nur Bild",
+            "text": "11 Kernfunktionen wie Cry-Detection, VOX und Stillerinnerung, statt Technik-Spielerei ohne Nutzen."
+          }
+        }
+      },
+      "block_order": [
+        "card_1",
+        "card_2",
+        "card_3"
+      ],
+      "settings": {
+        "eyebrow": "WARUM EIN BABYPHONE OHNE WLAN?",
+        "heading": "Damit ihr euer Baby seht, ohne euch um WLAN-Sicherheit zu sorgen.",
+        "color_scheme": "scheme-2",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "zento_comparison": {
+      "type": "zento-comparison",
+      "blocks": {
+        "comparison_row_1": {
+          "type": "comparison_row",
+          "settings": {
+            "zento_heading": "Verschlüsselte Direktverbindung",
+            "zento_text": "<p>2,4-GHz-FHSS-Funktechnik statt WLAN.</p>",
+            "classic_heading": "Über Heim-WLAN",
+            "classic_text": "<p>Abhängig von Router und Internetverbindung.</p>"
+          }
+        },
+        "comparison_row_2": {
+          "type": "comparison_row",
+          "settings": {
+            "zento_heading": "Datensicherheit",
+            "zento_text": "<p>Kein Zugriff von außen möglich.</p>",
+            "classic_heading": "Hack-Risiko",
+            "classic_text": "<p>Bekannt bei App-/Cloud-Kameras.</p>"
+          }
+        },
+        "comparison_row_3": {
+          "type": "comparison_row",
+          "settings": {
+            "zento_heading": "Reichweite",
+            "zento_text": "<p>Bis zu 300 m im Freifeld.</p>",
+            "classic_heading": "Schwankende Reichweite",
+            "classic_text": "<p>Variiert stark mit dem WLAN-Signal.</p>"
+          }
+        },
+        "comparison_row_4": {
+          "type": "comparison_row",
+          "settings": {
+            "zento_heading": "Nachtsicht",
+            "zento_text": "<p>Automatische Infrarot-Umschaltung.</p>",
+            "classic_heading": "Oft schwächer",
+            "classic_text": "<p>Bei Dunkelheit häufig eingeschränkt.</p>"
+          }
+        },
+        "comparison_row_5": {
+          "type": "comparison_row",
+          "settings": {
+            "zento_heading": "Funktionsumfang",
+            "zento_text": "<p>11 fokussierte Kernfunktionen.</p>",
+            "classic_heading": "Viele Zusatzfunktionen",
+            "classic_text": "<p>Teils unzuverlässige „Smart“-Features.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "comparison_row_1",
+        "comparison_row_2",
+        "comparison_row_3",
+        "comparison_row_4",
+        "comparison_row_5"
+      ],
+      "settings": {
+        "eyebrow": "ZENTO VIEW PRO VS. KLASSISCHES WLAN-BABYPHONE",
+        "heading": "Mehr Sicherheit. Weniger Abhängigkeit vom WLAN.",
+        "subtitle": "<p>WLAN-Babyphones sind praktisch, hängen aber von deinem Heimnetz ab. Der Zento View Pro baut eine eigene, verschlüsselte Direktverbindung auf.</p>",
+        "zento_image": "",
+        "zento_name": "Zento View Pro",
+        "competitor_image": "",
+        "competitor_name": "WLAN-Babyphone",
+        "color_scheme": "scheme-2",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Warum FHSS-Funk statt WLAN?",
+            "icon": "none",
+            "row_content": "<p>WLAN-Babyphones mit App-Zugriff sind bequem, hängen aber von der Stabilität und Sicherheit deines Heimnetzwerks ab. Die 2,4-GHz-FHSS-Technik des View Pro baut eine direkte, verschlüsselte Verbindung zwischen Kamera und Elterneinheit auf – unabhängig von Internetausfällen und ohne Risiko durch Angriffe von außen.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie gut ist das Bild bei Nacht?",
+            "icon": "none",
+            "row_content": "<p>Die Kamera schaltet bei Dunkelheit automatisch auf Infrarot-Nachtsicht um, sodass ihr euer Baby auch nachts klar erkennen könnt.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kann ich eine zweite Kamera ergänzen?",
+            "icon": "none",
+            "row_content": "<p>Ja, der View Pro unterstützt Dual-Kamera-Betrieb – praktisch, wenn ihr zwei Kinderzimmer oder Geschwisterkinder im Blick behalten wollt.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Was bedeutet die Stillerinnerung?",
+            "icon": "none",
+            "row_content": "<p>Das Gerät erinnert dich in einstellbaren Abständen ans nächste Füttern – praktisch für die ersten Monate mit häufigen Mahlzeiten.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie laut/leise lässt sich das Gerät einstellen?",
+            "icon": "none",
+            "row_content": "<p>Lautstärke sowie Alarme lassen sich über die Elterneinheit stufenlos regeln, damit ihr selbst entscheidet, wie diskret oder auffällig das Gerät reagiert.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_1",
+        "collapsible_row_2",
+        "collapsible_row_3",
+        "collapsible_row_4",
+        "collapsible_row_5"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Alles über Babyphones – FAQ",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 32,
+        "padding_bottom": 52
+      }
+    },
+    "zento_specs": {
+      "type": "zento-specs-table",
+      "blocks": {
+        "spec_1": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Produktname",
+            "value": "Baby Monitor"
+          }
+        },
+        "spec_2": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Modell",
+            "value": "ABM501"
+          }
+        },
+        "spec_3": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Kamerasensor",
+            "value": "1/4\" CMOS"
+          }
+        },
+        "spec_4": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Kameraauflösung",
+            "value": "1280 × 720 p (HD)"
+          }
+        },
+        "spec_5": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Display",
+            "value": "5,0 Zoll"
+          }
+        },
+        "spec_6": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Akkukapazität (Elterneinheit)",
+            "value": "3500 mAh"
+          }
+        },
+        "spec_7": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Übertragungsart",
+            "value": "2,4 GHz FHSS"
+          }
+        },
+        "spec_8": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Reichweite",
+            "value": "bis zu 300 m (offenes Feld)"
+          }
+        },
+        "spec_9": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Gehäusematerial",
+            "value": "ABS"
+          }
+        },
+        "spec_10": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Betriebstemperatur",
+            "value": "−20 °C bis 65 °C"
+          }
+        },
+        "spec_11": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Kernfunktionen",
+            "value": "Automatische Rotation, Infrarot-Nachtsicht (Auto-Umschaltung), 8 Schlaflieder, Zwei-Wege-Audio, Temperaturerkennung, Lautstärkeregelung, Stillerinnerung, 5,0\" LCD-HD-Display, 2,4-GHz-Funkübertragung, VOX (Geräuschaktivierung), Schrei-/Weinerkennung"
+          }
+        },
+        "spec_12": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Weitere Funktionen",
+            "value": "PTZ-Fernsteuerung (Schwenken/Neigen/Zoom), Dual-Kamera-fähig"
+          }
+        },
+        "spec_13": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Zertifizierung",
+            "value": "EU-Design-Patent für das Kameradesign registriert"
+          }
+        }
+      },
+      "block_order": [
+        "spec_1",
+        "spec_2",
+        "spec_3",
+        "spec_4",
+        "spec_5",
+        "spec_6",
+        "spec_7",
+        "spec_8",
+        "spec_9",
+        "spec_10",
+        "spec_11",
+        "spec_12",
+        "spec_13"
+      ],
+      "settings": {
+        "eyebrow": "TECHNISCHE DATEN",
+        "heading": "Alle Details auf einen Blick",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "zento_problem_images",
+    "zento_comparison",
+    "collapsible_content_faq",
+    "zento_specs"
+  ]
+}

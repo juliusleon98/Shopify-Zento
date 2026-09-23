@@ -1,0 +1,441 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "FÜR ENTSPANNTE MAHLZEITEN, TAG UND NACHT",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "icon_with_text_benefits_1": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "check_mark",
+            "heading_1": "Schonendes 360°-Mischen ganz ohne Schütteln – weniger Luftblasen, weniger Bauchweh",
+            "icon_2": "check_mark",
+            "heading_2": "3 Mischmodi & konstante 40–45 °C Trinktemperatur",
+            "icon_3": "check_mark",
+            "heading_3": "Akkubetrieben (1200 mAh) – einsatzbereit auch ohne Steckdose",
+            "icon_4": "check_mark",
+            "heading_4": "1 Jahr Garantie"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_jQVaAp": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "payment_icons": {
+          "type": "payment_icons",
+          "settings": {
+            "payment_icons_label": "Sichere & geschützte Zahlung"
+          }
+        },
+        "collapsible_tab_description": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Produktbeschreibung",
+            "icon": "none",
+            "content": "<p>Der Zento Babylaugh ist Milchwärmer und Milchpulver-Mixer in einem Gerät. Statt die Flasche von Hand zu schütteln, verrührt er Wasser und Milchpulver sanft und gleichmäßig im 360°-Modus – klumpenfrei, aber ohne die Luftblasen, die beim klassischen Schütteln entstehen und Babys oft Blähungen und Bauchweh bereiten.</p><p>Mit 3 Mischmodi lässt sich die Rührzeit an die Löslichkeit deiner Milchnahrung anpassen: 1 Minute für normale Formula, 2 Minuten für schwerer lösliche Sorten, 6 Minuten für besonders hartnäckiges Pulver. Gleichzeitig hält das Gerät die Flasche konstant bei 40–45 °C – du kannst es sogar bis zu 60 Minuten im Voraus einschalten, damit die Flasche schon wartet, wenn dein Baby aufwacht.</p><p>Dank des eingebauten 1200-mAh-Akkus (Typ 18650, aufladbar über USB-C) ist der Babylaugh nicht an die Steckdose in der Küche gebunden – du kannst ihn per Powerbank, Laptop, Auto-Ladegerät oder Desktop-PC laden und mitnehmen. Ein sanftes, augenfreundliches Nachtlicht erleichtert die Zubereitung mitten in der Nacht, ohne dass ihr grelles Deckenlicht anschalten müsst.</p><p>Mit nur 127 × 127 × 159 mm ist er kompakt genug für jede Küche und jede Wickeltasche.</p><p><em>Hinweis: Die aktive Wärmefunktion (40–45 °C halten) benötigt laut Herstellerangabe durchgehend USB-Stromversorgung; das Nachtlicht läuft auf Wunsch auch rein über Akku. Übrig gebliebene Milch kann im Gerät bleiben, sollte aber nach spätestens 2 Stunden entsorgt werden.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_faq_1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Für wen eignet sich der Zento Babylaugh?",
+            "icon": "none",
+            "content": "<p>Für Eltern, die ihr Baby mit Flaschennahrung füttern und dabei besonders schonend – ohne Schüttel-Luftblasen – vorgehen möchten, sowie für alle, die nachts oder unterwegs schnell eine fertige Flasche brauchen.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_faq_2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Wie funktioniert der Milchwärmer?",
+            "icon": "none",
+            "content": "<p>Fläschchen mit Wasser und Milchpulver einsetzen, Mischmodus wählen und den Rührvorgang starten. Der Babylaugh vermengt beides sanft im Kreisel-Prinzip und hält die Flasche danach auf der eingestellten Trinktemperatur.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_faq_3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ist der Babylaugh für unterwegs geeignet?",
+            "icon": "none",
+            "content": "<p>Ja. Durch den eingebauten Akku funktioniert er auch ohne Steckdose in der Nähe – ideal für Reisen, den Besuch bei den Großeltern oder unterwegs im Auto.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_faq_4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Was ist, wenn das Gerät kaputt geht?",
+            "icon": "none",
+            "content": "<p>Der Zento Babylaugh kommt mit 1 Jahr Garantie. Bei Problemen innerhalb dieses Zeitraums kümmert sich unser Support um Ersatz oder Reparatur.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "description",
+        "icon_with_text_benefits_1",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons_jQVaAp",
+        "payment_icons",
+        "collapsible_tab_description",
+        "collapsible_tab_faq_1",
+        "collapsible_tab_faq_2",
+        "collapsible_tab_faq_3",
+        "collapsible_tab_faq_4"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail",
+        "mobile_thumbnails": "show",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "zento_problem_images": {
+      "type": "zento-problem-images",
+      "blocks": {
+        "card_1": {
+          "type": "card",
+          "settings": {
+            "image": "",
+            "heading": "Schonend statt geschüttelt",
+            "text": "360°-Mischtechnik statt Schütteln – für weniger Luftblasen und ruhigere Bäuche."
+          }
+        },
+        "card_2": {
+          "type": "card",
+          "settings": {
+            "image": "",
+            "heading": "Immer griffbereit",
+            "text": "Akkubetrieben und nur 127 × 127 × 159 mm groß – passt in jede Wickeltasche."
+          }
+        },
+        "card_3": {
+          "type": "card",
+          "settings": {
+            "image": "",
+            "heading": "Nachts entspannt",
+            "text": "Sanftes Nachtlicht und bis zu 60 Minuten Vorlaufzeit, damit die Flasche schon wartet."
+          }
+        }
+      },
+      "block_order": [
+        "card_1",
+        "card_2",
+        "card_3"
+      ],
+      "settings": {
+        "eyebrow": "WARUM EIN MILCHWÄRMER MIT MIX-FUNKTION?",
+        "heading": "Für entspannte Mahlzeiten, ganz ohne Luftblasen.",
+        "color_scheme": "scheme-2",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "zento_comparison": {
+      "type": "zento-comparison",
+      "blocks": {
+        "comparison_row_1": {
+          "type": "comparison_row",
+          "settings": {
+            "zento_heading": "Klumpenfreies Mischen",
+            "zento_text": "<p>Automatisch in 3 Modi, ganz ohne Schütteln.</p>",
+            "classic_heading": "Von Hand schütteln oder rühren",
+            "classic_text": "<p>Klumpen bleiben oft zurück, wenn nicht kräftig genug geschüttelt wird.</p>"
+          }
+        },
+        "comparison_row_2": {
+          "type": "comparison_row",
+          "settings": {
+            "zento_heading": "Weniger Luftblasen",
+            "zento_text": "<p>Sanftes Kreisel-Mischen reduziert das Risiko für Blähungen.</p>",
+            "classic_heading": "Schütteln erzeugt Luftblasen",
+            "classic_text": "<p>Ein häufiger Auslöser für Bauchweh bei Babys.</p>"
+          }
+        },
+        "comparison_row_3": {
+          "type": "comparison_row",
+          "settings": {
+            "zento_heading": "Einsatzbereit ohne Steckdose",
+            "zento_text": "<p>Akkubetrieben über USB-C, auch unterwegs.</p>",
+            "classic_heading": "Meist nur am Netzkabel",
+            "classic_text": "<p>Ohne Steckdose in der Nähe oft nicht einsatzbereit.</p>"
+          }
+        },
+        "comparison_row_4": {
+          "type": "comparison_row",
+          "settings": {
+            "zento_heading": "Vorbereitet für die Nacht",
+            "zento_text": "<p>Bis zu 60 Minuten im Voraus einschaltbar.</p>",
+            "classic_heading": "Jedes Mal neu zubereiten",
+            "classic_text": "<p>Keine Möglichkeit, die Flasche vorzubereiten.</p>"
+          }
+        },
+        "comparison_row_5": {
+          "type": "comparison_row",
+          "settings": {
+            "zento_heading": "Kompakt",
+            "zento_text": "<p>127 × 127 × 159 mm – passt in jede Wickeltasche.</p>",
+            "classic_heading": "Oft sperriger",
+            "classic_text": "<p>Klassische Wärmer nehmen mehr Platz ein.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "comparison_row_1",
+        "comparison_row_2",
+        "comparison_row_3",
+        "comparison_row_4",
+        "comparison_row_5"
+      ],
+      "settings": {
+        "eyebrow": "ZENTO BABYLAUGH VS. KLASSISCHER FLASCHENWÄRMER",
+        "heading": "Weniger Luftblasen. Mehr entspannte Nächte.",
+        "subtitle": "<p>Klassische Flaschenwärmer heizen, aber mischen nicht – von Hand schütteln bleibt trotzdem nötig. Der Zento Babylaugh übernimmt beides in einem Gerät.</p>",
+        "zento_image": "",
+        "zento_name": "Zento Babylaugh",
+        "competitor_image": "",
+        "competitor_name": "Klassisch",
+        "color_scheme": "scheme-2",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Warum sollte ich die Flasche nicht mehr schütteln?",
+            "icon": "none",
+            "row_content": "<p>Kräftiges Schütteln wirbelt Luft in die Milch, die dein Baby beim Trinken mitschluckt – ein häufiger Auslöser für Blähungen und Bauchweh. Sanftes Rühren oder Kreisen vermeidet das, löst das Pulver aber oft nicht vollständig. Der Babylaugh kombiniert beides: gründliches, aber schonendes Mischen ohne Schüttel-Luft.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie lange dauert die Zubereitung?",
+            "icon": "none",
+            "row_content": "<p>Je nach gewähltem Modus 1, 2 oder 6 Minuten – abhängig davon, wie gut sich dein Milchpulver löst.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kann ich übrig gebliebene Milch im Gerät lassen?",
+            "icon": "none",
+            "row_content": "<p>Ja, kurzfristig. Aus Hygienegründen empfehlen wir, nicht getrunkene Milch nach spätestens 2 Stunden zu entsorgen.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Funktioniert das Nachtlicht auch ohne Kabel?",
+            "icon": "none",
+            "row_content": "<p>Ja, das Nachtlicht kann über Akku oder USB betrieben werden. Für eine zuverlässigere Laufzeit empfehlen wir USB-Betrieb, wenn das Licht länger genutzt wird.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie lade ich den Babylaugh auf?",
+            "icon": "none",
+            "row_content": "<p>Über den Type-C-Anschluss (5 V, 2 A) – kompatibel mit Powerbank, Laptop, Desktop-PC oder Auto-Ladegerät.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_1",
+        "collapsible_row_2",
+        "collapsible_row_3",
+        "collapsible_row_4",
+        "collapsible_row_5"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Alles über Milchwärmer – FAQ",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 32,
+        "padding_bottom": 52
+      }
+    },
+    "zento_specs": {
+      "type": "zento-specs-table",
+      "blocks": {
+        "spec_1": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Produktname",
+            "value": "Smart Formula Mixer"
+          }
+        },
+        "spec_2": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Maße",
+            "value": "127 × 127 × 159 mm"
+          }
+        },
+        "spec_3": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Ladeeingang",
+            "value": "5 V, 2 A (Type-C)"
+          }
+        },
+        "spec_4": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Leistung",
+            "value": "10 W"
+          }
+        },
+        "spec_5": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Akku",
+            "value": "3,7 V, 1200 mAh (Typ 18650, 4,44 Wh)"
+          }
+        },
+        "spec_6": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Temperaturregelung",
+            "value": "konstant 40–45 °C"
+          }
+        },
+        "spec_7": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Mischmodi",
+            "value": "3 (1 Min. / 2 Min. / 6 Min., je nach Löslichkeit)"
+          }
+        },
+        "spec_8": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Vorlaufzeit",
+            "value": "bis zu 60 Minuten vorab einschaltbar"
+          }
+        },
+        "spec_9": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Wärmefunktion",
+            "value": "nur im Netzbetrieb (USB) aktiv"
+          }
+        },
+        "spec_10": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Nachtlicht",
+            "value": "Akku- oder USB-betrieben"
+          }
+        },
+        "spec_11": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Aufbewahrung Restmilch",
+            "value": "max. 2 Stunden im Gerät"
+          }
+        },
+        "spec_12": {
+          "type": "spec_row",
+          "settings": {
+            "label": "Zertifizierungen",
+            "value": "CE-EMC, RoHS"
+          }
+        }
+      },
+      "block_order": [
+        "spec_1",
+        "spec_2",
+        "spec_3",
+        "spec_4",
+        "spec_5",
+        "spec_6",
+        "spec_7",
+        "spec_8",
+        "spec_9",
+        "spec_10",
+        "spec_11",
+        "spec_12"
+      ],
+      "settings": {
+        "eyebrow": "TECHNISCHE DATEN",
+        "heading": "Alle Details auf einen Blick",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "zento_problem_images",
+    "zento_comparison",
+    "collapsible_content_faq",
+    "zento_specs"
+  ]
+}

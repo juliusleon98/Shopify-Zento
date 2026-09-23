@@ -1,0 +1,129 @@
+{{ 'component-zento-blocks.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+  <div class="zento-specs">
+    <div class="zento-specs__inner">
+      {%- if section.settings.eyebrow != blank or section.settings.heading != blank -%}
+        <div class="zento-specs__header">
+          {%- if section.settings.eyebrow != blank -%}
+            <p class="zento-specs__eyebrow">{{ section.settings.eyebrow | escape }}</p>
+          {%- endif -%}
+          {%- if section.settings.heading != blank -%}
+            <h2 class="zento-specs__title">{{ section.settings.heading }}</h2>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+
+      {%- if section.blocks.size > 0 -%}
+        <div class="zento-specs__table">
+          {%- for block in section.blocks -%}
+            <div class="zento-specs__row" {{ block.shopify_attributes }}>
+              <span class="zento-specs__label">{{ block.settings.label | escape }}</span>
+              <span class="zento-specs__value">{{ block.settings.value | escape }}</span>
+            </div>
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Zento specs table",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow text",
+      "default": "TECHNISCHE DATEN"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Alle Details auf einen Blick"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 64
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 64
+    }
+  ],
+  "blocks": [
+    {
+      "type": "spec_row",
+      "name": "Spec row",
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Merkmal"
+        },
+        {
+          "type": "text",
+          "id": "value",
+          "label": "Wert"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Zento specs table",
+      "blocks": [
+        {
+          "type": "spec_row"
+        },
+        {
+          "type": "spec_row"
+        },
+        {
+          "type": "spec_row"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

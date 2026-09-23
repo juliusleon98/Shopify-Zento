@@ -1936,3 +1936,92 @@
     font-size: 1.25rem;
   }
 }
+
+/* Technische Daten table (sections/zento-specs-table.liquid) */
+.zento-specs {
+  padding: 0 20px;
+}
+
+.zento-specs__inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.zento-specs__header {
+  max-width: 780px;
+  margin: 0 auto 32px;
+  text-align: center;
+}
+
+.zento-specs__eyebrow {
+  margin: 0 0 12px;
+  color: #c9966f;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.16em;
+  font-weight: 800;
+}
+
+.zento-specs__title {
+  margin: 0;
+  color: #17202f;
+  font-size: 34px;
+  line-height: 1.12;
+  letter-spacing: -0.03em;
+  font-weight: 750;
+}
+
+.zento-specs__table {
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(23, 32, 47, 0.08);
+}
+
+.zento-specs__row {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 14px 22px;
+}
+
+.zento-specs__row:nth-child(odd) {
+  background: #faf6f1;
+}
+
+.zento-specs__row:nth-child(even) {
+  background: #ffffff;
+}
+
+.zento-specs__label {
+  flex: 0 0 45%;
+  color: #17202f;
+  font-weight: 700;
+  font-size: 14.5px;
+}
+
+.zento-specs__value {
+  flex: 1;
+  text-align: right;
+  color: #3d4655;
+  font-size: 14.5px;
+}
+
+@media screen and (max-width: 749px) {
+  .zento-specs {
+    padding: 0 16px;
+  }
+
+  .zento-specs__title {
+    font-size: 26px;
+  }
+
+  .zento-specs__row {
+    padding: 12px 16px;
+    gap: 12px;
+  }
+
+  .zento-specs__label,
+  .zento-specs__value {
+    font-size: 13px;
+  }
+}
