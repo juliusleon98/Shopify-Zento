@@ -18,11 +18,7 @@
       {%- liquid
         assign swatch_count = option.values | map: 'swatch' | compact | size
         assign picker_type = block.settings.picker_type
-      -%}
-      {%- if request.design_mode == false -%}
-        <!-- ZENTO DEBUG: option={{ option.name }} swatch_count={{ swatch_count }} first_value_swatch={{ option.values.first.swatch | json }} -->
-      {%- endif -%}
-      {%- liquid
+
         if swatch_count > 0 and block.settings.swatch_shape != 'none'
           if block.settings.picker_type == 'dropdown'
             assign picker_type = 'swatch_dropdown'

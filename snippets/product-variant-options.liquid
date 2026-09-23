@@ -80,6 +80,52 @@
       additional_props: input_dataset
     %}
   {%- elsif picker_type == 'button' -%}
+    {%- liquid
+      assign zento_color_hex = null
+      assign zento_lower_value = value | downcase | strip
+      case zento_lower_value
+        when 'beige'
+          assign zento_color_hex = '#d9c7a3'
+        when 'weiß' or 'weiss' or 'white'
+          assign zento_color_hex = '#ffffff'
+        when 'mint'
+          assign zento_color_hex = '#a8d5ba'
+        when 'schwarz' or 'black'
+          assign zento_color_hex = '#1c1c1c'
+        when 'grau' or 'gray' or 'grey'
+          assign zento_color_hex = '#9a9a9a'
+        when 'blau' or 'blue'
+          assign zento_color_hex = '#4a6fa5'
+        when 'dunkelblau' or 'navy'
+          assign zento_color_hex = '#1f3a5f'
+        when 'rosa' or 'pink'
+          assign zento_color_hex = '#e8a5c0'
+        when 'grün' or 'gruen' or 'green'
+          assign zento_color_hex = '#4a8f5c'
+        when 'braun' or 'brown'
+          assign zento_color_hex = '#7b5a3e'
+        when 'rot' or 'red'
+          assign zento_color_hex = '#c0392b'
+        when 'gelb' or 'yellow'
+          assign zento_color_hex = '#e8c547'
+        when 'lila' or 'violett' or 'purple'
+          assign zento_color_hex = '#8e6bb0'
+        when 'creme' or 'cream'
+          assign zento_color_hex = '#f0e6d2'
+        when 'orange'
+          assign zento_color_hex = '#e08a3c'
+        when 'türkis' or 'tuerkis' or 'turquoise'
+          assign zento_color_hex = '#48c9b0'
+        when 'silber' or 'silver'
+          assign zento_color_hex = '#c0c0c0'
+        when 'gold'
+          assign zento_color_hex = '#d4af37'
+        when 'taupe'
+          assign zento_color_hex = '#b8a99a'
+        when 'sand'
+          assign zento_color_hex = '#e1cfa8'
+      endcase
+    -%}
     <input
       type="radio"
       id="{{ input_id }}"
@@ -94,9 +140,12 @@
       {% endif %}
       {{ input_dataset }}
     >
-    <label for="{{ input_id }}">
+    <label for="{{ input_id }}"{% if zento_color_hex %} class="variant-option--color" style="--zento-swatch-color: {{ zento_color_hex }};"{% endif %}>
+      {%- if zento_color_hex -%}
+        <span class="variant-option__swatch" aria-hidden="true"></span>
+      {%- endif -%}
       <span class="variant-option__name">{{ value -}}</span>
-      {%- if value.variant and value.variant.price -%}
+      {%- if product.price_varies and value.variant and value.variant.price -%}
         <span class="variant-option__price">
           {{- value.variant.price | money -}}
           {%- if value.variant.compare_at_price > value.variant.price -%}
