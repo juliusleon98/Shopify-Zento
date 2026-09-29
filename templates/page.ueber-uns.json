@@ -1,0 +1,246 @@
+{
+  "sections": {
+    "image_banner_hero": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Von Müttern. Für Mütter.",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Smarte Babyprodukte, die den Alltag junger Familien wirklich leichter machen.",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image": "",
+        "image_overlay_opacity": 20,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "rich_text_intro": {
+      "type": "rich-text",
+      "blocks": {
+        "text_1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die ersten Monate mit Baby sind wunderschön und gleichzeitig anstrengend. Nächte mit wenig Schlaf, Abpumpen zwischen zwei Terminen, das Fläschchen, das genau dann warm sein muss, wenn das Baby schreit. Wir kennen diese Momente, weil viele von uns sie selbst erlebt haben.</p>"
+          }
+        },
+        "text_2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Genau deshalb gibt es Zento: Wir entwickeln smarte Babyprodukte, die den Alltag junger Familien wirklich leichter machen. Nicht mit möglichst vielen Funktionen, sondern mit Lösungen für die Probleme, die Mütter tatsächlich haben.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_1",
+        "text_2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "image_with_text_tested": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Analysiert und getestet von Müttern",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Bevor ein Produkt bei Zento erhältlich ist, geht es durch die Hände von Müttern, die genau wissen, worauf es ankommt. Sie testen im echten Alltag: nachts, unterwegs, mit einer Hand, im Halbschlaf. Wir hören zu, was stört, was fehlt und was begeistert, und verbessern unsere Produkte so lange, bis sie im Alltag überzeugen.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image": "",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "multicolumn_values": {
+      "type": "multicolumn",
+      "blocks": {
+        "col_1": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Gute und sichere Qualität",
+            "text": "Bei Produkten, die täglich mit dir und deinem Baby in Berührung kommen, machen wir keine Kompromisse. Hochwertige Materialien, durchdachte Verarbeitung und sorgfältige Prüfung, plus 12 Monate Garantie zusätzlich zur gesetzlichen Gewährleistung.",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "col_2": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Zeitloses Design",
+            "text": "Babyprodukte müssen nicht nach Plastikspielzeug aussehen. Unsere Produkte sind schlicht, ruhig und modern gestaltet, damit sie sich in dein Zuhause einfügen und dir auch in einem Jahr noch gefallen.",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "col_3": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Ein fairer Preis",
+            "text": "Gute Qualität sollte sich jede Familie leisten können. Wir verkaufen direkt an dich, ohne Zwischenhändler, und können unsere Produkte deshalb zu einem fairen Preis anbieten.",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "col_1",
+        "col_2",
+        "col_3"
+      ],
+      "settings": {
+        "title": "Wofür wir stehen",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "square",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "featured_collection_products": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products_to_show": 3,
+        "title": "Unsere Produkte",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 3,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "rich_text_contact": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wir sind für dich da",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Du hast eine Frage, eine Idee oder einfach Feedback zu einem unserer Produkte? Schreib uns an hello@zento-home.com oder über unser Kontaktformular. Jedes Feedback macht Zento ein Stück besser.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Kontakt aufnehmen",
+            "button_link": "/pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": ""
+          }
+        },
+        "signature": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dein Zento-Team</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button",
+        "signature"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 64,
+        "padding_bottom": 72
+      }
+    }
+  },
+  "order": [
+    "image_banner_hero",
+    "rich_text_intro",
+    "image_with_text_tested",
+    "multicolumn_values",
+    "featured_collection_products",
+    "rich_text_contact"
+  ]
+}
