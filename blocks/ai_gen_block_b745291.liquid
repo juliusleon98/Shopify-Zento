@@ -23,6 +23,12 @@
     z-index: 0;
   }
 
+  .ai-hero-banner__background-{{ ai_gen_id }} picture {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
   .ai-hero-banner__background-{{ ai_gen_id }} img {
     width: 100%;
     height: 100%;
@@ -154,13 +160,22 @@
 <div class="ai-hero-banner-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
   <div class="ai-hero-banner__background-{{ ai_gen_id }}">
     {% if block.settings.background_image %}
-      <img
-        src="{{ block.settings.background_image | image_url: width: 2000 }}"
-        alt="{{ block.settings.background_image.alt | escape }}"
-        loading="lazy"
-        width="{{ block.settings.background_image.width }}"
-        height="{{ block.settings.background_image.height }}"
-      >
+      <picture>
+        {% if block.settings.background_image_mobile %}
+          <source
+            media="(max-width: 749px)"
+            srcset="{{ block.settings.background_image_mobile | image_url: width: 750 }} 750w, {{ block.settings.background_image_mobile | image_url: width: 1200 }} 1200w"
+            sizes="100vw"
+          >
+        {% endif %}
+        <img
+          src="{{ block.settings.background_image | image_url: width: 2000 }}"
+          alt="{{ block.settings.background_image.alt | escape }}"
+          loading="lazy"
+          width="{{ block.settings.background_image.width }}"
+          height="{{ block.settings.background_image.height }}"
+        >
+      </picture>
     {% else %}
       <div class="ai-hero-banner__background-placeholder-{{ ai_gen_id }}">
         {{ 'hero-apparel-1' | placeholder_svg_tag }}
@@ -220,6 +235,12 @@
       "type": "image_picker",
       "id": "background_image",
       "label": "Background image"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image_mobile",
+      "label": "Background image (mobile)",
+      "info": "Optional. Shown on phones instead of the main image. Leave empty to use the main image everywhere."
     },
     {
       "type": "range",
