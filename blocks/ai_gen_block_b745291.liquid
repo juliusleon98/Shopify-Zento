@@ -139,12 +139,24 @@
       align-items: flex-start;
     }
 
+    .ai-hero-banner__content-{{ ai_gen_id }} {
+      max-width: 100%;
+      text-align: center;
+    }
+
     .ai-hero-banner__heading-{{ ai_gen_id }} {
       font-size: {{ block.settings.heading_size | times: 0.6 }}px;
+      text-wrap: balance;
+      margin-bottom: 18px;
     }
 
     .ai-hero-banner__subheading-{{ ai_gen_id }} {
       display: none;
+    }
+
+    .ai-hero-banner__button-{{ ai_gen_id }} {
+      padding: {{ block.settings.button_padding_vertical | times: 0.85 }}px {{ block.settings.button_padding_horizontal | times: 0.85 }}px;
+      font-size: {{ block.settings.button_font_size | times: 0.95 }}px;
     }
 
     .ai-hero-banner__eyebrow-{{ ai_gen_id }} {
