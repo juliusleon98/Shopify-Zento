@@ -2077,3 +2077,153 @@ cart-drawer .cart__checkout-button {
   padding: 0 1.5rem 2rem;
   margin-top: 1.4rem;
 }
+
+/* Reviews section on mobile: compact header, smaller photo cards, tighter list with "show more" */
+.zento-reviews__more {
+  display: none;
+}
+
+@media screen and (max-width: 749px) {
+  .zento-reviews {
+    padding: 36px 16px;
+  }
+
+  .zento-reviews__top {
+    margin-bottom: 18px;
+  }
+
+  .zento-reviews__title {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  .zento-reviews__score {
+    font-size: 28px;
+  }
+
+  .zento-reviews__summary {
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+
+  .zento-reviews__button {
+    width: auto;
+    padding: 11px 22px;
+    font-size: 13.5px;
+  }
+
+  .zento-reviews__highlights {
+    margin-bottom: 18px;
+  }
+
+  .zento-reviews-highlight {
+    flex: 0 0 68%;
+    border-radius: 20px;
+  }
+
+  .zento-reviews-highlight__image {
+    aspect-ratio: 1 / 0.52;
+  }
+
+  .zento-reviews-highlight__body {
+    padding: 14px 14px 16px;
+  }
+
+  .zento-reviews-highlight h3 {
+    font-size: 15.5px;
+  }
+
+  .zento-reviews-highlight p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .zento-reviews-feed {
+    margin-bottom: 14px;
+  }
+
+  .zento-reviews-feed__item {
+    padding: 16px 14px;
+  }
+
+  .zento-reviews-feed__item > div:first-child {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 10px;
+    align-items: start;
+  }
+
+  .zento-reviews-feed__header {
+    grid-column: 1;
+    margin-bottom: 8px;
+    gap: 10px;
+  }
+
+  .zento-reviews-feed__avatar {
+    width: 34px;
+    height: 34px;
+    font-size: 14px;
+  }
+
+  .zento-reviews-feed__header strong {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  .zento-reviews-feed__header span {
+    font-size: 12px;
+  }
+
+  .zento-reviews-feed__stars {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 4px 0 0;
+    font-size: 13px;
+  }
+
+  .zento-reviews-feed h3,
+  .zento-reviews-feed p {
+    grid-column: 1 / -1;
+  }
+
+  .zento-reviews-feed h3 {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+
+  .zento-reviews-feed p {
+    font-size: 13.5px;
+    line-height: 1.5;
+  }
+
+  .zento-reviews-feed__item--with-image > img {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+
+  .zento-reviews-feed:not(.is-expanded) .zento-reviews-feed__item--extra {
+    display: none;
+  }
+
+  .zento-reviews-feed:not(.is-expanded) .zento-reviews-feed__item:nth-child(2) {
+    border-bottom: none;
+  }
+
+  .zento-reviews__more {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 13px 20px;
+    border: 1px solid rgba(23, 32, 47, 0.18);
+    border-radius: 999px;
+    background: transparent;
+    color: #17202f;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .zento-reviews__more[hidden] {
+    display: none;
+  }
+}

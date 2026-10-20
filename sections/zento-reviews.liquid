@@ -80,7 +80,7 @@
         <div class="zento-reviews-feed">
           {%- for block in feed_reviews -%}
             <article
-              class="zento-reviews-feed__item{% if block.settings.image != blank %} zento-reviews-feed__item--with-image{% endif %}"
+              class="zento-reviews-feed__item{% if block.settings.image != blank %} zento-reviews-feed__item--with-image{% endif %}{% if forloop.index > 2 %} zento-reviews-feed__item--extra{% endif %}"
               {{ block.shopify_attributes }}
             >
               <div>
@@ -105,6 +105,11 @@
             </article>
           {%- endfor -%}
         </div>
+        {%- if feed_reviews.size > 2 and section.settings.more_button_label != blank -%}
+          <button type="button" class="zento-reviews__more" data-zento-reviews-more>
+            {{ section.settings.more_button_label | escape }}
+          </button>
+        {%- endif -%}
       {%- endif -%}
 
       <modal-dialog id="ZentoReviewModal-{{ section.id }}" class="zento-reviews-modal">
@@ -198,6 +203,19 @@
   </div>
 </div>
 
+<script>
+  if (!window.zentoReviewsMoreBound) {
+    window.zentoReviewsMoreBound = true;
+    document.addEventListener('click', function (event) {
+      var button = event.target.closest('[data-zento-reviews-more]');
+      if (!button) return;
+      var feed = button.previousElementSibling;
+      if (feed) feed.classList.add('is-expanded');
+      button.hidden = true;
+    });
+  }
+</script>
+
 {% schema %}
 {
   "name": "Zento reviews",
@@ -233,6 +251,13 @@
       "id": "button_label",
       "label": "\"Write a review\" button label",
       "default": "Bewertung schreiben"
+    },
+    {
+      "type": "text",
+      "id": "more_button_label",
+      "label": "\"Show more reviews\" button label (mobile)",
+      "info": "On phones only the first two reviews of the list show; this button reveals the rest. Leave empty to always show all.",
+      "default": "Mehr Bewertungen anzeigen"
     },
     {
       "type": "header",
