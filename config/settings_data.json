@@ -148,6 +148,11 @@
         "type": "shopify://apps/simprosys-google-shopping-feed/blocks/core_settings_block/1f0b859e-9fa6-4007-97e8-4513aff5ff3b",
         "disabled": false,
         "settings": {}
+      },
+      "2567389343055140935": {
+        "type": "shopify://apps/microsoft-clarity/blocks/clarity_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
@@ -197,11 +202,11 @@
       },
       "scheme-5": {
         "settings": {
-          "background": "#8FAEC4",
+          "background": "#8faec4",
           "background_gradient": "linear-gradient(320deg, rgba(143, 174, 196, 1), rgba(94, 54, 83, 1) 100%)",
           "text": "#fdfbf7",
           "button": "#fdfbf7",
-          "button_label": "#36555E",
+          "button_label": "#36555e",
           "secondary_button_label": "#fdfbf7",
           "shadow": "#2e2a39"
         }
