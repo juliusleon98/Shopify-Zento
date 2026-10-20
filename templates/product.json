@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -362,7 +371,7 @@
         "eyebrow": "DIE LÖSUNG FÜR MEHR FLEXIBILITÄT",
         "heading": "Kabellos abpumpen, ohne deinen Alltag zu unterbrechen.",
         "text": "<p>Zento One sitzt direkt im BH, kommt ohne Kabel oder Schläuche aus und lässt sich an dein persönliches Wohlbefinden anpassen – damit Abpumpen weniger nach Aufwand und mehr nach Entlastung fühlt.</p>",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "padding_top": 20,
         "padding_bottom": 44
       }
@@ -421,7 +430,7 @@
         "zento_name": "Zento One",
         "competitor_image": "shopify://shop_images/Vergleichsbild_2.png",
         "competitor_name": "Klassische Pumpe",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "padding_top": 40,
         "padding_bottom": 52
       }
