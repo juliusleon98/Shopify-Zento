@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -227,6 +236,98 @@
         "padding_bottom": 68
       }
     },
+    "zento_reviews": {
+      "type": "zento-reviews",
+      "blocks": {
+        "highlight_1": {
+          "type": "highlight_review",
+          "settings": {
+            "image": "shopify://shop_images/Review_1_Zento_One.png",
+            "rating": 5,
+            "heading": "Endlich etwas Entlastung",
+            "quote": "<p>„Ich wollte weiter Muttermilch geben, aber nicht ständig komplett gebunden sein. Mit Zento kann mein Partner abends auch mal übernehmen.“</p>",
+            "author_name": "Laura M.",
+            "author_label": "Verifizierte Kundin"
+          }
+        },
+        "highlight_2": {
+          "type": "highlight_review",
+          "settings": {
+            "image": "shopify://shop_images/Review_2_Zento_One.png",
+            "rating": 5,
+            "heading": "Praktisch für unterwegs",
+            "quote": "<p>„Ich finde es super praktisch, dass ich nicht an Kabel oder Steckdose gebunden bin. Besonders morgens oder unterwegs ist es viel angenehmer.“</p>",
+            "author_name": "Sophie K.",
+            "author_label": "Verifizierte Kundin"
+          }
+        },
+        "highlight_3": {
+          "type": "highlight_review",
+          "settings": {
+            "image": "shopify://shop_images/Review_3_Zento_One.png",
+            "rating": 5,
+            "heading": "Mehr Ruhe im Alltag",
+            "quote": "<p>„Für mich war wichtig, einen kleinen Vorrat aufzubauen. Die Anwendung ist einfach und fühlt sich deutlich unkomplizierter an.“</p>",
+            "author_name": "Amina R.",
+            "author_label": "Verifizierte Kundin"
+          }
+        },
+        "feed_1": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Lisa Winkler",
+            "date_text": "12.06.2026 · Verifizierte Kundin",
+            "rating": 5,
+            "heading": "Mein neuer Begleiter",
+            "text": "<p>Seit dem ersten Einsatz nutze ich Zento regelmäßig. Besonders nachts ist es schön, wenn mein Partner auch mal füttern kann.</p>"
+          }
+        },
+        "feed_3": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Nina B.",
+            "date_text": "02.06.2026 · Verifizierte Kundin",
+            "rating": 4,
+            "heading": "Sehr praktisch, besonders unterwegs",
+            "text": "<p>Für kurze Pump-Sessions super. Ich nutze sie vor allem, wenn ich nicht zuhause bin oder schnell etwas vorbereiten möchte.</p>"
+          }
+        },
+        "feed_4": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Julia K.",
+            "date_text": "29.05.2026 · Verifizierte Kundin",
+            "rating": 5,
+            "heading": "Mehr Freiheit im Alltag",
+            "text": "<p>Ich liebe, dass ich nicht an eine Steckdose gebunden bin. Für mich macht das Stillen und Abpumpen deutlich entspannter.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "highlight_1",
+        "highlight_2",
+        "highlight_3",
+        "feed_1",
+        "feed_3",
+        "feed_4"
+      ],
+      "settings": {
+        "eyebrow": "KUNDENBEWERTUNGEN",
+        "heading": "Was Mamas über Zento sagen",
+        "score": "4,8",
+        "review_count_text": "Basierend auf 20 Bewertungen",
+        "button_label": "Bewertung schreiben",
+        "form_eyebrow": "DEINE ERFAHRUNG",
+        "form_heading": "Bewertung schreiben",
+        "form_text": "<p>Teile deine Erfahrung mit Zento. Deine Bewertung hilft anderen Mamas bei ihrer Entscheidung.</p>",
+        "form_submit_label": "Bewertung abschicken",
+        "form_success_text": "Danke für deine Bewertung. Wir prüfen sie und veröffentlichen sie anschließend.",
+        "form_error_text": "Bitte prüfe deine Eingaben und versuche es erneut.",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "zento_solution": {
       "type": "zento-solution",
       "blocks": {
@@ -334,98 +435,6 @@
         "padding_bottom": 52
       }
     },
-    "zento_reviews": {
-      "type": "zento-reviews",
-      "blocks": {
-        "highlight_1": {
-          "type": "highlight_review",
-          "settings": {
-            "image": "shopify://shop_images/Review_1_Zento_One.png",
-            "rating": 5,
-            "heading": "Endlich etwas Entlastung",
-            "quote": "<p>„Ich wollte weiter Muttermilch geben, aber nicht ständig komplett gebunden sein. Mit Zento kann mein Partner abends auch mal übernehmen.“</p>",
-            "author_name": "Laura M.",
-            "author_label": "Verifizierte Kundin"
-          }
-        },
-        "highlight_2": {
-          "type": "highlight_review",
-          "settings": {
-            "image": "shopify://shop_images/Review_2_Zento_One.png",
-            "rating": 5,
-            "heading": "Praktisch für unterwegs",
-            "quote": "<p>„Ich finde es super praktisch, dass ich nicht an Kabel oder Steckdose gebunden bin. Besonders morgens oder unterwegs ist es viel angenehmer.“</p>",
-            "author_name": "Sophie K.",
-            "author_label": "Verifizierte Kundin"
-          }
-        },
-        "highlight_3": {
-          "type": "highlight_review",
-          "settings": {
-            "image": "shopify://shop_images/Review_3_Zento_One.png",
-            "rating": 5,
-            "heading": "Mehr Ruhe im Alltag",
-            "quote": "<p>„Für mich war wichtig, einen kleinen Vorrat aufzubauen. Die Anwendung ist einfach und fühlt sich deutlich unkomplizierter an.“</p>",
-            "author_name": "Amina R.",
-            "author_label": "Verifizierte Kundin"
-          }
-        },
-        "feed_1": {
-          "type": "feed_review",
-          "settings": {
-            "author_name": "Lisa Winkler",
-            "date_text": "12.06.2026 · Verifizierte Kundin",
-            "rating": 5,
-            "heading": "Mein neuer Begleiter",
-            "text": "<p>Seit dem ersten Einsatz nutze ich Zento regelmäßig. Besonders nachts ist es schön, wenn mein Partner auch mal füttern kann.</p>"
-          }
-        },
-        "feed_3": {
-          "type": "feed_review",
-          "settings": {
-            "author_name": "Nina B.",
-            "date_text": "02.06.2026 · Verifizierte Kundin",
-            "rating": 4,
-            "heading": "Sehr praktisch, besonders unterwegs",
-            "text": "<p>Für kurze Pump-Sessions super. Ich nutze sie vor allem, wenn ich nicht zuhause bin oder schnell etwas vorbereiten möchte.</p>"
-          }
-        },
-        "feed_4": {
-          "type": "feed_review",
-          "settings": {
-            "author_name": "Julia K.",
-            "date_text": "29.05.2026 · Verifizierte Kundin",
-            "rating": 5,
-            "heading": "Mehr Freiheit im Alltag",
-            "text": "<p>Ich liebe, dass ich nicht an eine Steckdose gebunden bin. Für mich macht das Stillen und Abpumpen deutlich entspannter.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "highlight_1",
-        "highlight_2",
-        "highlight_3",
-        "feed_1",
-        "feed_3",
-        "feed_4"
-      ],
-      "settings": {
-        "eyebrow": "KUNDENBEWERTUNGEN",
-        "heading": "Was Mamas über Zento sagen",
-        "score": "4,8",
-        "review_count_text": "Basierend auf 20 Bewertungen",
-        "button_label": "Bewertung schreiben",
-        "form_eyebrow": "DEINE ERFAHRUNG",
-        "form_heading": "Bewertung schreiben",
-        "form_text": "<p>Teile deine Erfahrung mit Zento. Deine Bewertung hilft anderen Mamas bei ihrer Entscheidung.</p>",
-        "form_submit_label": "Bewertung abschicken",
-        "form_success_text": "Danke für deine Bewertung. Wir prüfen sie und veröffentlichen sie anschließend.",
-        "form_error_text": "Bitte prüfe deine Eingaben und versuche es erneut.",
-        "color_scheme": "scheme-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "collapsible_content_faq": {
       "type": "collapsible-content",
       "blocks": {
@@ -522,9 +531,9 @@
     "main",
     "zento_problem_images",
     "related-products",
+    "zento_reviews",
     "zento_solution",
     "zento_comparison",
-    "zento_reviews",
     "collapsible_content_faq"
   ]
 }
