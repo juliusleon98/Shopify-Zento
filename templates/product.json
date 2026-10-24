@@ -177,7 +177,7 @@
         "card_1": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_43_05.png",
+            "image": "shopify://shop_images/Zento_in_Action.jpg",
             "heading": "Sanft eingestellt",
             "text": "60 Einstellungen in 4 Modi, für ein besonders sanftes Abpumpen, das sich vollkommen natürlich anfühlt"
           }
@@ -185,7 +185,7 @@
         "card_2": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_57.png",
+            "image": "shopify://shop_images/Zento_Spaziergang.jpg",
             "heading": "Diskret im Alltag",
             "text": "Kabellos und flüsterleise (unter 43 dB) – pumpt unauffällig und unsichtbar, sogar unter der Kleidung."
           }
@@ -193,7 +193,6 @@
         "card_3": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_50.png",
             "heading": "Für jede Passform",
             "text": "4 Brusthauben-Größen im Set inklusive Messanleitung – damit du mühelos die ideale Größe findest"
           }
