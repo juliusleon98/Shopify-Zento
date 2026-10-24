@@ -237,7 +237,7 @@
         "highlight_1": {
           "type": "highlight_review",
           "settings": {
-            "image": "shopify://shop_images/Review_1_Zento_One.png",
+            "image": "shopify://shop_images/Zento_Lieferumfang_Bett.jpg",
             "rating": 5,
             "heading": "Endlich etwas Entlastung",
             "quote": "<p>„Ich wollte weiter Muttermilch geben, aber nicht ständig komplett gebunden sein. Mit Zento kann mein Partner abends auch mal übernehmen.“</p>",
@@ -248,7 +248,7 @@
         "highlight_2": {
           "type": "highlight_review",
           "settings": {
-            "image": "shopify://shop_images/Review_2_Zento_One.png",
+            "image": "shopify://shop_images/Zento_Lieferumfang_Tisch.jpg",
             "rating": 5,
             "heading": "Praktisch für unterwegs",
             "quote": "<p>„Ich finde es super praktisch, dass ich nicht an Kabel oder Steckdose gebunden bin. Besonders morgens oder unterwegs ist es viel angenehmer.“</p>",
@@ -259,7 +259,7 @@
         "highlight_3": {
           "type": "highlight_review",
           "settings": {
-            "image": "shopify://shop_images/Review_3_Zento_One.png",
+            "image": "shopify://shop_images/Zento_Pumpen_Kommode.jpg",
             "rating": 5,
             "heading": "Mehr Ruhe im Alltag",
             "quote": "<p>„Für mich war wichtig, einen kleinen Vorrat aufzubauen. Die Anwendung ist einfach und fühlt sich deutlich unkomplizierter an.“</p>",
