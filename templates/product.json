@@ -51,10 +51,6 @@
             "swatch_shape": "circle"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "buy_buttons_jQVaAp": {
           "type": "buy_buttons",
           "settings": {
@@ -140,7 +136,6 @@
         "icon_with_text_benefits_1",
         "price",
         "variant_picker",
-        "quantity_selector",
         "buy_buttons_jQVaAp",
         "payment_icons",
         "collapsible_tab_description",
