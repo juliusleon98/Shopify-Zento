@@ -177,7 +177,7 @@
         "card_1": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_43_05.png",
+            "image": "shopify://shop_images/Zento_in_Action.jpg",
             "heading": "Sanft eingestellt",
             "text": "60 Einstellungen in 4 Modi, für ein besonders sanftes Abpumpen, das sich vollkommen natürlich anfühlt"
           }
@@ -185,7 +185,7 @@
         "card_2": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_57.png",
+            "image": "shopify://shop_images/Zento_Spaziergang.jpg",
             "heading": "Diskret im Alltag",
             "text": "Kabellos und flüsterleise (unter 43 dB) – pumpt unauffällig und unsichtbar, sogar unter der Kleidung."
           }
@@ -193,7 +193,6 @@
         "card_3": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_27._Juni_2026_23_40_50.png",
             "heading": "Für jede Passform",
             "text": "4 Brusthauben-Größen im Set inklusive Messanleitung – damit du mühelos die ideale Größe findest"
           }
@@ -237,7 +236,7 @@
         "highlight_1": {
           "type": "highlight_review",
           "settings": {
-            "image": "shopify://shop_images/Review_1_Zento_One.png",
+            "image": "shopify://shop_images/Zento_Lieferumfang_Bett.jpg",
             "rating": 5,
             "heading": "Endlich etwas Entlastung",
             "quote": "<p>„Ich wollte weiter Muttermilch geben, aber nicht ständig komplett gebunden sein. Mit Zento kann mein Partner abends auch mal übernehmen.“</p>",
@@ -248,7 +247,7 @@
         "highlight_2": {
           "type": "highlight_review",
           "settings": {
-            "image": "shopify://shop_images/Review_2_Zento_One.png",
+            "image": "shopify://shop_images/Zento_Lieferumfang_Tisch.jpg",
             "rating": 5,
             "heading": "Praktisch für unterwegs",
             "quote": "<p>„Ich finde es super praktisch, dass ich nicht an Kabel oder Steckdose gebunden bin. Besonders morgens oder unterwegs ist es viel angenehmer.“</p>",
@@ -259,7 +258,7 @@
         "highlight_3": {
           "type": "highlight_review",
           "settings": {
-            "image": "shopify://shop_images/Review_3_Zento_One.png",
+            "image": "shopify://shop_images/Zento_Pumpen_Kommode.jpg",
             "rating": 5,
             "heading": "Mehr Ruhe im Alltag",
             "quote": "<p>„Für mich war wichtig, einen kleinen Vorrat aufzubauen. Die Anwendung ist einfach und fühlt sich deutlich unkomplizierter an.“</p>",
@@ -310,8 +309,9 @@
         "eyebrow": "KUNDENBEWERTUNGEN",
         "heading": "Was Mamas über Zento sagen",
         "score": "4,8",
-        "review_count_text": "Basierend auf 20 Bewertungen",
+        "review_count_text": "230+ Bewertungen",
         "button_label": "Bewertung schreiben",
+        "more_button_label": "Mehr Bewertungen anzeigen",
         "form_eyebrow": "DEINE ERFAHRUNG",
         "form_heading": "Bewertung schreiben",
         "form_text": "<p>Teile deine Erfahrung mit Zento. Deine Bewertung hilft anderen Mamas bei ihrer Entscheidung.</p>",
