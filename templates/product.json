@@ -193,6 +193,7 @@
         "card_3": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/Zento_Pumpe_Features.jpg",
             "heading": "Für jede Passform",
             "text": "4 Brusthauben-Größen im Set inklusive Messanleitung – damit du mühelos die ideale Größe findest"
           }
