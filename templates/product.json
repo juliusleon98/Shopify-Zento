@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -46,7 +37,7 @@
             "icon_3": "check_mark",
             "heading_3": "3 Stunden Akkulaufzeit für 6 Tage Pumpen",
             "icon_4": "check_mark",
-            "heading_4": "1 Jahr Garantie"
+            "heading_4": "2 Jahre Garantie"
           }
         },
         "price": {
@@ -78,7 +69,7 @@
           "settings": {
             "heading": "Produktbeschreibung",
             "icon": "none",
-            "content": "<p>Zento One ist eine kabellose, tragbare Milchpumpe, die direkt im BH sitzt, ganz ohne Schläuche oder Kabel, die dich beim Pumpen einschränken. Mit nur 230 g ist sie leicht und lässt sich unkompliziert überallhin mitnehmen. Das minimalistische Design in warmem Creme fügt sich unauffällig in deinen Alltag ein, ob zuhause, im Büro oder unterwegs.</p><p>Mit 4 Modi und 15 Stufen, 60 Einstellungen insgesamt, lässt sich die Pumpe so fein justieren, wie es sich für dich richtig anfühlt: sanfter Massage-Modus, Stimulation, Pump-Modus oder der Biomimetische Modus, der den natürlichen Rhythmus eines nuckelnden Babys nachahmt. Bedient wird alles direkt an der Pumpe, eine App brauchst du nicht.</p><p>Das 180-ml-Fassungsvermögen bietet Platz für mehr Milch pro Sitzung. Eine Akkuladung reicht für rund 180 Minuten, bei täglich 30 Minuten Pumpen also etwa 6 Tage, bevor du wieder ans Ladekabel musst. Mit nur 3 Teilen neben der Haupteinheit sind Reinigung und Bedienung unkompliziert, ein Anti-Rückfluss-Ventil hält Milch vom Motor fern.</p><p>Im Lieferumfang: ein Flanschgrößen-Lineal und mehrere Einsatzgrößen, damit du zuhause selbst prüfen kannst, welche Passform für dich stimmt, plus eine Tragetasche für unterwegs. Zento One kommt mit 1 Jahr Garantie.</p>",
+            "content": "<p>Zento One ist eine kabellose, tragbare Milchpumpe, die direkt im BH sitzt, ganz ohne Schläuche oder Kabel, die dich beim Pumpen einschränken. Mit nur 230 g ist sie leicht und lässt sich unkompliziert überallhin mitnehmen. Das minimalistische Design in warmem Creme fügt sich unauffällig in deinen Alltag ein, ob zuhause, im Büro oder unterwegs.</p><p>Mit 4 Modi und 15 Stufen, 60 Einstellungen insgesamt, lässt sich die Pumpe so fein justieren, wie es sich für dich richtig anfühlt: sanfter Massage-Modus, Stimulation, Pump-Modus oder der Biomimetische Modus, der den natürlichen Rhythmus eines nuckelnden Babys nachahmt. Bedient wird alles direkt an der Pumpe, eine App brauchst du nicht.</p><p>Das 180-ml-Fassungsvermögen bietet Platz für mehr Milch pro Sitzung. Eine Akkuladung reicht für rund 180 Minuten, bei täglich 30 Minuten Pumpen also etwa 6 Tage, bevor du wieder ans Ladekabel musst. Mit nur 3 Teilen neben der Haupteinheit sind Reinigung und Bedienung unkompliziert, ein Anti-Rückfluss-Ventil hält Milch vom Motor fern.</p><p>Im Lieferumfang: ein Flanschgrößen-Lineal und mehrere Einsatzgrößen, damit du zuhause selbst prüfen kannst, welche Passform für dich stimmt, plus eine Tragetasche für unterwegs. Zento One kommt mit 2 Jahren Garantie.</p>",
             "page": ""
           }
         },
@@ -132,7 +123,7 @@
           "settings": {
             "heading": "Was ist, wenn die Pumpe kaputt geht?",
             "icon": "none",
-            "content": "<p>Zento One kommt mit 1 Jahr Garantie. Solltest du innerhalb dieses Zeitraums ein Problem haben, melde dich bei unserem Support, wir kümmern uns um Ersatz oder Reparatur.</p>",
+            "content": "<p>Zento One kommt mit 2 Jahren Garantie. Solltest du innerhalb dieses Zeitraums ein Problem haben, melde dich bei unserem Support, wir kümmern uns um Ersatz oder Reparatur.</p>",
             "page": ""
           }
         }
