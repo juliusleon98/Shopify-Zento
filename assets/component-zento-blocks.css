@@ -2295,3 +2295,80 @@ cart-drawer .cart__checkout-button {
   background: rgba(255, 255, 255, 0.22);
   color: #ffffff;
 }
+
+/* Priced variant options as selectable cards: radio circle left, price right, light tint when selected */
+.product__info-container .product-form__input--pill input[type='radio'] + label.variant-option--priced {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  column-gap: 1.2rem;
+  row-gap: 0;
+  padding: 1.4rem 1.6rem;
+  min-width: 0;
+  background: #ffffff;
+  color: rgb(var(--color-foreground));
+  text-align: left;
+}
+
+.product__info-container .product-form__input--pill input[type='radio'] + label.variant-option--priced::after {
+  content: '';
+  grid-column: 1;
+  grid-row: 1;
+  box-sizing: border-box;
+  width: 2rem;
+  height: 2rem;
+  border: 0.2rem solid rgba(23, 32, 47, 0.28);
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.variant-option--priced .variant-option__name {
+  grid-column: 2;
+  grid-row: 1;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.variant-option--priced .variant-option__price {
+  grid-column: 3;
+  grid-row: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.3rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  opacity: 1;
+}
+
+.variant-option--priced .variant-option__badge {
+  background: rgba(107, 45, 62, 0.1);
+  color: #6b2d3e;
+}
+
+.variant-option--priced .variant-option__note {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  margin: 1rem -1.75rem -1.55rem;
+}
+
+.product__info-container .product-form__input--pill input[type='radio']:checked + label.variant-option--priced {
+  background: #f2f7fa;
+  border-color: #6c93b1;
+  box-shadow: 0 0 0 0.1rem #6c93b1;
+  color: rgb(var(--color-foreground));
+}
+
+.product__info-container .product-form__input--pill input[type='radio']:checked + label.variant-option--priced::after {
+  border-color: #6c93b1;
+  background: #6c93b1;
+  box-shadow: inset 0 0 0 0.35rem #ffffff;
+}
+
+.product__info-container .product-form__input--pill input[type='radio']:checked + label.variant-option--priced .variant-option__price {
+  opacity: 1;
+}
+
+.product__info-container .product-form__input--pill input[type='radio']:checked + label.variant-option--priced .variant-option__note {
+  background: rgba(107, 45, 62, 0.08);
+  color: #6b2d3e;
+}

@@ -145,6 +145,9 @@
       if zento_color_hex
         assign zento_label_class = 'variant-option--color'
       endif
+      if product.price_varies and value.variant and value.variant.price
+        assign zento_label_class = zento_label_class | append: ' variant-option--priced'
+      endif
       assign zento_highlight = false
       if block.settings.highlight_option != blank
         assign zento_highlight_value = block.settings.highlight_option | downcase | strip
