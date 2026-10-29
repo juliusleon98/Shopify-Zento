@@ -2511,3 +2511,30 @@ cart-drawer .cart__checkout-button {
     margin-bottom: 0;
   }
 }
+
+/* Reviews pagination: ellipsis gaps, compact on phones so it never wraps */
+.zento-reviews__gap {
+  min-width: 18px;
+  color: rgba(23, 32, 47, 0.5);
+  font-size: 16px;
+  text-align: center;
+  user-select: none;
+}
+
+@media screen and (max-width: 749px) {
+  .zento-reviews__pages {
+    flex-wrap: nowrap;
+    gap: 6px;
+  }
+
+  .zento-reviews__page {
+    min-width: 36px;
+    height: 36px;
+    padding: 0 8px;
+    font-size: 14px;
+  }
+
+  .zento-reviews__gap {
+    min-width: 14px;
+  }
+}

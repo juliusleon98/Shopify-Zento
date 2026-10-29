@@ -241,6 +241,32 @@
         return mobile.matches ? Math.min(desktopPerPage, MOBILE_PER_PAGE) : desktopPerPage;
       }
 
+      function pageEntries(pages, page, siblings) {
+        var all = [];
+        var i;
+        if (pages <= siblings * 2 + 5) {
+          for (i = 1; i <= pages; i++) all.push(i);
+          return all;
+        }
+        var left = Math.max(page - siblings, 1);
+        var right = Math.min(page + siblings, pages);
+        var gapLeft = left > 2;
+        var gapRight = right < pages - 1;
+        var edge = 3 + siblings * 2;
+        if (!gapLeft && gapRight) {
+          for (i = 1; i <= edge; i++) all.push(i);
+          all.push('gap', pages);
+        } else if (gapLeft && !gapRight) {
+          all.push(1, 'gap');
+          for (i = pages - edge + 1; i <= pages; i++) all.push(i);
+        } else {
+          all.push(1, 'gap');
+          for (i = left; i <= right; i++) all.push(i);
+          all.push('gap', pages);
+        }
+        return all;
+      }
+
       function pageButton(label, page, className, ariaLabel) {
         var b = document.createElement('button');
         b.type = 'button';
@@ -267,11 +293,19 @@
         var prev = pageButton('\u2039', current - 1, 'is-arrow', 'Vorherige Seite');
         prev.disabled = current === 1;
         nav.appendChild(prev);
-        for (var p = 1; p <= pages; p++) {
-          var n = pageButton(String(p), p, p === current ? 'is-active' : '', 'Seite ' + p);
-          if (p === current) n.setAttribute('aria-current', 'page');
+        pageEntries(pages, current, mobile.matches ? 0 : 2).forEach(function (entry) {
+          if (entry === 'gap') {
+            var gap = document.createElement('span');
+            gap.className = 'zento-reviews__gap';
+            gap.setAttribute('aria-hidden', 'true');
+            gap.textContent = '…';
+            nav.appendChild(gap);
+            return;
+          }
+          var n = pageButton(String(entry), entry, entry === current ? 'is-active' : '', 'Seite ' + entry);
+          if (entry === current) n.setAttribute('aria-current', 'page');
           nav.appendChild(n);
-        }
+        });
         var next = pageButton('\u203a', current + 1, 'is-arrow', 'N\u00e4chste Seite');
         next.disabled = current === pages;
         nav.appendChild(next);
