@@ -2567,3 +2567,92 @@ cart-drawer .totals__total-value {
     min-width: 14px;
   }
 }
+
+/* Cookie banner (Shopify customer privacy banner): compact bottom sheet, equal-weight buttons */
+section.shopify-pc__banner__dialog {
+  left: 50%;
+  right: auto;
+  bottom: 16px;
+  width: calc(100% - 32px);
+  max-width: 520px;
+  min-width: 0;
+  transform: translateX(-50%);
+  padding: 18px 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(23, 32, 47, 0.18);
+}
+
+@media only screen and (max-width: 749px) {
+  section.shopify-pc__banner__dialog {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: none;
+    transform: none;
+    padding: 14px 16px calc(14px + env(safe-area-inset-bottom, 0px));
+    border-radius: 16px 16px 0 0;
+  }
+}
+
+.shopify-pc__banner__dialog h2 {
+  margin: 0 0 4px;
+  font-size: 15px;
+}
+
+.shopify-pc__banner__dialog p {
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.shopify-pc__banner__dialog .shopify-pc__banner__body {
+  margin-bottom: 10px;
+}
+
+.shopify-pc__banner__dialog .shopify-pc__banner__btns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  justify-content: stretch;
+}
+
+.shopify-pc__banner__dialog .shopify-pc__banner__btns button {
+  margin: 0;
+  flex-basis: auto;
+}
+
+.shopify-pc__banner__dialog .shopify-pc__banner__btns button.shopify-pc__banner__btn-accept,
+.shopify-pc__banner__dialog .shopify-pc__banner__btns button.shopify-pc__banner__btn-decline {
+  min-height: 40px;
+  padding: 0 12px;
+  border: none;
+  border-radius: 10px;
+  background: #1c2b35;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#shopify-pc__banner__btn-accept {
+  order: 1;
+}
+
+#shopify-pc__banner__btn-decline {
+  order: 2;
+}
+
+.shopify-pc__banner__dialog .shopify-pc__banner__btns button.shopify-pc__banner__btn-manage-prefs {
+  order: 3;
+  grid-column: 1 / -1;
+  min-height: 28px;
+  padding: 0;
+  background: transparent;
+  color: #17202f;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+/* Homepage bestsellers: image and name only, no price */
+[id$="__featured-collection"] .card-information .price {
+  display: none;
+}
