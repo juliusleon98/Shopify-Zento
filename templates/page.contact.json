@@ -215,14 +215,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Wer steckt hinter Zento?",
+            "heading": "Von Mamas für Mamas",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Zento ist eine Marke der Onda Ventures OÜ, Tornimäe tn 5, 10145 Tallinn, Estland.</p>"
+            "text": "<p>Hinter Zento steht ein Team, das den Alltag mit Baby kennt. Wir lesen jede Nachricht und helfen dir gern weiter.</p>"
           }
         }
       },
