@@ -35,7 +35,10 @@
         },
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+            "show_shipping_note": true,
+            "warranty_note": "2 Jahre Garantie"
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
