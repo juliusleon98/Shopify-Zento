@@ -129,11 +129,6 @@
             </article>
           {%- endfor -%}
         </div>
-        {%- if section.settings.more_button_label != blank -%}
-          <button type="button" class="zento-reviews__more" data-zento-reviews-more hidden>
-            {{ section.settings.more_button_label | escape }}
-          </button>
-        {%- endif -%}
         <nav class="zento-reviews__pages" aria-label="Seiten der Bewertungen" data-zento-reviews-pages hidden></nav>
       {%- endif -%}
 
@@ -230,19 +225,21 @@
 
 <script>
   (function () {
-    var COLLAPSED = 2;
+    var MOBILE_PER_PAGE = 3;
 
     function setup(feed) {
       if (feed.dataset.pagingReady) return;
       feed.dataset.pagingReady = '1';
       var wrap = feed.parentNode;
       var items = Array.prototype.slice.call(feed.querySelectorAll('.zento-reviews-feed__item'));
-      var per = parseInt(feed.dataset.perPage, 10) || 5;
-      var pages = Math.max(1, Math.ceil(items.length / per));
-      var more = wrap.querySelector('[data-zento-reviews-more]');
+      var desktopPerPage = parseInt(feed.dataset.perPage, 10) || 5;
       var nav = wrap.querySelector('[data-zento-reviews-pages]');
+      var mobile = window.matchMedia('(max-width: 749px)');
       var current = 1;
-      var expanded = false;
+
+      function perPage() {
+        return mobile.matches ? Math.min(desktopPerPage, MOBILE_PER_PAGE) : desktopPerPage;
+      }
 
       function pageButton(label, page, className, ariaLabel) {
         var b = document.createElement('button');
@@ -255,16 +252,14 @@
       }
 
       function render() {
+        var per = perPage();
+        var pages = Math.max(1, Math.ceil(items.length / per));
+        if (current > pages) current = pages;
         items.forEach(function (item, i) {
           var onPage = Math.floor(i / per) + 1 === current;
-          var indexOnPage = i % per;
           item.classList.toggle('is-off-page', !onPage);
-          item.classList.toggle('is-extra', onPage && indexOnPage >= COLLAPSED);
-          item.classList.toggle('is-first', onPage && indexOnPage === 0);
+          item.classList.toggle('is-first', onPage && i % per === 0);
         });
-        feed.classList.toggle('is-expanded', expanded);
-        var onThisPage = Math.min(per, items.length - (current - 1) * per);
-        if (more) more.hidden = expanded || onThisPage <= COLLAPSED;
         if (!nav) return;
         nav.innerHTML = '';
         if (pages < 2) { nav.hidden = true; return; }
@@ -283,21 +278,18 @@
       }
 
       wrap.addEventListener('click', function (event) {
-        if (event.target.closest('[data-zento-reviews-more]')) {
-          expanded = true;
-          render();
-          return;
-        }
         var pageBtn = event.target.closest('.zento-reviews__page');
-        if (pageBtn && !pageBtn.disabled) {
-          current = parseInt(pageBtn.getAttribute('data-page'), 10);
-          expanded = false;
-          render();
-          if (feed.getBoundingClientRect().top < 0) {
-            feed.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          }
+        if (!pageBtn || pageBtn.disabled) return;
+        current = parseInt(pageBtn.getAttribute('data-page'), 10);
+        render();
+        if (feed.getBoundingClientRect().top < 0) {
+          feed.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
       });
+
+      var onViewportChange = function () { current = 1; render(); };
+      if (mobile.addEventListener) mobile.addEventListener('change', onViewportChange);
+      else if (mobile.addListener) mobile.addListener(onViewportChange);
 
       render();
     }
@@ -366,13 +358,6 @@
       "id": "button_label",
       "label": "\"Write a review\" button label",
       "default": "Bewertung schreiben"
-    },
-    {
-      "type": "text",
-      "id": "more_button_label",
-      "label": "\"Show more reviews\" button label (mobile)",
-      "info": "On phones only the first two reviews of the list show; this button reveals the rest. Leave empty to always show all.",
-      "default": "Mehr Bewertungen anzeigen"
     },
     {
       "type": "header",

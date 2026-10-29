@@ -2079,10 +2079,7 @@ cart-drawer .cart__checkout-button {
   margin-top: 1.4rem;
 }
 
-/* Reviews section on mobile: compact header, smaller photo cards, tighter list with "show more" */
-.zento-reviews__more {
-  display: none;
-}
+/* Reviews section on mobile: compact header, smaller photo cards, tighter list */
 
 @media screen and (max-width: 749px) {
   .zento-reviews {
@@ -2202,27 +2199,6 @@ cart-drawer .cart__checkout-button {
     margin-top: 10px;
   }
 
-  .zento-reviews-feed:not(.is-expanded) .zento-reviews-feed__item.is-extra {
-    display: none;
-  }
-
-  .zento-reviews__more {
-    display: block;
-    width: 100%;
-    margin-bottom: 8px;
-    padding: 13px 20px;
-    border: 1px solid rgba(23, 32, 47, 0.18);
-    border-radius: 999px;
-    background: transparent;
-    color: #17202f;
-    font-size: 14px;
-    font-weight: 700;
-    cursor: pointer;
-  }
-
-  .zento-reviews__more[hidden] {
-    display: none;
-  }
 }
 
 /* Price notes (shipping + warranty) under the tax line */
@@ -2528,9 +2504,5 @@ cart-drawer .cart__checkout-button {
 
   .zento-reviews__top {
     margin-bottom: 16px;
-  }
-
-  .zento-reviews__more {
-    margin-bottom: 14px;
   }
 }
