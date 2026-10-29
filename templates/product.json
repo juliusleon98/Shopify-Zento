@@ -61,6 +61,7 @@
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle",
+            "selection_color": "blue",
             "highlight_option": "Doppelt",
             "highlight_badge": "Bestseller",
             "highlight_note": "Inkl. gratis Tasche"
@@ -177,66 +178,6 @@
         "padding_bottom": 24
       }
     },
-    "zento_problem_images": {
-      "type": "zento-problem-images",
-      "blocks": {
-        "card_1": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Zento_in_Action.jpg",
-            "heading": "Sanft eingestellt",
-            "text": "60 Einstellungen in 4 Modi, für ein besonders sanftes Abpumpen, das sich vollkommen natürlich anfühlt"
-          }
-        },
-        "card_2": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Zento_Spaziergang.jpg",
-            "heading": "Freihändig im Alltag",
-            "text": "Kabellos und flüsterleise (unter 43 dB) – pumpt unauffällig und unsichtbar, sogar unter der Kleidung."
-          }
-        },
-        "card_3": {
-          "type": "card",
-          "settings": {
-            "image": "shopify://shop_images/Zento_Pumpe_Features.jpg",
-            "heading": "Für jede Passform",
-            "text": "4 Brusthauben-Größen im Set inklusive Messanleitung – damit du mühelos die ideale Größe findest"
-          }
-        }
-      },
-      "block_order": [
-        "card_1",
-        "card_2",
-        "card_3"
-      ],
-      "settings": {
-        "eyebrow": "WARUM EINE MILCHPUMPE?",
-        "heading": "Für mehr Freiheit, wenn Stillen gerade nicht möglich ist.",
-        "color_scheme": "scheme-2",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "disabled": true,
-      "settings": {
-        "heading": "You may also like",
-        "heading_size": "h2",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "columns_mobile": "2",
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "padding_top": 36,
-        "padding_bottom": 68
-      }
-    },
     "zento_reviews": {
       "type": "zento-reviews",
       "blocks": {
@@ -271,6 +212,106 @@
             "quote": "<p>„Ich hatte etwas Angst, da ich im Internet verschiedes zu Milchpumpen gehört habe, aber die Aufsätze fühlen sich sehr gut an und man kann alles anpassen“</p>",
             "author_name": "Amina R.",
             "author_label": "Verifizierte Kundin"
+          }
+        },
+        "feed_form_1": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Janina",
+            "date_text": "",
+            "rating": 5,
+            "heading": "Sehr zufrieden",
+            "text": "<p>Einfach nur top. Sitzt gut im BH und macht was sie soll. Viel entspannter als ständig mit Kabel an der Steckdose zu hängen 👍🏼</p>"
+          }
+        },
+        "feed_form_2": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Anonym",
+            "date_text": "",
+            "rating": 5,
+            "heading": "Schaffe endlich was nebenbei",
+            "text": "<p>Hab sie mir geholt um morgens kurz abzupumpen während ich Frühstück mache. Man hat echt die Hände frei und sie ist angenehm leise. Würde sie wieder kaufen.</p>"
+          }
+        },
+        "feed_form_3": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Caro",
+            "date_text": "",
+            "rating": 5,
+            "heading": "Kein Zwicken",
+            "text": "<p>Hatte erst Sorge dass es wehtut, aber mit den verschiedenen Aufsätzen passt es super. Saugt sanft und gründlich.</p>"
+          }
+        },
+        "feed_form_4": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Mama von 2",
+            "date_text": "",
+            "rating": 5,
+            "heading": "Super für unterwegs",
+            "text": "<p>Hab sie letztens im Auto benutzt vor einem Termin. Fällt unter einem weiten Pulli nicht auf und der Akku hält locker für mehrere Durchgänge.</p>"
+          }
+        },
+        "feed_form_5": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Denise K.",
+            "date_text": "",
+            "rating": 5,
+            "heading": "Schnelle Reinigung",
+            "text": "<p>Super Teil. Was mir besonders wichtig war: Sie lässt sich mega schnell auseinanderbauen und sauber machen. Sind nur wenige Teile.</p>"
+          }
+        },
+        "feed_form_6": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Anonym",
+            "date_text": "",
+            "rating": 5,
+            "heading": "Mehr Flexibilität im Alltag",
+            "text": "<p>Einfach rein in den BH, Knopf drücken und nebenbei Tee trinken oder aufräumen. Genau die Entlastung die ich gebraucht habe.</p>"
+          }
+        },
+        "feed_form_7": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Luisa",
+            "date_text": "",
+            "rating": 5,
+            "heading": "Top für den Milchvorrat",
+            "text": "<p>Pumpe jetzt täglich einmal ab damit mein Partner abends die Flasche geben kann. Milch wandert direkt in den Kühlschrank für später. Klappt problemlos!</p>"
+          }
+        },
+        "feed_form_8": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Anonym",
+            "date_text": "",
+            "rating": 5,
+            "heading": "Positiv überrascht",
+            "text": "<p>Sitzt bequem, tut nicht weh und ist wirklich leise. Kam auch nach 2 Tagen direkt an.</p>"
+          }
+        },
+        "feed_form_9": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Jasmin T.",
+            "date_text": "",
+            "rating": 5,
+            "heading": "Macht genau was sie soll",
+            "text": "<p>Gute Saugkraft, einfache Bedienung ohne viel Schnickschnack. Fühlt sich wertig an.</p>"
+          }
+        },
+        "feed_form_10": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Anonym",
+            "date_text": "",
+            "rating": 5,
+            "heading": "Lohnt sich absolut",
+            "text": "<p>Finde das Design schlicht und unaufgeregt. Passt in meine normalen Still-BHs und spart mir jeden Tag echt Zeit.</p>"
           }
         },
         "feed_1": {
@@ -434,106 +475,6 @@
             "heading": "Titel der Bewertung",
             "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
           }
-        },
-        "feed_form_1": {
-          "type": "feed_review",
-          "settings": {
-            "author_name": "Janina",
-            "date_text": "",
-            "rating": 5,
-            "heading": "Sehr zufrieden",
-            "text": "<p>Einfach nur top. Sitzt gut im BH und macht was sie soll. Viel entspannter als ständig mit Kabel an der Steckdose zu hängen 👍🏼</p>"
-          }
-        },
-        "feed_form_2": {
-          "type": "feed_review",
-          "settings": {
-            "author_name": "Anonym",
-            "date_text": "",
-            "rating": 5,
-            "heading": "Schaffe endlich was nebenbei",
-            "text": "<p>Hab sie mir geholt um morgens kurz abzupumpen während ich Frühstück mache. Man hat echt die Hände frei und sie ist angenehm leise. Würde sie wieder kaufen.</p>"
-          }
-        },
-        "feed_form_3": {
-          "type": "feed_review",
-          "settings": {
-            "author_name": "Caro",
-            "date_text": "",
-            "rating": 5,
-            "heading": "Kein Zwicken",
-            "text": "<p>Hatte erst Sorge dass es wehtut, aber mit den verschiedenen Aufsätzen passt es super. Saugt sanft und gründlich.</p>"
-          }
-        },
-        "feed_form_4": {
-          "type": "feed_review",
-          "settings": {
-            "author_name": "Mama von 2",
-            "date_text": "",
-            "rating": 5,
-            "heading": "Super für unterwegs",
-            "text": "<p>Hab sie letztens im Auto benutzt vor einem Termin. Fällt unter einem weiten Pulli nicht auf und der Akku hält locker für mehrere Durchgänge.</p>"
-          }
-        },
-        "feed_form_5": {
-          "type": "feed_review",
-          "settings": {
-            "author_name": "Denise K.",
-            "date_text": "",
-            "rating": 5,
-            "heading": "Schnelle Reinigung",
-            "text": "<p>Super Teil. Was mir besonders wichtig war: Sie lässt sich mega schnell auseinanderbauen und sauber machen. Sind nur wenige Teile.</p>"
-          }
-        },
-        "feed_form_6": {
-          "type": "feed_review",
-          "settings": {
-            "author_name": "Anonym",
-            "date_text": "",
-            "rating": 5,
-            "heading": "Mehr Flexibilität im Alltag",
-            "text": "<p>Einfach rein in den BH, Knopf drücken und nebenbei Tee trinken oder aufräumen. Genau die Entlastung die ich gebraucht habe.</p>"
-          }
-        },
-        "feed_form_7": {
-          "type": "feed_review",
-          "settings": {
-            "author_name": "Luisa",
-            "date_text": "",
-            "rating": 5,
-            "heading": "Top für den Milchvorrat",
-            "text": "<p>Pumpe jetzt täglich einmal ab damit mein Partner abends die Flasche geben kann. Milch wandert direkt in den Kühlschrank für später. Klappt problemlos!</p>"
-          }
-        },
-        "feed_form_8": {
-          "type": "feed_review",
-          "settings": {
-            "author_name": "Anonym",
-            "date_text": "",
-            "rating": 5,
-            "heading": "Positiv überrascht",
-            "text": "<p>Sitzt bequem, tut nicht weh und ist wirklich leise. Kam auch nach 2 Tagen direkt an.</p>"
-          }
-        },
-        "feed_form_9": {
-          "type": "feed_review",
-          "settings": {
-            "author_name": "Jasmin T.",
-            "date_text": "",
-            "rating": 5,
-            "heading": "Macht genau was sie soll",
-            "text": "<p>Gute Saugkraft, einfache Bedienung ohne viel Schnickschnack. Fühlt sich wertig an.</p>"
-          }
-        },
-        "feed_form_10": {
-          "type": "feed_review",
-          "settings": {
-            "author_name": "Anonym",
-            "date_text": "",
-            "rating": 5,
-            "heading": "Lohnt sich absolut",
-            "text": "<p>Finde das Design schlicht und unaufgeregt. Passt in meine normalen Still-BHs und spart mir jeden Tag echt Zeit.</p>"
-          }
         }
       },
       "block_order": [
@@ -571,6 +512,8 @@
         "heading": "Was Mamas über Zento sagen",
         "score": "4,8",
         "review_count_text": "230+ Bewertungen",
+        "auto_summary": true,
+        "reviews_per_page": 2,
         "button_label": "Bewertung schreiben",
         "form_eyebrow": "DEINE ERFAHRUNG",
         "form_heading": "Bewertung schreiben",
@@ -578,11 +521,69 @@
         "form_submit_label": "Bewertung abschicken",
         "form_success_text": "Danke für deine Bewertung. Wir prüfen sie und veröffentlichen sie anschließend.",
         "form_error_text": "Bitte prüfe deine Eingaben und versuche es erneut.",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "padding_top": 32,
-        "padding_bottom": 40,
-        "auto_summary": true,
-        "reviews_per_page": 2
+        "padding_bottom": 40
+      }
+    },
+    "zento_problem_images": {
+      "type": "zento-problem-images",
+      "blocks": {
+        "card_1": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Zento_in_Action.jpg",
+            "heading": "Sanft eingestellt",
+            "text": "60 Einstellungen in 4 Modi, für ein besonders sanftes Abpumpen, das sich vollkommen natürlich anfühlt"
+          }
+        },
+        "card_2": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Zento_Spaziergang.jpg",
+            "heading": "Freihändig im Alltag",
+            "text": "Kabellos und flüsterleise (unter 43 dB) – pumpt unauffällig und unsichtbar, sogar unter der Kleidung."
+          }
+        },
+        "card_3": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Zento_Pumpe_Features.jpg",
+            "heading": "Für jede Passform",
+            "text": "4 Brusthauben-Größen im Set inklusive Messanleitung – damit du mühelos die ideale Größe findest"
+          }
+        }
+      },
+      "block_order": [
+        "card_1",
+        "card_2",
+        "card_3"
+      ],
+      "settings": {
+        "eyebrow": "WARUM EINE MILCHPUMPE?",
+        "heading": "Für mehr Freiheit, wenn Stillen gerade nicht möglich ist.",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 68
       }
     },
     "zento_solution": {
@@ -786,9 +787,9 @@
   },
   "order": [
     "main",
+    "zento_reviews",
     "zento_problem_images",
     "related-products",
-    "zento_reviews",
     "zento_solution",
     "zento_comparison",
     "collapsible_content_faq"
