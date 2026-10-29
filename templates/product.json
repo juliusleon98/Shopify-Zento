@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -33,11 +42,11 @@
             "icon_1": "check_mark",
             "heading_1": "Minimalistisches Design, nur 230 g leicht",
             "icon_2": "check_mark",
-            "heading_2": "180 ml Fassungsvermögen, ≤ 43 dB leise",
+            "heading_2": "Sanft & bequem, 4 Brusthauben passend zu deiner Größe",
             "icon_3": "check_mark",
-            "heading_3": "3 Stunden Akkulaufzeit für 6 Tage Pumpen",
+            "heading_3": "Freihändig & ohne Kabel mit 3 Stunden Akku",
             "icon_4": "check_mark",
-            "heading_4": "2 Jahre Garantie"
+            "heading_4": "Hohe Effizienz & Einfache Nutzung"
           }
         },
         "price": {
