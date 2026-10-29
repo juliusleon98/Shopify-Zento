@@ -573,7 +573,7 @@
         "padding_top": 32,
         "padding_bottom": 40,
         "auto_summary": true,
-        "reviews_per_page": 5
+        "reviews_per_page": 2
       }
     },
     "zento_solution": {
