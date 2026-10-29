@@ -2372,3 +2372,15 @@ cart-drawer .cart__checkout-button {
   background: rgba(107, 45, 62, 0.08);
   color: #6b2d3e;
 }
+
+/* Wine red selection accent (variant picker setting "Selected option color") */
+.product-form__input--wine input[type='radio']:checked + label.variant-option--priced {
+  background: #f9f3f5;
+  border-color: #6b2d3e;
+  box-shadow: 0 0 0 0.1rem #6b2d3e;
+}
+
+.product-form__input--wine input[type='radio']:checked + label.variant-option--priced::after {
+  border-color: #6b2d3e;
+  background: #6b2d3e;
+}
