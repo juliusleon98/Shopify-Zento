@@ -2259,7 +2259,7 @@ cart-drawer .cart__checkout-button {
   right: 1.4rem;
   padding: 0.3rem 0.9rem;
   border-radius: 999px;
-  background: #b8896b;
+  background: #6b2d3e;
   color: #ffffff;
   font-size: 1.05rem;
   font-weight: 700;
@@ -2269,12 +2269,20 @@ cart-drawer .cart__checkout-button {
 }
 
 .variant-option__note {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 0.5rem;
-  color: #b8896b;
+  justify-content: center;
+  align-self: stretch;
+  gap: 0.6rem;
+  margin: 0.5rem -1.95rem -1.35rem;
+  padding: 0.8rem 1rem;
+  border-radius: 0 0 calc(var(--variant-pills-radius, 1.4rem) - 0.15rem) calc(var(--variant-pills-radius, 1.4rem) - 0.15rem);
+  background: rgba(107, 45, 62, 0.08);
+  color: #6b2d3e;
   font-size: 1.2rem;
   font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
 }
 
 .variant-option__note svg {
@@ -2284,5 +2292,6 @@ cart-drawer .cart__checkout-button {
 }
 
 .product__info-container .product-form__input--pill input[type='radio']:checked + label .variant-option__note {
+  background: rgba(255, 255, 255, 0.22);
   color: #ffffff;
 }
