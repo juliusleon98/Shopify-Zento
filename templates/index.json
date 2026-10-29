@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "1780665668aa111eb6": {
@@ -127,6 +118,286 @@
     "1780853133e045e530": {
       "type": "_blocks",
       "settings": {}
+    },
+    "zento_reviews": {
+      "type": "zento-reviews",
+      "blocks": {
+        "highlight_1": {
+          "type": "highlight_review",
+          "settings": {
+            "image": "shopify://shop_images/Zento_Lieferumfang_Bett.jpg",
+            "rating": 5,
+            "heading": "Gute Qualität",
+            "quote": "<p>„Ich bin wirklich zufrieden mit den Produkten, sie haben gute Qualität und fühlen sich weich an“</p>",
+            "author_name": "Laura M.",
+            "author_label": "Verifizierte Kundin"
+          }
+        },
+        "highlight_2": {
+          "type": "highlight_review",
+          "settings": {
+            "image": "shopify://shop_images/Zento_Lieferumfang_Tisch.jpg",
+            "rating": 5,
+            "heading": "Toller Support",
+            "quote": "<p>„Ich war sehr zufrieden mit dem Kunden Support und der Lieferung. Die Milchpumpen sind um einiges Leichter als ich dachte und damit super für unterwegs“</p>",
+            "author_name": "Anna K.",
+            "author_label": "Verifizierte Kundin"
+          }
+        },
+        "highlight_3": {
+          "type": "highlight_review",
+          "settings": {
+            "image": "shopify://shop_images/Zento_Pumpen_Kommode.jpg",
+            "rating": 5,
+            "heading": "Funktioniert einwandfrei",
+            "quote": "<p>„Ich hatte etwas Angst, da ich im Internet verschiedes zu Milchpumpen gehört habe, aber die Aufsätze fühlen sich sehr gut an und man kann alles anpassen“</p>",
+            "author_name": "Amina R.",
+            "author_label": "Verifizierte Kundin"
+          }
+        },
+        "feed_1": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Lisa Winkler",
+            "date_text": "12.06.2026 · Verifizierte Kundin",
+            "rating": 5,
+            "heading": "Mein neuer Begleiter",
+            "text": "<p>Seit dem ersten Einsatz nutze ich Zento regelmäßig. Besonders nachts ist es schön, wenn mein Partner auch mal füttern kann.</p>"
+          }
+        },
+        "feed_3": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Nina B.",
+            "date_text": "02.06.2026 · Verifizierte Kundin",
+            "rating": 4,
+            "heading": "Sehr praktisch, besonders unterwegs",
+            "text": "<p>Für kurze Pump-Sessions super. Ich nutze sie vor allem, wenn ich nicht zuhause bin oder schnell etwas vorbereiten möchte.</p>"
+          }
+        },
+        "feed_4": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Julia K.",
+            "date_text": "29.05.2026 · Verifizierte Kundin",
+            "rating": 5,
+            "heading": "Mehr Freiheit im Alltag",
+            "text": "<p>Ich liebe, dass ich nicht an eine Steckdose gebunden bin. Für mich macht das Stillen und Abpumpen deutlich entspannter.</p>"
+          }
+        },
+        "feed_placeholder_1": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        },
+        "feed_placeholder_2": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        },
+        "feed_placeholder_3": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        },
+        "feed_placeholder_4": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        },
+        "feed_placeholder_5": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        },
+        "feed_placeholder_6": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        },
+        "feed_placeholder_7": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        },
+        "feed_placeholder_8": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        },
+        "feed_placeholder_9": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        },
+        "feed_placeholder_10": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        },
+        "feed_placeholder_11": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        },
+        "feed_placeholder_12": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        }
+      },
+      "block_order": [
+        "highlight_1",
+        "highlight_2",
+        "highlight_3",
+        "feed_1",
+        "feed_3",
+        "feed_4",
+        "feed_placeholder_1",
+        "feed_placeholder_2",
+        "feed_placeholder_3",
+        "feed_placeholder_4",
+        "feed_placeholder_5",
+        "feed_placeholder_6",
+        "feed_placeholder_7",
+        "feed_placeholder_8",
+        "feed_placeholder_9",
+        "feed_placeholder_10",
+        "feed_placeholder_11",
+        "feed_placeholder_12"
+      ],
+      "settings": {
+        "eyebrow": "",
+        "heading": "Was Mamas über Zento sagen",
+        "score": "4,8",
+        "review_count_text": "230+ Bewertungen",
+        "button_label": "Bewertung schreiben",
+        "more_button_label": "Mehr Bewertungen anzeigen",
+        "form_eyebrow": "DEINE ERFAHRUNG",
+        "form_heading": "Bewertung schreiben",
+        "form_text": "<p>Teile deine Erfahrung mit Zento. Deine Bewertung hilft anderen Mamas bei ihrer Entscheidung.</p>",
+        "form_submit_label": "Bewertung abschicken",
+        "form_success_text": "Danke für deine Bewertung. Wir prüfen sie und veröffentlichen sie anschließend.",
+        "form_error_text": "Bitte prüfe deine Eingaben und versuche es erneut.",
+        "color_scheme": "scheme-1",
+        "padding_top": 32,
+        "padding_bottom": 40,
+        "auto_summary": true,
+        "reviews_per_page": 5
+      }
+    },
+    "contact_cta": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fragen? Wir helfen dir gern",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Du hast eine Frage zu unseren Produkten oder zu deiner Bestellung? Schreib uns, wir antworten in der Regel innerhalb von 24 Stunden (werktags).</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Kontakt aufnehmen",
+            "button_link": "/pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 56
+      }
     }
   },
   "order": [
@@ -136,6 +407,8 @@
     "178066703396371827",
     "custom_liquid_zcKqMe",
     "image_banner_xbJg6P",
-    "1780853133e045e530"
+    "1780853133e045e530",
+    "zento_reviews",
+    "contact_cta"
   ]
 }

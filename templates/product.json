@@ -293,6 +293,138 @@
             "heading": "Mehr Freiheit im Alltag",
             "text": "<p>Ich liebe, dass ich nicht an eine Steckdose gebunden bin. Für mich macht das Stillen und Abpumpen deutlich entspannter.</p>"
           }
+        },
+        "feed_placeholder_1": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        },
+        "feed_placeholder_2": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        },
+        "feed_placeholder_3": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        },
+        "feed_placeholder_4": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        },
+        "feed_placeholder_5": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        },
+        "feed_placeholder_6": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        },
+        "feed_placeholder_7": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        },
+        "feed_placeholder_8": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        },
+        "feed_placeholder_9": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        },
+        "feed_placeholder_10": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        },
+        "feed_placeholder_11": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
+        },
+        "feed_placeholder_12": {
+          "type": "feed_review",
+          "disabled": true,
+          "settings": {
+            "author_name": "Name",
+            "date_text": "TT.MM.JJJJ",
+            "rating": 5,
+            "heading": "Titel der Bewertung",
+            "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
+          }
         }
       },
       "block_order": [
@@ -301,10 +433,22 @@
         "highlight_3",
         "feed_1",
         "feed_3",
-        "feed_4"
+        "feed_4",
+        "feed_placeholder_1",
+        "feed_placeholder_2",
+        "feed_placeholder_3",
+        "feed_placeholder_4",
+        "feed_placeholder_5",
+        "feed_placeholder_6",
+        "feed_placeholder_7",
+        "feed_placeholder_8",
+        "feed_placeholder_9",
+        "feed_placeholder_10",
+        "feed_placeholder_11",
+        "feed_placeholder_12"
       ],
       "settings": {
-        "eyebrow": "KUNDENBEWERTUNGEN",
+        "eyebrow": "",
         "heading": "Was Mamas über Zento sagen",
         "score": "4,8",
         "review_count_text": "230+ Bewertungen",
@@ -317,8 +461,10 @@
         "form_success_text": "Danke für deine Bewertung. Wir prüfen sie und veröffentlichen sie anschließend.",
         "form_error_text": "Bitte prüfe deine Eingaben und versuche es erneut.",
         "color_scheme": "scheme-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 32,
+        "padding_bottom": 40,
+        "auto_summary": true,
+        "reviews_per_page": 5
       }
     },
     "zento_solution": {

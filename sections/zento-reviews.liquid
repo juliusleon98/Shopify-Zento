@@ -31,12 +31,36 @@
           {%- if section.settings.heading != blank -%}
             <h2 class="zento-reviews__title">{{ section.settings.heading }}</h2>
           {%- endif -%}
+          {%- liquid
+            assign rating_sum = 0
+            assign rating_count = 0
+            for block in section.blocks
+              assign rating_sum = rating_sum | plus: block.settings.rating
+              assign rating_count = rating_count | plus: 1
+            endfor
+            assign use_auto = false
+            if section.settings.auto_summary and rating_count > 0
+              assign use_auto = true
+              assign rating_avg = rating_sum | times: 1.0 | divided_by: rating_count
+              assign rating_rounded = rating_avg | round
+            endif
+          -%}
           <div class="zento-reviews__summary">
-            <div class="zento-reviews__score">{{ section.settings.score }}</div>
-            <div>
-              <div class="zento-reviews__stars" aria-hidden="true">★★★★★</div>
-              <p>{{ section.settings.review_count_text }}</p>
-            </div>
+            {%- if use_auto -%}
+              <div class="zento-reviews__score">{{ rating_avg | round: 1 | replace: '.', ',' }}</div>
+              <div>
+                <div class="zento-reviews__stars" aria-hidden="true">
+                  {%- for i in (1..5) -%}{% if i <= rating_rounded %}★{% else %}☆{% endif %}{%- endfor -%}
+                </div>
+                <p>{% if rating_count == 1 %}1 Bewertung{% else %}{{ rating_count }} Bewertungen{% endif %}</p>
+              </div>
+            {%- else -%}
+              <div class="zento-reviews__score">{{ section.settings.score }}</div>
+              <div>
+                <div class="zento-reviews__stars" aria-hidden="true">★★★★★</div>
+                <p>{{ section.settings.review_count_text }}</p>
+              </div>
+            {%- endif -%}
           </div>
         </div>
 
@@ -77,10 +101,10 @@
 
       {%- assign feed_reviews = section.blocks | where: 'type', 'feed_review' -%}
       {%- if feed_reviews.size > 0 -%}
-        <div class="zento-reviews-feed">
+        <div class="zento-reviews-feed" data-per-page="{{ section.settings.reviews_per_page | default: 5 }}">
           {%- for block in feed_reviews -%}
             <article
-              class="zento-reviews-feed__item{% if block.settings.image != blank %} zento-reviews-feed__item--with-image{% endif %}{% if forloop.index > 2 %} zento-reviews-feed__item--extra{% endif %}"
+              class="zento-reviews-feed__item{% if block.settings.image != blank %} zento-reviews-feed__item--with-image{% endif %}"
               {{ block.shopify_attributes }}
             >
               <div>
@@ -105,11 +129,12 @@
             </article>
           {%- endfor -%}
         </div>
-        {%- if feed_reviews.size > 2 and section.settings.more_button_label != blank -%}
-          <button type="button" class="zento-reviews__more" data-zento-reviews-more>
+        {%- if section.settings.more_button_label != blank -%}
+          <button type="button" class="zento-reviews__more" data-zento-reviews-more hidden>
             {{ section.settings.more_button_label | escape }}
           </button>
         {%- endif -%}
+        <nav class="zento-reviews__pages" aria-label="Seiten der Bewertungen" data-zento-reviews-pages hidden></nav>
       {%- endif -%}
 
       <modal-dialog id="ZentoReviewModal-{{ section.id }}" class="zento-reviews-modal">
@@ -204,16 +229,89 @@
 </div>
 
 <script>
-  if (!window.zentoReviewsMoreBound) {
-    window.zentoReviewsMoreBound = true;
-    document.addEventListener('click', function (event) {
-      var button = event.target.closest('[data-zento-reviews-more]');
-      if (!button) return;
-      var feed = button.previousElementSibling;
-      if (feed) feed.classList.add('is-expanded');
-      button.hidden = true;
-    });
-  }
+  (function () {
+    var COLLAPSED = 2;
+
+    function setup(feed) {
+      if (feed.dataset.pagingReady) return;
+      feed.dataset.pagingReady = '1';
+      var wrap = feed.parentNode;
+      var items = Array.prototype.slice.call(feed.querySelectorAll('.zento-reviews-feed__item'));
+      var per = parseInt(feed.dataset.perPage, 10) || 5;
+      var pages = Math.max(1, Math.ceil(items.length / per));
+      var more = wrap.querySelector('[data-zento-reviews-more]');
+      var nav = wrap.querySelector('[data-zento-reviews-pages]');
+      var current = 1;
+      var expanded = false;
+
+      function pageButton(label, page, className, ariaLabel) {
+        var b = document.createElement('button');
+        b.type = 'button';
+        b.textContent = label;
+        b.className = 'zento-reviews__page' + (className ? ' ' + className : '');
+        b.setAttribute('aria-label', ariaLabel);
+        b.setAttribute('data-page', page);
+        return b;
+      }
+
+      function render() {
+        items.forEach(function (item, i) {
+          var onPage = Math.floor(i / per) + 1 === current;
+          var indexOnPage = i % per;
+          item.classList.toggle('is-off-page', !onPage);
+          item.classList.toggle('is-extra', onPage && indexOnPage >= COLLAPSED);
+          item.classList.toggle('is-first', onPage && indexOnPage === 0);
+        });
+        feed.classList.toggle('is-expanded', expanded);
+        var onThisPage = Math.min(per, items.length - (current - 1) * per);
+        if (more) more.hidden = expanded || onThisPage <= COLLAPSED;
+        if (!nav) return;
+        nav.innerHTML = '';
+        if (pages < 2) { nav.hidden = true; return; }
+        nav.hidden = false;
+        var prev = pageButton('\u2039', current - 1, 'is-arrow', 'Vorherige Seite');
+        prev.disabled = current === 1;
+        nav.appendChild(prev);
+        for (var p = 1; p <= pages; p++) {
+          var n = pageButton(String(p), p, p === current ? 'is-active' : '', 'Seite ' + p);
+          if (p === current) n.setAttribute('aria-current', 'page');
+          nav.appendChild(n);
+        }
+        var next = pageButton('\u203a', current + 1, 'is-arrow', 'N\u00e4chste Seite');
+        next.disabled = current === pages;
+        nav.appendChild(next);
+      }
+
+      wrap.addEventListener('click', function (event) {
+        if (event.target.closest('[data-zento-reviews-more]')) {
+          expanded = true;
+          render();
+          return;
+        }
+        var pageBtn = event.target.closest('.zento-reviews__page');
+        if (pageBtn && !pageBtn.disabled) {
+          current = parseInt(pageBtn.getAttribute('data-page'), 10);
+          expanded = false;
+          render();
+          if (feed.getBoundingClientRect().top < 0) {
+            feed.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      });
+
+      render();
+    }
+
+    function init(root) {
+      root.querySelectorAll('.zento-reviews-feed[data-per-page]').forEach(setup);
+    }
+
+    init(document);
+    if (!window.zentoReviewsPagingBound) {
+      window.zentoReviewsPagingBound = true;
+      document.addEventListener('shopify:section:load', function (event) { init(event.target); });
+    }
+  })();
 </script>
 
 {% schema %}
@@ -245,6 +343,23 @@
       "id": "review_count_text",
       "label": "Review count text",
       "default": "Basierend auf 20 Bewertungen"
+    },
+    {
+      "type": "checkbox",
+      "id": "auto_summary",
+      "label": "Calculate rating and number of reviews from the reviews below",
+      "info": "On: the score and the count are computed from the active review blocks, so they always match what is shown. Off: the two manual fields above are used.",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "reviews_per_page",
+      "min": 3,
+      "max": 10,
+      "step": 1,
+      "label": "Reviews per page",
+      "info": "If there are more reviews, page numbers appear below the list.",
+      "default": 5
     },
     {
       "type": "text",
