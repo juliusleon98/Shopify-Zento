@@ -1,25 +1,250 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "rich_text_intro": {
+      "type": "rich-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "KONTAKT",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wir sind für dich da",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Du hast eine Frage zu deiner Bestellung, zu einem Produkt oder zur Garantie? Schreib uns, dein Zento-Team liest jede Nachricht und antwortet in der Regel innerhalb von 24 Stunden (werktags).</p><p>Direkt per E-Mail erreichst du uns unter <a href=\"mailto:hello@zento-home.com\">hello@zento-home.com</a>, oder du nutzt das Formular weiter unten.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "caption",
+        "heading",
+        "text"
+      ],
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 24
+      }
+    },
+    "trust_strip": {
+      "type": "zento-trust-strip",
+      "blocks": {
+        "item_1": {
+          "type": "item",
+          "settings": {
+            "icon": "chat_bubble",
+            "heading": "Antwort in 24 Stunden",
+            "text": "Werktags per E-Mail"
+          }
+        },
+        "item_2": {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "heading": "Kostenloser Versand",
+            "text": "Ab 50 € Bestellwert"
+          }
+        },
+        "item_3": {
+          "type": "item",
+          "settings": {
+            "icon": "return",
+            "heading": "14 Tage Widerruf",
+            "text": "Bei ungeöffneter Hygieneverpackung"
+          }
+        },
+        "item_4": {
+          "type": "item",
+          "settings": {
+            "icon": "check_mark",
+            "heading": "2 Jahre Garantie",
+            "text": "Auf unsere Produkte"
+          }
+        }
+      },
+      "block_order": [
+        "item_1",
+        "item_2",
+        "item_3",
+        "item_4"
+      ],
+      "settings": {
+        "badge_text": "So kümmern wir uns um dich",
+        "color_scheme": "scheme-2",
+        "padding_top": 16,
+        "padding_bottom": 24
       }
     },
     "form": {
       "type": "contact-form",
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
+        "heading": "Schreib uns eine Nachricht",
+        "heading_size": "h2",
         "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "collapsible_content_faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie lange dauert die Lieferung?",
+            "icon": "none",
+            "row_content": "<p>Die Lieferung dauert in der Regel 5 bis 10 Werktage ab Bestellung. Sobald dein Paket unterwegs ist, erhältst du eine Versandbestätigung per E-Mail.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ab wann ist der Versand kostenlos?",
+            "icon": "none",
+            "row_content": "<p>Ab einem Bestellwert von 50 € versenden wir kostenlos. Bei kleineren Bestellungen siehst du die Versandkosten im Checkout, bevor du bezahlst.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wo kann ich meine Bestellung verfolgen?",
+            "icon": "none",
+            "row_content": "<p>Sobald deine Bestellung versendet wurde, schicken wir dir eine E-Mail mit einem Tracking-Link. Dort siehst du jederzeit, wo dein Paket gerade ist.</p><p>Nichts angekommen? Schau bitte im Spam-Ordner nach oder schreib uns mit deiner Bestellnummer an hello@zento-home.com.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Was ist, wenn mein Produkt beschädigt ankommt oder nicht funktioniert?",
+            "icon": "none",
+            "row_content": "<p>Das tut uns leid. Schreib uns bitte mit deiner Bestellnummer und einem Foto oder kurzen Video des Problems an hello@zento-home.com. Wir prüfen den Fall und kümmern uns um Ersatz oder Reparatur.</p><p>Transportschäden melde uns bitte möglichst direkt nach Erhalt des Pakets.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie funktioniert die Garantie?",
+            "icon": "none",
+            "row_content": "<p>Auf unsere Produkte geben wir 2 Jahre Garantie ab Kaufdatum. Tritt in dieser Zeit ein Defekt auf, schreib uns mit deiner Bestellnummer und einer kurzen Beschreibung, gern mit Foto oder Video. Wir kümmern uns um Ersatz oder Reparatur.</p><p>Nicht abgedeckt sind Schäden durch unsachgemäße Nutzung sowie normaler Verschleiß. Deine gesetzlichen Rechte bleiben davon unberührt.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kann ich meine Bestellung zurückgeben?",
+            "icon": "none",
+            "row_content": "<p>Du kannst deine Bestellung innerhalb von 14 Tagen nach Erhalt ohne Angabe von Gründen widerrufen. Bei Hygieneartikeln wie der Milchpumpe ist der Widerruf ausgeschlossen, sobald die Hygieneverpackung geöffnet wurde. Die Kosten der Rücksendung trägst du.</p><p>Alle Details findest du in unseren AGB und in der Widerrufsbelehrung.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kann ich meine Bestellung ändern oder stornieren?",
+            "icon": "none",
+            "row_content": "<p>Schreib uns so schnell wie möglich mit deiner Bestellnummer. Solange deine Bestellung noch nicht versendet wurde, können wir sie in der Regel anpassen oder stornieren.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie kann ich bezahlen?",
+            "icon": "none",
+            "row_content": "<p>Du kannst unter anderem mit PayPal, Klarna, Kreditkarte (Visa, Mastercard, American Express), Apple Pay, Google Pay und Shop Pay bezahlen. Welche Zahlungsarten dir zur Verfügung stehen, siehst du im Checkout.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie erreiche ich den Support und wie schnell bekomme ich eine Antwort?",
+            "icon": "none",
+            "row_content": "<p>Schreib uns an hello@zento-home.com oder nutze das Kontaktformular oben auf dieser Seite. Wir antworten in der Regel innerhalb von 24 Stunden (werktags).</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_1",
+        "collapsible_row_2",
+        "collapsible_row_3",
+        "collapsible_row_4",
+        "collapsible_row_5",
+        "collapsible_row_6",
+        "collapsible_row_7",
+        "collapsible_row_8",
+        "collapsible_row_9"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Häufige Fragen",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 48,
+        "padding_bottom": 40
+      }
+    },
+    "rich_text_company": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wer steckt hinter Zento?",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Zento entwickelt smarte Babyprodukte für junge Familien in Deutschland und Österreich. Betrieben wird der Shop von der Onda Ventures OÜ, Tornimäe tn 5, 10145 Tallinn, Estland.</p><p>Mehr über uns und unsere Haltung erfährst du auf unserer <a href=\"/pages/about-us\">Über-uns-Seite</a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 56
       }
     }
   },
   "order": [
-    "main",
-    "form"
+    "rich_text_intro",
+    "trust_strip",
+    "form",
+    "collapsible_content_faq",
+    "rich_text_company"
   ]
 }
