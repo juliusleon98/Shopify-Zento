@@ -24,13 +24,13 @@
           "settings": {
             "layout": "vertical",
             "icon_1": "check_mark",
-            "heading_1": "Dein Baby immer im Blick, auch nachts: klares Bild mit Nachtsicht, ohne Licht anzumachen",
+            "heading_1": "Klares Bild, auch bei Nacht",
             "icon_2": "check_mark",
-            "heading_2": "Du verpasst nichts: Die Schrei- und Geräuscherkennung meldet sich, wenn dein Baby dich braucht",
+            "heading_2": "Schrei-Erkennung für mehr Ruhe",
             "icon_3": "check_mark",
-            "heading_3": "Sicher ohne WLAN und App: eigene verschlüsselte Verbindung, kein Zugriff von außen",
+            "heading_3": "Sicher ohne WLAN & App",
             "icon_4": "check_mark",
-            "heading_4": "Auch im Garten verbunden: bis zu 300 m Reichweite im Freien"
+            "heading_4": "Bis zu 300 m Reichweite im Freien"
           }
         },
         "price": {
