@@ -5,6 +5,7 @@
       "blocks": {
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "FÜR ENTSPANNTE MAHLZEITEN, TAG UND NACHT",
             "text_style": "uppercase"
