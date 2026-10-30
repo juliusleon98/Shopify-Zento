@@ -295,6 +295,15 @@
             "row_content": "<p>Über den Type-C-Anschluss (5 V, 2 A) – kompatibel mit Powerbank, Laptop, Desktop-PC oder Auto-Ladegerät.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Technische Daten",
+            "icon": "none",
+            "row_content": "<p><strong>Maße:</strong> 127 × 127 × 159 mm<br><strong>Ladeeingang:</strong> 5 V, 2 A (Type-C)<br><strong>Leistung:</strong> 10 W<br><strong>Akku:</strong> 3,7 V, 1200 mAh (Typ 18650, 4,44 Wh)<br><strong>Temperaturregelung:</strong> konstant 40–45 °C<br><strong>Mischmodi:</strong> 3 (1 Min. / 2 Min. / 6 Min., je nach Löslichkeit)<br><strong>Vorlaufzeit:</strong> bis zu 60 Minuten vorab einschaltbar<br><strong>Wärmefunktion:</strong> nur im Netzbetrieb (USB) aktiv<br><strong>Nachtlicht:</strong> Akku- oder USB-betrieben<br><strong>Aufbewahrung Restmilch:</strong> max. 2 Stunden im Gerät<br><strong>Zertifizierungen:</strong> CE-EMC, RoHS</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -302,7 +311,8 @@
         "collapsible_row_2",
         "collapsible_row_3",
         "collapsible_row_4",
-        "collapsible_row_5"
+        "collapsible_row_5",
+        "collapsible_row_6"
       ],
       "settings": {
         "caption": "",
@@ -318,123 +328,12 @@
         "padding_top": 32,
         "padding_bottom": 52
       }
-    },
-    "zento_specs": {
-      "type": "zento-specs-table",
-      "blocks": {
-        "spec_1": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Produktname",
-            "value": "Smart Formula Mixer"
-          }
-        },
-        "spec_2": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Maße",
-            "value": "127 × 127 × 159 mm"
-          }
-        },
-        "spec_3": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Ladeeingang",
-            "value": "5 V, 2 A (Type-C)"
-          }
-        },
-        "spec_4": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Leistung",
-            "value": "10 W"
-          }
-        },
-        "spec_5": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Akku",
-            "value": "3,7 V, 1200 mAh (Typ 18650, 4,44 Wh)"
-          }
-        },
-        "spec_6": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Temperaturregelung",
-            "value": "konstant 40–45 °C"
-          }
-        },
-        "spec_7": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Mischmodi",
-            "value": "3 (1 Min. / 2 Min. / 6 Min., je nach Löslichkeit)"
-          }
-        },
-        "spec_8": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Vorlaufzeit",
-            "value": "bis zu 60 Minuten vorab einschaltbar"
-          }
-        },
-        "spec_9": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Wärmefunktion",
-            "value": "nur im Netzbetrieb (USB) aktiv"
-          }
-        },
-        "spec_10": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Nachtlicht",
-            "value": "Akku- oder USB-betrieben"
-          }
-        },
-        "spec_11": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Aufbewahrung Restmilch",
-            "value": "max. 2 Stunden im Gerät"
-          }
-        },
-        "spec_12": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Zertifizierungen",
-            "value": "CE-EMC, RoHS"
-          }
-        }
-      },
-      "block_order": [
-        "spec_1",
-        "spec_2",
-        "spec_3",
-        "spec_4",
-        "spec_5",
-        "spec_6",
-        "spec_7",
-        "spec_8",
-        "spec_9",
-        "spec_10",
-        "spec_11",
-        "spec_12"
-      ],
-      "settings": {
-        "eyebrow": "TECHNISCHE DATEN",
-        "heading": "Alle Details auf einen Blick",
-        "color_scheme": "scheme-1",
-        "padding_top": 40,
-        "padding_bottom": 60
-      }
     }
   },
   "order": [
     "main",
     "zento_problem_images",
     "zento_comparison",
-    "collapsible_content_faq",
-    "zento_specs"
+    "collapsible_content_faq"
   ]
 }
