@@ -1936,12 +1936,25 @@
   background: transparent;
 }
 
-[id$="__collapsible_content_faq"] .accordion:hover summary {
-  background: rgba(23, 32, 47, 0.05);
+/* Hover tint only on devices with a real pointer; on touch screens :hover sticks after a tap */
+@media (hover: hover) {
+  [id$="__collapsible_content_faq"] .accordion:hover summary {
+    background: rgba(23, 32, 47, 0.05);
+  }
 }
 
 [id$="__collapsible_content_faq"] .accordion summary:hover .accordion__title {
   text-decoration: none;
+}
+
+@media (hover: none) {
+  .collapsible-content .accordion summary:hover {
+    background: transparent;
+  }
+
+  .collapsible-content .accordion summary:hover .accordion__title {
+    text-decoration: none;
+  }
 }
 
 [id$="__collapsible_content_faq"] .accordion__title {
