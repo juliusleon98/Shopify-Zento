@@ -861,7 +861,7 @@
 
 /* Comparison section (sections/zento-comparison.liquid) */
 .zento-comparison {
-  padding: 72px 20px;
+  padding: 44px 20px;
 }
 
 .zento-comparison__inner {
@@ -1051,7 +1051,7 @@
 
 @media screen and (max-width: 989px) {
   .zento-comparison {
-    padding: 58px 18px;
+    padding: 36px 18px;
   }
 
   .zento-comparison__title {
@@ -1069,7 +1069,7 @@
 
 @media screen and (max-width: 749px) {
   .zento-comparison {
-    padding: 44px 16px;
+    padding: 24px 16px;
   }
 
   .zento-comparison__header {
