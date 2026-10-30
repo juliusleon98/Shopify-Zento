@@ -66,7 +66,7 @@
           "settings": {
             "heading": "Produktbeschreibung",
             "icon": "none",
-            "content": "<p>Der Zento Blend ist Milchwärmer und Milchpulver-Mixer in einem Gerät. Statt die Flasche von Hand zu schütteln, verrührt er Wasser und Milchpulver sanft und gleichmäßig im 360°-Modus – klumpenfrei, aber ohne die Luftblasen, die beim klassischen Schütteln entstehen und Babys oft Blähungen und Bauchweh bereiten.</p><p>Mit 3 Mischmodi lässt sich die Rührzeit an die Löslichkeit deiner Milchnahrung anpassen: 1 Minute für normale Formula, 2 Minuten für schwerer lösliche Sorten, 6 Minuten für besonders hartnäckiges Pulver. Gleichzeitig hält das Gerät die Flasche konstant bei 40–45 °C – du kannst es sogar bis zu 60 Minuten im Voraus einschalten, damit die Flasche schon wartet, wenn dein Baby aufwacht.</p><p>Dank des eingebauten 1200-mAh-Akkus (Typ 18650, aufladbar über USB-C) ist der Zento Blend nicht an die Steckdose in der Küche gebunden – du kannst ihn per Powerbank, Laptop, Auto-Ladegerät oder Desktop-PC laden und mitnehmen. Ein sanftes, augenfreundliches Nachtlicht erleichtert die Zubereitung mitten in der Nacht, ohne dass ihr grelles Deckenlicht anschalten müsst.</p><p>Mit nur 127 × 127 × 159 mm ist er kompakt genug für jede Küche und jede Wickeltasche.</p><p><em>Hinweis: Die aktive Wärmefunktion (40–45 °C halten) benötigt laut Herstellerangabe durchgehend USB-Stromversorgung; das Nachtlicht läuft auf Wunsch auch rein über Akku. Übrig gebliebene Milch kann im Gerät bleiben, sollte aber nach spätestens 2 Stunden entsorgt werden.</em></p>",
+            "content": "<p>Der Zento Blend ist Milchwärmer und Milchpulver-Mixer in einem Gerät. Statt die Flasche zu schütteln, verrührt er Wasser und Milchpulver sanft im 360°-Modus – so gelangt weniger Luft und Schaum in die Milch als beim kräftigen Schütteln.</p><p><strong>Gut zu wissen:</strong> Die Wärmefunktion braucht durchgehend USB-Strom, zum Beispiel über Powerbank, Laptop oder Auto-Ladegerät. Das Nachtlicht läuft auch rein über Akku. Nicht getrunkene Milch solltest du spätestens nach 2 Stunden entsorgen.</p><ul><li><strong>3 Mischmodi:</strong> 1, 2 oder 6 Minuten, je nachdem, wie gut sich deine Milchnahrung löst</li><li><strong>Konstante Trinktemperatur:</strong> 40–45 °C, bis zu 60 Minuten im Voraus einschaltbar</li><li><strong>Akku mit 1200 mAh:</strong> aufladbar über USB-C, per Powerbank, Laptop, Auto-Ladegerät oder Desktop-PC</li><li><strong>Sanftes Nachtlicht:</strong> Zubereitung mitten in der Nacht ohne grelles Deckenlicht</li><li><strong>Kompakt:</strong> 127 × 127 × 159 mm, passt in Küche und Wickeltasche</li></ul>",
             "page": ""
           }
         },
@@ -88,21 +88,12 @@
             "page": ""
           }
         },
-        "collapsible_tab_faq_3": {
+        "collapsible_tab_shipping": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Ist der Zento Blend für unterwegs geeignet?",
+            "heading": "Versand & Rücksendungen",
             "icon": "none",
-            "content": "<p>Ja. Durch den eingebauten Akku funktioniert er auch ohne Steckdose in der Nähe – ideal für Reisen, den Besuch bei den Großeltern oder unterwegs im Auto.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_faq_4": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Was ist, wenn das Gerät kaputt geht?",
-            "icon": "none",
-            "content": "<p>Der Zento Blend kommt mit 2 Jahren Garantie. Bei Problemen innerhalb dieses Zeitraums kümmert sich unser Support um Ersatz oder Reparatur.</p>",
+            "content": "<p><strong>Lieferzeit:</strong> in der Regel 5–10 Werktage ab Bestellung. Sobald dein Paket unterwegs ist, bekommst du eine Versandbestätigung mit Tracking-Link per E-Mail.</p><p><strong>Versandkosten:</strong> Ab einem Bestellwert von 50 € versenden wir kostenlos. Bei kleineren Bestellungen siehst du die Versandkosten im Checkout, bevor du bezahlst.</p><p><strong>Rücksendung:</strong> Du kannst deine Bestellung innerhalb von 14 Tagen nach Erhalt ohne Angabe von Gründen widerrufen. Schreib uns dazu an <a href=\"mailto:hello@zento-home.com\">hello@zento-home.com</a>, wir schicken dir die Rücksendeadresse. Die Kosten der Rücksendung trägst du. Alle Details findest du in unseren AGB und in der Widerrufsbelehrung.</p>",
             "page": ""
           }
         }
@@ -119,8 +110,7 @@
         "collapsible_tab_description",
         "collapsible_tab_faq_1",
         "collapsible_tab_faq_2",
-        "collapsible_tab_faq_3",
-        "collapsible_tab_faq_4"
+        "collapsible_tab_shipping"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -296,6 +286,24 @@
             "page": ""
           }
         },
+        "collapsible_row_7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ist der Zento Blend für unterwegs geeignet?",
+            "icon": "none",
+            "row_content": "<p>Ja, mit einer Einschränkung: Der Zento Blend ist kompakt und hat einen eingebauten Akku, zum Beispiel für das Nachtlicht. Die Wärmefunktion braucht aber durchgehend USB-Strom – unterwegs also eine Powerbank oder ein Auto-Ladegerät.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Was ist, wenn das Gerät kaputt geht?",
+            "icon": "none",
+            "row_content": "<p>Der Zento Blend kommt mit 2 Jahren Garantie. Bei Problemen innerhalb dieses Zeitraums kümmert sich unser Support um Ersatz oder Reparatur.</p>",
+            "page": ""
+          }
+        },
         "collapsible_row_6": {
           "type": "collapsible_row",
           "settings": {
@@ -313,6 +321,8 @@
         "collapsible_row_3",
         "collapsible_row_4",
         "collapsible_row_5",
+        "collapsible_row_7",
+        "collapsible_row_8",
         "collapsible_row_6"
       ],
       "settings": {
