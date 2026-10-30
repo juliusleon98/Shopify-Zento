@@ -259,7 +259,7 @@
   }
 
   .product__info-container .h4 {
-    font-size: 1.15rem;
+    font-size: 1.45rem;
   }
 }
 
@@ -274,7 +274,7 @@
   }
 
   .product__info-container .h4 {
-    font-size: 1.35rem;
+    font-size: 1.65rem;
   }
 }
 
@@ -1899,12 +1899,12 @@
 
 /* Accordion answer text should read smaller than its question, not larger */
 .product__accordion .accordion__content {
-  font-size: 1.05rem;
+  font-size: 1.4rem;
 }
 
 @media screen and (min-width: 750px) {
   .product__accordion .accordion__content {
-    font-size: 1.2rem;
+    font-size: 1.55rem;
   }
 }
 
