@@ -2787,3 +2787,8 @@ section.shopify-pc__banner__dialog {
 .accordion__table tr:nth-child(even) td {
   background: #ffffff;
 }
+
+/* Breathing room between the buy box (button, notes, payment icons) and the info dropdowns */
+.product__info-container .zento-payment-icons + .product__accordion {
+  margin-top: 2.8rem !important;
+}
