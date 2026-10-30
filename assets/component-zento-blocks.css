@@ -278,11 +278,17 @@
   }
 }
 
-/* Tax caption: smaller and tucked right under the price, not spaced like a full block */
-.product__info-container > .product__tax {
-  margin-top: -0.4rem !important;
-  margin-bottom: 0 !important;
-  font-size: 1.1rem;
+/* Price row: tax caption sits right behind the price instead of on its own line */
+.product__info-container .zento-price-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 0.8rem;
+}
+
+.product__info-container .zento-price-row .product__tax {
+  margin: 0 !important;
+  font-size: 1.2rem;
   opacity: 0.65;
 }
 
@@ -2264,12 +2270,13 @@ cart-drawer .totals__total-value {
 
 }
 
-/* Price notes (shipping + warranty) under the tax line */
+/* Price notes (shipping + warranty) under the buy button */
 .product__info-container > .zento-price-notes {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 0.4rem 1.6rem;
-  margin: 0.2rem 0 0 !important;
+  margin: 1.2rem 0 0 !important;
   padding: 0;
   list-style: none;
 }
