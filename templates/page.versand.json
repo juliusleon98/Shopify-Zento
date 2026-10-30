@@ -1,0 +1,291 @@
+{
+  "sections": {
+    "rich_text_intro": {
+      "type": "rich-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "VERSAND & RÜCKGABE",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Deine Bestellung, Schritt für Schritt",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hier erfährst du, wann dein Paket bei dir ankommt, wie du es verfolgen kannst und was du tun musst, wenn du etwas zurücksenden möchtest oder etwas nicht stimmt.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "caption",
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 24
+      }
+    },
+    "trust_strip": {
+      "type": "zento-trust-strip",
+      "blocks": {
+        "item_1": {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "heading": "5–10 Werktage",
+            "text": "Lieferzeit ab Bestellung"
+          }
+        },
+        "item_2": {
+          "type": "item",
+          "settings": {
+            "icon": "price_tag",
+            "heading": "Kostenloser Versand",
+            "text": "Ab 50 € Bestellwert"
+          }
+        },
+        "item_3": {
+          "type": "item",
+          "settings": {
+            "icon": "return",
+            "heading": "14 Tage Widerruf",
+            "text": "Bei ungeöffneter Hygieneverpackung"
+          }
+        },
+        "item_4": {
+          "type": "item",
+          "settings": {
+            "icon": "chat_bubble",
+            "heading": "Hilfe in 24 Stunden",
+            "text": "Werktags per E-Mail"
+          }
+        }
+      },
+      "block_order": [
+        "item_1",
+        "item_2",
+        "item_3",
+        "item_4"
+      ],
+      "settings": {
+        "badge_text": "Auf einen Blick",
+        "color_scheme": "scheme-2",
+        "padding_top": 16,
+        "padding_bottom": 24
+      }
+    },
+    "rich_text_process": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "So läuft deine Bestellung ab",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<ol><li><strong>Bestellung:</strong> Nach deiner Bestellung bekommst du eine Bestätigung per E-Mail.</li><li><strong>Versand:</strong> Wir packen deine Bestellung und übergeben sie an den Versanddienstleister. Sobald dein Paket unterwegs ist, erhältst du eine Versandbestätigung mit Tracking-Link.</li><li><strong>Lieferung:</strong> In der Regel kommt dein Paket 5 bis 10 Werktage nach der Bestellung bei dir an.</li><li><strong>Auspacken:</strong> Bitte prüfe dein Paket direkt nach Erhalt. Ist etwas beschädigt oder funktioniert etwas nicht, melde dich einfach bei uns.</li></ol>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "collapsible_content_faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie lange dauert die Lieferung?",
+            "icon": "none",
+            "row_content": "<p>Die Lieferung dauert in der Regel 5 bis 10 Werktage ab Bestellung. Sobald dein Paket unterwegs ist, erhältst du eine Versandbestätigung per E-Mail.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Was kostet der Versand?",
+            "icon": "none",
+            "row_content": "<p>Ab einem Bestellwert von 50 € versenden wir kostenlos. Bei kleineren Bestellungen siehst du die Versandkosten im Checkout, bevor du bezahlst.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wo kann ich meine Bestellung verfolgen?",
+            "icon": "none",
+            "row_content": "<p>Sobald deine Bestellung versendet wurde, schicken wir dir eine E-Mail mit einem Tracking-Link. Dort siehst du jederzeit, wo dein Paket gerade ist.</p><p>Keine E-Mail bekommen? Schau bitte im Spam-Ordner nach oder schreib uns mit deiner Bestellnummer an hello@zento-home.com.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Mein Paket ist noch nicht da. Was kann ich tun?",
+            "icon": "none",
+            "row_content": "<p>Schau zuerst im Tracking nach, wo dein Paket gerade ist. Ist nach 10 Werktagen noch nichts bei dir angekommen, schreib uns mit deiner Bestellnummer an hello@zento-home.com. Wir kümmern uns darum und klären es mit dem Versanddienstleister.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Mein Produkt ist beschädigt oder funktioniert nicht.",
+            "icon": "none",
+            "row_content": "<p>Das tut uns leid. Schreib uns bitte mit deiner Bestellnummer und einem Foto oder kurzen Video des Problems an hello@zento-home.com. Wir prüfen den Fall und kümmern uns um Ersatz oder Reparatur.</p><p>Transportschäden melde uns bitte möglichst direkt nach Erhalt des Pakets.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kann ich meine Bestellung zurückgeben?",
+            "icon": "none",
+            "row_content": "<p>Du kannst deine Bestellung innerhalb von 14 Tagen nach Erhalt ohne Angabe von Gründen widerrufen. Bei Hygieneartikeln wie der Milchpumpe ist der Widerruf ausgeschlossen, sobald die Hygieneverpackung geöffnet wurde.</p><p>Alle rechtlichen Details findest du in unseren AGB und in der Widerrufsbelehrung.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie funktioniert die Rücksendung?",
+            "icon": "none",
+            "row_content": "<ol><li>Schreib uns innerhalb der 14 Tage an hello@zento-home.com, mit deiner Bestellnummer und dem Hinweis, dass du widerrufen möchtest.</li><li>Wir schicken dir die Adresse für die Rücksendung.</li><li>Sende das Produkt in der Originalverpackung an uns zurück. Bei Hygieneartikeln muss die Verpackung ungeöffnet sein.</li><li>Sobald deine Rücksendung bei uns eingegangen ist, kümmern wir uns um die Erstattung.</li></ol>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wer trägt die Kosten für die Rücksendung?",
+            "icon": "none",
+            "row_content": "<p>Die Kosten der Rücksendung trägst du.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wann bekomme ich mein Geld zurück?",
+            "icon": "none",
+            "row_content": "<p>Wir erstatten dir den Kaufpreis auf demselben Weg, den du bei der Bestellung gewählt hast, sobald deine Rücksendung bei uns eingegangen ist.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_10": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie funktioniert die Garantie?",
+            "icon": "none",
+            "row_content": "<p>Auf unsere Produkte geben wir 2 Jahre Garantie ab Kaufdatum. Tritt in dieser Zeit ein Defekt auf, schreib uns mit deiner Bestellnummer und einer kurzen Beschreibung, gern mit Foto oder Video. Wir kümmern uns um Ersatz oder Reparatur.</p><p>Nicht abgedeckt sind Schäden durch unsachgemäße Nutzung sowie normaler Verschleiß. Deine gesetzlichen Rechte bleiben davon unberührt.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_1",
+        "collapsible_row_2",
+        "collapsible_row_3",
+        "collapsible_row_4",
+        "collapsible_row_5",
+        "collapsible_row_6",
+        "collapsible_row_7",
+        "collapsible_row_8",
+        "collapsible_row_9",
+        "collapsible_row_10"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Häufige Fragen",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "rich_text_contact": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Noch Fragen?",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Schreib uns, wir antworten in der Regel innerhalb von 24 Stunden (werktags).</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Kontakt aufnehmen",
+            "button_link": "/pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 56
+      }
+    }
+  },
+  "order": [
+    "rich_text_intro",
+    "trust_strip",
+    "rich_text_process",
+    "collapsible_content_faq",
+    "rich_text_contact"
+  ]
+}
