@@ -1960,8 +1960,37 @@
   }
 }
 
+/* FAQ title: same style as the titles of the other product page sections */
 [id$="__collapsible_content_faq"] .collapsible-content__heading {
-  font-size: clamp(1.9rem, 4.5vw, 2.3rem) !important;
+  margin: 0;
+  color: #17202f;
+  font-size: 40px !important;
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+  font-weight: 750;
+}
+
+@media screen and (max-width: 989px) {
+  [id$="__collapsible_content_faq"] .collapsible-content__heading {
+    font-size: 34px !important;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  [id$="__collapsible_content_faq"] .collapsible-content__header {
+    text-align: left !important;
+  }
+
+  [id$="__collapsible_content_faq"] .collapsible-content__heading {
+    font-size: 28px !important;
+    line-height: 1.12;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  [id$="__collapsible_content_faq"] .collapsible-content__heading {
+    font-size: 25px !important;
+  }
 }
 
 [id$="__collapsible_content_faq"] .accordion {
