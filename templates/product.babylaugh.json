@@ -66,14 +66,14 @@
           "settings": {
             "heading": "Produktbeschreibung",
             "icon": "none",
-            "content": "<p>Der Zento Babylaugh ist Milchwärmer und Milchpulver-Mixer in einem Gerät. Statt die Flasche von Hand zu schütteln, verrührt er Wasser und Milchpulver sanft und gleichmäßig im 360°-Modus – klumpenfrei, aber ohne die Luftblasen, die beim klassischen Schütteln entstehen und Babys oft Blähungen und Bauchweh bereiten.</p><p>Mit 3 Mischmodi lässt sich die Rührzeit an die Löslichkeit deiner Milchnahrung anpassen: 1 Minute für normale Formula, 2 Minuten für schwerer lösliche Sorten, 6 Minuten für besonders hartnäckiges Pulver. Gleichzeitig hält das Gerät die Flasche konstant bei 40–45 °C – du kannst es sogar bis zu 60 Minuten im Voraus einschalten, damit die Flasche schon wartet, wenn dein Baby aufwacht.</p><p>Dank des eingebauten 1200-mAh-Akkus (Typ 18650, aufladbar über USB-C) ist der Babylaugh nicht an die Steckdose in der Küche gebunden – du kannst ihn per Powerbank, Laptop, Auto-Ladegerät oder Desktop-PC laden und mitnehmen. Ein sanftes, augenfreundliches Nachtlicht erleichtert die Zubereitung mitten in der Nacht, ohne dass ihr grelles Deckenlicht anschalten müsst.</p><p>Mit nur 127 × 127 × 159 mm ist er kompakt genug für jede Küche und jede Wickeltasche.</p><p><em>Hinweis: Die aktive Wärmefunktion (40–45 °C halten) benötigt laut Herstellerangabe durchgehend USB-Stromversorgung; das Nachtlicht läuft auf Wunsch auch rein über Akku. Übrig gebliebene Milch kann im Gerät bleiben, sollte aber nach spätestens 2 Stunden entsorgt werden.</em></p>",
+            "content": "<p>Der Zento Blend ist Milchwärmer und Milchpulver-Mixer in einem Gerät. Statt die Flasche von Hand zu schütteln, verrührt er Wasser und Milchpulver sanft und gleichmäßig im 360°-Modus – klumpenfrei, aber ohne die Luftblasen, die beim klassischen Schütteln entstehen und Babys oft Blähungen und Bauchweh bereiten.</p><p>Mit 3 Mischmodi lässt sich die Rührzeit an die Löslichkeit deiner Milchnahrung anpassen: 1 Minute für normale Formula, 2 Minuten für schwerer lösliche Sorten, 6 Minuten für besonders hartnäckiges Pulver. Gleichzeitig hält das Gerät die Flasche konstant bei 40–45 °C – du kannst es sogar bis zu 60 Minuten im Voraus einschalten, damit die Flasche schon wartet, wenn dein Baby aufwacht.</p><p>Dank des eingebauten 1200-mAh-Akkus (Typ 18650, aufladbar über USB-C) ist der Zento Blend nicht an die Steckdose in der Küche gebunden – du kannst ihn per Powerbank, Laptop, Auto-Ladegerät oder Desktop-PC laden und mitnehmen. Ein sanftes, augenfreundliches Nachtlicht erleichtert die Zubereitung mitten in der Nacht, ohne dass ihr grelles Deckenlicht anschalten müsst.</p><p>Mit nur 127 × 127 × 159 mm ist er kompakt genug für jede Küche und jede Wickeltasche.</p><p><em>Hinweis: Die aktive Wärmefunktion (40–45 °C halten) benötigt laut Herstellerangabe durchgehend USB-Stromversorgung; das Nachtlicht läuft auf Wunsch auch rein über Akku. Übrig gebliebene Milch kann im Gerät bleiben, sollte aber nach spätestens 2 Stunden entsorgt werden.</em></p>",
             "page": ""
           }
         },
         "collapsible_tab_faq_1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Für wen eignet sich der Zento Babylaugh?",
+            "heading": "Für wen eignet sich der Zento Blend?",
             "icon": "none",
             "content": "<p>Für Eltern, die ihr Baby mit Flaschennahrung füttern und dabei besonders schonend – ohne Schüttel-Luftblasen – vorgehen möchten, sowie für alle, die nachts oder unterwegs schnell eine fertige Flasche brauchen.</p>",
             "page": ""
@@ -84,14 +84,14 @@
           "settings": {
             "heading": "Wie funktioniert der Milchwärmer?",
             "icon": "none",
-            "content": "<p>Fläschchen mit Wasser und Milchpulver einsetzen, Mischmodus wählen und den Rührvorgang starten. Der Babylaugh vermengt beides sanft im Kreisel-Prinzip und hält die Flasche danach auf der eingestellten Trinktemperatur.</p>",
+            "content": "<p>Fläschchen mit Wasser und Milchpulver einsetzen, Mischmodus wählen und den Rührvorgang starten. Der Zento Blend vermengt beides sanft im Kreisel-Prinzip und hält die Flasche danach auf der eingestellten Trinktemperatur.</p>",
             "page": ""
           }
         },
         "collapsible_tab_faq_3": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Ist der Babylaugh für unterwegs geeignet?",
+            "heading": "Ist der Zento Blend für unterwegs geeignet?",
             "icon": "none",
             "content": "<p>Ja. Durch den eingebauten Akku funktioniert er auch ohne Steckdose in der Nähe – ideal für Reisen, den Besuch bei den Großeltern oder unterwegs im Auto.</p>",
             "page": ""
@@ -102,7 +102,7 @@
           "settings": {
             "heading": "Was ist, wenn das Gerät kaputt geht?",
             "icon": "none",
-            "content": "<p>Der Zento Babylaugh kommt mit 2 Jahren Garantie. Bei Problemen innerhalb dieses Zeitraums kümmert sich unser Support um Ersatz oder Reparatur.</p>",
+            "content": "<p>Der Zento Blend kommt mit 2 Jahren Garantie. Bei Problemen innerhalb dieses Zeitraums kümmert sich unser Support um Ersatz oder Reparatur.</p>",
             "page": ""
           }
         }
@@ -236,11 +236,11 @@
         "comparison_row_5"
       ],
       "settings": {
-        "eyebrow": "ZENTO BABYLAUGH VS. KLASSISCHER FLASCHENWÄRMER",
+        "eyebrow": "ZENTO BLEND VS. KLASSISCHER FLASCHENWÄRMER",
         "heading": "Weniger Luftblasen. Mehr entspannte Nächte.",
-        "subtitle": "<p>Klassische Flaschenwärmer heizen, aber mischen nicht – von Hand schütteln bleibt trotzdem nötig. Der Zento Babylaugh übernimmt beides in einem Gerät.</p>",
+        "subtitle": "<p>Klassische Flaschenwärmer heizen, aber mischen nicht – von Hand schütteln bleibt trotzdem nötig. Der Zento Blend übernimmt beides in einem Gerät.</p>",
         "zento_image": "",
-        "zento_name": "Zento Babylaugh",
+        "zento_name": "Zento Blend",
         "competitor_image": "",
         "competitor_name": "Klassisch",
         "color_scheme": "scheme-2",
@@ -256,7 +256,7 @@
           "settings": {
             "heading": "Warum sollte ich die Flasche nicht mehr schütteln?",
             "icon": "none",
-            "row_content": "<p>Kräftiges Schütteln wirbelt Luft in die Milch, die dein Baby beim Trinken mitschluckt – ein häufiger Auslöser für Blähungen und Bauchweh. Sanftes Rühren oder Kreisen vermeidet das, löst das Pulver aber oft nicht vollständig. Der Babylaugh kombiniert beides: gründliches, aber schonendes Mischen ohne Schüttel-Luft.</p>",
+            "row_content": "<p>Kräftiges Schütteln wirbelt Luft in die Milch, die dein Baby beim Trinken mitschluckt – ein häufiger Auslöser für Blähungen und Bauchweh. Sanftes Rühren oder Kreisen vermeidet das, löst das Pulver aber oft nicht vollständig. Der Zento Blend kombiniert beides: gründliches, aber schonendes Mischen ohne Schüttel-Luft.</p>",
             "page": ""
           }
         },
@@ -290,7 +290,7 @@
         "collapsible_row_5": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Wie lade ich den Babylaugh auf?",
+            "heading": "Wie lade ich den Zento Blend auf?",
             "icon": "none",
             "row_content": "<p>Über den Type-C-Anschluss (5 V, 2 A) – kompatibel mit Powerbank, Laptop, Desktop-PC oder Auto-Ladegerät.</p>",
             "page": ""
