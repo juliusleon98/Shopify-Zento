@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -33,13 +24,13 @@
           "settings": {
             "layout": "vertical",
             "icon_1": "check_mark",
-            "heading_1": "5-Zoll-HD-Display mit 720p-Kamera & Infrarot-Nachtsicht",
+            "heading_1": "Dein Baby immer im Blick, auch nachts: klares Bild mit Nachtsicht, ohne Licht anzumachen",
             "icon_2": "check_mark",
-            "heading_2": "Bis zu 300 m Reichweite über sichere 2,4-GHz-FHSS-Funktechnik – kein WLAN-Hack-Risiko",
+            "heading_2": "Du verpasst nichts: Die Schrei- und Geräuscherkennung meldet sich, wenn dein Baby dich braucht",
             "icon_3": "check_mark",
-            "heading_3": "11 Kernfunktionen: Cry-Detection, VOX, Stillerinnerung u.v.m.",
+            "heading_3": "Sicher ohne WLAN und App: eigene verschlüsselte Verbindung, kein Zugriff von außen",
             "icon_4": "check_mark",
-            "heading_4": "2 Jahre Garantie"
+            "heading_4": "Auch im Garten verbunden: bis zu 300 m Reichweite im Freien"
           }
         },
         "price": {
@@ -55,10 +46,6 @@
             "picker_type": "button",
             "swatch_shape": "circle"
           }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
         },
         "buy_buttons_jQVaAp": {
           "type": "buy_buttons",
@@ -126,7 +113,6 @@
         "icon_with_text_benefits_1",
         "price",
         "variant_picker",
-        "quantity_selector",
         "buy_buttons_jQVaAp",
         "payment_icons",
         "collapsible_tab_description",

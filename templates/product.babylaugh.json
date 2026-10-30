@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -33,13 +24,13 @@
           "settings": {
             "layout": "vertical",
             "icon_1": "check_mark",
-            "heading_1": "Schonendes 360°-Mischen ganz ohne Schütteln – weniger Luftblasen, weniger Bauchweh",
+            "heading_1": "Schluss mit Schütteln: sanft gemischt, ohne Klümpchen und mit weniger Luftblasen",
             "icon_2": "check_mark",
-            "heading_2": "3 Mischmodi & konstante 40–45 °C Trinktemperatur",
+            "heading_2": "Nachts in Ruhe zubereiten, mit sanftem Nachtlicht statt grellem Deckenlicht",
             "icon_3": "check_mark",
-            "heading_3": "Akkubetrieben (1200 mAh) – einsatzbereit auch ohne Steckdose",
+            "heading_3": "Die Flasche ist warm, wenn dein Baby aufwacht: bis zu 60 Minuten vorher startbar",
             "icon_4": "check_mark",
-            "heading_4": "2 Jahre Garantie"
+            "heading_4": "Auch unterwegs und bei den Großeltern dabei: Der Akku macht dich unabhängig von der Steckdose"
           }
         },
         "price": {
@@ -55,10 +46,6 @@
             "picker_type": "button",
             "swatch_shape": "square"
           }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
         },
         "buy_buttons_jQVaAp": {
           "type": "buy_buttons",
@@ -126,7 +113,6 @@
         "icon_with_text_benefits_1",
         "price",
         "variant_picker",
-        "quantity_selector",
         "buy_buttons_jQVaAp",
         "payment_icons",
         "collapsible_tab_description",
