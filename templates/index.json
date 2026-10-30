@@ -461,43 +461,38 @@
       "settings": {
         "image": "shopify://shop_images/Zento_Produkte_Schwebend.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "large",
         "image_behavior": "none",
         "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
         "show_text_box": true,
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "stack_images_on_mobile": true,
         "mobile_content_alignment": "center",
-        "show_text_below": true
-      }
-    },
-    "1780853133e045e530": {
-      "type": "_blocks",
-      "settings": {}
-    },
-    "contact_cta": {
-      "type": "rich-text",
+        "show_text_below": false,
+        "show_text_box_mobile": true
+      },
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Fragen? Wir helfen dir gern",
+            "heading": "Fragen?<br>Wir helfen dir gern",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Du hast eine Frage zu unseren Produkten oder zu deiner Bestellung? Schreib uns, wir antworten in der Regel innerhalb von 24 Stunden (werktags).</p>"
+            "text": "Du hast eine Frage zu unseren Produkten oder zu deiner Bestellung? Schreib uns, wir antworten in der Regel innerhalb von 24 Stunden (werktags).",
+            "text_style": "body"
           }
         },
-        "button": {
-          "type": "button",
+        "buttons": {
+          "type": "buttons",
           "settings": {
-            "button_label": "Kontakt aufnehmen",
-            "button_link": "/pages/contact",
-            "button_style_secondary": false,
+            "button_label_1": "Kontakt aufnehmen",
+            "button_link_1": "/pages/contact",
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -507,16 +502,12 @@
       "block_order": [
         "heading",
         "text",
-        "button"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2",
-        "full_width": false,
-        "padding_top": 48,
-        "padding_bottom": 56
-      }
+        "buttons"
+      ]
+    },
+    "1780853133e045e530": {
+      "type": "_blocks",
+      "settings": {}
     }
   },
   "order": [
@@ -526,7 +517,6 @@
     "178066703396371827",
     "custom_liquid_zcKqMe",
     "zento_reviews",
-    "contact_cta",
     "image_banner_xbJg6P",
     "1780853133e045e530"
   ]
