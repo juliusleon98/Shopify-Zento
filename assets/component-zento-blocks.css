@@ -363,6 +363,26 @@
   gap: 0.7rem;
 }
 
+/* Mobile: colour pills share the full row width, centred */
+@media screen and (max-width: 749px) {
+  .product__info-container .product-form__input--pill:has(label.variant-option--color) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+    max-width: none;
+    width: 100%;
+  }
+
+  .product__info-container .product-form__input--pill input[type='radio'] + label.variant-option--color {
+    flex: 1 1 8rem;
+    justify-content: center;
+    margin: 0.7rem 0 0.2rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+  }
+}
+
 .variant-option__swatch {
   display: inline-block;
   width: 1.6rem;
@@ -380,10 +400,11 @@
 
 /* Product benefit checkmarks (icon-with-text blocks in main-product) */
 .product__info-container .icon-with-text--vertical .icon-with-text__item {
-  align-items: flex-start;
+  align-items: center;
 }
 
 .product__info-container .icon-with-text--vertical .svg-wrapper {
+  flex-shrink: 0;
   min-width: 1.8rem;
   min-height: 1.8rem;
   position: relative;
