@@ -1135,26 +1135,30 @@
     gap: 8px;
   }
 
-  /* No check/cross on mobile: the text gets the full box width */
-  .zento-comparison__benefit--zento,
-  .zento-comparison__benefit--classic {
-    grid-template-columns: 1fr;
+  .zento-comparison__benefit--zento {
+    grid-template-columns: 1fr 26px;
   }
 
-  .zento-comparison__check,
-  .zento-comparison__cross {
-    display: none;
+  .zento-comparison__benefit--classic {
+    grid-template-columns: 26px 1fr;
   }
 
   .zento-comparison__benefit h3 {
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 4px;
     line-height: 1.2;
   }
 
   .zento-comparison__benefit p {
-    font-size: 12.5px;
-    line-height: 1.35;
+    font-size: 11px;
+    line-height: 1.32;
+  }
+
+  .zento-comparison__check,
+  .zento-comparison__cross {
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
   }
 }
 
@@ -1168,11 +1172,11 @@
   }
 
   .zento-comparison__benefit h3 {
-    font-size: 13.5px;
+    font-size: 12px;
   }
 
   .zento-comparison__benefit p {
-    font-size: 12px;
+    font-size: 10.5px;
   }
 }
 
