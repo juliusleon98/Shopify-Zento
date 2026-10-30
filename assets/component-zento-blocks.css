@@ -552,7 +552,7 @@
 
 @media screen and (max-width: 749px) {
   .zento-problem-images__header {
-    text-align: left;
+    text-align: center;
     margin-bottom: 22px;
   }
 
@@ -1073,7 +1073,7 @@
   }
 
   .zento-comparison__header {
-    text-align: left;
+    text-align: center;
     margin-bottom: 26px;
   }
 
@@ -1977,10 +1977,6 @@
 }
 
 @media screen and (max-width: 749px) {
-  [id$="__collapsible_content_faq"] .collapsible-content__header {
-    text-align: left !important;
-  }
-
   [id$="__collapsible_content_faq"] .collapsible-content__heading {
     font-size: 28px !important;
     line-height: 1.12;
