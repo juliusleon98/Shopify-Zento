@@ -1941,6 +1941,25 @@
 }
 
 /* "Alles über elektrische Milchpumpen" FAQ section: card rows, proportional sizing */
+/* Orange eyebrow above the FAQ heading, same look as the other section eyebrows */
+[id$="__collapsible_content_faq"] .collapsible-content__header .caption-with-letter-spacing {
+  margin: 0 0 12px;
+  color: #c9966f;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.16em;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 749px) {
+  [id$="__collapsible_content_faq"] .collapsible-content__header .caption-with-letter-spacing {
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    margin-bottom: 10px;
+  }
+}
+
 [id$="__collapsible_content_faq"] .collapsible-content__heading {
   font-size: clamp(1.9rem, 4.5vw, 2.3rem) !important;
 }
