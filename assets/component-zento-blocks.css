@@ -2703,3 +2703,43 @@ section.shopify-pc__banner__dialog {
 [id$="__featured-collection"] .card__badge {
   display: none;
 }
+
+/* Table inside a collapsible row (e.g. "Technische Daten" in the FAQ) */
+.accordion__table {
+  width: 100%;
+  margin: 0.4rem 0 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(23, 32, 47, 0.08);
+}
+
+.accordion__table th,
+.accordion__table td {
+  padding: 1rem 1.2rem;
+  vertical-align: top;
+  line-height: 1.35;
+}
+
+.accordion__table th {
+  width: 45%;
+  text-align: left;
+  color: #17202f;
+  font-weight: 700;
+}
+
+.accordion__table td {
+  text-align: right;
+  color: #3d4655;
+}
+
+.accordion__table tr:nth-child(odd) th,
+.accordion__table tr:nth-child(odd) td {
+  background: #faf6f1;
+}
+
+.accordion__table tr:nth-child(even) th,
+.accordion__table tr:nth-child(even) td {
+  background: #ffffff;
+}

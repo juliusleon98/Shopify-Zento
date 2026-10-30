@@ -301,7 +301,8 @@
           "settings": {
             "heading": "Technische Daten",
             "icon": "none",
-            "row_content": "<p><strong>Maße:</strong> 127 × 127 × 159 mm<br><strong>Ladeeingang:</strong> 5 V, 2 A (Type-C)<br><strong>Leistung:</strong> 10 W<br><strong>Akku:</strong> 3,7 V, 1200 mAh (Typ 18650, 4,44 Wh)<br><strong>Temperaturregelung:</strong> konstant 40–45 °C<br><strong>Mischmodi:</strong> 3 (1 Min. / 2 Min. / 6 Min., je nach Löslichkeit)<br><strong>Vorlaufzeit:</strong> bis zu 60 Minuten vorab einschaltbar<br><strong>Wärmefunktion:</strong> nur im Netzbetrieb (USB) aktiv<br><strong>Nachtlicht:</strong> Akku- oder USB-betrieben<br><strong>Aufbewahrung Restmilch:</strong> max. 2 Stunden im Gerät<br><strong>Zertifizierungen:</strong> CE-EMC, RoHS</p>",
+            "row_content": "",
+            "table_rows": "Maße | 127 × 127 × 159 mm\nLadeeingang | 5 V, 2 A (Type-C)\nLeistung | 10 W\nAkku | 3,7 V, 1200 mAh (Typ 18650, 4,44 Wh)\nTemperaturregelung | konstant 40–45 °C\nMischmodi | 3 (1 Min. / 2 Min. / 6 Min., je nach Löslichkeit)\nVorlaufzeit | bis zu 60 Minuten vorab einschaltbar\nWärmefunktion | nur im Netzbetrieb (USB) aktiv\nNachtlicht | Akku- oder USB-betrieben\nAufbewahrung Restmilch | max. 2 Stunden im Gerät\nZertifizierungen | CE-EMC, RoHS",
             "page": ""
           }
         }

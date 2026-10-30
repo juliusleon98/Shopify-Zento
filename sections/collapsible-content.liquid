@@ -94,6 +94,22 @@
                     aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
                   >
                     {{ block.settings.row_content }}
+                    {%- if block.settings.table_rows != blank -%}
+                      <table class="accordion__table">
+                        <tbody>
+                          {%- assign table_lines = block.settings.table_rows | newline_to_br | strip_newlines | split: '<br />' -%}
+                          {%- for table_line in table_lines -%}
+                            {%- assign table_cells = table_line | split: '|' -%}
+                            {%- if table_cells.size > 1 -%}
+                              <tr>
+                                <th scope="row">{{ table_cells[0] | strip | escape }}</th>
+                                <td>{{ table_cells[1] | strip | escape }}</td>
+                              </tr>
+                            {%- endif -%}
+                          {%- endfor -%}
+                        </tbody>
+                      </table>
+                    {%- endif -%}
                     {{ block.settings.page.content }}
                   </div>
                 </details>
@@ -485,6 +501,12 @@
           "type": "richtext",
           "id": "row_content",
           "label": "t:sections.collapsible_content.blocks.collapsible_row.settings.row_content.label"
+        },
+        {
+          "type": "textarea",
+          "id": "table_rows",
+          "label": "Table rows",
+          "info": "Optional. One row per line, written as Label | Value. Shown as a table below the text."
         },
         {
           "type": "page",
