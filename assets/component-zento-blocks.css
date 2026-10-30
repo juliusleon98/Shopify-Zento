@@ -2652,7 +2652,8 @@ section.shopify-pc__banner__dialog {
   text-decoration: underline;
 }
 
-/* Homepage bestsellers: image and name only, no price */
-[id$="__featured-collection"] .card-information .price {
+/* Homepage bestsellers: image and name only, no price and no sale badge */
+[id$="__featured-collection"] .card-information .price,
+[id$="__featured-collection"] .card__badge {
   display: none;
 }
