@@ -162,7 +162,7 @@
   @media screen and (max-width: 749px) {
     .ai-hero-banner-{{ ai_gen_id }} {
       min-height: {{ block.settings.min_height_mobile }}px;
-      align-items: flex-start;
+      align-items: flex-end;
     }
 
     .ai-hero-banner__content-{{ ai_gen_id }} {
@@ -190,7 +190,7 @@
     }
 
     .ai-hero-banner__content-wrapper-{{ ai_gen_id }} {
-      padding: {{ block.settings.padding_vertical | times: 0.6 }}px {{ block.settings.padding_horizontal | times: 0.7 }}px;
+      padding: 0 {{ block.settings.padding_horizontal | times: 0.7 }}px 16px;
     }
 
     .ai-hero-banner__button-arrow-{{ ai_gen_id }} {

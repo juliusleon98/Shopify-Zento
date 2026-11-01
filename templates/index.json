@@ -35,9 +35,9 @@
             "eyebrow_size": 12,
             "eyebrow_color": "#ffffff",
             "eyebrow_spacing": 15,
-            "heading": "Der Herbst Sale ist da",
+            "heading": "Herbst Sale",
             "heading_size": 40,
-            "heading_color": "#2a3b47",
+            "heading_color": "#111111",
             "heading_spacing": 15,
             "subheading": "Smarte Technik für Komfort und Familie",
             "subheading_size": 14,
@@ -295,7 +295,7 @@
         "feed_1": {
           "type": "feed_review",
           "settings": {
-            "author_name": "Lisa Winkler",
+            "author_name": "Lisa W.",
             "date_text": "12.06.2026 · Verifizierte Kundin",
             "rating": 5,
             "heading": "Mein neuer Begleiter",
