@@ -121,7 +121,7 @@
         "text_CbiJNX": {
           "type": "text",
           "settings": {
-            "text": "<p>Babyprodukte, die den Alltag mit Baby leichter machen: durchdacht, schön gestaltet und zu einem fairen Preis. Unser Herzstück ist die Zento One, eine kabellose Milchpumpe, mit der du beide Hände für dein Baby frei hast.</p>",
+            "text": "<p>Durchdachte Babyprodukte zu einem fairen Preis. Unser Herzstück: die kabellose Zento One, mit der du beide Hände für dein Baby frei hast.</p>",
             "text_style": "body"
           }
         },
@@ -142,18 +142,18 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/Mother_and_baby_with_breast_pump.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
+        "height": "small",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     },
     "zento_reviews": {
