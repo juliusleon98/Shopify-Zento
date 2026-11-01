@@ -76,7 +76,18 @@
       {%- if section.blocks.size > 0 -%}
         <div class="zento-reviews__slider" data-zento-reviews-slider>
           <div class="zento-reviews__track" tabindex="0" aria-label="Kundenbewertungen">
+            {%- comment -%} Pass 1 renders the reviews with a photo, pass 2 the text-only ones. {%- endcomment -%}
+            {%- for pass in (1..2) -%}
             {%- for block in section.blocks -%}
+              {%- assign has_image = false -%}
+              {%- if block.settings.image != blank -%}{%- assign has_image = true -%}{%- endif -%}
+              {%- assign show_card = false -%}
+              {%- if pass == 1 and has_image -%}
+                {%- assign show_card = true -%}
+              {%- elsif pass == 2 and has_image == false -%}
+                {%- assign show_card = true -%}
+              {%- endif -%}
+              {%- if show_card == false -%}{%- continue -%}{%- endif -%}
               {%- if block.type == 'highlight_review' -%}
                 {%- assign card_text = block.settings.quote -%}
                 {%- assign card_meta = block.settings.author_label -%}
@@ -111,6 +122,7 @@
                   </div>
                 </div>
               </article>
+            {%- endfor -%}
             {%- endfor -%}
           </div>
           <nav class="zento-reviews__nav" aria-label="Bewertungen durchblättern" data-zento-reviews-nav hidden>
