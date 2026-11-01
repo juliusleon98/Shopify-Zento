@@ -96,6 +96,13 @@
                 {%- assign card_meta = block.settings.date_text -%}
               {%- endif -%}
               {%- if card_meta == blank -%}{%- assign card_meta = section.settings.default_label -%}{%- endif -%}
+              {%- comment -%} Show only "First L." when a full first and last name was entered. {%- endcomment -%}
+              {%- assign card_name = block.settings.author_name | strip -%}
+              {%- assign name_parts = card_name | split: ' ' -%}
+              {%- if name_parts.size == 2 and name_parts[1].size > 2 -%}
+                {%- assign last_initial = name_parts[1] | slice: 0 | upcase -%}
+                {%- assign card_name = name_parts[0] | append: ' ' | append: last_initial | append: '.' -%}
+              {%- endif -%}
               <article
                 class="zento-reviews-card{% if block.settings.image != blank %} zento-reviews-card--with-image{% endif %}"
                 {{ block.shopify_attributes }}
@@ -113,10 +120,10 @@
                   <div class="zento-reviews-card__text">{{ card_text }}</div>
                   <div class="zento-reviews-card__author">
                     <span class="zento-reviews-card__avatar" aria-hidden="true">
-                      {{- block.settings.author_name | slice: 0 | upcase -}}
+                      {{- card_name | slice: 0 | upcase -}}
                     </span>
                     <span>
-                      <strong>{{ block.settings.author_name | escape }}</strong>
+                      <strong>{{ card_name | escape }}</strong>
                       {%- if card_meta != blank -%}<small>{{ card_meta | escape }}</small>{%- endif -%}
                     </span>
                   </div>
