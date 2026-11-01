@@ -20,7 +20,7 @@
           "type": "ai_gen_block_b745291",
           "settings": {
             "background_image": "shopify://shop_images/Autumn_Hero_Banner_Desktop.jpg",
-            "background_image_mobile": "shopify://shop_images/Autumn_Hero_Mobile.jpg",
+            "background_image_mobile": "shopify://shop_images/autumn_hero_mobile_under_500kb.jpg",
             "min_height_desktop": 600,
             "min_height_mobile": 400,
             "show_overlay": true,
@@ -295,7 +295,7 @@
         "feed_1": {
           "type": "feed_review",
           "settings": {
-            "author_name": "Lisa W.",
+            "author_name": "Lisa Winkler",
             "date_text": "12.06.2026 · Verifizierte Kundin",
             "rating": 5,
             "heading": "Mein neuer Begleiter",
@@ -491,6 +491,7 @@
         "score": "4,8",
         "review_count_text": "230+ Bewertungen",
         "auto_summary": true,
+        "default_label": "Verifizierte Kundin",
         "button_label": "Bewertung schreiben",
         "form_eyebrow": "DEINE ERFAHRUNG",
         "form_heading": "Bewertung schreiben",
