@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -477,6 +468,106 @@
             "heading": "Titel der Bewertung",
             "text": "<p>Platzhalter: hier die echte Kundenbewertung eintragen und den Block danach aktivieren (Augen-Symbol).</p>"
           }
+        },
+        "feed_form_11": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Sophie",
+            "date_text": "",
+            "rating": 5,
+            "heading": "Richtig schönes Hautgefühl",
+            "text": "<p>Das Silikon liegt super weich an und fühlt sich überhaupt nicht kalt oder hart an. Kein Vergleich zu anderen Pumpen. Bin von der Verarbeitungsqualität echt begeistert.</p>"
+          }
+        },
+        "feed_form_12": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Anonym",
+            "date_text": "",
+            "rating": 5,
+            "heading": "Mega Kundenservice!",
+            "text": "<p>Hatte eine Frage zu den Aufsätzen und der Support hat mir gefühlt nach 5 Minuten direkt geantwortet. Richtig nett und hilfsbereit. Die Pumpe ist auch top und kratzt nicht.</p>"
+          }
+        },
+        "feed_form_13": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Maren",
+            "date_text": "",
+            "rating": 5,
+            "heading": "Sehr sanft zur Brust",
+            "text": "<p>Da meine Haut am Anfang echt empfindlich war, hatte ich Sorge beim Pumpen. Aber das Material schmiegt sich richtig sanft an und drückt an keiner Stelle. Sehr wertig verarbeitet.</p>"
+          }
+        },
+        "feed_form_14": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Mama von 3",
+            "date_text": "",
+            "rating": 5,
+            "heading": "Schnelle Hilfe & top Qualität",
+            "text": "<p>Der Support antwortet extrem schnell, was man ja heute kaum noch erlebt. Die Pumpe fühlt sich qualitativ richtig gut an und das Silikon ist ultra angenehm.</p>"
+          }
+        },
+        "feed_form_15": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Elena",
+            "date_text": "",
+            "rating": 5,
+            "heading": "Hochwertiges Material",
+            "text": "<p>Fasst sich schon beim Auspacken total gut an. Keinerlei harte Kanten, alles schön abgerundet und das Kissen liegt ganz weich auf der Haut.</p>"
+          }
+        },
+        "feed_form_16": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Beatriz",
+            "date_text": "",
+            "rating": 5,
+            "heading": "Absolut empfehlenswert",
+            "text": "<p>Verarbeitung ist 1A. Auch der Service bei einer kurzen Rückfrage war blitzschnell da.</p>"
+          }
+        },
+        "feed_form_17": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Kathrin S.",
+            "date_text": "",
+            "rating": 5,
+            "heading": "Sehr weich & bequem",
+            "text": "<p>Sie sitzt nicht nur gut im BH, sondern das Material ist auch richtig angenehm auf der Haut. Fühlt sich einfach rundum gut durchdacht an.</p>"
+          }
+        },
+        "feed_form_18": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Frederike",
+            "date_text": "",
+            "rating": 5,
+            "heading": "Kein Billig-Plastik",
+            "text": "<p>Man merkt sofort, dass hier auf gute Qualität geachtet wurde. Liegt super sanft an und lässt sich auch ohne Reiben gut reinigen.</p>"
+          }
+        },
+        "feed_form_19": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Nora",
+            "date_text": "",
+            "rating": 4,
+            "heading": "Tolles Teil, Paket brauchte etwas",
+            "text": "<p>Das Produkt selbst ist Spitzenklasse – das Silikon liegt extrem sanft an und die Pumpe wirkt sehr hochwertig. Einen Punkt Abzug gibt es nur, weil DHL bei mir 2 Tage länger gebraucht hat.</p>"
+          }
+        },
+        "feed_form_20": {
+          "type": "feed_review",
+          "settings": {
+            "author_name": "Caroline",
+            "date_text": "",
+            "rating": 4,
+            "heading": "Super Produkt, Versand etwas zäh",
+            "text": "<p>Die Qualität überzeugt auf ganzer Linie. Die Lieferung hat leider etwas gedauert, aber der Support hat auf meine Nachfrage zum Status direkt und super lieb reagiert!</p>"
+          }
         }
       },
       "block_order": [
@@ -493,6 +584,16 @@
         "feed_form_8",
         "feed_form_9",
         "feed_form_10",
+        "feed_form_11",
+        "feed_form_12",
+        "feed_form_13",
+        "feed_form_14",
+        "feed_form_15",
+        "feed_form_16",
+        "feed_form_17",
+        "feed_form_18",
+        "feed_form_19",
+        "feed_form_20",
         "feed_1",
         "feed_3",
         "feed_4",
