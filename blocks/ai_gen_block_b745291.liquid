@@ -93,9 +93,10 @@
     font-size: {{ block.settings.eyebrow_size }}px;
     color: {{ block.settings.eyebrow_color }};
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.22em;
     margin-bottom: {{ block.settings.eyebrow_spacing }}px;
-    font-weight: 600;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   }
 
   .ai-hero-banner__heading-{{ ai_gen_id }} {
@@ -186,7 +187,7 @@
     }
 
     .ai-hero-banner__eyebrow-{{ ai_gen_id }} {
-      font-size: {{ block.settings.eyebrow_size | times: 0.9 }}px;
+      display: none;
     }
 
     .ai-hero-banner__content-wrapper-{{ ai_gen_id }} {
