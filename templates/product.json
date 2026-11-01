@@ -221,7 +221,8 @@
             "date_text": "",
             "rating": 5,
             "heading": "Sehr zufrieden",
-            "text": "<p>Einfach nur top. Sitzt gut im BH und macht was sie soll. Viel entspannter als ständig mit Kabel an der Steckdose zu hängen 👍🏼</p>"
+            "text": "<p>Sehr gute Qualität. Sitzt gut im BH und macht was sie soll.</p>",
+            "image": "shopify://shop_images/WhatsApp_Image_2026-11-01_at_12.42.25_1.jpg"
           }
         },
         "feed_form_2": {
@@ -240,7 +241,7 @@
             "author_name": "Caro",
             "date_text": "",
             "rating": 5,
-            "heading": "Kein Zwicken",
+            "heading": "Fühlt sich angenehm an",
             "text": "<p>Hatte erst Sorge dass es wehtut, aber mit den verschiedenen Aufsätzen passt es super. Saugt sanft und gründlich.</p>"
           }
         },
@@ -311,7 +312,8 @@
             "date_text": "",
             "rating": 5,
             "heading": "Lohnt sich absolut",
-            "text": "<p>Finde das Design schlicht und unaufgeregt. Passt in meine normalen Still-BHs und spart mir jeden Tag echt Zeit.</p>"
+            "text": "<p>Finde das Design schlicht und unaufgeregt. Passt in meine normalen Still-BHs und spart mir jeden Tag echt Zeit.</p>",
+            "image": "shopify://shop_images/WhatsApp_Image_2026-11-01_at_12.46.36.jpg"
           }
         },
         "feed_1": {
@@ -513,6 +515,7 @@
         "score": "4,8",
         "review_count_text": "230+ Bewertungen",
         "auto_summary": true,
+        "default_label": "Verifizierte Kundin",
         "button_label": "Bewertung schreiben",
         "form_eyebrow": "DEINE ERFAHRUNG",
         "form_heading": "Bewertung schreiben",
@@ -701,6 +704,7 @@
             "heading": "Ist es sinnvoll, eine elektrische Milchpumpe zu verwenden?",
             "icon": "none",
             "row_content": "<p>Ja, eine elektrische Milchpumpe wie die Zento One kann besonders praktisch sein, wenn du regelmäßig abpumpen möchtest, flexibler im Alltag sein willst oder Vorrat für später aufbauen möchtest. Da sie freihändig im BH sitzt, kannst du sie nebenbei nutzen, während du dich um andere Dinge kümmerst.</p>",
+            "table_rows": "",
             "page": ""
           }
         },
@@ -710,6 +714,7 @@
             "heading": "Wie lange sollte ich pro Sitzung abpumpen?",
             "icon": "none",
             "row_content": "<p>Viele Mütter pumpen pro Seite etwa 15 bis 20 Minuten ab. Die genaue Dauer hängt von deinem Milchfluss und deiner Routine ab. Der biomimetische Modus der Zento One ahmt den natürlichen Saugrhythmus eines Babys nach und kann helfen, den Milchfluss sanft in Gang zu bringen.</p>",
+            "table_rows": "",
             "page": ""
           }
         },
@@ -719,6 +724,7 @@
             "heading": "Reduziert eine tragbare Milchpumpe wie die Zento One die Milchmenge?",
             "icon": "none",
             "row_content": "<p>Nein, nicht automatisch. Entscheidend sind eine passende Brusthaubengröße, ein guter Sitz und regelmäßiges Abpumpen. Wenn die Größe nicht stimmt, kann die Entleerung weniger effektiv sein, deshalb liegen der Zento One 4 Brusthaubengrößen zum Ausprobieren bei.</p>",
+            "table_rows": "",
             "page": ""
           }
         },
@@ -728,6 +734,7 @@
             "heading": "Ist Abpumpen mit der Zento One unangenehm?",
             "icon": "none",
             "row_content": "<p>Das lässt sich individuell einstellen. Mit 4 Modi und 15 Stufen, 60 Einstellungen insgesamt, kannst du die Intensität so wählen, wie sie sich für dich richtig anfühlt, vom sanften Massage-Modus bis zum kräftigeren Pump-Modus. Wichtig ist außerdem die passende Brusthaubengröße.</p>",
+            "table_rows": "",
             "page": ""
           }
         },
@@ -737,6 +744,7 @@
             "heading": "Wie laut ist die Zento One im Betrieb?",
             "icon": "none",
             "row_content": "<p>Die Zento One arbeitet mit maximal 43 dB, leiser als ein normales Gespräch. Dadurch lässt sie sich diskret im Büro, unterwegs oder nachts nutzen, ohne aufzufallen.</p>",
+            "table_rows": "",
             "page": ""
           }
         },
@@ -746,6 +754,7 @@
             "heading": "Wie reinige ich die Einzelteile richtig?",
             "icon": "none",
             "row_content": "<p>Neben der Haupteinheit hat die Zento One nur 3 abnehmbare Teile, die mit Milch in Kontakt kommen. Spüle sie nach jeder Nutzung zuerst mit kaltem Wasser ab, reinige sie anschließend mit warmem Wasser und mildem Spülmittel und lasse sie vollständig trocknen. Die Motoreinheit selbst bleibt dabei trocken und wird nicht mit Wasser gereinigt.</p>",
+            "table_rows": "",
             "page": ""
           }
         },
@@ -755,6 +764,7 @@
             "heading": "Warum fühlt sich die Saugkraft nach der Reinigung schwächer an?",
             "icon": "none",
             "row_content": "<p>Das kann passieren, wenn einzelne Teile nicht vollständig trocken sind, nicht korrekt zusammengesetzt wurden oder das Anti-Rückfluss-Ventil nicht richtig sitzt. Prüfe nach der Reinigung, ob alle Teile sauber, trocken und fest verbunden sind.</p>",
+            "table_rows": "",
             "page": ""
           }
         }
