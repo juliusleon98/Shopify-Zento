@@ -2794,11 +2794,6 @@ section.shopify-pc__banner__dialog {
 }
 
 /* Homepage "Von Mamas für Mamas": compact layout */
-[id$="__image_with_text_zccxaF"] .image-with-text__media img {
-  object-fit: cover;
-  object-position: center 60%;
-}
-
 [id$="__image_with_text_zccxaF"] .image-with-text__content {
   padding: 2rem 1.6rem 2.4rem;
 }
