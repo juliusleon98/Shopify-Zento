@@ -2808,3 +2808,176 @@ section.shopify-pc__banner__dialog {
     padding: 2rem 4rem 2rem 5rem;
   }
 }
+
+/* Reviews: one swipeable row of uniform cards (photo and text-only), arrows + counter below */
+.zento-reviews__track {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  padding: 4px 2px 26px;
+  margin-bottom: -10px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.zento-reviews__track::-webkit-scrollbar {
+  display: none;
+}
+
+.zento-reviews-card {
+  flex: 0 0 calc((100% - 36px) / 3);
+  display: flex;
+  flex-direction: column;
+  scroll-snap-align: start;
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(23, 32, 47, 0.08);
+  border-radius: 26px;
+  overflow: hidden;
+  box-shadow: 0 14px 36px rgba(23, 32, 47, 0.06);
+}
+
+.zento-reviews-card__image {
+  aspect-ratio: 1 / 0.62;
+  background: #f8f3ec;
+  overflow: hidden;
+}
+
+.zento-reviews-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.zento-reviews-card__body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 22px 22px;
+}
+
+.zento-reviews-card:not(.zento-reviews-card--with-image) .zento-reviews-card__body::before {
+  content: "\201C";
+  display: block;
+  height: 30px;
+  margin-bottom: 4px;
+  color: #c9966f;
+  font-size: 56px;
+  line-height: 0.9;
+  font-weight: 800;
+}
+
+.zento-reviews-card__stars {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #c9966f;
+}
+
+.zento-reviews-card h3 {
+  margin: 0 0 8px;
+  color: #17202f;
+  font-size: 18px;
+  line-height: 1.25;
+  font-weight: 850;
+}
+
+.zento-reviews-card__text {
+  color: #3d4655;
+  font-size: 14.5px;
+  line-height: 1.55;
+}
+
+.zento-reviews-card__text p {
+  margin: 0;
+}
+
+.zento-reviews-card__author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 16px;
+}
+
+.zento-reviews-card__avatar {
+  flex: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  background: #fff8ef;
+  color: #17202f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 850;
+}
+
+.zento-reviews-card__author strong {
+  display: block;
+  color: #17202f;
+  font-size: 14px;
+  font-weight: 850;
+}
+
+.zento-reviews-card__author small {
+  display: block;
+  color: #6f6d68;
+  font-size: 12.5px;
+}
+
+.zento-reviews__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.zento-reviews__nav[hidden] {
+  display: none;
+}
+
+.zento-reviews__count {
+  min-width: 80px;
+  text-align: center;
+  color: #6f6d68;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+
+@media screen and (max-width: 989px) {
+  .zento-reviews-card {
+    flex-basis: calc((100% - 18px) / 2);
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .zento-reviews__track {
+    gap: 12px;
+    padding-bottom: 20px;
+    margin-bottom: -6px;
+  }
+
+  .zento-reviews-card {
+    flex-basis: 82%;
+    border-radius: 20px;
+  }
+
+  .zento-reviews-card__image {
+    aspect-ratio: 1 / 0.56;
+  }
+
+  .zento-reviews-card__body {
+    padding: 16px 16px 18px;
+  }
+
+  .zento-reviews-card h3 {
+    font-size: 16px;
+  }
+
+  .zento-reviews-card__text {
+    font-size: 13.6px;
+    line-height: 1.5;
+  }
+}
