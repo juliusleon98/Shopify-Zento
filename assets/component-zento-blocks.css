@@ -2845,7 +2845,7 @@ section.shopify-pc__banner__dialog {
 
 .zento-reviews-card__image {
   position: relative;
-  flex: none;
+  flex: 1 0 auto;
   aspect-ratio: 1 / 0.62;
   background: #f8f3ec;
   overflow: hidden;
@@ -2861,10 +2861,25 @@ section.shopify-pc__banner__dialog {
 }
 
 .zento-reviews-card__body {
-  flex: 1;
+  flex: 0 0 auto;
   display: flex;
   flex-direction: column;
   padding: 20px 22px 22px;
+}
+
+.zento-reviews-card:not(.zento-reviews-card--with-image) .zento-reviews-card__body {
+  flex: 1;
+}
+
+/* Photo cards: same body height for all, so the photos (which absorb the spare height) stay one size */
+.zento-reviews-card--with-image h3 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.zento-reviews-card--with-image .zento-reviews-card__text {
+  min-height: calc(4 * 1.55em);
 }
 
 .zento-reviews-card:not(.zento-reviews-card--with-image) .zento-reviews-card__body::before {
@@ -2989,5 +3004,13 @@ section.shopify-pc__banner__dialog {
   .zento-reviews-card__text {
     font-size: 13.6px;
     line-height: 1.5;
+  }
+
+  .zento-reviews-card--with-image .zento-reviews-card__text {
+    min-height: calc(4 * 1.5em);
+  }
+
+  .zento-reviews-card:not(.zento-reviews-card--with-image) .zento-reviews-card__body::before {
+    display: none;
   }
 }
