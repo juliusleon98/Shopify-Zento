@@ -2811,7 +2811,10 @@ section.shopify-pc__banner__dialog {
 
 /* Reviews: one swipeable row of uniform cards (photo and text-only), arrows + counter below */
 .zento-reviews__track {
-  display: flex;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% - 36px) / 3);
+  grid-template-rows: 1fr 1fr;
   gap: 18px;
   overflow-x: auto;
   padding: 4px 2px 26px;
@@ -2826,7 +2829,6 @@ section.shopify-pc__banner__dialog {
 }
 
 .zento-reviews-card {
-  flex: 0 0 calc((100% - 36px) / 3);
   display: flex;
   flex-direction: column;
   scroll-snap-align: start;
@@ -2837,13 +2839,21 @@ section.shopify-pc__banner__dialog {
   box-shadow: 0 14px 36px rgba(23, 32, 47, 0.06);
 }
 
+.zento-reviews-card--with-image {
+  grid-row: span 2;
+}
+
 .zento-reviews-card__image {
+  position: relative;
+  flex: 1 0 auto;
   aspect-ratio: 1 / 0.62;
   background: #f8f3ec;
   overflow: hidden;
 }
 
 .zento-reviews-card__image img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -2851,19 +2861,23 @@ section.shopify-pc__banner__dialog {
 }
 
 .zento-reviews-card__body {
-  flex: 1;
+  flex: 0 0 auto;
   display: flex;
   flex-direction: column;
   padding: 20px 22px 22px;
 }
 
+.zento-reviews-card:not(.zento-reviews-card--with-image) .zento-reviews-card__body {
+  flex: 1;
+}
+
 .zento-reviews-card:not(.zento-reviews-card--with-image) .zento-reviews-card__body::before {
   content: "\201C";
   display: block;
-  height: 30px;
+  height: 24px;
   margin-bottom: 4px;
   color: #c9966f;
-  font-size: 56px;
+  font-size: 48px;
   line-height: 0.9;
   font-weight: 800;
 }
@@ -2947,20 +2961,20 @@ section.shopify-pc__banner__dialog {
 }
 
 @media screen and (max-width: 989px) {
-  .zento-reviews-card {
-    flex-basis: calc((100% - 18px) / 2);
+  .zento-reviews__track {
+    grid-auto-columns: calc((100% - 18px) / 2);
   }
 }
 
 @media screen and (max-width: 749px) {
   .zento-reviews__track {
+    grid-auto-columns: 82%;
     gap: 12px;
     padding-bottom: 20px;
     margin-bottom: -6px;
   }
 
   .zento-reviews-card {
-    flex-basis: 82%;
     border-radius: 20px;
   }
 

@@ -84,6 +84,7 @@
                 {%- assign card_text = block.settings.text -%}
                 {%- assign card_meta = block.settings.date_text -%}
               {%- endif -%}
+              {%- if card_meta == blank -%}{%- assign card_meta = section.settings.default_label -%}{%- endif -%}
               <article
                 class="zento-reviews-card{% if block.settings.image != blank %} zento-reviews-card--with-image{% endif %}"
                 {{ block.shopify_attributes }}
@@ -312,6 +313,13 @@
       "label": "Calculate rating and number of reviews from the reviews below",
       "info": "On: the score and the count are computed from the active review blocks, so they always match what is shown. Off: the two manual fields above are used.",
       "default": true
+    },
+    {
+      "type": "text",
+      "id": "default_label",
+      "label": "Label under the name",
+      "info": "Shown on every review that has no own label or date. Only use \"Verifizierte Kundin\" for reviews from real, verified purchases.",
+      "default": "Verifizierte Kundin"
     },
     {
       "type": "text",
