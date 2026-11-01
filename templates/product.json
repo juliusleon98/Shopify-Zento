@@ -19,13 +19,6 @@
             "review_count_text": "230+ Mütter vertrauen zento"
           }
         },
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "FÜR MAMAS, DIE FREIHEIT UND KOMFORT WOLLEN",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
@@ -40,13 +33,13 @@
           "settings": {
             "layout": "vertical",
             "icon_1": "check_mark",
-            "heading_1": "Minimalistisches Design, nur 230 g leicht",
+            "heading_1": "230 g leicht",
             "icon_2": "check_mark",
-            "heading_2": "Sanft & bequem, 4 Brusthauben passend zu deiner Größe",
+            "heading_2": "4 Brusthauben passend zu deiner Größe",
             "icon_3": "check_mark",
-            "heading_3": "Freihändig & ohne Kabel mit 3 Stunden Akku",
+            "heading_3": "Freihändig ohne Kabel mit 3 Stunden Akku",
             "icon_4": "check_mark",
-            "heading_4": "Hohe Effizienz & Einfache Nutzung"
+            "heading_4": "4 Modi mit 15 Stufen für angenehmes Pumpen"
           }
         },
         "price": {
@@ -146,7 +139,6 @@
       },
       "block_order": [
         "rating_bar",
-        "vendor",
         "title",
         "description",
         "icon_with_text_benefits_1",
