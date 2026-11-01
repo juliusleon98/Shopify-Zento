@@ -42,12 +42,13 @@
             if section.settings.auto_summary and rating_count > 0
               assign use_auto = true
               assign rating_avg = rating_sum | times: 1.0 | divided_by: rating_count
+              assign rating_shown = rating_sum | times: 10 | divided_by: rating_count | divided_by: 10.0
               assign rating_rounded = rating_avg | round
             endif
           -%}
           <div class="zento-reviews__summary">
             {%- if use_auto -%}
-              <div class="zento-reviews__score">{{ rating_avg | round: 1 | replace: '.', ',' }}</div>
+              <div class="zento-reviews__score">{{ rating_shown | replace: '.', ',' }}</div>
               <div>
                 <div class="zento-reviews__stars" aria-hidden="true">
                   {%- for i in (1..5) -%}{% if i <= rating_rounded %}★{% else %}☆{% endif %}{%- endfor -%}
