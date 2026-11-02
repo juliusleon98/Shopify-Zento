@@ -2142,8 +2142,15 @@
   overflow: hidden;
 }
 
+/* Same space under the heading as the section's top padding above the eyebrow */
 [id$="__collapsible_content_faq"] .accordion:first-of-type {
-  margin-top: 1.2rem;
+  margin-top: 2.4rem;
+}
+
+@media screen and (min-width: 750px) {
+  [id$="__collapsible_content_faq"] .accordion:first-of-type {
+    margin-top: 3.2rem;
+  }
 }
 
 [id$="__collapsible_content_faq"] .accordion + .accordion {
