@@ -328,6 +328,7 @@
 .product__info-container .price--on-sale .price__badge-sale {
   grid-column: 2;
   grid-row: 2;
+  margin: 0;
 }
 
 .product__info-container .price--on-sale .unit-price {
