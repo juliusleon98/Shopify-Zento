@@ -744,37 +744,37 @@
         "comparison_row_1": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Freihändig im BH",
-            "zento_text": "<p>Abpumpen, während du dich bewegst.</p>",
-            "classic_heading": "An einen Ort gebunden",
-            "classic_text": "<p>Sitzen, festhalten, warten.</p>"
+            "zento_heading": "Abpumpen, wann es dir passt",
+            "zento_text": "<p>Freihändig im BH, so passt es nebenbei in deinen Alltag.</p>",
+            "classic_heading": "Feste Pump-Pausen",
+            "classic_text": "<p>Du brauchst Zeit und freie Hände, alles andere muss warten.</p>"
           }
         },
         "comparison_row_2": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Ohne Kabel",
-            "zento_text": "<p>3 Stunden Akku, überall nutzbar.</p>",
-            "classic_heading": "An der Steckdose",
-            "classic_text": "<p>Kabel und Schläuche schränken ein.</p>"
+            "zento_heading": "Überall abpumpen",
+            "zento_text": "<p>Kabellos mit 3 Stunden Akku, ob zuhause, im Büro oder unterwegs.</p>",
+            "classic_heading": "Nur in Steckdosennähe",
+            "classic_text": "<p>Kabel und Schläuche binden dich an einen festen Platz.</p>"
           }
         },
         "comparison_row_3": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Diskret",
-            "zento_text": "<p>Unter weiter Kleidung kaum sichtbar.</p>",
-            "classic_heading": "Auffällig",
-            "classic_text": "<p>Flaschen und Schläuche sind sichtbar.</p>"
+            "zento_heading": "Unauffällig unterwegs",
+            "zento_text": "<p>Sitzt flach im BH und ist unter weiter Kleidung kaum zu sehen.</p>",
+            "classic_heading": "Kaum diskret möglich",
+            "classic_text": "<p>Flaschen und Schläuche sind deutlich sichtbar.</p>"
           }
         },
         "comparison_row_4": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Nur 3 Teile",
-            "zento_text": "<p>Schnell aufgebaut und gereinigt.</p>",
-            "classic_heading": "Viele Einzelteile",
-            "classic_text": "<p>Mehr Aufbau, mehr Reinigung.</p>"
+            "zento_heading": "Schnell wieder sauber",
+            "zento_text": "<p>Nur 3 Teile neben dem Motor, die du nach dem Pumpen reinigst.</p>",
+            "classic_heading": "Aufwendige Reinigung",
+            "classic_text": "<p>Viele Einzelteile wie Ventile und Flaschen müssen gereinigt werden.</p>"
           }
         }
       },
@@ -791,7 +791,7 @@
         "zento_image": "shopify://shop_images/Zento_One_3.png",
         "zento_name": "Zento One",
         "competitor_image": "shopify://shop_images/Vergleichsbild_2.png",
-        "competitor_name": "Klassische Pumpe",
+        "competitor_name": "Klassische E-Pumpe",
         "color_scheme": "scheme-1",
         "padding_top": 40,
         "padding_bottom": 52
