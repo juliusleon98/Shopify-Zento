@@ -292,6 +292,53 @@
   opacity: 0.65;
 }
 
+/* Sale price: struck-through old price on top, new price with the sale badge beside it, tax note below */
+.product__info-container .price--on-sale {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.product__info-container .price--on-sale .price__container,
+.product__info-container .price--on-sale .price__sale {
+  display: contents;
+}
+
+.product__info-container .price--on-sale .price__sale > span:has(> s) {
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+.product__info-container .price--on-sale .price-item--regular {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.product__info-container .price--on-sale .price-item--sale {
+  grid-column: 1;
+  grid-row: 2;
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.product__info-container .price--on-sale .price__badge-sale {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.product__info-container .price--on-sale .unit-price {
+  grid-column: 1 / -1;
+}
+
+.product__info-container .zento-price-row:has(.price--on-sale) .product__tax {
+  flex-basis: 100%;
+  margin-top: 0.2rem !important;
+}
+
 /* Hide the redundant "Variante" legend above the pill buttons */
 .product-form__input--pill .form__label {
   display: none;

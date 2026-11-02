@@ -3,11 +3,14 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
+        "rating_bar": {
+          "type": "rating_bar",
           "settings": {
-            "text": "FÜR RUHIGE NÄCHTE UND EIN GUTES GEFÜHL",
-            "text_style": "uppercase"
+            "rating_value": "4,7",
+            "review_count_text": "500+ Mamas vertrauen zento",
+            "show_rating_value": true,
+            "link_to_reviews": false,
+            "alignment": "left"
           }
         },
         "title": {
@@ -107,7 +110,7 @@
         }
       },
       "block_order": [
-        "vendor",
+        "rating_bar",
         "title",
         "description",
         "icon_with_text_benefits_1",
@@ -294,6 +297,16 @@
             "row_content": "<p>Lautstärke sowie Alarme lassen sich über die Elterneinheit stufenlos regeln, damit ihr selbst entscheidet, wie diskret oder auffällig das Gerät reagiert.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_specs": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Technische Daten",
+            "icon": "none",
+            "row_content": "",
+            "table_rows": "Kamerasensor | 1/4\" CMOS\nKameraauflösung | 1280 × 720 p (HD)\nDisplay | 5,0 Zoll\nAkkukapazität (Elterneinheit) | 3500 mAh\nÜbertragungsart | 2,4 GHz FHSS\nReichweite | bis zu 300 m (offenes Feld)\nGehäusematerial | ABS\nBetriebstemperatur | −20 °C bis 65 °C\nKernfunktionen | Automatische Rotation, Infrarot-Nachtsicht (Auto-Umschaltung), 8 Schlaflieder, Zwei-Wege-Audio, Temperaturerkennung, Lautstärkeregelung, Stillerinnerung, 5,0\" LCD-HD-Display, 2,4-GHz-Funkübertragung, VOX (Geräuschaktivierung), Schrei-/Weinerkennung\nWeitere Funktionen | PTZ-Fernsteuerung (Schwenken/Neigen/Zoom), Dual-Kamera-fähig\nZertifizierung | EU-Design-Patent für das Kameradesign registriert",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -301,7 +314,8 @@
         "collapsible_row_2",
         "collapsible_row_3",
         "collapsible_row_4",
-        "collapsible_row_5"
+        "collapsible_row_5",
+        "collapsible_row_specs"
       ],
       "settings": {
         "caption": "",
@@ -317,131 +331,12 @@
         "padding_top": 32,
         "padding_bottom": 52
       }
-    },
-    "zento_specs": {
-      "type": "zento-specs-table",
-      "blocks": {
-        "spec_1": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Produktname",
-            "value": "Baby Monitor"
-          }
-        },
-        "spec_2": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Modell",
-            "value": "ABM501"
-          }
-        },
-        "spec_3": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Kamerasensor",
-            "value": "1/4\" CMOS"
-          }
-        },
-        "spec_4": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Kameraauflösung",
-            "value": "1280 × 720 p (HD)"
-          }
-        },
-        "spec_5": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Display",
-            "value": "5,0 Zoll"
-          }
-        },
-        "spec_6": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Akkukapazität (Elterneinheit)",
-            "value": "3500 mAh"
-          }
-        },
-        "spec_7": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Übertragungsart",
-            "value": "2,4 GHz FHSS"
-          }
-        },
-        "spec_8": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Reichweite",
-            "value": "bis zu 300 m (offenes Feld)"
-          }
-        },
-        "spec_9": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Gehäusematerial",
-            "value": "ABS"
-          }
-        },
-        "spec_10": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Betriebstemperatur",
-            "value": "−20 °C bis 65 °C"
-          }
-        },
-        "spec_11": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Kernfunktionen",
-            "value": "Automatische Rotation, Infrarot-Nachtsicht (Auto-Umschaltung), 8 Schlaflieder, Zwei-Wege-Audio, Temperaturerkennung, Lautstärkeregelung, Stillerinnerung, 5,0\" LCD-HD-Display, 2,4-GHz-Funkübertragung, VOX (Geräuschaktivierung), Schrei-/Weinerkennung"
-          }
-        },
-        "spec_12": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Weitere Funktionen",
-            "value": "PTZ-Fernsteuerung (Schwenken/Neigen/Zoom), Dual-Kamera-fähig"
-          }
-        },
-        "spec_13": {
-          "type": "spec_row",
-          "settings": {
-            "label": "Zertifizierung",
-            "value": "EU-Design-Patent für das Kameradesign registriert"
-          }
-        }
-      },
-      "block_order": [
-        "spec_1",
-        "spec_2",
-        "spec_3",
-        "spec_4",
-        "spec_5",
-        "spec_6",
-        "spec_7",
-        "spec_8",
-        "spec_9",
-        "spec_10",
-        "spec_11",
-        "spec_12",
-        "spec_13"
-      ],
-      "settings": {
-        "eyebrow": "TECHNISCHE DATEN",
-        "heading": "Alle Details auf einen Blick",
-        "color_scheme": "scheme-1",
-        "padding_top": 40,
-        "padding_bottom": 60
-      }
     }
   },
   "order": [
     "main",
     "zento_problem_images",
     "zento_comparison",
-    "collapsible_content_faq",
-    "zento_specs"
+    "collapsible_content_faq"
   ]
 }
