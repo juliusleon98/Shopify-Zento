@@ -146,7 +146,7 @@
           "type": "comparison_row",
           "settings": {
             "zento_heading": "Klumpenfrei gemischt",
-            "zento_text": "<p>Automatisch in 3 Modi, ohne Schütteln.</p>",
+            "zento_text": "<p>In 3 Modi, ohne Schütteln.</p>",
             "classic_heading": "Von Hand schütteln",
             "classic_text": "<p>Pulver löst sich oft nicht ganz.</p>"
           }
@@ -155,7 +155,7 @@
           "type": "comparison_row",
           "settings": {
             "zento_heading": "Weniger Luft in der Milch",
-            "zento_text": "<p>Sanftes Kreisel-Mischen statt Schütteln.</p>",
+            "zento_text": "<p>Kreisel-Mischen statt Schütteln.</p>",
             "classic_heading": "Schütteln wirbelt Luft ein",
             "classic_text": "<p>Die dein Baby beim Trinken mitschluckt.</p>"
           }
@@ -164,9 +164,9 @@
           "type": "comparison_row",
           "settings": {
             "zento_heading": "Konstant 40–45 °C",
-            "zento_text": "<p>Hält die Trinktemperatur von selbst.</p>",
+            "zento_text": "<p>Hält die Trinktemperatur.</p>",
             "classic_heading": "Rechtzeitig rausnehmen",
-            "classic_text": "<p>Sonst wird die Milch zu heiß oder wieder kalt.</p>"
+            "classic_text": "<p>Sonst zu heiß oder wieder kalt.</p>"
           }
         },
         "comparison_row_4": {
