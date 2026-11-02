@@ -744,37 +744,37 @@
         "comparison_row_1": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Freihändig im BH tragbar",
-            "zento_text": "<p>Du kannst abpumpen, während du dich bewegst, entspannst oder kleine Dinge erledigst.</p>",
-            "classic_heading": "Oft an eine Position gebunden",
-            "classic_text": "<p>Klassische Pumpen brauchen häufig Hände, Kabel oder eine feste Sitzposition.</p>"
+            "zento_heading": "Freihändig im BH",
+            "zento_text": "<p>Abpumpen, während du dich bewegst.</p>",
+            "classic_heading": "An einen Ort gebunden",
+            "classic_text": "<p>Sitzen, festhalten, warten.</p>"
           }
         },
         "comparison_row_2": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Kabellos & kompakt",
-            "zento_text": "<p>Keine Schläuche, keine Steckdose, kein großes Gerät – ideal für zuhause und unterwegs.</p>",
-            "classic_heading": "Kabel, Schläuche & Zubehör",
-            "classic_text": "<p>Mehr Teile bedeuten oft mehr Vorbereitung, mehr Platzbedarf und mehr Reinigung.</p>"
+            "zento_heading": "Ohne Kabel",
+            "zento_text": "<p>3 Stunden Akku, überall nutzbar.</p>",
+            "classic_heading": "An der Steckdose",
+            "classic_text": "<p>Kabel und Schläuche schränken ein.</p>"
           }
         },
         "comparison_row_3": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Diskreter im Alltag",
-            "zento_text": "<p>Das tragbare Design sitzt direkt im BH und lässt sich unkompliziert in deinen Tag integrieren.</p>",
-            "classic_heading": "Auffälliger in der Anwendung",
-            "classic_text": "<p>Große Flaschen und Schläuche machen das Abpumpen oft weniger diskret.</p>"
+            "zento_heading": "Diskret",
+            "zento_text": "<p>Unter weiter Kleidung kaum sichtbar.</p>",
+            "classic_heading": "Auffällig",
+            "classic_text": "<p>Flaschen und Schläuche sind sichtbar.</p>"
           }
         },
         "comparison_row_4": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Schnell einsatzbereit",
-            "zento_text": "<p>Einsetzen, Modus wählen und loslegen – ohne aufwendigen Aufbau.</p>",
-            "classic_heading": "Mehr Vorbereitung nötig",
-            "classic_text": "<p>Mehr Einzelteile können den Ablauf im Alltag komplizierter machen.</p>"
+            "zento_heading": "Nur 3 Teile",
+            "zento_text": "<p>Schnell aufgebaut und gereinigt.</p>",
+            "classic_heading": "Viele Einzelteile",
+            "classic_text": "<p>Mehr Aufbau, mehr Reinigung.</p>"
           }
         }
       },
@@ -785,7 +785,7 @@
         "comparison_row_4"
       ],
       "settings": {
-        "eyebrow": "ZENTO VS. KLASSISCHE MILCHPUMPEN",
+        "eyebrow": "ZENTO ONE VS. KLASSISCHE MILCHPUMPE",
         "heading": "Weniger Aufwand. Mehr Freiheit im Alltag.",
         "subtitle": "<p>Klassische Milchpumpen können unpraktisch, laut und einschränkend sein. Zento One wurde entwickelt, damit Abpumpen flexibler, diskreter und alltagstauglicher wird.</p>",
         "zento_image": "shopify://shop_images/Zento_One_3.png",
