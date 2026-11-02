@@ -246,8 +246,8 @@
         "competitor_image": "",
         "competitor_name": "WLAN-Babyphone",
         "color_scheme": "scheme-2",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 28,
+        "padding_bottom": 0
       }
     },
     "collapsible_content_faq": {
@@ -318,8 +318,8 @@
         "collapsible_row_specs"
       ],
       "settings": {
-        "caption": "",
-        "heading": "Alles über Babyphones – FAQ",
+        "caption": "HÄUFIGE FRAGEN",
+        "heading": "Alles über den Zento View Pro",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",
@@ -328,7 +328,7 @@
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 32,
+        "padding_top": 28,
         "padding_bottom": 52
       }
     }
