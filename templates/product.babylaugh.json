@@ -139,19 +139,6 @@
         "padding_bottom": 24
       }
     },
-    "zento_problem_images": {
-      "type": "zento-problem-images",
-      "blocks": {},
-      "block_order": [],
-      "settings": {
-        "eyebrow": "WARUM EIN MILCHWÄRMER MIT MIX-FUNKTION?",
-        "heading": "Für entspannte Mahlzeiten, ganz ohne Luftblasen.",
-        "subtitle": "<p>Beim Schütteln bleiben oft Klumpen zurück, und Luft gelangt in die Milch – ein häufiger Grund für Bauchweh. Die Mix-Funktion mischt sanft und gründlich, ganz ohne Schütteln.</p>",
-        "color_scheme": "scheme-2",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "zento_comparison": {
       "type": "zento-comparison",
       "blocks": {
@@ -210,8 +197,8 @@
       ],
       "settings": {
         "eyebrow": "ZENTO BLEND VS. KLASSISCHER FLASCHENWÄRMER",
-        "heading": "Weniger Luftblasen. Mehr entspannte Nächte.",
-        "subtitle": "<p>Klassische Flaschenwärmer heizen, aber mischen nicht – von Hand schütteln bleibt trotzdem nötig. Der Zento Blend übernimmt beides in einem Gerät.</p>",
+        "heading": "Sanft gemischt. Perfekt temperiert.",
+        "subtitle": "<p>Beim Schütteln bleiben oft Klumpen zurück, und Luft gelangt in die Milch – ein häufiger Grund für Bauchweh. Der Zento Blend mischt sanft und hält die Flasche konstant auf Trinktemperatur.</p>",
         "zento_image": "",
         "zento_name": "Zento Blend",
         "competitor_image": "",
@@ -326,7 +313,6 @@
   },
   "order": [
     "main",
-    "zento_problem_images",
     "zento_comparison",
     "collapsible_content_faq"
   ]
