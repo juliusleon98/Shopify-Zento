@@ -864,7 +864,7 @@
 @media screen and (max-width: 749px) {
   .zento-rating-bar {
     gap: 7px;
-    margin-bottom: 16px;
+    margin: 4px 0 10px;
   }
 
   .zento-rating-bar__stars {
