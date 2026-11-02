@@ -78,41 +78,14 @@
           "settings": {
             "heading": "Produktbeschreibung",
             "icon": "none",
-            "content": "<p>Zento One ist eine kabellose, tragbare Milchpumpe, die direkt im BH sitzt, ganz ohne Schläuche oder Kabel, die dich beim Pumpen einschränken. Mit nur 230 g ist sie leicht und lässt sich unkompliziert überallhin mitnehmen. Das minimalistische Design in warmem Creme fügt sich unauffällig in deinen Alltag ein, ob zuhause, im Büro oder unterwegs.</p><p>Mit 4 Modi und 15 Stufen, 60 Einstellungen insgesamt, lässt sich die Pumpe so fein justieren, wie es sich für dich richtig anfühlt: sanfter Massage-Modus, Stimulation, Pump-Modus oder der Biomimetische Modus, der den natürlichen Rhythmus eines nuckelnden Babys nachahmt. Bedient wird alles direkt an der Pumpe, eine App brauchst du nicht.</p><p>Das 180-ml-Fassungsvermögen bietet Platz für mehr Milch pro Sitzung. Eine Akkuladung reicht für rund 180 Minuten, bei täglich 30 Minuten Pumpen also etwa 6 Tage, bevor du wieder ans Ladekabel musst. Mit nur 3 Teilen neben der Haupteinheit sind Reinigung und Bedienung unkompliziert, ein Anti-Rückfluss-Ventil hält Milch vom Motor fern.</p><p>Im Lieferumfang: ein Flanschgrößen-Lineal und mehrere Einsatzgrößen, damit du zuhause selbst prüfen kannst, welche Passform für dich stimmt, plus eine Tragetasche für unterwegs. Zento One kommt mit 2 Jahren Garantie.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_faq_1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Für wen eignet sich die Zento One?",
-            "icon": "none",
-            "content": "<p>Die Zento One eignet sich für Mütter, die Muttermilch abpumpen möchten, um Vorrat aufzubauen, flexibler zu planen oder das Füttern mit dem Partner oder einer vertrauten Person zu teilen.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_faq_2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Wie funktioniert die Milchpumpe?",
-            "icon": "none",
-            "content": "<p>Setze die Pumpe in deinen Still-BH ein, wähle den passenden Modus und passe die Saugintensität an. Die Muttermilch wird direkt im integrierten Auffangbehälter gesammelt und kann danach umgefüllt werden.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_faq_3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Ist die Pumpe für unterwegs geeignet?",
-            "icon": "none",
-            "content": "<p>Ja. Durch das kabellose und kompakte Design kannst du die Zento One auch außerhalb von Zuhause nutzen. Besonders praktisch ist sie für Reisen, Arbeit, kurze Pausen oder Momente, in denen du nicht an eine Steckdose gebunden sein möchtest.</p>",
+            "content": "<p>Die Zento One ist eine kabellose, tragbare Milchpumpe, die direkt im Still-BH sitzt, ganz ohne Schläuche oder Kabel. Mit nur 230 g ist sie leicht und begleitet dich überallhin, ob zuhause, im Büro oder unterwegs. Ideal, wenn du Vorrat aufbauen, flexibler planen oder das Füttern mit deinem Partner oder einer vertrauten Person teilen möchtest.</p><p>Mit 4 Modi und 15 Stufen stellst du die Pumpe so ein, wie es sich für dich richtig anfühlt. Zur Wahl stehen Massage, Stimulation, Pumpen und ein biomimetischer Modus nach dem Saugrhythmus eines Babys. Bedient wird alles direkt an der Pumpe, eine App brauchst du nicht.</p><p>Der 3h Akku reicht bei 30 Minuten am Tag für rund 6 Tage, und in den 180-ml-Behälter passt viel Milch pro Sitzung. Neben der Haupteinheit gibt es nur 3 Teile, das macht die Reinigung einfach. Ein Anti-Rückfluss-Ventil hält die Milch vom Motor fern.</p><p><strong>Im Lieferumfang:</strong> 4 Brusthauben (18, 20, 22, 24 mm), Messlineal und Tragetasche. Zento One kommt mit 2 Jahren Garantie.</p>",
             "page": ""
           }
         },
         "collapsible_tab_faq_6": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Wie finde ich meine richtige Brusthauben-Größe?",
+            "heading": "Welche Brusthaube passt?",
             "icon": "none",
             "content": "<p>Zento One kommt mit 4 Brusthauben-Größen im Set. Miss den Durchmesser deiner Brustwarze in Ruhe (ohne Warzenhof), am besten nach dem Stillen, wenn sie entspannt ist, und wähle danach die passende Größe:</p><ul><li><strong>18 mm</strong> – Brustwarzen-Durchmesser 13 bis 17 mm</li><li><strong>20 mm</strong> – Brustwarzen-Durchmesser 17 bis 19 mm</li><li><strong>22 mm</strong> – Brustwarzen-Durchmesser 19 bis 21 mm</li><li><strong>24 mm</strong> – Brustwarzen-Durchmesser 21 bis 24 mm</li></ul><p>Liegt dein Maß zwischen zwei Größen, empfehlen wir die größere Größe für mehr Komfort. Die Größe kann sich in den ersten Wochen noch ändern, ein erneutes Messen nach der Geburt lohnt sich also.</p>",
             "page": ""
@@ -121,7 +94,7 @@
         "collapsible_tab_faq_7": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Sollte ich schon vor der Geburt eine Milchpumpe kaufen?",
+            "heading": "Schon vor der Geburt kaufen?",
             "icon": "none",
             "content": "<p>Das kommt auf deine Situation an. Manche Hebammen und Stillberaterinnen empfehlen, mit dem Abpumpen erst zu beginnen, wenn sich das Stillen eingespielt hat, meist nach den ersten Wochen, damit sich die Milchbildung natürlich einspielen kann. Andere Mamas kaufen bewusst vorher, um für den Fall der Fälle vorbereitet zu sein, etwa bei der Rückkehr in den Job oder bei Milchstau. Es gibt hier kein pauschal richtig oder falsch, sprich im Zweifel mit deiner Hebamme oder Stillberaterin, was für dich passt.</p>",
             "page": ""
@@ -130,9 +103,18 @@
         "collapsible_tab_faq_8": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Was ist, wenn die Pumpe kaputt geht?",
+            "heading": "Garantie & Support",
             "icon": "none",
-            "content": "<p>Zento One kommt mit 2 Jahren Garantie. Solltest du innerhalb dieses Zeitraums ein Problem haben, melde dich bei unserem Support, wir kümmern uns um Ersatz oder Reparatur.</p>",
+            "content": "<p>Zento One kommt mit 2 Jahren Garantie. Hast du in dieser Zeit ein Problem, melde dich bei unserem Support, wir kümmern uns um Ersatz oder Reparatur.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_faq_comfort": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ist das Abpumpen angenehm?",
+            "icon": "none",
+            "content": "<p>Das stellst du selbst ein. Mit 4 Modi und 15 Stufen wählst du die Intensität so, wie sie sich für dich richtig anfühlt, vom sanften Massage-Modus bis zum kräftigeren Pump-Modus. Wichtig ist außerdem die passende Brusthauben-Größe.</p>",
             "page": ""
           }
         }
@@ -147,10 +129,8 @@
         "buy_buttons_jQVaAp",
         "payment_icons",
         "collapsible_tab_description",
-        "collapsible_tab_faq_1",
-        "collapsible_tab_faq_2",
-        "collapsible_tab_faq_3",
         "collapsible_tab_faq_6",
+        "collapsible_tab_faq_comfort",
         "collapsible_tab_faq_7",
         "collapsible_tab_faq_8"
       ],
@@ -840,16 +820,6 @@
             "page": ""
           }
         },
-        "collapsible_row_4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Ist das Abpumpen unangenehm?",
-            "icon": "none",
-            "row_content": "<p>Das lässt sich individuell einstellen. Mit 4 Modi und 15 Stufen, 60 Einstellungen insgesamt, kannst du die Intensität so wählen, wie sie sich für dich richtig anfühlt, vom sanften Massage-Modus bis zum kräftigeren Pump-Modus. Wichtig ist außerdem die passende Brusthaubengröße.</p>",
-            "table_rows": "",
-            "page": ""
-          }
-        },
         "collapsible_row_5": {
           "type": "collapsible_row",
           "settings": {
@@ -879,13 +849,22 @@
             "table_rows": "",
             "page": ""
           }
+        },
+        "collapsible_row_how": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie funktioniert die Milchpumpe?",
+            "icon": "none",
+            "row_content": "<p>Setze die Pumpe in deinen Still-BH ein, wähle den passenden Modus und passe die Saugintensität an. Die Muttermilch wird direkt im integrierten Auffangbehälter gesammelt und kann danach umgefüllt werden.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_row_1",
+        "collapsible_row_how",
         "collapsible_row_2",
         "collapsible_row_3",
-        "collapsible_row_4",
         "collapsible_row_5",
         "collapsible_row_6",
         "collapsible_row_7"
