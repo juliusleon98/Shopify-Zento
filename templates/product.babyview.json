@@ -63,12 +63,12 @@
             "payment_icons_label": "Sichere & geschützte Zahlung"
           }
         },
-        "collapsible_tab_description": {
+        "collapsible_tab_faq_2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Produktbeschreibung",
+            "heading": "Wie funktioniert der Zento View Pro?",
             "icon": "none",
-            "content": "<p>Der Zento View Pro ist ein Video-Babyphone, das auf verschlüsselte 2,4-GHz-FHSS-Funktechnik statt auf WLAN setzt – die Verbindung läuft direkt zwischen Kamera und Elterneinheit, unabhängig von deinem Heimnetz und ohne App und Cloud, über die Fremde zugreifen könnten. Mit bis zu 300 m Reichweite im offenen Feld bleibt ihr auch im Garten oder in einer größeren Wohnung verbunden.</p><p>Die 720p-HD-Kamera mit automatischer Infrarot-Nachtsicht zeigt dir dein Baby auch im Dunkeln zuverlässig, während das 5 Zoll große Display auf der Elterneinheit ein klares, ruhiges Bild liefert. Dank PTZ-Fernsteuerung (Schwenken, Neigen, Zoom) behältst du auch aus der Ferne den vollen Überblick über das Zimmer, und optional könnt ihr eine zweite Kamera fürs Geschwisterkind ergänzen.</p><p>Zu den 11 Kernfunktionen zählen automatische Rotation, Zwei-Wege-Audio, Temperaturerkennung, 8 Schlaflieder, Lautstärkeregelung, Stillerinnerung, VOX-Geräuschaktivierung und Schrei-Erkennung – alles Funktionen, die euch das nächtliche Aufwachen erleichtern, statt euch mit unnötigem Technik-Schnickschnack zu überfordern. Das Design ist EU-designpatentiert.</p>",
+            "content": "<ol><li>Kamera im Kinderzimmer aufstellen, mit mindestens 1 m Abstand zum Bett, und ans Netzteil anschließen.</li><li>Elterneinheit einschalten: Die Verbindung zur Kamera baut sich automatisch auf.</li><li>Fertig. Ohne App, ohne Konto, ohne WLAN-Einrichtung.</li></ol>",
             "page": ""
           }
         },
@@ -77,16 +77,25 @@
           "settings": {
             "heading": "Für wen eignet sich der Zento View Pro?",
             "icon": "none",
-            "content": "<p>Für Eltern, die ihr Baby zuverlässig sehen und hören möchten – ohne Sorge um WLAN-Sicherheit, Verbindungsabbrüche oder unrealistische Reichweitenangaben.</p>",
+            "content": "<p>Für Eltern, die nachts ruhig schlafen möchten und trotzdem sofort merken wollen, wenn ihr Baby sie braucht. Und für alle, denen eine Kamera im Kinderzimmer, die übers Internet erreichbar ist, kein gutes Gefühl gibt.</p><p>Weil der Zento View Pro ohne App und Einrichtung auskommt, ist er auch ideal für Großeltern und Babysitter: einschalten, fertig.</p>",
             "page": ""
           }
         },
-        "collapsible_tab_faq_2": {
+        "collapsible_tab_description": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Wie funktioniert das Babyphone?",
+            "heading": "Produktbeschreibung",
             "icon": "none",
-            "content": "<p>Kamera im Babyzimmer platzieren, Elterneinheit mitnehmen – die Verbindung wird automatisch über die sichere 2,4-GHz-FHSS-Funkverbindung aufgebaut, ganz ohne App oder WLAN-Setup.</p>",
+            "content": "<p>Der Zento View Pro zeigt dir dein Baby in Echtzeit, über eine eigene, verschlüsselte Funkverbindung statt über WLAN und Internet. Kamera ins Kinderzimmer, Elterneinheit einschalten, fertig.</p><ul><li><strong>Klares Bild, Tag und Nacht:</strong> 720p-HD-Kamera mit automatischer Infrarot-Nachtsicht</li><li><strong>Ganzes Zimmer im Blick:</strong> Kamera von der Elterneinheit aus schwenken, neigen und zoomen</li><li><strong>Großes Display:</strong> 5 Zoll auf der Elterneinheit, unabhängig von deinem Handy</li><li><strong>Schrei-Erkennung &amp; VOX:</strong> Der Bildschirm schaltet sich ein, sobald dein Baby Geräusche macht</li><li><strong>Beruhigen aus der Ferne:</strong> Zwei-Wege-Audio und 8 Schlaflieder</li><li><strong>Bis zu 300 m Reichweite:</strong> im Freien, also auch im Garten verbunden</li><li><strong>Kleine Helfer:</strong> Temperaturanzeige fürs Kinderzimmer und Stillerinnerung</li></ul><p><strong>Gut zu wissen:</strong> Der View Pro funktioniert bewusst ohne App, du schaust also nicht übers Handy zu. Über Nacht empfehlen wir, die Elterneinheit ans Ladekabel anzuschließen.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_shipping": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Versand & Rücksendungen",
+            "icon": "none",
+            "content": "<p><strong>Lieferzeit:</strong> in der Regel 5–10 Werktage ab Bestellung. Sobald dein Paket unterwegs ist, bekommst du eine Versandbestätigung mit Tracking-Link per E-Mail.</p><p><strong>Versandkosten:</strong> Ab einem Bestellwert von 50 € versenden wir kostenlos. Bei kleineren Bestellungen siehst du die Versandkosten im Checkout, bevor du bezahlst.</p><p><strong>Rücksendung:</strong> Du kannst deine Bestellung innerhalb von 14 Tagen nach Erhalt ohne Angabe von Gründen widerrufen. Schreib uns dazu an <a href=\"mailto:hello@zento-home.com\">hello@zento-home.com</a>, wir schicken dir die Rücksendeadresse. Die Kosten der Rücksendung trägst du. Alle Details findest du in unseren AGB und in der Widerrufsbelehrung.</p>",
             "page": ""
           }
         }
@@ -100,9 +109,10 @@
         "variant_picker",
         "buy_buttons_jQVaAp",
         "payment_icons",
-        "collapsible_tab_description",
+        "collapsible_tab_faq_2",
         "collapsible_tab_faq_1",
-        "collapsible_tab_faq_2"
+        "collapsible_tab_description",
+        "collapsible_tab_shipping"
       ],
       "settings": {
         "enable_sticky_info": true,
