@@ -167,9 +167,9 @@
         "comparison_row_1": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Ohne Internet",
-            "zento_text": "<p>Kein Zugriff über App oder Cloud.</p>",
-            "classic_heading": "Online erreichbar",
+            "zento_heading": "Privat & verschlüsselt",
+            "zento_text": "<p>Bild und Ton bleiben bei dir.</p>",
+            "classic_heading": "Online angreifbar",
             "classic_text": "<p>App-Kameras sind oft Ziel von Hackern.</p>"
           }
         },
