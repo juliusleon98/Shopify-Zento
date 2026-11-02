@@ -225,7 +225,7 @@
                 -%}
                 <{{ rating_tag }}
                   {% if block.settings.link_to_reviews %}href="#zento-reviews-anchor"{% endif %}
-                  class="zento-rating-bar{% unless block.settings.link_to_reviews %} zento-rating-bar--static{% endunless %}"
+                  class="zento-rating-bar{% unless block.settings.link_to_reviews %} zento-rating-bar--static{% endunless %}{% if block.settings.alignment == 'right' %} zento-rating-bar--right{% endif %}"
                   {{ block.shopify_attributes }}
                 >
                   <span class="zento-rating-bar__stars" style="--zento-rating-fill: {{ rating_fill }}%;" aria-hidden="true">
@@ -1108,6 +1108,16 @@
           "label": "Link to reviews section",
           "info": "Turn off on product pages without a Zento reviews section.",
           "default": true
+        },
+        {
+          "type": "select",
+          "id": "alignment",
+          "label": "Alignment",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "right", "label": "Right" }
+          ],
+          "default": "left"
         }
       ]
     },

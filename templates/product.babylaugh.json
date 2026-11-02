@@ -17,7 +17,8 @@
             "rating_value": "4,5",
             "review_count_text": "47 Bewertungen",
             "show_rating_value": false,
-            "link_to_reviews": false
+            "link_to_reviews": false,
+            "alignment": "right"
           }
         },
         "title": {
@@ -140,40 +141,12 @@
     },
     "zento_problem_images": {
       "type": "zento-problem-images",
-      "blocks": {
-        "card_1": {
-          "type": "card",
-          "settings": {
-            "image": "",
-            "heading": "Gemischt statt geschüttelt",
-            "text": "Klumpenfrei gemixt, ohne Schütteln: weniger Luft in der Flasche, ruhigere Bäuche."
-          }
-        },
-        "card_2": {
-          "type": "card",
-          "settings": {
-            "image": "",
-            "heading": "Immer griffbereit",
-            "text": "Akkubetrieben und nur 127 × 127 × 159 mm groß – passt in jede Wickeltasche."
-          }
-        },
-        "card_3": {
-          "type": "card",
-          "settings": {
-            "image": "",
-            "heading": "Nachts sofort startklar",
-            "text": "Vorher einschalten: Die Flasche ist warm, wenn dein Baby aufwacht. Mit sanftem Nachtlicht."
-          }
-        }
-      },
-      "block_order": [
-        "card_1",
-        "card_2",
-        "card_3"
-      ],
+      "blocks": {},
+      "block_order": [],
       "settings": {
         "eyebrow": "WARUM EIN MILCHWÄRMER MIT MIX-FUNKTION?",
         "heading": "Für entspannte Mahlzeiten, ganz ohne Luftblasen.",
+        "subtitle": "<p>Beim Schütteln bleiben oft Klumpen zurück, und Luft gelangt in die Milch – ein häufiger Grund für Bauchweh. Die Mix-Funktion mischt sanft und gründlich, ganz ohne Schütteln.</p>",
         "color_scheme": "scheme-2",
         "padding_top": 40,
         "padding_bottom": 52

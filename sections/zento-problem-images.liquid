@@ -17,13 +17,16 @@
 <div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   <section class="zento-problem-images">
     <div class="zento-problem-images__inner">
-      {%- if section.settings.eyebrow != blank or section.settings.heading != blank -%}
+      {%- if section.settings.eyebrow != blank or section.settings.heading != blank or section.settings.subtitle != blank -%}
         <div class="zento-problem-images__header">
           {%- if section.settings.eyebrow != blank -%}
             <p class="zento-problem-images__eyebrow">{{ section.settings.eyebrow | escape }}</p>
           {%- endif -%}
           {%- if section.settings.heading != blank -%}
             <h2 class="zento-problem-images__title">{{ section.settings.heading }}</h2>
+          {%- endif -%}
+          {%- if section.settings.subtitle != blank -%}
+            <div class="zento-problem-images__subtitle">{{ section.settings.subtitle }}</div>
           {%- endif -%}
         </div>
       {%- endif -%}
@@ -74,6 +77,11 @@
       "id": "heading",
       "label": "Heading",
       "default": "Für mehr Freiheit, wenn Stillen gerade nicht möglich ist."
+    },
+    {
+      "type": "richtext",
+      "id": "subtitle",
+      "label": "Subtitle"
     },
     {
       "type": "color_scheme",

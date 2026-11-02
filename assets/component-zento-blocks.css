@@ -466,6 +466,22 @@
   font-weight: 750;
 }
 
+.zento-problem-images__subtitle {
+  margin: 16px auto 0;
+  max-width: 700px;
+  color: #3d4655;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.zento-problem-images__subtitle p {
+  margin: 0;
+}
+
+.zento-problem-images__header:last-child {
+  margin-bottom: 0;
+}
+
 .zento-problem-images__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -565,6 +581,11 @@
   .zento-problem-images__title {
     font-size: 28px;
     line-height: 1.12;
+  }
+
+  .zento-problem-images__subtitle {
+    font-size: 14.5px;
+    line-height: 1.55;
   }
 
   .zento-problem-images__grid {
@@ -824,6 +845,10 @@
   cursor: default;
 }
 
+.zento-rating-bar--right {
+  margin-left: auto;
+}
+
 .zento-rating-bar--static:hover .zento-rating-bar__text {
   text-decoration: none;
 }
@@ -864,7 +889,8 @@
 @media screen and (max-width: 749px) {
   .zento-rating-bar {
     gap: 7px;
-    margin: 4px 0 10px;
+    margin-top: 4px;
+    margin-bottom: 10px;
   }
 
   .zento-rating-bar__stars {
