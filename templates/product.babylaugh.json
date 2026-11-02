@@ -145,46 +145,46 @@
         "comparison_row_1": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Klumpenfreies Mischen",
-            "zento_text": "<p>Automatisch in 3 Modi, ganz ohne Schütteln.</p>",
-            "classic_heading": "Von Hand schütteln oder rühren",
-            "classic_text": "<p>Klumpen bleiben oft zurück, wenn nicht kräftig genug geschüttelt wird.</p>"
+            "zento_heading": "Klumpenfrei gemischt",
+            "zento_text": "<p>Automatisch in 3 Modi, ohne Schütteln.</p>",
+            "classic_heading": "Von Hand schütteln",
+            "classic_text": "<p>Pulver löst sich oft nicht ganz.</p>"
           }
         },
         "comparison_row_2": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Weniger Luftblasen",
-            "zento_text": "<p>Sanftes Kreisel-Mischen reduziert das Risiko für Blähungen.</p>",
-            "classic_heading": "Schütteln erzeugt Luftblasen",
-            "classic_text": "<p>Ein häufiger Auslöser für Bauchweh bei Babys.</p>"
+            "zento_heading": "Weniger Luft in der Milch",
+            "zento_text": "<p>Sanftes Kreisel-Mischen statt Schütteln.</p>",
+            "classic_heading": "Schütteln wirbelt Luft ein",
+            "classic_text": "<p>Die dein Baby beim Trinken mitschluckt.</p>"
           }
         },
         "comparison_row_3": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Einsatzbereit ohne Steckdose",
-            "zento_text": "<p>Akkubetrieben über USB-C, auch unterwegs.</p>",
-            "classic_heading": "Meist nur am Netzkabel",
-            "classic_text": "<p>Ohne Steckdose in der Nähe oft nicht einsatzbereit.</p>"
+            "zento_heading": "Konstant 40–45 °C",
+            "zento_text": "<p>Hält die Trinktemperatur von selbst.</p>",
+            "classic_heading": "Rechtzeitig rausnehmen",
+            "classic_text": "<p>Sonst wird die Milch zu heiß oder wieder kalt.</p>"
           }
         },
         "comparison_row_4": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Vorbereitet für die Nacht",
-            "zento_text": "<p>Bis zu 60 Minuten im Voraus einschaltbar.</p>",
-            "classic_heading": "Jedes Mal neu zubereiten",
-            "classic_text": "<p>Keine Möglichkeit, die Flasche vorzubereiten.</p>"
+            "zento_heading": "Ohne Netzstecker",
+            "zento_text": "<p>Läuft an Powerbank, Auto oder Laptop.</p>",
+            "classic_heading": "Nur an der Steckdose",
+            "classic_text": "<p>Unterwegs kaum nutzbar.</p>"
           }
         },
         "comparison_row_5": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Kompakt",
-            "zento_text": "<p>127 × 127 × 159 mm – passt in jede Wickeltasche.</p>",
-            "classic_heading": "Oft sperriger",
-            "classic_text": "<p>Klassische Wärmer nehmen mehr Platz ein.</p>"
+            "zento_heading": "Nachts griffbereit",
+            "zento_text": "<p>Sanftes Nachtlicht, auch nur über Akku.</p>",
+            "classic_heading": "Licht an, Flasche schütteln",
+            "classic_text": "<p>Dein Baby wird dabei wacher.</p>"
           }
         }
       },
@@ -197,12 +197,12 @@
       ],
       "settings": {
         "eyebrow": "ZENTO BLEND VS. KLASSISCHER FLASCHENWÄRMER",
-        "heading": "Ohne Luftblasen. Immer warm.",
+        "heading": "Ohne Luftblasen. Richtig temperiert.",
         "subtitle": "<p>Schütteln hinterlässt oft Klumpen und Luft in der Milch – ein häufiger Grund für Bauchweh. Der Zento Blend mischt sanft und hält die Milch auf Trinktemperatur.</p>",
         "zento_image": "",
         "zento_name": "Zento Blend",
         "competitor_image": "",
-        "competitor_name": "Klassisch",
+        "competitor_name": "Klassischer Wärmer",
         "color_scheme": "scheme-2",
         "padding_top": 28,
         "padding_bottom": 36
