@@ -2035,6 +2035,42 @@
   padding-left: 0;
 }
 
+/* Numbered lists as steps: number in a small circle, text aligned beside it */
+.product__accordion .accordion__content ol {
+  list-style: none;
+  counter-reset: zento-step;
+}
+
+.product__accordion .accordion__content ol > li {
+  counter-increment: zento-step;
+  position: relative;
+  min-height: 2.2rem;
+  margin-bottom: 1.2rem;
+  padding-left: 3.4rem;
+}
+
+.product__accordion .accordion__content ol > li:last-child {
+  margin-bottom: 0;
+}
+
+.product__accordion .accordion__content ol > li::before {
+  content: counter(zento-step);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  background: #b8896b;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
 @media screen and (min-width: 750px) {
   .product__accordion .accordion__content {
     font-size: 1.55rem;
