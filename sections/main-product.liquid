@@ -214,13 +214,33 @@
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
               {%- when 'rating_bar' -%}
-                <a href="#zento-reviews-anchor" class="zento-rating-bar" {{ block.shopify_attributes }}>
-                  <span class="zento-rating-bar__stars" aria-hidden="true">★★★★★</span>
-                  <span class="zento-rating-bar__text">
-                    <strong>{{ block.settings.rating_value }}</strong>
-                    {%- if block.settings.review_count_text != blank %} · {{ block.settings.review_count_text }}{% endif -%}
+                {%- liquid
+                  assign rating_number = block.settings.rating_value | replace: ',', '.' | plus: 0
+                  assign rating_fill = rating_number | times: 2 | round | divided_by: 2.0 | times: 20
+                  if block.settings.link_to_reviews
+                    assign rating_tag = 'a'
+                  else
+                    assign rating_tag = 'div'
+                  endif
+                -%}
+                <{{ rating_tag }}
+                  {% if block.settings.link_to_reviews %}href="#zento-reviews-anchor"{% endif %}
+                  class="zento-rating-bar{% unless block.settings.link_to_reviews %} zento-rating-bar--static{% endunless %}"
+                  {{ block.shopify_attributes }}
+                >
+                  <span class="zento-rating-bar__stars" style="--zento-rating-fill: {{ rating_fill }}%;" aria-hidden="true">
+                    <span class="zento-rating-bar__stars-fill">★★★★★</span>★★★★★
                   </span>
-                </a>
+                  <span class="zento-rating-bar__text">
+                    {%- if block.settings.show_rating_value -%}
+                      <strong>{{ block.settings.rating_value }}</strong>
+                      {%- if block.settings.review_count_text != blank %} · {% endif -%}
+                    {%- else -%}
+                      <span class="visually-hidden">{{ block.settings.rating_value }} von 5 Sternen, </span>
+                    {%- endif -%}
+                    {{- block.settings.review_count_text -}}
+                  </span>
+                </{{ rating_tag }}>
               {%- when 'payment_icons' -%}
                 <div class="zento-payment-icons" {{ block.shopify_attributes }}>
                   {%- if block.settings.payment_icons_label != blank -%}
@@ -1074,6 +1094,20 @@
           "id": "review_count_text",
           "label": "Review count text",
           "default": "450+ Mütter vertrauen zento"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_rating_value",
+          "label": "Show rating value",
+          "info": "Stars are always filled to the rating value, rounded to half stars.",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "link_to_reviews",
+          "label": "Link to reviews section",
+          "info": "Turn off on product pages without a Zento reviews section.",
+          "default": true
         }
       ]
     },

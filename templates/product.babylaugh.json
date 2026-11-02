@@ -11,6 +11,15 @@
             "text_style": "uppercase"
           }
         },
+        "rating_bar": {
+          "type": "rating_bar",
+          "settings": {
+            "rating_value": "4,5",
+            "review_count_text": "47 Bewertungen",
+            "show_rating_value": false,
+            "link_to_reviews": false
+          }
+        },
         "title": {
           "type": "title",
           "settings": {}
@@ -100,6 +109,7 @@
       },
       "block_order": [
         "vendor",
+        "rating_bar",
         "title",
         "description",
         "icon_with_text_benefits_1",

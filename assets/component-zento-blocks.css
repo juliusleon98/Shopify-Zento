@@ -820,13 +820,32 @@
   text-decoration: underline;
 }
 
+.zento-rating-bar--static {
+  cursor: default;
+}
+
+.zento-rating-bar--static:hover .zento-rating-bar__text {
+  text-decoration: none;
+}
+
 .zento-rating-bar__stars {
-  color: #c99368;
+  position: relative;
+  display: inline-block;
+  color: #ddd5cc;
   font-size: 17px;
   letter-spacing: 0.6px;
   line-height: 1;
   white-space: nowrap;
   transform: translateY(-1px);
+}
+
+.zento-rating-bar__stars-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--zento-rating-fill, 100%);
+  overflow: hidden;
+  color: #c99368;
 }
 
 .zento-rating-bar__text {
