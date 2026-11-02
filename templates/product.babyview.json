@@ -27,13 +27,13 @@
           "settings": {
             "layout": "vertical",
             "icon_1": "check_mark",
-            "heading_1": "Klares Bild, auch bei Nacht",
+            "heading_1": "Sicher ohne WLAN & App",
             "icon_2": "check_mark",
-            "heading_2": "Schrei-Erkennung für mehr Ruhe",
+            "heading_2": "Klares Bild, auch bei Nacht",
             "icon_3": "check_mark",
-            "heading_3": "Sicher ohne WLAN & App",
+            "heading_3": "Schrei-Erkennung mit Alarm",
             "icon_4": "check_mark",
-            "heading_4": "Bis zu 300 m Reichweite im Freien"
+            "heading_4": "Schwenk- & zoombare Kamera"
           }
         },
         "price": {
