@@ -930,6 +930,7 @@
 }
 
 .zento-comparison__title {
+  text-wrap: balance;
   margin: 0 0 16px;
   color: #17202f;
   font-size: 40px;
