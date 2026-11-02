@@ -85,7 +85,7 @@
         "collapsible_tab_faq_6": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Welche Brusthaube passt?",
+            "heading": "Welche Brusthaube passt zu mir?",
             "icon": "none",
             "content": "<p>Zento One kommt mit 4 Brusthauben-Größen im Set. Miss den Durchmesser deiner Brustwarze in Ruhe (ohne Warzenhof), am besten nach dem Stillen, wenn sie entspannt ist, und wähle danach die passende Größe:</p><ul><li><strong>18 mm</strong> – Brustwarzen-Durchmesser 13 bis 17 mm</li><li><strong>20 mm</strong> – Brustwarzen-Durchmesser 17 bis 19 mm</li><li><strong>22 mm</strong> – Brustwarzen-Durchmesser 19 bis 21 mm</li><li><strong>24 mm</strong> – Brustwarzen-Durchmesser 21 bis 24 mm</li></ul><p>Liegt dein Maß zwischen zwei Größen, empfehlen wir die größere Größe für mehr Komfort. Die Größe kann sich in den ersten Wochen noch ändern, ein erneutes Messen nach der Geburt lohnt sich also.</p>",
             "page": ""
@@ -94,7 +94,7 @@
         "collapsible_tab_faq_7": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Schon vor der Geburt kaufen?",
+            "heading": "Sollte ich schon vor der Geburt kaufen?",
             "icon": "none",
             "content": "<p>Das kommt auf deine Situation an. Manche Hebammen und Stillberaterinnen empfehlen, mit dem Abpumpen erst zu beginnen, wenn sich das Stillen eingespielt hat, meist nach den ersten Wochen, damit sich die Milchbildung natürlich einspielen kann. Andere Mamas kaufen bewusst vorher, um für den Fall der Fälle vorbereitet zu sein, etwa bei der Rückkehr in den Job oder bei Milchstau. Es gibt hier kein pauschal richtig oder falsch, sprich im Zweifel mit deiner Hebamme oder Stillberaterin, was für dich passt.</p>",
             "page": ""
@@ -103,7 +103,7 @@
         "collapsible_tab_faq_8": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Garantie & Support",
+            "heading": "Was, wenn mal etwas nicht passt?",
             "icon": "none",
             "content": "<p>Zento One kommt mit 2 Jahren Garantie. Hast du in dieser Zeit ein Problem, melde dich bei unserem Support, wir kümmern uns um Ersatz oder Reparatur.</p>",
             "page": ""
@@ -112,7 +112,7 @@
         "collapsible_tab_faq_comfort": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Ist das Abpumpen angenehm?",
+            "heading": "Fühlt sich das Abpumpen gut an?",
             "icon": "none",
             "content": "<p>Das stellst du selbst ein. Mit 4 Modi und 15 Stufen wählst du die Intensität so, wie sie sich für dich richtig anfühlt, vom sanften Massage-Modus bis zum kräftigeren Pump-Modus. Wichtig ist außerdem die passende Brusthauben-Größe.</p>",
             "page": ""
