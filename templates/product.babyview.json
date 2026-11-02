@@ -167,46 +167,46 @@
         "comparison_row_1": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Verschlüsselte Direktverbindung",
-            "zento_text": "<p>2,4-GHz-FHSS-Funktechnik statt WLAN.</p>",
-            "classic_heading": "Über Heim-WLAN",
-            "classic_text": "<p>Abhängig von Router und Internetverbindung.</p>"
+            "zento_heading": "Ohne Internet",
+            "zento_text": "<p>Kein Zugriff über App oder Cloud.</p>",
+            "classic_heading": "Online erreichbar",
+            "classic_text": "<p>App-Kameras sind oft Ziel von Hackern.</p>"
           }
         },
         "comparison_row_2": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Datensicherheit",
-            "zento_text": "<p>Kein Internet, keine App, keine Cloud.</p>",
-            "classic_heading": "Hack-Risiko",
-            "classic_text": "<p>Bekannt bei App-/Cloud-Kameras.</p>"
+            "zento_heading": "Läuft auch ohne WLAN",
+            "zento_text": "<p>Router-Ausfall? Das Bild bleibt.</p>",
+            "classic_heading": "Kein WLAN, kein Bild",
+            "classic_text": "<p>Abhängig von Router und Netz.</p>"
           }
         },
         "comparison_row_3": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Reichweite",
-            "zento_text": "<p>Bis zu 300 m im Freifeld.</p>",
-            "classic_heading": "Schwankende Reichweite",
-            "classic_text": "<p>Variiert stark mit dem WLAN-Signal.</p>"
+            "zento_heading": "Sofort startklar",
+            "zento_text": "<p>Einschalten, ohne App und Konto.</p>",
+            "classic_heading": "Einrichtung nötig",
+            "classic_text": "<p>App, Konto und WLAN-Setup.</p>"
           }
         },
         "comparison_row_4": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Nachtsicht",
-            "zento_text": "<p>Automatische Infrarot-Umschaltung.</p>",
-            "classic_heading": "Oft schwächer",
-            "classic_text": "<p>Bei Dunkelheit häufig eingeschränkt.</p>"
+            "zento_heading": "Eigenes Display",
+            "zento_text": "<p>Dein Handy bleibt frei.</p>",
+            "classic_heading": "Handy als Monitor",
+            "classic_text": "<p>App muss laufen, Akku leert sich.</p>"
           }
         },
         "comparison_row_5": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Funktionsumfang",
-            "zento_text": "<p>11 fokussierte Kernfunktionen.</p>",
-            "classic_heading": "Viele Zusatzfunktionen",
-            "classic_text": "<p>Teils unzuverlässige „Smart“-Features.</p>"
+            "zento_heading": "Bild in Echtzeit",
+            "zento_text": "<p>Direkter Funk, kaum Verzögerung.</p>",
+            "classic_heading": "Oft verzögert",
+            "classic_text": "<p>Der Stream läuft übers Internet.</p>"
           }
         }
       },
@@ -218,9 +218,9 @@
         "comparison_row_5"
       ],
       "settings": {
-        "eyebrow": "ZENTO VIEW PRO VS. KLASSISCHES WLAN-BABYPHONE",
-        "heading": "Mehr Sicherheit. Weniger Abhängigkeit vom WLAN.",
-        "subtitle": "<p>WLAN-Babyphones sind praktisch, hängen aber von deinem Heimnetz ab. Der Zento View Pro baut eine eigene, verschlüsselte Direktverbindung auf.</p>",
+        "eyebrow": "ZENTO VIEW PRO VS. WLAN-BABYPHONE",
+        "heading": "Sicher verbunden. Ganz ohne WLAN.",
+        "subtitle": "<p>WLAN-Babyphones hängen an Router, App und Internet – und sind darüber angreifbar. Der Zento View Pro funkt direkt und verschlüsselt, auch wenn das WLAN ausfällt.</p>",
         "zento_image": "",
         "zento_name": "Zento View Pro",
         "competitor_image": "",
