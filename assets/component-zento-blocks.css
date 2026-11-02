@@ -3165,3 +3165,11 @@ section.shopify-pc__banner__dialog {
     display: none;
   }
 }
+
+/* Mobile: hide review count ("28 Bewertungen") and "Bewertung schreiben" button */
+@media screen and (max-width: 749px) {
+  .zento-reviews__summary p,
+  .zento-reviews__top > modal-opener {
+    display: none;
+  }
+}
