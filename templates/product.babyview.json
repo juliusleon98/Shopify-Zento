@@ -195,9 +195,9 @@
           "type": "comparison_row",
           "settings": {
             "zento_heading": "Eigenes Display",
-            "zento_text": "<p>Dein Handy bleibt frei.</p>",
+            "zento_text": "<p>5 Zoll, unabhängig vom Handy.</p>",
             "classic_heading": "Handy als Monitor",
-            "classic_text": "<p>App muss laufen, Akku leert sich.</p>"
+            "classic_text": "<p>Leerer Handy-Akku? Kein Bild mehr.</p>"
           }
         },
         "comparison_row_5": {
