@@ -176,7 +176,7 @@
         "comparison_row_2": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Läuft auch ohne WLAN",
+            "zento_heading": "Läuft ohne WLAN",
             "zento_text": "<p>Router-Ausfall? Das Bild bleibt.</p>",
             "classic_heading": "Kein WLAN, kein Bild",
             "classic_text": "<p>Abhängig von Router und Netz.</p>"
@@ -211,16 +211,16 @@
         }
       },
       "block_order": [
-        "comparison_row_1",
         "comparison_row_2",
-        "comparison_row_3",
+        "comparison_row_5",
+        "comparison_row_1",
         "comparison_row_4",
-        "comparison_row_5"
+        "comparison_row_3"
       ],
       "settings": {
         "eyebrow": "ZENTO VIEW PRO VS. WLAN-BABYPHONE",
-        "heading": "Sicher verbunden. Ganz ohne WLAN.",
-        "subtitle": "<p>WLAN-Babyphones hängen an Router, App und Internet – und sind darüber angreifbar. Der Zento View Pro funkt direkt und verschlüsselt, auch wenn das WLAN ausfällt.</p>",
+        "heading": "Dein Baby im Blick. Du in Ruhe.",
+        "subtitle": "<p>Ein Babyphone soll dir Ruhe geben, nicht neue Sorgen. Der Zento View Pro zeigt dir dein Baby in Echtzeit, über eine eigene, verschlüsselte Funkverbindung statt über WLAN und Internet.</p>",
         "zento_image": "",
         "zento_name": "Zento View Pro",
         "competitor_image": "",
