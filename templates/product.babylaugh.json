@@ -15,10 +15,10 @@
           "type": "rating_bar",
           "settings": {
             "rating_value": "4,5",
-            "review_count_text": "47 Bewertungen",
+            "review_count_text": "47 Bewertungen · 162 zufriedene Kunden",
             "show_rating_value": false,
             "link_to_reviews": false,
-            "alignment": "right"
+            "alignment": "left"
           }
         },
         "title": {
