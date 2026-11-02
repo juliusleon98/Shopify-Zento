@@ -803,7 +803,7 @@
         "collapsible_row_1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Ist es sinnvoll, eine elektrische Milchpumpe zu verwenden?",
+            "heading": "Lohnt sich eine elektrische Milchpumpe?",
             "icon": "none",
             "row_content": "<p>Ja, eine elektrische Milchpumpe wie die Zento One kann besonders praktisch sein, wenn du regelmäßig abpumpen möchtest, flexibler im Alltag sein willst oder Vorrat für später aufbauen möchtest. Da sie freihändig im BH sitzt, kannst du sie nebenbei nutzen, während du dich um andere Dinge kümmerst.</p>",
             "table_rows": "",
@@ -823,7 +823,7 @@
         "collapsible_row_3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Reduziert eine tragbare Milchpumpe wie die Zento One die Milchmenge?",
+            "heading": "Verringert die Zento One die Milchmenge?",
             "icon": "none",
             "row_content": "<p>Nein, nicht automatisch. Entscheidend sind eine passende Brusthaubengröße, ein guter Sitz und regelmäßiges Abpumpen. Wenn die Größe nicht stimmt, kann die Entleerung weniger effektiv sein, deshalb liegen der Zento One 4 Brusthaubengrößen zum Ausprobieren bei.</p>",
             "table_rows": "",
@@ -833,7 +833,7 @@
         "collapsible_row_4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Ist Abpumpen mit der Zento One unangenehm?",
+            "heading": "Ist das Abpumpen unangenehm?",
             "icon": "none",
             "row_content": "<p>Das lässt sich individuell einstellen. Mit 4 Modi und 15 Stufen, 60 Einstellungen insgesamt, kannst du die Intensität so wählen, wie sie sich für dich richtig anfühlt, vom sanften Massage-Modus bis zum kräftigeren Pump-Modus. Wichtig ist außerdem die passende Brusthaubengröße.</p>",
             "table_rows": "",
@@ -863,7 +863,7 @@
         "collapsible_row_7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Warum fühlt sich die Saugkraft nach der Reinigung schwächer an?",
+            "heading": "Schwächere Saugkraft nach der Reinigung?",
             "icon": "none",
             "row_content": "<p>Das kann passieren, wenn einzelne Teile nicht vollständig trocken sind, nicht korrekt zusammengesetzt wurden oder das Anti-Rückfluss-Ventil nicht richtig sitzt. Prüfe nach der Reinigung, ob alle Teile sauber, trocken und fest verbunden sind.</p>",
             "table_rows": "",
