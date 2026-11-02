@@ -66,9 +66,9 @@
         "collapsible_tab_faq_2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Wie funktioniert der Zento View Pro?",
+            "heading": "Wobei hilft mir der Zento View Pro?",
             "icon": "none",
-            "content": "<ol><li>Kamera mit 1 m Abstand zum Bett aufstellen und einstecken.</li><li>Elterneinheit einschalten: Sie verbindet sich automatisch, ohne App oder WLAN.</li></ol>",
+            "content": "<p>Mit dem Zento View Pro bist du nicht mehr ans Kinderzimmer gebunden. Während dein Baby schläft, kannst du kochen, duschen oder im Garten sitzen. Das Bild hast du auf der Elterneinheit immer dabei.</p><p>Willst du kurz nachsehen, reicht ein Blick aufs Display: Mit Nachtsicht und Zoom siehst du, ob alles in Ordnung ist, ohne die Tür zu öffnen und dein Baby zu wecken. Und wenn es weint, schlägt die Schrei-Erkennung Alarm. Oft beruhigt dann schon deine Stimme oder ein Schlaflied.</p>",
             "page": ""
           }
         },
@@ -77,7 +77,7 @@
           "settings": {
             "heading": "Für wen eignet sich der Zento View Pro?",
             "icon": "none",
-            "content": "<p>Für Eltern, die nachts ruhig schlafen möchten und trotzdem sofort merken wollen, wenn ihr Baby sie braucht. Und für alle, denen eine Kamera im Kinderzimmer, die übers Internet erreichbar ist, kein gutes Gefühl gibt.</p><p>Weil der Zento View Pro ohne App und Einrichtung auskommt, ist er auch ideal für Großeltern und Babysitter: einschalten, fertig.</p>",
+            "content": "<p>Für Eltern, die ihr Baby im Blick behalten möchten, ohne dass eine Kamera aus dem Kinderzimmer im Internet hängt. Der View Pro funkt direkt und verschlüsselt zur Elterneinheit, ganz ohne WLAN, App oder Cloud. Das ist auch praktisch, wenn euer WLAN nicht bis ins Kinderzimmer oder in den Garten reicht.</p><p>Weil keine Einrichtung nötig ist, kommen auch Großeltern und Babysitter sofort damit zurecht: einschalten, fertig.</p>",
             "page": ""
           }
         },
@@ -86,7 +86,7 @@
           "settings": {
             "heading": "Produktbeschreibung",
             "icon": "none",
-            "content": "<p>Der Zento View Pro zeigt dir dein Baby in Echtzeit, über eine eigene, verschlüsselte Funkverbindung statt über WLAN und Internet. Kamera ins Kinderzimmer, Elterneinheit einschalten, fertig.</p><ul><li><strong>Klares Bild, Tag und Nacht:</strong> 720p-HD-Kamera mit automatischer Infrarot-Nachtsicht</li><li><strong>Ganzes Zimmer im Blick:</strong> Kamera von der Elterneinheit aus schwenken, neigen und zoomen</li><li><strong>Großes Display:</strong> 5 Zoll auf der Elterneinheit, unabhängig von deinem Handy</li><li><strong>Schrei-Erkennung &amp; VOX:</strong> Der Bildschirm schaltet sich ein, sobald dein Baby Geräusche macht</li><li><strong>Beruhigen aus der Ferne:</strong> Zwei-Wege-Audio und 8 Schlaflieder</li><li><strong>Bis zu 300 m Reichweite:</strong> im Freien, also auch im Garten verbunden</li><li><strong>Kleine Helfer:</strong> Temperaturanzeige fürs Kinderzimmer und Stillerinnerung</li></ul><p><strong>Gut zu wissen:</strong> Der View Pro funktioniert bewusst ohne App, du schaust also nicht übers Handy zu. Über Nacht empfehlen wir, die Elterneinheit ans Ladekabel anzuschließen.</p>",
+            "content": "<p>Der Zento View Pro ist ein Video-Babyphone mit Kamera und Elterneinheit, verbunden über eine eigene, verschlüsselte Funkverbindung statt über WLAN.</p><ul><li><strong>Klares Bild, Tag und Nacht:</strong> 720p-HD-Kamera mit automatischer Infrarot-Nachtsicht</li><li><strong>Ganzes Zimmer im Blick:</strong> Kamera von der Elterneinheit aus schwenken, neigen und zoomen</li><li><strong>Großes Display:</strong> 5 Zoll auf der Elterneinheit, unabhängig von deinem Handy</li><li><strong>Schrei-Erkennung &amp; VOX:</strong> Der Bildschirm schaltet sich ein, sobald dein Baby Geräusche macht</li><li><strong>Beruhigen aus der Ferne:</strong> Zwei-Wege-Audio und 8 Schlaflieder</li><li><strong>Bis zu 300 m Reichweite:</strong> im Freien, also auch im Garten verbunden</li><li><strong>Kleine Helfer:</strong> Temperaturanzeige fürs Kinderzimmer und Stillerinnerung</li></ul><p><strong>Gut zu wissen:</strong> Der View Pro funktioniert bewusst ohne App, du schaust also nicht übers Handy zu. Über Nacht empfehlen wir, die Elterneinheit ans Ladekabel anzuschließen.</p>",
             "page": ""
           }
         },
