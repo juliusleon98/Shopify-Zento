@@ -233,15 +233,6 @@
     "collapsible_content_faq": {
       "type": "collapsible-content",
       "blocks": {
-        "faq_wlan": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Warum ohne WLAN und App?",
-            "icon": "none",
-            "row_content": "<p>WLAN-Babyphones mit App sind bequem, hängen aber von deinem Router und deiner Internetverbindung ab. Fällt das WLAN aus, siehst du dein Baby nicht mehr. Und weil die Bilder übers Internet laufen, sind solche Kameras immer wieder Ziel von Hackerangriffen.</p><p>Der Zento View Pro funkt direkt und verschlüsselt zwischen Kamera und Elterneinheit (2,4 GHz FHSS). Es gibt keine Internetverbindung, keine App und keine Cloud, über die jemand von außen zugreifen könnte.</p>",
-            "page": ""
-          }
-        },
         "faq_handy": {
           "type": "collapsible_row",
           "settings": {
@@ -305,24 +296,6 @@
             "page": ""
           }
         },
-        "collapsible_row_3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Kann ich eine zweite Kamera ergänzen?",
-            "icon": "none",
-            "row_content": "<p>Ja, der Zento View Pro unterstützt zwei Kameras. Das ist praktisch, wenn ihr zwei Kinderzimmer oder Geschwisterkinder im Blick behalten möchtet.</p><p>Schreib uns an <a href=\"mailto:hello@zento-home.com\">hello@zento-home.com</a>, wir helfen dir gern bei der Zusatzkamera weiter.</p>",
-            "page": ""
-          }
-        },
-        "faq_funktionen": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Welche Funktionen hat der View Pro?",
-            "icon": "none",
-            "row_content": "<p>Neben Bild und Ton bietet der Zento View Pro alles, was nachts wirklich hilft: Zwei-Wege-Audio, um dein Baby mit deiner Stimme zu beruhigen, 8 Schlaflieder, eine Temperaturanzeige fürs Kinderzimmer und eine Stillerinnerung, die dich in einstellbaren Abständen ans nächste Füttern erinnert.</p><p>Bewusst verzichten wir auf Spielereien, die nachts eher stören als helfen.</p>",
-            "page": ""
-          }
-        },
         "faq_garantie": {
           "type": "collapsible_row",
           "settings": {
@@ -344,7 +317,6 @@
         }
       },
       "block_order": [
-        "faq_wlan",
         "faq_handy",
         "faq_akku",
         "faq_strahlung",
@@ -352,8 +324,6 @@
         "collapsible_row_2",
         "faq_reichweite",
         "faq_montage",
-        "collapsible_row_3",
-        "faq_funktionen",
         "faq_garantie",
         "collapsible_row_specs"
       ],
