@@ -754,7 +754,7 @@
           "type": "comparison_row",
           "settings": {
             "zento_heading": "Überall abpumpen",
-            "zento_text": "<p>Kabellos mit 3 Stunden Akku, auch unterwegs.</p>",
+            "zento_text": "<p>Dank 3 Stunden Akku ganz ohne Kabel.</p>",
             "classic_heading": "An der Steckdose",
             "classic_text": "<p>Kabel und Schläuche binden dich an einen festen Platz.</p>"
           }
@@ -772,7 +772,7 @@
           "type": "comparison_row",
           "settings": {
             "zento_heading": "Schnell sauber",
-            "zento_text": "<p>Nur 3 Teile zu reinigen.</p>",
+            "zento_text": "<p>Du reinigst nach dem Pumpen nur 3 Teile.</p>",
             "classic_heading": "Mehr Reinigung",
             "classic_text": "<p>Viele Einzelteile wie Ventile und Flaschen.</p>"
           }
