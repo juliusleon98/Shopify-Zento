@@ -776,11 +776,21 @@
             "classic_heading": "Mehr Reinigung",
             "classic_text": "<p>Viele Einzelteile wie Ventile und Flaschen.</p>"
           }
+        },
+        "comparison_row_5": {
+          "type": "comparison_row",
+          "settings": {
+            "zento_heading": "Fein einstellbar",
+            "zento_text": "<p>4 Modi und 15 Stufen, damit es sich für dich gut anfühlt.</p>",
+            "classic_heading": "Weniger Stufen",
+            "classic_text": "<p>Oft nur grob einstellbar, sanftes Pumpen ist schwieriger.</p>"
+          }
         }
       },
       "block_order": [
         "comparison_row_1",
         "comparison_row_2",
+        "comparison_row_5",
         "comparison_row_3",
         "comparison_row_4"
       ],
