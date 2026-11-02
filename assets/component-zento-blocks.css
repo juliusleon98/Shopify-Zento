@@ -335,7 +335,14 @@
   grid-column: 1 / -1;
 }
 
-.product__info-container .zento-price-row:has(.price--on-sale) .product__tax {
+/* Regular (non-sale) price gets the same weight as the sale price */
+.product__info-container .price:not(.price--on-sale) .price__regular .price-item--regular {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.product__info-container .zento-price-row .product__tax {
   flex-basis: 100%;
   margin-top: 0.2rem !important;
 }
