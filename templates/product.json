@@ -744,8 +744,8 @@
         "comparison_row_1": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Abpumpen, wann es dir passt",
-            "zento_text": "<p>Freihändig im BH, so passt es nebenbei in deinen Alltag.</p>",
+            "zento_heading": "Jederzeit abpumpen",
+            "zento_text": "<p>Freihändig im BH, ganz nebenbei im Alltag.</p>",
             "classic_heading": "Feste Pump-Pausen",
             "classic_text": "<p>Du brauchst Zeit und freie Hände, alles andere muss warten.</p>"
           }
@@ -754,27 +754,27 @@
           "type": "comparison_row",
           "settings": {
             "zento_heading": "Überall abpumpen",
-            "zento_text": "<p>Kabellos mit 3 Stunden Akku, ob zuhause, im Büro oder unterwegs.</p>",
-            "classic_heading": "Nur in Steckdosennähe",
+            "zento_text": "<p>Kabellos mit 3 Stunden Akku, auch unterwegs.</p>",
+            "classic_heading": "An der Steckdose",
             "classic_text": "<p>Kabel und Schläuche binden dich an einen festen Platz.</p>"
           }
         },
         "comparison_row_3": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Unauffällig unterwegs",
-            "zento_text": "<p>Sitzt flach im BH und ist unter weiter Kleidung kaum zu sehen.</p>",
-            "classic_heading": "Kaum diskret möglich",
+            "zento_heading": "Diskret",
+            "zento_text": "<p>Unter weiter Kleidung kaum zu sehen.</p>",
+            "classic_heading": "Auffällig",
             "classic_text": "<p>Flaschen und Schläuche sind deutlich sichtbar.</p>"
           }
         },
         "comparison_row_4": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Schnell wieder sauber",
-            "zento_text": "<p>Nur 3 Teile neben dem Motor, die du nach dem Pumpen reinigst.</p>",
-            "classic_heading": "Aufwendige Reinigung",
-            "classic_text": "<p>Viele Einzelteile wie Ventile und Flaschen müssen gereinigt werden.</p>"
+            "zento_heading": "Schnell sauber",
+            "zento_text": "<p>Nur 3 Teile zu reinigen.</p>",
+            "classic_heading": "Mehr Reinigung",
+            "classic_text": "<p>Viele Einzelteile wie Ventile und Flaschen.</p>"
           }
         }
       },
