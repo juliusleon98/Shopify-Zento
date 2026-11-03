@@ -189,7 +189,7 @@
         "benefit_support"
       ],
       "settings": {
-        "eyebrow": "",
+        "eyebrow": "Unser Versprechen",
         "heading": "Hier macht Zento den Unterschied",
         "color_scheme": "scheme-2",
         "padding_top": 48,
@@ -638,7 +638,7 @@
         "feed_placeholder_12"
       ],
       "settings": {
-        "eyebrow": "",
+        "eyebrow": "Kundenstimmen",
         "heading": "Das lieben Mamas an der Zento One",
         "score": "4,8",
         "review_count_text": "230+ Bewertungen",
@@ -690,7 +690,7 @@
         "card_3"
       ],
       "settings": {
-        "eyebrow": "",
+        "eyebrow": "Warum eine Milchpumpe?",
         "heading": "Wenn Stillen nicht geht: So bekommst du deine Freiheit zurück",
         "subtitle": "",
         "color_scheme": "scheme-2",
@@ -757,7 +757,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Zento_Kitchen_Picture.png",
-        "eyebrow": "",
+        "eyebrow": "Die Lösung für mehr Flexibilität",
         "heading": "So pumpst du ab, ohne deinen Alltag zu unterbrechen",
         "text": "<p>Zento One sitzt direkt im BH, kommt ohne Kabel oder Schläuche aus und lässt sich an dein persönliches Wohlbefinden anpassen – damit Abpumpen weniger nach Aufwand und mehr nach Entlastung fühlt.</p>",
         "color_scheme": "scheme-1",
@@ -822,8 +822,8 @@
         "comparison_row_4"
       ],
       "settings": {
-        "eyebrow": "",
-        "heading": "Zento One oder klassische Pumpe? Der Unterschied im Alltag",
+        "eyebrow": "Zento One vs. klassische Milchpumpe",
+        "heading": "Weniger Aufwand. Mehr Freiheit im Alltag.",
         "subtitle": "",
         "zento_image": "shopify://shop_images/Zento_One_3.png",
         "zento_name": "Zento One",
@@ -918,8 +918,8 @@
         "collapsible_row_7"
       ],
       "settings": {
-        "caption": "",
-        "heading": "Deine Fragen zur Zento One – schnell beantwortet",
+        "caption": "Häufige Fragen",
+        "heading": "Alles, was du vor dem Kauf wissen willst",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",

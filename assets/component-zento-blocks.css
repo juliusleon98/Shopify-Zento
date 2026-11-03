@@ -3483,21 +3483,45 @@ section.shopify-pc__banner__dialog {
   }
 }
 
-/* Section titles: small wine accent bar above, so each section opens the same way */
-.zento-reviews__title::before,
-.zento-problem-images__title::before,
-.zento-solution-section__title::before,
-.zento-comparison__title::before,
-.zento-specs__title::before,
-.zento-benefits__title::before,
-[id$="__collapsible_content_faq"] .collapsible-content__heading::before {
-  content: '';
-  display: block;
-  width: 4rem;
-  height: 0.3rem;
-  margin: 0 auto 1.6rem;
-  border-radius: 999px;
-  background: #6b2d3e;
+/* Small sand-colored eyebrow above every section title */
+.zento-reviews__eyebrow,
+.zento-problem-images__eyebrow,
+.zento-solution-section__eyebrow,
+.zento-comparison__eyebrow,
+.zento-specs__eyebrow,
+.zento-benefits__eyebrow,
+[id$="__collapsible_content_faq"] .collapsible-content__header .caption-with-letter-spacing {
+  margin: 0 0 1rem;
+  color: #c9966f;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.zento-reviews__title,
+.zento-problem-images__title,
+.zento-solution-section__title,
+.zento-comparison__title,
+.zento-specs__title,
+.zento-benefits__title,
+[id$="__collapsible_content_faq"] .collapsible-content__heading {
+  margin-top: 0 !important;
+}
+
+@media screen and (max-width: 749px) {
+  .zento-reviews__eyebrow,
+  .zento-problem-images__eyebrow,
+  .zento-solution-section__eyebrow,
+  .zento-comparison__eyebrow,
+  .zento-specs__eyebrow,
+  .zento-benefits__eyebrow,
+  [id$="__collapsible_content_faq"] .collapsible-content__header .caption-with-letter-spacing {
+    font-size: 11px;
+    letter-spacing: 0.14em;
+  }
 }
 
 /* Reviews summary: one calm line (score, stars, count) and a quiet outline button */
