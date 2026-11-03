@@ -3328,3 +3328,21 @@ section.shopify-pc__banner__dialog {
     font-size: 1.3rem;
   }
 }
+
+/* Single-price products on sale: struck-through price in light grey, then the price, like the variant cards */
+.zento-price-line {
+  display: flex;
+  align-items: baseline;
+  gap: 0.9rem;
+  margin-top: 1rem;
+}
+
+.zento-price-line .variant-option__was {
+  font-size: 1.6rem;
+}
+
+.zento-price-line__now {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}

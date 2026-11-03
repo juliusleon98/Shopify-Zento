@@ -110,6 +110,12 @@
               {%- when 'price' -%}
                 {%- liquid
                   assign max_saving = 0
+                  assign single_variant = product.selected_or_first_available_variant
+                  assign single_on_sale = false
+                  if product.price_varies == false and single_variant.compare_at_price > single_variant.price
+                    assign single_on_sale = true
+                    assign max_saving = single_variant.compare_at_price | minus: single_variant.price | times: 100 | divided_by: single_variant.compare_at_price
+                  endif
                   if product.price_varies
                     for variant in product.variants
                       if variant.compare_at_price > variant.price
@@ -125,13 +131,19 @@
                   When the options show their own price (variant cards), the price row is hidden so the price
                   appears only once; a sale label with the biggest saving replaces it.
                 {%- endcomment -%}
-                {%- if product.price_varies and max_saving > 0 -%}
+                {%- if max_saving > 0 -%}
                   <div class="zento-sale-summary" {{ block.shopify_attributes }}>
                     <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.on_sale' | t }}</span>
-                    <span class="zento-sale-summary__text">Bis zu {{ max_saving }} % sparen</span>
+                    <span class="zento-sale-summary__text">{% if single_on_sale %}{{ max_saving }} % sparen{% else %}Bis zu {{ max_saving }} % sparen{% endif %}</span>
                   </div>
                 {%- endif -%}
-                <div class="zento-price-row{% if product.price_varies %} zento-price-row--collapsed{% endif %}">
+                {%- if single_on_sale -%}
+                  <div class="zento-price-line">
+                    <s class="variant-option__was">{{ single_variant.compare_at_price | money }}</s>
+                    <span class="zento-price-line__now">{{ single_variant.price | money }}</span>
+                  </div>
+                {%- endif -%}
+                <div class="zento-price-row{% if product.price_varies or single_on_sale %} zento-price-row--collapsed{% endif %}">
                   <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                     {%- render 'price',
                       product: product,
