@@ -108,7 +108,30 @@
                   </a>
                 </div>
               {%- when 'price' -%}
-                <div class="zento-price-row">
+                {%- liquid
+                  assign max_saving = 0
+                  if product.price_varies
+                    for variant in product.variants
+                      if variant.compare_at_price > variant.price
+                        assign saving = variant.compare_at_price | minus: variant.price | times: 100 | divided_by: variant.compare_at_price
+                        if saving > max_saving
+                          assign max_saving = saving
+                        endif
+                      endif
+                    endfor
+                  endif
+                -%}
+                {%- comment -%}
+                  When the options show their own price (variant cards), the price row is hidden so the price
+                  appears only once; a sale label with the biggest saving replaces it.
+                {%- endcomment -%}
+                {%- if product.price_varies and max_saving > 0 -%}
+                  <div class="zento-sale-summary" {{ block.shopify_attributes }}>
+                    <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.on_sale' | t }}</span>
+                    <span class="zento-sale-summary__text">Bis zu {{ max_saving }} % sparen</span>
+                  </div>
+                {%- endif -%}
+                <div class="zento-price-row{% if product.price_varies %} zento-price-row--collapsed{% endif %}">
                   <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                     {%- render 'price',
                       product: product,
@@ -525,6 +548,9 @@
 
               {%- when 'variant_picker' -%}
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
+                {%- if product.price_varies and cart.taxes_included -%}
+                  <p class="zento-tax-note caption">{{ 'products.product.taxes_included' | t }}</p>
+                {%- endif -%}
               {%- when 'buy_buttons' -%}
                 {%- render 'buy-buttons',
                   block: block,
@@ -998,7 +1024,7 @@
             { "value": "blue", "label": "Blue" },
             { "value": "wine", "label": "Wine red" }
           ],
-          "default": "blue"
+          "default": "wine"
         },
         {
           "type": "header",

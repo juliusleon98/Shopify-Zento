@@ -3173,3 +3173,35 @@ section.shopify-pc__banner__dialog {
     display: none;
   }
 }
+
+/* One price only: with variant cards the price row is hidden, a sale label sits above the cards */
+.product__info-container .zento-price-row--collapsed {
+  display: none;
+}
+
+.zento-sale-summary {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.zento-sale-summary__text {
+  font-size: 1.5rem;
+  opacity: 0.75;
+}
+
+.product__info-container .zento-tax-note {
+  margin: 0.8rem 0 0;
+  font-size: 1.2rem;
+  opacity: 0.65;
+}
+
+/* Product page buy button in the wine red accent */
+.product__info-container .product-form__submit.button--primary {
+  --color-button: 107, 45, 62;
+  --color-button-text: 255, 255, 255;
+}
+
+.product__info-container .product-form__submit.button--primary:hover {
+  --color-button: 125, 58, 77;
+}
