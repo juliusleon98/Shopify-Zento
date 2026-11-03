@@ -702,7 +702,7 @@
         "eyebrow": "",
         "heading": "Wenn Stillen nicht geht: So bekommst du deine Freiheit zurück",
         "subtitle": "",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -769,7 +769,7 @@
         "eyebrow": "",
         "heading": "So pumpst du ab, ohne deinen Alltag zu unterbrechen",
         "text": "<p>Zento One sitzt direkt im BH, kommt ohne Kabel oder Schläuche aus und lässt sich an dein persönliches Wohlbefinden anpassen – damit Abpumpen weniger nach Aufwand und mehr nach Entlastung fühlt.</p>",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "padding_top": 20,
         "padding_bottom": 44
       }
@@ -838,7 +838,7 @@
         "zento_name": "Zento One",
         "competitor_image": "shopify://shop_images/Vergleichsbild_2.png",
         "competitor_name": "Klassische E-Pumpe",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -932,7 +932,7 @@
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",
-        "container_color_scheme": "scheme-2",
+        "container_color_scheme": "scheme-1",
         "color_scheme": "scheme-2",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
