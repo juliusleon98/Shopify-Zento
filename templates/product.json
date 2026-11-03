@@ -16,7 +16,7 @@
           "type": "rating_bar",
           "settings": {
             "rating_value": "4,8",
-            "review_count_text": "500+ Mamas vertrauen zento",
+            "review_count_text": "1000+ Mamas vertrauen zento",
             "show_rating_value": true,
             "link_to_reviews": true,
             "alignment": "left"
