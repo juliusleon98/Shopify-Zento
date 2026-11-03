@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -201,8 +192,8 @@
         "eyebrow": "",
         "heading": "Hier macht Zento den Unterschied",
         "color_scheme": "scheme-2",
-        "padding_top": 40,
-        "padding_bottom": 40
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "zento_reviews": {
@@ -661,8 +652,8 @@
         "form_success_text": "Danke für deine Bewertung. Wir prüfen sie und veröffentlichen sie anschließend.",
         "form_error_text": "Bitte prüfe deine Eingaben und versuche es erneut.",
         "color_scheme": "scheme-1",
-        "padding_top": 32,
-        "padding_bottom": 40
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "zento_problem_images": {
@@ -703,8 +694,8 @@
         "heading": "Wenn Stillen nicht geht: So bekommst du deine Freiheit zurück",
         "subtitle": "",
         "color_scheme": "scheme-2",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "related-products": {
@@ -722,8 +713,8 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "padding_top": 36,
-        "padding_bottom": 68
+        "padding_top": 48,
+        "padding_bottom": 24
       }
     },
     "zento_solution": {
@@ -770,8 +761,8 @@
         "heading": "So pumpst du ab, ohne deinen Alltag zu unterbrechen",
         "text": "<p>Zento One sitzt direkt im BH, kommt ohne Kabel oder Schläuche aus und lässt sich an dein persönliches Wohlbefinden anpassen – damit Abpumpen weniger nach Aufwand und mehr nach Entlastung fühlt.</p>",
         "color_scheme": "scheme-1",
-        "padding_top": 20,
-        "padding_bottom": 44
+        "padding_top": 24,
+        "padding_bottom": 48
       }
     },
     "zento_comparison": {
@@ -839,8 +830,8 @@
         "competitor_image": "shopify://shop_images/Vergleichsbild_2.png",
         "competitor_name": "Klassische Pumpe",
         "color_scheme": "scheme-2",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "collapsible_content_faq": {
@@ -937,8 +928,8 @@
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 32,
-        "padding_bottom": 52
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     }
   },

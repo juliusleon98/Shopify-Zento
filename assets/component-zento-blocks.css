@@ -3393,12 +3393,12 @@ section.shopify-pc__banner__dialog {
 .zento-benefits__title,
 [id$="__collapsible_content_faq"] .collapsible-content__heading {
   max-width: 76rem;
-  margin: 0 auto 2.8rem !important;
+  margin: 0 auto 3.2rem !important;
   color: #17202f;
   font-size: 32px;
-  font-weight: 750;
-  line-height: 1.1;
-  letter-spacing: -0.03em;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: -0.02em;
   text-align: center;
   text-wrap: balance;
 }
@@ -3481,4 +3481,48 @@ section.shopify-pc__banner__dialog {
     min-height: 56px;
     padding: 12px 14px;
   }
+}
+
+/* Section titles: small wine accent bar above, so each section opens the same way */
+.zento-reviews__title::before,
+.zento-problem-images__title::before,
+.zento-solution-section__title::before,
+.zento-comparison__title::before,
+.zento-specs__title::before,
+.zento-benefits__title::before,
+[id$="__collapsible_content_faq"] .collapsible-content__heading::before {
+  content: '';
+  display: block;
+  width: 4rem;
+  height: 0.3rem;
+  margin: 0 auto 1.6rem;
+  border-radius: 999px;
+  background: #6b2d3e;
+}
+
+/* Reviews summary: one calm line (score, stars, count) and a quiet outline button */
+.zento-reviews__top {
+  margin-bottom: 3rem;
+}
+
+.zento-reviews__score {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.zento-reviews__button {
+  border: 1.5px solid #34506b;
+  background: transparent;
+  color: #34506b;
+  font-weight: 700;
+}
+
+.zento-reviews__button:hover {
+  background: #34506b;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.zento-reviews-form__button {
+  background: #34506b;
 }
