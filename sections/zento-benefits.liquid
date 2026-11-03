@@ -16,6 +16,9 @@
 
 <div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   <div class="zento-benefits page-width">
+    {%- if section.settings.eyebrow != blank -%}
+      <p class="zento-benefits__eyebrow">{{ section.settings.eyebrow | escape }}</p>
+    {%- endif -%}
     {%- if section.settings.heading != blank -%}
       <h2 class="zento-benefits__title">{{ section.settings.heading | escape }}</h2>
     {%- endif -%}
@@ -63,6 +66,12 @@
   "settings": [
     {
       "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow text",
+      "default": "Unser Versprechen"
+    },
+    {
+      "type": "text",
       "id": "heading",
       "label": "Heading",
       "default": "Das macht Zento aus"
@@ -71,7 +80,7 @@
       "type": "color_scheme",
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
-      "default": "scheme-1"
+      "default": "scheme-2"
     },
     {
       "type": "header",
@@ -137,7 +146,7 @@
       "blocks": [
         { "type": "benefit", "settings": { "icon": "truck", "heading": "Kostenloser Versand", "text": "Ab 50 € Bestellwert" } },
         { "type": "benefit", "settings": { "icon": "shield", "heading": "2 Jahre Garantie", "text": "Bei Mängeln kümmern wir uns darum" } },
-        { "type": "benefit", "settings": { "icon": "heart", "heading": "Von Mamas getestet", "text": "Im echten Alltag erprobt" } },
+        { "type": "benefit", "settings": { "icon": "heart", "heading": "Von Mamas getestet", "text": "Über 1000 Mamas vertrauen Zento" } },
         { "type": "benefit", "settings": { "icon": "support", "heading": "Echter Support", "text": "Antwort innerhalb von 24 Stunden" } }
       ]
     }

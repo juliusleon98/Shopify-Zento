@@ -3222,9 +3222,19 @@ section.shopify-pc__banner__dialog {
   text-decoration: line-through;
 }
 
-/* Benefits section (sections/zento-benefits.liquid): four icon columns, two per row on phones */
+/* Benefits section (sections/zento-benefits.liquid): four icon cards, two per row on phones */
+.zento-benefits__eyebrow {
+  margin: 0 0 0.8rem;
+  text-align: center;
+  color: #6b2d3e;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
 .zento-benefits__title {
-  margin: 0 0 3.2rem;
+  margin: 0 0 3rem;
   text-align: center;
   font-size: clamp(2.2rem, 5vw, 3.2rem);
   font-weight: 600;
@@ -3234,7 +3244,7 @@ section.shopify-pc__banner__dialog {
 .zento-benefits__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 3rem 2rem;
+  gap: 1.6rem;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -3244,24 +3254,35 @@ section.shopify-pc__banner__dialog {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 2.4rem 1.6rem 2.2rem;
   text-align: center;
+  background: #ffffff;
+  border: 1px solid rgba(107, 45, 62, 0.1);
+  border-radius: 2rem;
+  box-shadow: 0 1rem 2.4rem rgba(23, 32, 47, 0.05);
 }
 
 .zento-benefits__icon {
   display: flex;
-  margin-bottom: 1.2rem;
-  color: #34506b;
+  align-items: center;
+  justify-content: center;
+  width: 5.6rem;
+  height: 5.6rem;
+  margin-bottom: 1.4rem;
+  border-radius: 999px;
+  background: rgba(107, 45, 62, 0.09);
+  color: #6b2d3e;
 }
 
 .zento-benefits__icon svg {
-  width: 3.6rem;
-  height: 3.6rem;
+  width: 2.8rem;
+  height: 2.8rem;
 }
 
 .zento-benefits__heading {
   margin: 0 0 0.4rem;
   font-size: 1.7rem;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.3;
 }
 
@@ -3275,17 +3296,28 @@ section.shopify-pc__banner__dialog {
 
 @media screen and (max-width: 749px) {
   .zento-benefits__title {
-    margin-bottom: 2.4rem;
+    margin-bottom: 2.2rem;
   }
 
   .zento-benefits__grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 2.4rem 1.4rem;
+    gap: 1.2rem;
+  }
+
+  .zento-benefits__item {
+    padding: 1.8rem 1rem 1.6rem;
+    border-radius: 1.6rem;
+  }
+
+  .zento-benefits__icon {
+    width: 4.8rem;
+    height: 4.8rem;
+    margin-bottom: 1.1rem;
   }
 
   .zento-benefits__icon svg {
-    width: 3.2rem;
-    height: 3.2rem;
+    width: 2.4rem;
+    height: 2.4rem;
   }
 
   .zento-benefits__heading {
