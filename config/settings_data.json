@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "logo": "shopify://shop_images/zento_logo_transparent.png",
@@ -187,13 +196,13 @@
       },
       "scheme-4": {
         "settings": {
-          "background": "#2a3b47",
+          "background": "#34506B",
           "background_gradient": "",
           "text": "#ffffff",
-          "button": "#2a3b47",
+          "button": "#34506B",
           "button_label": "#f5f0eb",
           "secondary_button_label": "#fdfbf7",
-          "shadow": "#1c2b35"
+          "shadow": "#34506B"
         }
       },
       "scheme-5": {
