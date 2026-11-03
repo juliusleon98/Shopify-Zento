@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -7,7 +16,10 @@
           "type": "rating_bar",
           "settings": {
             "rating_value": "4,8",
-            "review_count_text": "500+ Mamas vertrauen zento"
+            "review_count_text": "500+ Mamas vertrauen zento",
+            "show_rating_value": true,
+            "link_to_reviews": true,
+            "alignment": "left"
           }
         },
         "title": {
@@ -46,6 +58,8 @@
             "picker_type": "button",
             "swatch_shape": "circle",
             "selection_color": "wine",
+            "price_cards": false,
+            "single_label": "1 Stück",
             "highlight_option": "Doppelt",
             "highlight_badge": "Bestseller",
             "highlight_note": "Inkl. gratis Tasche"
@@ -82,6 +96,15 @@
             "page": ""
           }
         },
+        "collapsible_tab_faq_comfort": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Fühlt sich das Abpumpen gut an?",
+            "icon": "none",
+            "content": "<p>Das stellst du selbst ein. Mit 4 Modi und 15 Stufen wählst du die Intensität so, wie sie sich für dich richtig anfühlt, vom sanften Massage-Modus bis zum kräftigeren Pump-Modus. Wichtig ist außerdem die passende Brusthauben-Größe.</p>",
+            "page": ""
+          }
+        },
         "collapsible_tab_faq_7": {
           "type": "collapsible_tab",
           "settings": {
@@ -97,15 +120,6 @@
             "heading": "Was, wenn mal etwas nicht passt?",
             "icon": "none",
             "content": "<p>Zento One kommt mit 2 Jahren Garantie. Hast du in dieser Zeit ein Problem, melde dich bei unserem Support, wir kümmern uns um Ersatz oder Reparatur.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_faq_comfort": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Fühlt sich das Abpumpen gut an?",
-            "icon": "none",
-            "content": "<p>Das stellst du selbst ein. Mit 4 Modi und 15 Stufen wählst du die Intensität so, wie sie sich für dich richtig anfühlt, vom sanften Massage-Modus bis zum kräftigeren Pump-Modus. Wichtig ist außerdem die passende Brusthauben-Größe.</p>",
             "page": ""
           }
         }
@@ -139,6 +153,56 @@
         "enable_video_looping": false,
         "padding_top": 24,
         "padding_bottom": 36
+      }
+    },
+    "zento_benefits": {
+      "type": "zento-benefits",
+      "blocks": {
+        "benefit_shipping": {
+          "type": "benefit",
+          "settings": {
+            "icon": "truck",
+            "heading": "Kostenloser Versand",
+            "text": "Ab 50 € Bestellwert"
+          }
+        },
+        "benefit_warranty": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shield",
+            "heading": "2 Jahre Garantie",
+            "text": "Bei Mängeln kümmern wir uns darum"
+          }
+        },
+        "benefit_tested": {
+          "type": "benefit",
+          "settings": {
+            "icon": "heart",
+            "heading": "Von Mamas getestet",
+            "text": "Über 1000 Mamas vertrauen Zento"
+          }
+        },
+        "benefit_support": {
+          "type": "benefit",
+          "settings": {
+            "icon": "support",
+            "heading": "Echter Support",
+            "text": "Antwort innerhalb von 24 Stunden"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_shipping",
+        "benefit_warranty",
+        "benefit_tested",
+        "benefit_support"
+      ],
+      "settings": {
+        "eyebrow": "",
+        "heading": "Hier macht Zento den Unterschied",
+        "color_scheme": "scheme-2",
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "zento_reviews": {
@@ -596,7 +660,7 @@
         "form_submit_label": "Bewertung abschicken",
         "form_success_text": "Danke für deine Bewertung. Wir prüfen sie und veröffentlichen sie anschließend.",
         "form_error_text": "Bitte prüfe deine Eingaben und versuche es erneut.",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "padding_top": 32,
         "padding_bottom": 40
       }
@@ -637,6 +701,7 @@
       "settings": {
         "eyebrow": "",
         "heading": "Wenn Stillen nicht geht: So bekommst du deine Freiheit zurück",
+        "subtitle": "",
         "color_scheme": "scheme-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -730,6 +795,15 @@
             "classic_text": "<p>Kabel und Schläuche binden dich an einen festen Platz.</p>"
           }
         },
+        "comparison_row_5": {
+          "type": "comparison_row",
+          "settings": {
+            "zento_heading": "Fein einstellbar",
+            "zento_text": "<p>4 Modi und 15 Stufen, damit es sich für dich gut anfühlt.</p>",
+            "classic_heading": "Weniger Stufen",
+            "classic_text": "<p>Oft nur grob einstellbar und weniger sanft.</p>"
+          }
+        },
         "comparison_row_3": {
           "type": "comparison_row",
           "settings": {
@@ -746,15 +820,6 @@
             "zento_text": "<p>Du reinigst nach dem Pumpen nur 3 Teile.</p>",
             "classic_heading": "Mehr Reinigung",
             "classic_text": "<p>Viele Einzelteile wie Ventile und Flaschen.</p>"
-          }
-        },
-        "comparison_row_5": {
-          "type": "comparison_row",
-          "settings": {
-            "zento_heading": "Fein einstellbar",
-            "zento_text": "<p>4 Modi und 15 Stufen, damit es sich für dich gut anfühlt.</p>",
-            "classic_heading": "Weniger Stufen",
-            "classic_text": "<p>Oft nur grob einstellbar und weniger sanft.</p>"
           }
         }
       },
@@ -778,56 +843,6 @@
         "padding_bottom": 52
       }
     },
-    "zento_benefits": {
-      "type": "zento-benefits",
-      "blocks": {
-        "benefit_shipping": {
-          "type": "benefit",
-          "settings": {
-            "icon": "truck",
-            "heading": "Kostenloser Versand",
-            "text": "Ab 50 € Bestellwert"
-          }
-        },
-        "benefit_warranty": {
-          "type": "benefit",
-          "settings": {
-            "icon": "shield",
-            "heading": "2 Jahre Garantie",
-            "text": "Bei Mängeln kümmern wir uns darum"
-          }
-        },
-        "benefit_tested": {
-          "type": "benefit",
-          "settings": {
-            "icon": "heart",
-            "heading": "Von Mamas getestet",
-            "text": "Über 1000 Mamas vertrauen Zento"
-          }
-        },
-        "benefit_support": {
-          "type": "benefit",
-          "settings": {
-            "icon": "support",
-            "heading": "Echter Support",
-            "text": "Antwort innerhalb von 24 Stunden"
-          }
-        }
-      },
-      "block_order": [
-        "benefit_shipping",
-        "benefit_warranty",
-        "benefit_tested",
-        "benefit_support"
-      ],
-      "settings": {
-        "heading": "Hier macht Zento den Unterschied",
-        "color_scheme": "scheme-2",
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "eyebrow": ""
-      }
-    },
     "collapsible_content_faq": {
       "type": "collapsible-content",
       "blocks": {
@@ -837,6 +852,16 @@
             "heading": "Lohnt sich eine elektrische Milchpumpe?",
             "icon": "none",
             "row_content": "<p>Ja, eine elektrische Milchpumpe wie die Zento One kann besonders praktisch sein, wenn du regelmäßig abpumpen möchtest, flexibler im Alltag sein willst oder Vorrat für später aufbauen möchtest. Da sie freihändig im BH sitzt, kannst du sie nebenbei nutzen, während du dich um andere Dinge kümmerst.</p>",
+            "table_rows": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_how": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie funktioniert die Milchpumpe?",
+            "icon": "none",
+            "row_content": "<p>Setze die Pumpe in deinen Still-BH ein, wähle den passenden Modus und passe die Saugintensität an. Die Muttermilch wird direkt im integrierten Auffangbehälter gesammelt und kann danach umgefüllt werden.</p>",
             "table_rows": "",
             "page": ""
           }
@@ -890,15 +915,6 @@
             "table_rows": "",
             "page": ""
           }
-        },
-        "collapsible_row_how": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Wie funktioniert die Milchpumpe?",
-            "icon": "none",
-            "row_content": "<p>Setze die Pumpe in deinen Still-BH ein, wähle den passenden Modus und passe die Saugintensität an. Die Muttermilch wird direkt im integrierten Auffangbehälter gesammelt und kann danach umgefüllt werden.</p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
@@ -928,12 +944,12 @@
   },
   "order": [
     "main",
+    "zento_benefits",
     "zento_reviews",
     "zento_problem_images",
     "related-products",
     "zento_solution",
     "zento_comparison",
-    "zento_benefits",
     "collapsible_content_faq"
   ]
 }
