@@ -167,7 +167,12 @@
       <span class="variant-option__name">{{ value -}}</span>
       {%- if product.price_varies and value.variant and value.variant.price -%}
         <span class="variant-option__price">
-          {{- value.variant.price | money -}}
+          <span class="variant-option__amounts">
+            {%- if value.variant.compare_at_price > value.variant.price -%}
+              <s class="variant-option__was">{{ value.variant.compare_at_price | money }}</s>
+            {%- endif -%}
+            <span>{{ value.variant.price | money }}</span>
+          </span>
           {%- if value.variant.compare_at_price > value.variant.price -%}
             <span class="variant-option__badge">
               -{{ value.variant.compare_at_price

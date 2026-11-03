@@ -3205,3 +3205,17 @@ section.shopify-pc__banner__dialog {
 .product__info-container .product-form__submit.button--primary:hover {
   --color-button: 125, 58, 77;
 }
+
+/* Variant cards: struck-through compare price in light grey before the price */
+.variant-option__amounts {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+
+.variant-option__was {
+  color: #9a9a9a;
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-decoration: line-through;
+}
