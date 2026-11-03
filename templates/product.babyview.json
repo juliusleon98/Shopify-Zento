@@ -47,7 +47,9 @@
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
-            "swatch_shape": "circle"
+            "swatch_shape": "circle",
+            "price_cards": true,
+            "single_label": "1 Stück"
           }
         },
         "buy_buttons_jQVaAp": {

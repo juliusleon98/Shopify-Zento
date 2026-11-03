@@ -111,20 +111,23 @@
                 {%- liquid
                   assign max_saving = 0
                   assign single_variant = product.selected_or_first_available_variant
-                  assign single_on_sale = false
-                  if product.price_varies == false and single_variant.compare_at_price > single_variant.price
-                    assign single_on_sale = true
-                    assign max_saving = single_variant.compare_at_price | minus: single_variant.price | times: 100 | divided_by: single_variant.compare_at_price
-                  endif
-                  if product.price_varies
-                    for variant in product.variants
-                      if variant.compare_at_price > variant.price
-                        assign saving = variant.compare_at_price | minus: variant.price | times: 100 | divided_by: variant.compare_at_price
-                        if saving > max_saving
-                          assign max_saving = saving
-                        endif
+                  assign cards_price = product.price_varies
+                  for picker_block in section.blocks
+                    if picker_block.type == 'variant_picker' and picker_block.settings.price_cards
+                      assign cards_price = true
+                    endif
+                  endfor
+                  for variant in product.variants
+                    if variant.compare_at_price > variant.price
+                      assign saving = variant.compare_at_price | minus: variant.price | times: 100 | divided_by: variant.compare_at_price
+                      if saving > max_saving
+                        assign max_saving = saving
                       endif
-                    endfor
+                    endif
+                  endfor
+                  assign single_on_sale = false
+                  if cards_price == false and max_saving > 0
+                    assign single_on_sale = true
                   endif
                 -%}
                 {%- comment -%}
@@ -134,7 +137,7 @@
                 {%- if max_saving > 0 -%}
                   <div class="zento-sale-summary" {{ block.shopify_attributes }}>
                     <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.on_sale' | t }}</span>
-                    <span class="zento-sale-summary__text">{% if single_on_sale %}{{ max_saving }} % sparen{% else %}Bis zu {{ max_saving }} % sparen{% endif %}</span>
+                    <span class="zento-sale-summary__text">{% if product.price_varies %}Bis zu {{ max_saving }} % sparen{% else %}{{ max_saving }} % sparen{% endif %}</span>
                   </div>
                 {%- endif -%}
                 {%- if single_on_sale -%}
@@ -143,7 +146,7 @@
                     <span class="zento-price-line__now">{{ single_variant.price | money }}</span>
                   </div>
                 {%- endif -%}
-                <div class="zento-price-row{% if product.price_varies or single_on_sale %} zento-price-row--collapsed{% endif %}">
+                <div class="zento-price-row{% if cards_price or single_on_sale %} zento-price-row--collapsed{% endif %}">
                   <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                     {%- render 'price',
                       product: product,
@@ -1024,6 +1027,20 @@
         {
           "type": "header",
           "content": "Highlight one option"
+        },
+        {
+          "type": "checkbox",
+          "id": "price_cards",
+          "label": "Show the price on every option card",
+          "info": "Lists each option (or a single product) as a card with its price, like the Zento One. Not needed when the option prices differ.",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "single_label",
+          "label": "Card name for products without options",
+          "info": "Only used with the price cards setting on a product that has no options.",
+          "default": "1 Stück"
         },
         {
           "type": "text",

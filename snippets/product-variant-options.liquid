@@ -145,7 +145,10 @@
       if zento_color_hex
         assign zento_label_class = 'variant-option--color'
       endif
-      if product.price_varies and value.variant and value.variant.price
+      if product.price_varies or block.settings.price_cards
+        assign zento_show_price = true
+      endif
+      if zento_show_price and value.variant and value.variant.price
         assign zento_label_class = zento_label_class | append: ' variant-option--priced'
       endif
       assign zento_highlight = false
@@ -165,7 +168,7 @@
         <span class="variant-option__swatch" aria-hidden="true"></span>
       {%- endif -%}
       <span class="variant-option__name">{{ value -}}</span>
-      {%- if product.price_varies and value.variant and value.variant.price -%}
+      {%- if zento_show_price and value.variant and value.variant.price -%}
         <span class="variant-option__price">
           <span class="variant-option__amounts">
             {%- if value.variant.compare_at_price > value.variant.price -%}

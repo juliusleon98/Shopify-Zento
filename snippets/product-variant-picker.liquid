@@ -8,6 +8,36 @@
   Usage:
   {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
 {% endcomment %}
+{%- if product.has_only_default_variant and block.settings.price_cards -%}
+  {%- assign zento_single = product.selected_or_first_available_variant -%}
+  <fieldset
+    class="product-form__input product-form__input--pill zento-single-card{% if block.settings.selection_color == 'wine' %} product-form__input--wine{% endif %}"
+    {{ block.shopify_attributes }}
+  >
+    <legend class="form__label">{{ block.settings.single_label | escape }}</legend>
+    <input type="radio" id="zento-single-{{ section.id }}" name="zento-single-{{ section.id }}" checked tabindex="-1">
+    <label for="zento-single-{{ section.id }}" class="variant-option--priced">
+      <span class="variant-option__name">{{ block.settings.single_label | escape }}</span>
+      <span class="variant-option__price">
+        <span class="variant-option__amounts">
+          {%- if zento_single.compare_at_price > zento_single.price -%}
+            <s class="variant-option__was">{{ zento_single.compare_at_price | money }}</s>
+          {%- endif -%}
+          <span>{{ zento_single.price | money }}</span>
+        </span>
+        {%- if zento_single.compare_at_price > zento_single.price -%}
+          <span class="variant-option__badge">
+            -{{ zento_single.compare_at_price
+              | minus: zento_single.price
+              | times: 100.0
+              | divided_by: zento_single.compare_at_price
+              | round -}}%
+          </span>
+        {%- endif -%}
+      </span>
+    </label>
+  </fieldset>
+{%- endif -%}
 {%- unless product.has_only_default_variant -%}
   <variant-selects
     id="variant-selects-{{ section.id }}"

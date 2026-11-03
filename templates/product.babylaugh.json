@@ -55,7 +55,8 @@
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
-            "swatch_shape": "square"
+            "swatch_shape": "square",
+            "price_cards": true
           }
         },
         "buy_buttons_jQVaAp": {
