@@ -24,7 +24,7 @@
           "type": "rating_bar",
           "settings": {
             "rating_value": "4,7",
-            "review_count_text": "500+ Mamas vertrauen zento",
+            "review_count_text": "1000+ Mamas vertrauen zento",
             "show_rating_value": true,
             "link_to_reviews": false,
             "alignment": "left"
@@ -65,7 +65,12 @@
           "settings": {
             "picker_type": "button",
             "swatch_shape": "square",
-            "price_cards": true
+            "selection_color": "wine",
+            "price_cards": true,
+            "single_label": "1 Stück",
+            "highlight_option": "",
+            "highlight_badge": "Bestseller",
+            "highlight_note": ""
           }
         },
         "buy_buttons_jQVaAp": {
@@ -81,12 +86,12 @@
             "payment_icons_label": "Sichere & geschützte Zahlung"
           }
         },
-        "collapsible_tab_description": {
+        "collapsible_tab_faq_2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Produktbeschreibung",
+            "heading": "Wie funktioniert der Zento Blend?",
             "icon": "none",
-            "content": "<p>Der Zento Blend ist Milchwärmer und Milchpulver-Mixer in einem Gerät. Statt die Flasche zu schütteln, verrührt er Wasser und Milchpulver sanft im Kreiselprinzip – so gelangt weniger Luft und Schaum in die Milch als beim kräftigen Schütteln.</p><ul><li><strong>3 Mischmodi:</strong> 1, 2 oder 6 Minuten, je nachdem, wie gut sich deine Milchnahrung löst</li><li><strong>Konstante Trinktemperatur:</strong> 40–45 °C, bis zu 60 Minuten im Voraus einschaltbar</li><li><strong>Akku mit 1200 mAh:</strong> aufladbar über USB-C, per Powerbank, Laptop, Auto-Ladegerät oder Desktop-PC</li><li><strong>Sanftes Nachtlicht:</strong> Zubereitung mitten in der Nacht ohne grelles Deckenlicht</li><li><strong>Kompakt:</strong> 127 × 127 × 159 mm, passt in Küche und Wickeltasche</li></ul><p><strong>Gut zu wissen:</strong> Die Wärmefunktion braucht durchgehend USB-Strom, zum Beispiel über Powerbank, Laptop oder Auto-Ladegerät. Das Nachtlicht läuft auch rein über Akku. Nicht getrunkene Milch solltest du spätestens nach 2 Stunden entsorgen.</p>",
+            "content": "<ol><li>Wasser und Milchpulver in das Fläschchen geben und das Fläschchen einsetzen.</li><li>Mischmodus wählen (1, 2 oder 6 Minuten) und starten.</li><li>Der Zento Blend mischt sanft im Kreiselprinzip, ganz ohne Schütteln, und hält die Milch danach konstant auf 40–45 °C.</li></ol>",
             "page": ""
           }
         },
@@ -99,12 +104,12 @@
             "page": ""
           }
         },
-        "collapsible_tab_faq_2": {
+        "collapsible_tab_description": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Wie funktioniert der Zento Blend?",
+            "heading": "Produktbeschreibung",
             "icon": "none",
-            "content": "<ol><li>Wasser und Milchpulver in das Fläschchen geben und das Fläschchen einsetzen.</li><li>Mischmodus wählen (1, 2 oder 6 Minuten) und starten.</li><li>Der Zento Blend mischt sanft im Kreiselprinzip, ganz ohne Schütteln, und hält die Milch danach konstant auf 40–45 °C.</li></ol>",
+            "content": "<p>Der Zento Blend ist Milchwärmer und Milchpulver-Mixer in einem Gerät. Statt die Flasche zu schütteln, verrührt er Wasser und Milchpulver sanft im Kreiselprinzip – so gelangt weniger Luft und Schaum in die Milch als beim kräftigen Schütteln.</p><ul><li><strong>3 Mischmodi:</strong> 1, 2 oder 6 Minuten, je nachdem, wie gut sich deine Milchnahrung löst</li><li><strong>Konstante Trinktemperatur:</strong> 40–45 °C, bis zu 60 Minuten im Voraus einschaltbar</li><li><strong>Akku mit 1200 mAh:</strong> aufladbar über USB-C, per Powerbank, Laptop, Auto-Ladegerät oder Desktop-PC</li><li><strong>Sanftes Nachtlicht:</strong> Zubereitung mitten in der Nacht ohne grelles Deckenlicht</li><li><strong>Kompakt:</strong> 127 × 127 × 159 mm, passt in Küche und Wickeltasche</li></ul><p><strong>Gut zu wissen:</strong> Die Wärmefunktion braucht durchgehend USB-Strom, zum Beispiel über Powerbank, Laptop oder Auto-Ladegerät. Das Nachtlicht läuft auch rein über Akku. Nicht getrunkene Milch solltest du spätestens nach 2 Stunden entsorgen.</p>",
             "page": ""
           }
         },
@@ -209,9 +214,7 @@
         "eyebrow": "",
         "heading": "Zento Blend oder klassischer Flaschenwärmer? Der Unterschied",
         "subtitle": "<p>Schütteln hinterlässt oft Klumpen und Luft in der Milch – ein häufiger Grund für Bauchweh. Der Zento Blend mischt sanft und hält die Milch auf Trinktemperatur.</p>",
-        "zento_image": "",
         "zento_name": "Zento Blend",
-        "competitor_image": "",
         "competitor_name": "Klassischer Wärmer",
         "color_scheme": "scheme-2",
         "padding_top": 28,
@@ -261,11 +264,11 @@
         "benefit_support"
       ],
       "settings": {
+        "eyebrow": "",
         "heading": "Hier macht Zento den Unterschied",
         "color_scheme": "scheme-2",
         "padding_top": 40,
-        "padding_bottom": 40,
-        "eyebrow": ""
+        "padding_bottom": 40
       }
     },
     "collapsible_content_faq": {
@@ -277,6 +280,7 @@
             "heading": "Warum die Flasche nicht schütteln?",
             "icon": "none",
             "row_content": "<p>Beim kräftigen Schütteln wird Luft in die Milch gewirbelt. Diese feinen Luftbläschen trinkt dein Baby mit, und sie können zu Blähungen und Bauchweh beitragen.</p><p>Sanftes Umrühren von Hand vermeidet zwar die Luft, löst das Pulver aber oft nicht vollständig auf, sodass Klümpchen zurückbleiben. Der Zento Blend verbindet beides: Er mischt Wasser und Milchpulver im Kreiselprinzip gründlich und trotzdem schonend, ganz ohne Schütteln.</p>",
+            "table_rows": "",
             "page": ""
           }
         },
@@ -286,24 +290,17 @@
             "heading": "Wie lange dauert die Zubereitung?",
             "icon": "none",
             "row_content": "<p>Das hängt vom Mischmodus ab: 1, 2 oder 6 Minuten. Wähle den Modus danach, wie gut sich deine Milchnahrung löst. Lässt sich dein Pulver schwer auflösen, nimm den längeren Modus.</p><p>Damit es nachts schneller geht, kannst du das Gerät bis zu 60 Minuten im Voraus einschalten.</p>",
+            "table_rows": "",
             "page": ""
           }
         },
-        "collapsible_row_3": {
+        "collapsible_row_9": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Darf Restmilch im Gerät bleiben?",
+            "heading": "Wie warm wird die Milch genau?",
             "icon": "none",
-            "row_content": "<p>Angerührte Milchnahrung sollte möglichst frisch getrunken werden. Was dein Baby nicht trinkt, entsorgst du bitte spätestens 2 Stunden nach der Zubereitung und wärmst es nicht erneut auf.</p><p>In warmer Milch können sich Keime schnell vermehren. Bereite deshalb für jede Mahlzeit eine frische Flasche zu.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Läuft das Nachtlicht auch über Akku?",
-            "icon": "none",
-            "row_content": "<p>Ja. Das Nachtlicht läuft über den eingebauten Akku (1200 mAh), du brauchst dafür also kein Kabel. So kannst du nachts die Flasche zubereiten, ohne das grelle Deckenlicht einzuschalten.</p><p>Wenn du das Licht länger nutzen möchtest, empfehlen wir den Betrieb über USB, damit der Akku nicht leer wird.</p>",
+            "row_content": "<p>Der Zento Blend hält die Milch konstant bei 40–45 °C, also auf Trinktemperatur. Du musst die Flasche nicht im richtigen Moment herausnehmen, damit sie nicht zu heiß oder wieder kalt wird.</p><p>Die Wärmefunktion läuft über USB-Strom. Prüfe die Temperatur vor dem Füttern wie gewohnt kurz an deinem Handgelenk.</p>",
+            "table_rows": "",
             "page": ""
           }
         },
@@ -313,6 +310,27 @@
             "heading": "Kann ich ihn unterwegs nutzen?",
             "icon": "none",
             "row_content": "<p>Ja. Mit 127 × 127 × 159 mm passt der Zento Blend in die Wickeltasche. Geladen und betrieben wird er über USB-C (5 V, 2 A), zum Beispiel an einer Powerbank, am Laptop, am Desktop-PC oder am Auto-Ladegerät.</p><p>Wichtig: Die Wärmefunktion braucht durchgehend USB-Strom. Nimm unterwegs also eine Powerbank mit oder nutze im Auto das Ladegerät.</p>",
+            "table_rows": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Läuft das Nachtlicht auch über Akku?",
+            "icon": "none",
+            "row_content": "<p>Ja. Das Nachtlicht läuft über den eingebauten Akku (1200 mAh), du brauchst dafür also kein Kabel. So kannst du nachts die Flasche zubereiten, ohne das grelle Deckenlicht einzuschalten.</p><p>Wenn du das Licht länger nutzen möchtest, empfehlen wir den Betrieb über USB, damit der Akku nicht leer wird.</p>",
+            "table_rows": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Darf Restmilch im Gerät bleiben?",
+            "icon": "none",
+            "row_content": "<p>Angerührte Milchnahrung sollte möglichst frisch getrunken werden. Was dein Baby nicht trinkt, entsorgst du bitte spätestens 2 Stunden nach der Zubereitung und wärmst es nicht erneut auf.</p><p>In warmer Milch können sich Keime schnell vermehren. Bereite deshalb für jede Mahlzeit eine frische Flasche zu.</p>",
+            "table_rows": "",
             "page": ""
           }
         },
@@ -322,6 +340,7 @@
             "heading": "Welche Garantie bekomme ich?",
             "icon": "none",
             "row_content": "<p>Der Zento Blend kommt mit 2 Jahren Garantie. Funktioniert in dieser Zeit etwas nicht, schreib uns an <a href=\"mailto:hello@zento-home.com\">hello@zento-home.com</a>. Wir kümmern uns um Reparatur oder Ersatz.</p><p>Außerdem kannst du deine Bestellung innerhalb von 14 Tagen nach Erhalt ohne Angabe von Gründen widerrufen.</p>",
+            "table_rows": "",
             "page": ""
           }
         },
@@ -332,15 +351,6 @@
             "icon": "none",
             "row_content": "",
             "table_rows": "Maße | 127 × 127 × 159 mm\nLadeeingang | 5 V, 2 A (Type-C)\nLeistung | 10 W\nAkku | 3,7 V, 1200 mAh (Typ 18650, 4,44 Wh)\nTemperaturregelung | konstant 40–45 °C\nMischmodi | 3 (1 Min. / 2 Min. / 6 Min., je nach Löslichkeit)\nVorlaufzeit | bis zu 60 Minuten vorab einschaltbar\nWärmefunktion | nur im Netzbetrieb (USB) aktiv\nNachtlicht | Akku- oder USB-betrieben\nAufbewahrung Restmilch | max. 2 Stunden im Gerät\nZertifizierungen | CE-EMC, RoHS",
-            "page": ""
-          }
-        },
-        "collapsible_row_9": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Wie warm wird die Milch genau?",
-            "icon": "none",
-            "row_content": "<p>Der Zento Blend hält die Milch konstant bei 40–45 °C, also auf Trinktemperatur. Du musst die Flasche nicht im richtigen Moment herausnehmen, damit sie nicht zu heiß oder wieder kalt wird.</p><p>Die Wärmefunktion läuft über USB-Strom. Prüfe die Temperatur vor dem Füttern wie gewohnt kurz an deinem Handgelenk.</p>",
             "page": ""
           }
         }
