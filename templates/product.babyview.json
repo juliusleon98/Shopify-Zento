@@ -16,7 +16,7 @@
           "type": "rating_bar",
           "settings": {
             "rating_value": "4,7",
-            "review_count_text": "500+ Mamas vertrauen zento",
+            "review_count_text": "1000+ Mamas vertrauen zento",
             "show_rating_value": true,
             "link_to_reviews": false,
             "alignment": "left"
@@ -57,8 +57,12 @@
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle",
+            "selection_color": "wine",
             "price_cards": true,
-            "single_label": "1 Stück"
+            "single_label": "1 Stück",
+            "highlight_option": "",
+            "highlight_badge": "Bestseller",
+            "highlight_note": ""
           }
         },
         "buy_buttons_jQVaAp": {
@@ -144,15 +148,6 @@
     "zento_comparison": {
       "type": "zento-comparison",
       "blocks": {
-        "comparison_row_1": {
-          "type": "comparison_row",
-          "settings": {
-            "zento_heading": "Bleibt privat",
-            "zento_text": "<p>Verschlüsselt, ohne App und Cloud.</p>",
-            "classic_heading": "Online angreifbar",
-            "classic_text": "<p>App-Kameras sind oft Ziel von Hackern.</p>"
-          }
-        },
         "comparison_row_2": {
           "type": "comparison_row",
           "settings": {
@@ -162,13 +157,22 @@
             "classic_text": "<p>Abhängig von Router und Netz.</p>"
           }
         },
-        "comparison_row_3": {
+        "comparison_row_5": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Sofort startklar",
-            "zento_text": "<p>Einschalten, ohne App und Konto.</p>",
-            "classic_heading": "Einrichtung nötig",
-            "classic_text": "<p>App, Konto und WLAN-Setup.</p>"
+            "zento_heading": "Bild in Echtzeit",
+            "zento_text": "<p>Direkter Funk, kaum Verzögerung.</p>",
+            "classic_heading": "Oft verzögert",
+            "classic_text": "<p>Der Stream läuft übers Internet.</p>"
+          }
+        },
+        "comparison_row_1": {
+          "type": "comparison_row",
+          "settings": {
+            "zento_heading": "Bleibt privat",
+            "zento_text": "<p>Verschlüsselt, ohne App und Cloud.</p>",
+            "classic_heading": "Online angreifbar",
+            "classic_text": "<p>App-Kameras sind oft Ziel von Hackern.</p>"
           }
         },
         "comparison_row_4": {
@@ -180,13 +184,13 @@
             "classic_text": "<p>Leerer Handy-Akku? Kein Bild mehr.</p>"
           }
         },
-        "comparison_row_5": {
+        "comparison_row_3": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Bild in Echtzeit",
-            "zento_text": "<p>Direkter Funk, kaum Verzögerung.</p>",
-            "classic_heading": "Oft verzögert",
-            "classic_text": "<p>Der Stream läuft übers Internet.</p>"
+            "zento_heading": "Sofort startklar",
+            "zento_text": "<p>Einschalten, ohne App und Konto.</p>",
+            "classic_heading": "Einrichtung nötig",
+            "classic_text": "<p>App, Konto und WLAN-Setup.</p>"
           }
         }
       },
@@ -201,9 +205,7 @@
         "eyebrow": "",
         "heading": "Zento View Pro oder WLAN-Babyphone? Der Unterschied",
         "subtitle": "<p>Ein Babyphone soll dir Ruhe geben, nicht neue Sorgen. Der Zento View Pro zeigt dir dein Baby in Echtzeit, über eine eigene, verschlüsselte Funkverbindung statt über WLAN und Internet.</p>",
-        "zento_image": "",
         "zento_name": "Zento View Pro",
-        "competitor_image": "",
         "competitor_name": "WLAN-Babyphone",
         "color_scheme": "scheme-2",
         "padding_top": 28,
@@ -253,11 +255,11 @@
         "benefit_support"
       ],
       "settings": {
+        "eyebrow": "",
         "heading": "Hier macht Zento den Unterschied",
         "color_scheme": "scheme-2",
         "padding_top": 40,
-        "padding_bottom": 40,
-        "eyebrow": ""
+        "padding_bottom": 40
       }
     },
     "collapsible_content_faq": {
@@ -269,6 +271,7 @@
             "heading": "Kann ich auch aufs Handy schauen?",
             "icon": "none",
             "row_content": "<p>Nein, und das ist bewusst so. Eine Handy-App bräuchte eine Internetverbindung, und genau die macht viele Babykameras angreifbar. Beim Zento View Pro bleiben Bild und Ton zwischen Kamera und Elterneinheit.</p><p>Die Elterneinheit hat ein 5-Zoll-Display und ist klein genug, um sie in der Wohnung oder im Garten immer dabeizuhaben.</p>",
+            "table_rows": "",
             "page": ""
           }
         },
@@ -278,6 +281,7 @@
             "heading": "Wie lange hält der Akku?",
             "icon": "none",
             "row_content": "<p>Die Elterneinheit hat einen 3500-mAh-Akku, damit du dich frei in der Wohnung bewegen kannst. Wie lange er hält, hängt davon ab, wie oft das Display eingeschaltet ist.</p><p>Am längsten hält er mit der Geräuschaktivierung (VOX): Der Bildschirm bleibt dunkel und schaltet sich erst ein, wenn dein Baby Geräusche macht. Über Nacht empfehlen wir, die Elterneinheit ans Ladekabel anzuschließen. So ist sie sicher bis zum Morgen eingeschaltet.</p>",
+            "table_rows": "",
             "page": ""
           }
         },
@@ -287,6 +291,7 @@
             "heading": "Ist die Funkstrahlung bedenklich?",
             "icon": "none",
             "row_content": "<p>Der Zento View Pro sendet im 2,4-GHz-Band, wie viele Funk-Babyphones und WLAN-Geräte im Haushalt. Die Verbindung läuft direkt zur Elterneinheit, ohne Umweg über einen Router.</p><p>Wie bei jedem Babyphone empfehlen wir, die Kamera mit mindestens 1 m Abstand zum Babybett aufzustellen. So hast du dein Baby gut im Bild, und Kabel bleiben außer Reichweite.</p>",
+            "table_rows": "",
             "page": ""
           }
         },
@@ -296,6 +301,7 @@
             "heading": "Werde ich wach, wenn mein Baby weint?",
             "icon": "none",
             "row_content": "<p>Ja. Die Schrei-Erkennung meldet sich, sobald dein Baby weint, und mit der Geräuschaktivierung (VOX) schaltet sich der Bildschirm bei Geräuschen automatisch ein.</p><p>Die Lautstärke stellst du an der Elterneinheit in mehreren Stufen ein. Nachts lauter, damit du nichts verpasst, oder tagsüber leiser, wenn du in der Nähe bist.</p>",
+            "table_rows": "",
             "page": ""
           }
         },
@@ -305,6 +311,7 @@
             "heading": "Wie gut ist das Bild bei Nacht?",
             "icon": "none",
             "row_content": "<p>Sehr gut. Bei Dunkelheit schaltet die Kamera automatisch auf Infrarot-Nachtsicht um. Du siehst dein Baby dann in Schwarz-Weiß, ohne dass im Zimmer ein Licht angehen muss.</p><p>Tagsüber liefert die 720p-HD-Kamera ein farbiges Bild auf dem 5-Zoll-Display. Mit Schwenken, Neigen und Zoom richtest du den Blick bequem von der Elterneinheit aus.</p>",
+            "table_rows": "",
             "page": ""
           }
         },
@@ -314,6 +321,7 @@
             "heading": "Wie weit reicht die Verbindung?",
             "icon": "none",
             "row_content": "<p>Im offenen Feld bis zu 300 m, also auch im Garten oder auf dem Balkon. In der Wohnung verringern Wände und Decken die Reichweite, wie bei jedem Funk-Babyphone.</p><p>Die Elterneinheit zeigt dir die Verbindungsqualität jederzeit an, damit du siehst, ob du noch in Reichweite bist.</p>",
+            "table_rows": "",
             "page": ""
           }
         },
@@ -323,6 +331,7 @@
             "heading": "Wie bringe ich die Kamera an?",
             "icon": "none",
             "row_content": "<p>Stell die Kamera auf ein Regal oder eine Kommode, mit mindestens 1 m Abstand zum Babybett. Sie wird über ein Netzteil mit Strom versorgt. Achte darauf, dass das Kabel außer Reichweite deines Babys verläuft.</p><p>Danach Elterneinheit einschalten: Die Verbindung baut sich automatisch auf, ganz ohne App oder Einrichtung.</p>",
+            "table_rows": "",
             "page": ""
           }
         },
@@ -332,6 +341,7 @@
             "heading": "Welche Garantie bekomme ich?",
             "icon": "none",
             "row_content": "<p>Der Zento View Pro kommt mit 2 Jahren Garantie. Funktioniert in dieser Zeit etwas nicht, schreib uns an <a href=\"mailto:hello@zento-home.com\">hello@zento-home.com</a>. Wir kümmern uns um Reparatur oder Ersatz.</p><p>Außerdem kannst du deine Bestellung innerhalb von 14 Tagen nach Erhalt ohne Angabe von Gründen widerrufen.</p>",
+            "table_rows": "",
             "page": ""
           }
         },
