@@ -3196,14 +3196,11 @@ section.shopify-pc__banner__dialog {
   opacity: 0.65;
 }
 
-/* Product page buy button in the wine red accent */
-.product__info-container .product-form__submit.button--primary {
-  --color-button: 107, 45, 62;
-  --color-button-text: 255, 255, 255;
-}
-
+/* Product page buy button: #34506B, same color on hover */
+.product__info-container .product-form__submit.button--primary,
 .product__info-container .product-form__submit.button--primary:hover {
-  --color-button: 125, 58, 77;
+  --color-button: 52, 80, 107;
+  --color-button-text: 255, 255, 255;
 }
 
 /* Variant cards: struck-through compare price in light grey before the price */
