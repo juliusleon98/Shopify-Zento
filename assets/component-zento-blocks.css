@@ -3221,3 +3221,78 @@ section.shopify-pc__banner__dialog {
   font-weight: 400;
   text-decoration: line-through;
 }
+
+/* Benefits section (sections/zento-benefits.liquid): four icon columns, two per row on phones */
+.zento-benefits__title {
+  margin: 0 0 3.2rem;
+  text-align: center;
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.zento-benefits__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem 2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.zento-benefits__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.zento-benefits__icon {
+  display: flex;
+  margin-bottom: 1.2rem;
+  color: #34506b;
+}
+
+.zento-benefits__icon svg {
+  width: 3.6rem;
+  height: 3.6rem;
+}
+
+.zento-benefits__heading {
+  margin: 0 0 0.4rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.zento-benefits__text {
+  margin: 0;
+  max-width: 24rem;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: rgba(var(--color-foreground), 0.7);
+}
+
+@media screen and (max-width: 749px) {
+  .zento-benefits__title {
+    margin-bottom: 2.4rem;
+  }
+
+  .zento-benefits__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.4rem 1.4rem;
+  }
+
+  .zento-benefits__icon svg {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  .zento-benefits__heading {
+    font-size: 1.5rem;
+  }
+
+  .zento-benefits__text {
+    font-size: 1.3rem;
+  }
+}
