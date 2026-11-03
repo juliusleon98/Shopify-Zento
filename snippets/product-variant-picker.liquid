@@ -10,8 +10,9 @@
 {% endcomment %}
 {%- if product.has_only_default_variant and block.settings.price_cards -%}
   {%- assign zento_single = product.selected_or_first_available_variant -%}
+  {{ 'component-product-variant-picker.css' | asset_url | stylesheet_tag }}
   <fieldset
-    class="product-form__input product-form__input--pill zento-single-card{% if block.settings.selection_color == 'wine' %} product-form__input--wine{% endif %}"
+    class="js product-form__input product-form__input--pill zento-single-card{% if block.settings.selection_color == 'wine' %} product-form__input--wine{% endif %}"
     {{ block.shopify_attributes }}
   >
     <legend class="form__label">{{ block.settings.single_label | escape }}</legend>
