@@ -16,6 +16,12 @@
 
 <div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   <section class="zento-solution-section">
+    {%- if section.settings.eyebrow != blank -%}
+      <p class="zento-solution-section__eyebrow">{{ section.settings.eyebrow | escape }}</p>
+    {%- endif -%}
+    {%- if section.settings.heading != blank -%}
+      <h2 class="zento-solution-section__title">{{ section.settings.heading }}</h2>
+    {%- endif -%}
     <div class="zento-solution-section__inner">
       {%- if section.settings.image != blank -%}
         <div class="zento-solution-section__image-wrap">
@@ -28,12 +34,6 @@
       {%- endif -%}
 
       <div class="zento-solution-section__content">
-        {%- if section.settings.eyebrow != blank -%}
-          <p class="zento-solution-section__eyebrow">{{ section.settings.eyebrow | escape }}</p>
-        {%- endif -%}
-        {%- if section.settings.heading != blank -%}
-          <h2 class="zento-solution-section__title">{{ section.settings.heading }}</h2>
-        {%- endif -%}
         {%- if section.settings.text != blank -%}
           <p class="zento-solution-section__text">{{ section.settings.text }}</p>
         {%- endif -%}

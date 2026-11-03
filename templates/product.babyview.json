@@ -189,8 +189,8 @@
         "comparison_row_3"
       ],
       "settings": {
-        "eyebrow": "ZENTO VIEW PRO VS. WLAN-BABYPHONE",
-        "heading": "Dein Baby im Blick. Du in Ruhe.",
+        "eyebrow": "",
+        "heading": "Zento View Pro oder WLAN-Babyphone? Der Unterschied",
         "subtitle": "<p>Ein Babyphone soll dir Ruhe geben, nicht neue Sorgen. Der Zento View Pro zeigt dir dein Baby in Echtzeit, über eine eigene, verschlüsselte Funkverbindung statt über WLAN und Internet.</p>",
         "zento_image": "",
         "zento_name": "Zento View Pro",
@@ -244,11 +244,11 @@
         "benefit_support"
       ],
       "settings": {
-        "heading": "Das macht Zento aus",
+        "heading": "Hier macht Zento den Unterschied",
         "color_scheme": "scheme-2",
         "padding_top": 40,
         "padding_bottom": 40,
-        "eyebrow": "Unser Versprechen"
+        "eyebrow": ""
       }
     },
     "collapsible_content_faq": {
@@ -349,8 +349,8 @@
         "collapsible_row_specs"
       ],
       "settings": {
-        "caption": "HÄUFIGE FRAGEN",
-        "heading": "Alles über den Zento View Pro",
+        "caption": "",
+        "heading": "Deine Fragen zum Zento View Pro – schnell beantwortet",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",

@@ -197,8 +197,8 @@
         "comparison_row_5"
       ],
       "settings": {
-        "eyebrow": "ZENTO BLEND VS. KLASSISCHER FLASCHENWÄRMER",
-        "heading": "Ohne Luftblasen. Richtig temperiert.",
+        "eyebrow": "",
+        "heading": "Zento Blend oder klassischer Flaschenwärmer? Der Unterschied",
         "subtitle": "<p>Schütteln hinterlässt oft Klumpen und Luft in der Milch – ein häufiger Grund für Bauchweh. Der Zento Blend mischt sanft und hält die Milch auf Trinktemperatur.</p>",
         "zento_image": "",
         "zento_name": "Zento Blend",
@@ -252,11 +252,11 @@
         "benefit_support"
       ],
       "settings": {
-        "heading": "Das macht Zento aus",
+        "heading": "Hier macht Zento den Unterschied",
         "color_scheme": "scheme-2",
         "padding_top": 40,
         "padding_bottom": 40,
-        "eyebrow": "Unser Versprechen"
+        "eyebrow": ""
       }
     },
     "collapsible_content_faq": {
@@ -347,8 +347,8 @@
         "collapsible_row_6"
       ],
       "settings": {
-        "caption": "HÄUFIGE FRAGEN",
-        "heading": "Alles über den Zento Blend",
+        "caption": "",
+        "heading": "Deine Fragen zum Zento Blend – schnell beantwortet",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",

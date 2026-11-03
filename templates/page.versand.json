@@ -3,14 +3,6 @@
     "rich_text_intro": {
       "type": "rich-text",
       "blocks": {
-        "caption": {
-          "type": "caption",
-          "settings": {
-            "caption": "VERSAND & RÜCKGABE",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
         "heading": {
           "type": "heading",
           "settings": {
@@ -26,7 +18,6 @@
         }
       },
       "block_order": [
-        "caption",
         "heading",
         "text"
       ],
@@ -226,7 +217,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Häufige Fragen",
+        "heading": "Schnelle Antworten auf deine Fragen",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",

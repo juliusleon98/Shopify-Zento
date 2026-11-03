@@ -23,14 +23,14 @@
 <div id="zento-reviews-anchor" class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   <div class="zento-reviews page-width">
     <div class="zento-reviews__inner">
+      {%- if section.settings.eyebrow != blank -%}
+        <p class="zento-reviews__eyebrow">{{ section.settings.eyebrow | escape }}</p>
+      {%- endif -%}
+      {%- if section.settings.heading != blank -%}
+        <h2 class="zento-reviews__title">{{ section.settings.heading }}</h2>
+      {%- endif -%}
       <div class="zento-reviews__top">
         <div>
-          {%- if section.settings.eyebrow != blank -%}
-            <p class="zento-reviews__eyebrow">{{ section.settings.eyebrow | escape }}</p>
-          {%- endif -%}
-          {%- if section.settings.heading != blank -%}
-            <h2 class="zento-reviews__title">{{ section.settings.heading }}</h2>
-          {%- endif -%}
           {%- liquid
             assign rating_sum = 0
             assign rating_count = 0

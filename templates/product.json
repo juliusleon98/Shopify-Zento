@@ -584,7 +584,7 @@
       ],
       "settings": {
         "eyebrow": "",
-        "heading": "Was Mamas über Zento sagen",
+        "heading": "Echte Erfahrungen von echten Mamas",
         "score": "4,8",
         "review_count_text": "230+ Bewertungen",
         "auto_summary": true,
@@ -635,8 +635,8 @@
         "card_3"
       ],
       "settings": {
-        "eyebrow": "WARUM EINE MILCHPUMPE?",
-        "heading": "Für mehr Freiheit, wenn Stillen gerade nicht möglich ist.",
+        "eyebrow": "",
+        "heading": "Wenn Stillen nicht geht: So bekommst du deine Freiheit zurück",
         "color_scheme": "scheme-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -701,8 +701,8 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Zento_Kitchen_Picture.png",
-        "eyebrow": "DIE LÖSUNG FÜR MEHR FLEXIBILITÄT",
-        "heading": "Kabellos abpumpen, ohne deinen Alltag zu unterbrechen.",
+        "eyebrow": "",
+        "heading": "So pumpst du ab, ohne deinen Alltag zu unterbrechen",
         "text": "<p>Zento One sitzt direkt im BH, kommt ohne Kabel oder Schläuche aus und lässt sich an dein persönliches Wohlbefinden anpassen – damit Abpumpen weniger nach Aufwand und mehr nach Entlastung fühlt.</p>",
         "color_scheme": "scheme-2",
         "padding_top": 20,
@@ -766,8 +766,8 @@
         "comparison_row_4"
       ],
       "settings": {
-        "eyebrow": "ZENTO ONE VS. KLASSISCHE MILCHPUMPE",
-        "heading": "Weniger Aufwand. Mehr Freiheit im Alltag.",
+        "eyebrow": "",
+        "heading": "Zento One oder klassische Pumpe? Der Unterschied im Alltag",
         "subtitle": "<p>Klassische Milchpumpen können unpraktisch, laut und einschränkend sein. Zento One wurde entwickelt, damit Abpumpen flexibler, diskreter und alltagstauglicher wird.</p>",
         "zento_image": "shopify://shop_images/Zento_One_3.png",
         "zento_name": "Zento One",
@@ -821,11 +821,11 @@
         "benefit_support"
       ],
       "settings": {
-        "heading": "Das macht Zento aus",
+        "heading": "Hier macht Zento den Unterschied",
         "color_scheme": "scheme-2",
         "padding_top": 40,
         "padding_bottom": 40,
-        "eyebrow": "Unser Versprechen"
+        "eyebrow": ""
       }
     },
     "collapsible_content_faq": {
@@ -911,8 +911,8 @@
         "collapsible_row_7"
       ],
       "settings": {
-        "caption": "HÄUFIGE FRAGEN",
-        "heading": "Alles über die Zento One",
+        "caption": "",
+        "heading": "Deine Fragen zur Zento One – schnell beantwortet",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",

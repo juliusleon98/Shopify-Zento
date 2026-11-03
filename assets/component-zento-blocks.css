@@ -3383,3 +3383,78 @@ section.shopify-pc__banner__dialog {
     padding: 1.4rem 1.6rem;
   }
 }
+
+/* One heading style for every section title in the store: centered, same size, no eyebrow above */
+.zento-reviews__title,
+.zento-problem-images__title,
+.zento-solution-section__title,
+.zento-comparison__title,
+.zento-specs__title,
+.zento-benefits__title,
+[id$="__collapsible_content_faq"] .collapsible-content__heading {
+  max-width: 76rem;
+  margin: 0 auto 2.8rem !important;
+  color: #17202f;
+  font-size: 40px;
+  font-weight: 750;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  text-align: center;
+  text-wrap: balance;
+}
+
+[id$="__collapsible_content_faq"] .collapsible-content__header {
+  text-align: center !important;
+}
+
+.zento-solution-section__title {
+  max-width: 1240px;
+}
+
+.zento-reviews__top {
+  justify-content: center;
+  align-items: center;
+  gap: 2.8rem;
+}
+
+@media screen and (max-width: 989px) {
+  .zento-reviews__title,
+  .zento-problem-images__title,
+  .zento-solution-section__title,
+  .zento-comparison__title,
+  .zento-specs__title,
+  .zento-benefits__title,
+  [id$="__collapsible_content_faq"] .collapsible-content__heading {
+    font-size: 34px !important;
+  }
+
+  .zento-reviews__top {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .zento-reviews__title,
+  .zento-problem-images__title,
+  .zento-solution-section__title,
+  .zento-comparison__title,
+  .zento-specs__title,
+  .zento-benefits__title,
+  [id$="__collapsible_content_faq"] .collapsible-content__heading {
+    margin-bottom: 2.2rem !important;
+    font-size: 28px !important;
+    line-height: 1.12;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .zento-reviews__title,
+  .zento-problem-images__title,
+  .zento-solution-section__title,
+  .zento-comparison__title,
+  .zento-specs__title,
+  .zento-benefits__title,
+  [id$="__collapsible_content_faq"] .collapsible-content__heading {
+    font-size: 25px !important;
+  }
+}
