@@ -3391,6 +3391,7 @@ section.shopify-pc__banner__dialog {
 .zento-comparison__title,
 .zento-specs__title,
 .zento-benefits__title,
+.zento-display-guide__title,
 [id$="__collapsible_content_faq"] .collapsible-content__heading {
   max-width: 76rem;
   margin: 0 auto 3.2rem !important;
@@ -3424,6 +3425,7 @@ section.shopify-pc__banner__dialog {
   .zento-comparison__title,
   .zento-specs__title,
   .zento-benefits__title,
+  .zento-display-guide__title,
   [id$="__collapsible_content_faq"] .collapsible-content__heading {
     font-size: 30px !important;
   }
@@ -3440,6 +3442,7 @@ section.shopify-pc__banner__dialog {
   .zento-comparison__title,
   .zento-specs__title,
   .zento-benefits__title,
+  .zento-display-guide__title,
   [id$="__collapsible_content_faq"] .collapsible-content__heading {
     margin-bottom: 2.2rem !important;
     font-size: 28px !important;
@@ -3454,6 +3457,7 @@ section.shopify-pc__banner__dialog {
   .zento-comparison__title,
   .zento-specs__title,
   .zento-benefits__title,
+  .zento-display-guide__title,
   [id$="__collapsible_content_faq"] .collapsible-content__heading {
     font-size: 25px !important;
   }
@@ -3490,6 +3494,7 @@ section.shopify-pc__banner__dialog {
 .zento-comparison__eyebrow,
 .zento-specs__eyebrow,
 .zento-benefits__eyebrow,
+.zento-display-guide__eyebrow,
 [id$="__collapsible_content_faq"] .collapsible-content__header .caption-with-letter-spacing {
   margin: 0 0 1rem;
   color: #c9966f;
@@ -3507,6 +3512,7 @@ section.shopify-pc__banner__dialog {
 .zento-comparison__title,
 .zento-specs__title,
 .zento-benefits__title,
+.zento-display-guide__title,
 [id$="__collapsible_content_faq"] .collapsible-content__heading {
   margin-top: 0 !important;
 }
@@ -3518,6 +3524,7 @@ section.shopify-pc__banner__dialog {
   .zento-comparison__eyebrow,
   .zento-specs__eyebrow,
   .zento-benefits__eyebrow,
+  .zento-display-guide__eyebrow,
   [id$="__collapsible_content_faq"] .collapsible-content__header .caption-with-letter-spacing {
     font-size: 11px;
     letter-spacing: 0.14em;
@@ -3549,4 +3556,154 @@ section.shopify-pc__banner__dialog {
 
 .zento-reviews-form__button {
   background: #34506b;
+}
+
+/* Display guide (sections/zento-display-guide.liquid): display image left, buttons and modes right */
+.zento-display-guide__inner {
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 4.4rem;
+  align-items: center;
+  max-width: 112rem;
+  margin: 0 auto;
+}
+
+.zento-display-guide__image {
+  overflow: hidden;
+  border: 1px solid rgba(23, 32, 47, 0.08);
+  border-radius: 2.4rem;
+  background: #ffffff;
+  box-shadow: 0 1.2rem 3rem rgba(23, 32, 47, 0.06);
+}
+
+.zento-display-guide__image img,
+.zento-display-guide__image svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.zento-display-guide__group {
+  margin: 0 0 1.2rem;
+  color: #17202f;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.zento-display-guide__keys + .zento-display-guide__group {
+  margin-top: 2.6rem;
+}
+
+.zento-display-guide__keys,
+.zento-display-guide__modes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.zento-display-guide__key,
+.zento-display-guide__mode {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  padding: 1.1rem 1.3rem;
+  border: 1px solid rgba(107, 45, 62, 0.1);
+  border-radius: 1.4rem;
+  background: #f7f2ee;
+  color: #17202f;
+}
+
+.zento-display-guide__key {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.zento-display-guide__mode strong {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.zento-display-guide__mode small {
+  display: block;
+  margin-top: 0.2rem;
+  color: rgba(var(--color-foreground), 0.7);
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+
+.zento-display-guide__icon {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 999px;
+  background: #6b2d3e;
+  color: #ffffff;
+}
+
+.zento-display-guide__icon svg {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.zento-display-guide__note {
+  margin: 1.4rem 0 0;
+  color: rgba(var(--color-foreground), 0.6);
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 749px) {
+  .zento-display-guide__inner {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+  }
+
+  .zento-display-guide__image {
+    border-radius: 1.8rem;
+  }
+
+  .zento-display-guide__keys,
+  .zento-display-guide__modes {
+    gap: 0.8rem;
+  }
+
+  .zento-display-guide__key,
+  .zento-display-guide__mode {
+    gap: 0.8rem;
+    padding: 0.9rem 1rem;
+    border-radius: 1.2rem;
+  }
+
+  .zento-display-guide__key {
+    font-size: 1.3rem;
+  }
+
+  .zento-display-guide__mode {
+    align-items: flex-start;
+  }
+
+  .zento-display-guide__mode strong {
+    font-size: 1.35rem;
+  }
+
+  .zento-display-guide__mode small {
+    font-size: 1.15rem;
+  }
+
+  .zento-display-guide__icon {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+
+  .zento-display-guide__icon svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 }
