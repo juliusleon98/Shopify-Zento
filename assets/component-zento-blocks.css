@@ -1019,7 +1019,7 @@
 }
 
 .zento-comparison__product-card--zento {
-  border: 1px solid #c7d9e8;
+  border: 1px solid rgba(107, 45, 62, 0.2);
 }
 
 .zento-comparison__product-image {
@@ -1046,7 +1046,7 @@
 }
 
 .zento-comparison__product-card--zento .zento-comparison__product-name {
-  background: #dce8f3;
+  background: #f4e8ec;
 }
 
 .zento-comparison__vs {
@@ -1092,9 +1092,9 @@
 
 .zento-comparison__benefit--zento {
   grid-template-columns: 1fr 42px;
-  background: #dce8f3;
+  background: #f4e8ec;
   color: #17202f;
-  border: 1px solid #c7d9e8;
+  border: 1px solid rgba(107, 45, 62, 0.2);
 }
 
 .zento-comparison__benefit--classic {
@@ -1141,7 +1141,7 @@
 }
 
 .zento-comparison__check {
-  background: #8fb4d1;
+  background: #6b2d3e;
   color: #ffffff;
 }
 
