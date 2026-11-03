@@ -62,7 +62,7 @@
               <div class="zento-comparison__benefit zento-comparison__benefit--zento">
                 <div>
                   <h3>{{ block.settings.zento_heading | escape }}</h3>
-                  <p>{{ block.settings.zento_text }}</p>
+                  {%- if block.settings.zento_text != blank -%}<p>{{ block.settings.zento_text }}</p>{%- endif -%}
                 </div>
                 <span class="zento-comparison__check" aria-hidden="true">✓</span>
               </div>
@@ -71,7 +71,7 @@
                 <span class="zento-comparison__cross" aria-hidden="true">×</span>
                 <div>
                   <h3>{{ block.settings.classic_heading | escape }}</h3>
-                  <p>{{ block.settings.classic_text }}</p>
+                  {%- if block.settings.classic_text != blank -%}<p>{{ block.settings.classic_text }}</p>{%- endif -%}
                 </div>
               </div>
             </div>

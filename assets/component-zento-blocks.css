@@ -3465,3 +3465,20 @@ section.shopify-pc__banner__dialog {
     display: none;
   }
 }
+
+/* Comparison rows: short headings only, so the rows stay compact */
+.zento-comparison__benefit {
+  min-height: 72px;
+  padding: 16px 24px;
+}
+
+.zento-comparison__benefit h3:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 749px) {
+  .zento-comparison__benefit {
+    min-height: 56px;
+    padding: 12px 14px;
+  }
+}

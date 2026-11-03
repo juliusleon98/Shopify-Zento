@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -780,46 +771,46 @@
         "comparison_row_1": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Jederzeit abpumpen",
-            "zento_text": "<p>Freihändig im BH, ganz nebenbei im Alltag.</p>",
-            "classic_heading": "Feste Pump-Pausen",
-            "classic_text": "<p>Du brauchst Zeit und freie Hände, alles andere muss warten.</p>"
+            "zento_heading": "Freihändig",
+            "zento_text": "",
+            "classic_heading": "Keine freien Hände",
+            "classic_text": ""
           }
         },
         "comparison_row_2": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Überall abpumpen",
-            "zento_text": "<p>Dank 3 Stunden Akku unterwegs ganz ohne Kabel.</p>",
-            "classic_heading": "An der Steckdose",
-            "classic_text": "<p>Kabel und Schläuche binden dich an einen festen Platz.</p>"
+            "zento_heading": "Kabellos",
+            "zento_text": "",
+            "classic_heading": "Kabel und Schläuche",
+            "classic_text": ""
           }
         },
         "comparison_row_5": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Fein einstellbar",
-            "zento_text": "<p>4 Modi und 15 Stufen, damit es sich für dich gut anfühlt.</p>",
-            "classic_heading": "Weniger Stufen",
-            "classic_text": "<p>Oft nur grob einstellbar und weniger sanft.</p>"
+            "zento_heading": "4 Modi, 15 Stufen",
+            "zento_text": "",
+            "classic_heading": "Grob einstellbar",
+            "classic_text": ""
           }
         },
         "comparison_row_3": {
           "type": "comparison_row",
           "settings": {
             "zento_heading": "Diskret",
-            "zento_text": "<p>Sitzt unauffällig im BH, ganz ohne Schläuche.</p>",
+            "zento_text": "",
             "classic_heading": "Auffällig",
-            "classic_text": "<p>Flaschen und Schläuche sind deutlich sichtbar.</p>"
+            "classic_text": ""
           }
         },
         "comparison_row_4": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Schnell sauber",
-            "zento_text": "<p>Du reinigst nach dem Pumpen nur 3 Teile.</p>",
-            "classic_heading": "Mehr Reinigung",
-            "classic_text": "<p>Viele Einzelteile wie Ventile und Flaschen.</p>"
+            "zento_heading": "Schnell gereinigt",
+            "zento_text": "",
+            "classic_heading": "Viele Einzelteile",
+            "classic_text": ""
           }
         }
       },
