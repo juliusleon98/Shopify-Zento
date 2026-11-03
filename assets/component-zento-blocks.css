@@ -3185,15 +3185,20 @@ section.shopify-pc__banner__dialog {
   gap: 1rem;
 }
 
-.zento-sale-summary__text {
-  font-size: 1.5rem;
-  opacity: 0.75;
+.zento-sale-summary .badge {
+  padding: 0.35rem 1rem;
+  font-size: 1.1rem;
 }
 
-.product__info-container .zento-tax-note {
-  margin: 0.8rem 0 0;
-  font-size: 1.2rem;
-  opacity: 0.65;
+.zento-sale-summary__text {
+  font-size: 1.3rem;
+  opacity: 0.7;
+}
+
+/* Benefit bullets: slightly softer text */
+.product__info-container .icon-with-text--vertical .h4 {
+  font-weight: 400;
+  color: rgba(var(--color-foreground), 0.8);
 }
 
 /* Product page buy button: #34506B, same color on hover */
