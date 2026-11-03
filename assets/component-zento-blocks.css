@@ -3395,7 +3395,7 @@ section.shopify-pc__banner__dialog {
   max-width: 76rem;
   margin: 0 auto 2.8rem !important;
   color: #17202f;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 750;
   line-height: 1.1;
   letter-spacing: -0.03em;
@@ -3425,7 +3425,7 @@ section.shopify-pc__banner__dialog {
   .zento-specs__title,
   .zento-benefits__title,
   [id$="__collapsible_content_faq"] .collapsible-content__heading {
-    font-size: 34px !important;
+    font-size: 30px !important;
   }
 
   .zento-reviews__top {
@@ -3456,5 +3456,12 @@ section.shopify-pc__banner__dialog {
   .zento-benefits__title,
   [id$="__collapsible_content_faq"] .collapsible-content__heading {
     font-size: 25px !important;
+  }
+}
+
+/* Phones: the reviews start right below the title (no score row) */
+@media screen and (max-width: 749px) {
+  .zento-reviews__top {
+    display: none;
   }
 }
