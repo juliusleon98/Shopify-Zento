@@ -65,7 +65,7 @@
           "settings": {
             "picker_type": "button",
             "swatch_shape": "square",
-            "selection_color": "wine",
+            "selection_color": "green",
             "price_cards": true,
             "single_label": "1 Stück",
             "highlight_option": "",

@@ -401,8 +401,8 @@
 }
 
 .product__info-container .product-form__input--pill input[type='radio']:checked + label {
-  background-color: #8faec4;
-  border-color: #8faec4;
+  background-color: #6e8b78;
+  border-color: #6e8b78;
   color: #ffffff;
 }
 
@@ -1019,7 +1019,7 @@
 }
 
 .zento-comparison__product-card--zento {
-  border: 1px solid rgba(52, 80, 107, 0.22);
+  border: 1px solid rgba(46, 74, 59, 0.22);
 }
 
 .zento-comparison__product-image {
@@ -1046,7 +1046,7 @@
 }
 
 .zento-comparison__product-card--zento .zento-comparison__product-name {
-  background: #e6ecf2;
+  background: #eef3ef;
 }
 
 .zento-comparison__vs {
@@ -1092,9 +1092,9 @@
 
 .zento-comparison__benefit--zento {
   grid-template-columns: 1fr 42px;
-  background: #e6ecf2;
+  background: #eef3ef;
   color: #17202f;
-  border: 1px solid rgba(52, 80, 107, 0.22);
+  border: 1px solid rgba(46, 74, 59, 0.22);
 }
 
 .zento-comparison__benefit--classic {
@@ -1141,7 +1141,7 @@
 }
 
 .zento-comparison__check {
-  background: #34506b;
+  background: #2e4a3b;
   color: #ffffff;
 }
 
@@ -1666,12 +1666,12 @@
 .zento-reviews-form__field input:focus,
 .zento-reviews-form__field select:focus,
 .zento-reviews-form__field textarea:focus {
-  border-color: #9bbbd1;
-  box-shadow: 0 0 0 3px rgba(155, 187, 209, 0.22);
+  border-color: #6e8b78;
+  box-shadow: 0 0 0 3px rgba(110, 139, 120, 0.22);
 }
 
 .zento-reviews-form__success {
-  background: #dce8f3;
+  background: #eef3ef;
   color: #17202f;
   padding: 12px 14px;
   border-radius: 14px;
@@ -2602,15 +2602,15 @@ cart-drawer .totals__total-value {
 }
 
 .product__info-container .product-form__input--pill input[type='radio']:checked + label.variant-option--priced {
-  background: #f2f7fa;
-  border-color: #6c93b1;
-  box-shadow: 0 0 0 0.1rem #6c93b1;
+  background: #eef3ef;
+  border-color: #6e8b78;
+  box-shadow: 0 0 0 0.1rem #6e8b78;
   color: rgb(var(--color-foreground));
 }
 
 .product__info-container .product-form__input--pill input[type='radio']:checked + label.variant-option--priced::after {
-  border-color: #6c93b1;
-  background: #6c93b1;
+  border-color: #6e8b78;
+  background: #6e8b78;
   box-shadow: inset 0 0 0 0.35rem #ffffff;
 }
 
@@ -3201,11 +3201,14 @@ section.shopify-pc__banner__dialog {
   color: rgba(var(--color-foreground), 0.8);
 }
 
-/* Product page buy button: #34506B, same color on hover */
-.product__info-container .product-form__submit.button--primary,
-.product__info-container .product-form__submit.button--primary:hover {
-  --color-button: 52, 80, 107;
+/* Product page buy button: forest green, slightly darker on hover */
+.product__info-container .product-form__submit.button--primary {
+  --color-button: 46, 74, 59;
   --color-button-text: 255, 255, 255;
+}
+
+.product__info-container .product-form__submit.button--primary:hover {
+  --color-button: 36, 59, 47;
 }
 
 /* Variant cards: struck-through compare price in light grey before the price */
@@ -3542,20 +3545,20 @@ section.shopify-pc__banner__dialog {
 }
 
 .zento-reviews__button {
-  border: 1.5px solid #34506b;
+  border: 1.5px solid #2e4a3b;
   background: transparent;
-  color: #34506b;
+  color: #2e4a3b;
   font-weight: 700;
 }
 
 .zento-reviews__button:hover {
-  background: #34506b;
+  background: #2e4a3b;
   color: #ffffff;
   opacity: 1;
 }
 
 .zento-reviews-form__button {
-  background: #34506b;
+  background: #2e4a3b;
 }
 
 /* Display guide (sections/zento-display-guide.liquid): display image left, buttons and modes right */
