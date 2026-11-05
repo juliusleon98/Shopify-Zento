@@ -665,6 +665,92 @@
         "padding_bottom": 48
       }
     },
+    "zento_display_guide": {
+      "type": "zento-display-guide",
+      "blocks": {
+        "key_mode": {
+          "type": "key",
+          "settings": {
+            "icon": "grid",
+            "label": "Modus"
+          }
+        },
+        "key_power": {
+          "type": "key",
+          "settings": {
+            "icon": "power",
+            "label": "Ein/Aus/Pause"
+          }
+        },
+        "key_minus": {
+          "type": "key",
+          "settings": {
+            "icon": "minus",
+            "label": "Stufe senken"
+          }
+        },
+        "key_plus": {
+          "type": "key",
+          "settings": {
+            "icon": "plus",
+            "label": "Stufe erhöhen"
+          }
+        },
+        "mode_massage": {
+          "type": "mode",
+          "settings": {
+            "icon": "heart",
+            "heading": "Massage",
+            "text": "Sanfter Einstieg"
+          }
+        },
+        "mode_pump": {
+          "type": "mode",
+          "settings": {
+            "icon": "drop",
+            "heading": "Abpumpen",
+            "text": "Gleichmäßig und kräftig"
+          }
+        },
+        "mode_lactation": {
+          "type": "mode",
+          "settings": {
+            "icon": "cycle",
+            "heading": "Laktation",
+            "text": "Schnell und langsam im Wechsel"
+          }
+        },
+        "mode_bionic": {
+          "type": "mode",
+          "settings": {
+            "icon": "letter_a",
+            "heading": "Bionik",
+            "text": "Rhythmus wie bei einem Baby"
+          }
+        }
+      },
+      "block_order": [
+        "key_mode",
+        "key_power",
+        "key_minus",
+        "key_plus",
+        "mode_massage",
+        "mode_pump",
+        "mode_lactation",
+        "mode_bionic"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/WhatsApp_Image_2026-11-03_at_22.36.23.jpg",
+        "eyebrow": "Einfache Bedienung",
+        "heading": "Alles im Griff mit nur vier Tasten",
+        "keys_heading": "Bedientasten",
+        "modes_heading": "Betriebsmodi",
+        "note": "15 Intensitätsstufen in jedem Modus",
+        "color_scheme": "scheme-1",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
     "zento_problem_images": {
       "type": "zento-problem-images",
       "blocks": {
@@ -843,92 +929,6 @@
         "padding_bottom": 48
       }
     },
-    "zento_display_guide": {
-      "type": "zento-display-guide",
-      "blocks": {
-        "key_mode": {
-          "type": "key",
-          "settings": {
-            "icon": "grid",
-            "label": "Modus"
-          }
-        },
-        "key_power": {
-          "type": "key",
-          "settings": {
-            "icon": "power",
-            "label": "Ein/Aus/Pause"
-          }
-        },
-        "key_minus": {
-          "type": "key",
-          "settings": {
-            "icon": "minus",
-            "label": "Stufe senken"
-          }
-        },
-        "key_plus": {
-          "type": "key",
-          "settings": {
-            "icon": "plus",
-            "label": "Stufe erhöhen"
-          }
-        },
-        "mode_massage": {
-          "type": "mode",
-          "settings": {
-            "icon": "heart",
-            "heading": "Massage",
-            "text": "Sanfter Einstieg"
-          }
-        },
-        "mode_pump": {
-          "type": "mode",
-          "settings": {
-            "icon": "drop",
-            "heading": "Abpumpen",
-            "text": "Gleichmäßig und kräftig"
-          }
-        },
-        "mode_lactation": {
-          "type": "mode",
-          "settings": {
-            "icon": "cycle",
-            "heading": "Laktation",
-            "text": "Schnell und langsam im Wechsel"
-          }
-        },
-        "mode_bionic": {
-          "type": "mode",
-          "settings": {
-            "icon": "letter_a",
-            "heading": "Bionik",
-            "text": "Rhythmus wie bei einem Baby"
-          }
-        }
-      },
-      "block_order": [
-        "key_mode",
-        "key_power",
-        "key_minus",
-        "key_plus",
-        "mode_massage",
-        "mode_pump",
-        "mode_lactation",
-        "mode_bionic"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/WhatsApp_Image_2026-11-03_at_22.36.23.jpg",
-        "eyebrow": "Einfache Bedienung",
-        "heading": "Alles im Griff mit nur vier Tasten",
-        "keys_heading": "Bedientasten",
-        "modes_heading": "Betriebsmodi",
-        "note": "15 Intensitätsstufen in jedem Modus",
-        "color_scheme": "scheme-1",
-        "padding_top": 48,
-        "padding_bottom": 48
-      }
-    },
     "collapsible_content_faq": {
       "type": "collapsible-content",
       "blocks": {
@@ -1033,10 +1033,10 @@
     "zento_benefits",
     "zento_reviews",
     "zento_problem_images",
+    "zento_display_guide",
     "related-products",
     "zento_solution",
     "zento_comparison",
-    "zento_display_guide",
     "collapsible_content_faq"
   ]
 }
