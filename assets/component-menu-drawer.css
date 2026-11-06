@@ -192,7 +192,8 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .menu-drawer__account {
-  display: inline-flex;
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
   text-decoration: none;
   padding: 1rem 0;
