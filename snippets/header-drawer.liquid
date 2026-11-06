@@ -46,6 +46,24 @@
           <nav class="menu-drawer__navigation">
             <ul class="menu-drawer__menu has-submenu list-menu" role="list">
               {%- for link in section.settings.menu.links -%}
+                {%- comment -%} Mobile only: show the items of "Mehr" directly in the main list, without the "Mehr" button. {%- endcomment -%}
+                {%- if link.handle == 'mehr' and link.links != blank -%}
+                  {%- for childlink in link.links -%}
+                    <li>
+                      <a
+                        id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}"
+                        href="{{ childlink.url }}"
+                        class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"
+                        {% if childlink.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
+                        {{ childlink.title | escape }}
+                      </a>
+                    </li>
+                  {%- endfor -%}
+                  {%- continue -%}
+                {%- endif -%}
                 <li>
                   {%- if link.links != blank -%}
                     <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
