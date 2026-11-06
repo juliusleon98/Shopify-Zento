@@ -287,7 +287,7 @@
           <div class="footer__payment">
             <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
             <ul class="list list-payment" role="list">
-              {%- assign preferred_payment_types = 'klarna,paypal,apple_pay,google_pay,visa,master,american_express' | split: ',' -%}
+              {%- assign preferred_payment_types = 'klarna,visa,paypal,apple_pay,google_pay,master,american_express' | split: ',' -%}
               {%- for type in preferred_payment_types -%}
                 {%- if shop.enabled_payment_types contains type -%}
                   <li class="list-payment__item">
