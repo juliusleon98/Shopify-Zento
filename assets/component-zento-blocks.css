@@ -1685,6 +1685,54 @@
   font-weight: 700;
 }
 
+/* Thank-you card shown in the popup after the review was sent (instead of a page reload) */
+.zento-reviews-form__thanks {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 28px 12px 12px;
+  text-align: center;
+  outline: none;
+}
+
+.zento-reviews-form.is-sent .zento-reviews-form__header,
+.zento-reviews-form.is-sent form {
+  display: none;
+}
+
+.zento-reviews-form.is-sent .zento-reviews-form__thanks {
+  display: flex;
+}
+
+.zento-reviews-form__thanks-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  background: #eef3ef;
+  color: #2e4a3b;
+}
+
+.zento-reviews-form__thanks h3 {
+  margin: 6px 0 0;
+  color: #17202f;
+  font-size: 26px;
+  line-height: 1.15;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.zento-reviews-form__thanks p {
+  max-width: 36ch;
+  margin: 0 0 8px;
+  color: #3d4655;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
 .zento-reviews-form__error {
   background: #fff0ee;
   color: #8a3b2c;
