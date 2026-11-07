@@ -3078,21 +3078,19 @@ section.shopify-pc__banner__dialog {
 
 .zento-reviews-card__avatar {
   flex: none;
-  width: 36px;
-  height: 36px;
+  width: 48px;
+  height: 48px;
   border-radius: 999px;
   background: #fff8ef;
   color: #17202f;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 850;
 }
 
 .zento-reviews-card__avatar--photo {
-  width: 48px;
-  height: 48px;
   overflow: hidden;
 }
 

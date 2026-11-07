@@ -311,6 +311,7 @@
           "type": "feed_review",
           "settings": {
             "author_name": "Nina B.",
+            "image_asset": "review-nina-b.jpg",
             "date_text": "02.06.2026 · Verifizierte Kundin",
             "rating": 4,
             "heading": "Sehr praktisch, besonders unterwegs",
