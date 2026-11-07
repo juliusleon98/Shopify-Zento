@@ -884,7 +884,7 @@
           "settings": {
             "zento_heading": "Freihändig",
             "zento_text": "",
-            "classic_heading": "Keine freien Hände",
+            "classic_heading": "Hand am Gerät",
             "classic_text": ""
           }
         },
@@ -893,7 +893,7 @@
           "settings": {
             "zento_heading": "Kabellos",
             "zento_text": "",
-            "classic_heading": "Kabel und Schläuche",
+            "classic_heading": "Kabel & Schläuche",
             "classic_text": ""
           }
         },
@@ -909,16 +909,16 @@
         "comparison_row_3": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Diskret",
+            "zento_heading": "Unauffällig",
             "zento_text": "",
-            "classic_heading": "Auffällig",
+            "classic_heading": "Oft sichtbar",
             "classic_text": ""
           }
         },
         "comparison_row_4": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Schnell gereinigt",
+            "zento_heading": "Schnell sauber",
             "zento_text": "",
             "classic_heading": "Viele Einzelteile",
             "classic_text": ""
@@ -934,7 +934,7 @@
       ],
       "settings": {
         "eyebrow": "Zento One vs. klassische Milchpumpe",
-        "heading": "Weniger Aufwand. Mehr Freiheit im Alltag.",
+        "heading": "Weniger Aufwand.<br>Mehr Freiheit",
         "subtitle": "",
         "zento_image": "shopify://shop_images/Zento_One_3.png",
         "zento_name": "Zento One",
