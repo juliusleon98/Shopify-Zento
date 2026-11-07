@@ -3250,8 +3250,14 @@ section.shopify-pc__banner__dialog {
     border-radius: 20px;
   }
 
+  /* Same photo size on every card: fixed ratio (taken from the Amina R. card), longer photos are cropped */
   .zento-reviews-card__image {
-    aspect-ratio: 1 / 0.56;
+    flex: none;
+    aspect-ratio: 682 / 830;
+  }
+
+  .zento-reviews-card--with-image .zento-reviews-card__body {
+    flex: 1 1 auto;
   }
 
   .zento-reviews-card__body {
