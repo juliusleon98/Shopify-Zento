@@ -2996,6 +2996,29 @@ section.shopify-pc__banner__dialog {
   grid-row: span 2;
 }
 
+/* Last card of the slider: invitation to write a review */
+.zento-reviews-card--cta {
+  grid-row: span 2;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 28px 24px;
+  text-align: center;
+  background: #fff8ef;
+}
+
+.zento-reviews-card--cta h3 {
+  margin: 0;
+}
+
+.zento-reviews-card--cta p {
+  max-width: 24ch;
+  margin: 0 0 8px;
+  color: #3d4655;
+  font-size: 14.5px;
+  line-height: 1.5;
+}
+
 .zento-reviews-card__image {
   position: relative;
   flex: 1 0 auto;

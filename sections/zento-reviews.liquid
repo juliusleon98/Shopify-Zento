@@ -144,6 +144,21 @@
               </article>
             {%- endfor -%}
             {%- endfor -%}
+            {%- if section.settings.button_label != blank -%}
+              <div class="zento-reviews-card zento-reviews-card--cta">
+                {%- if section.settings.cta_heading != blank -%}
+                  <h3>{{ section.settings.cta_heading | escape }}</h3>
+                {%- endif -%}
+                {%- if section.settings.cta_text != blank -%}
+                  <p>{{ section.settings.cta_text | escape }}</p>
+                {%- endif -%}
+                <modal-opener data-modal="#ZentoReviewModal-{{ section.id }}">
+                  <button type="button" class="zento-reviews__button" aria-haspopup="dialog">
+                    {{ section.settings.button_label | escape }}
+                  </button>
+                </modal-opener>
+              </div>
+            {%- endif -%}
           </div>
           <nav class="zento-reviews__nav" aria-label="Bewertungen durchblättern" data-zento-reviews-nav hidden>
             <button type="button" class="zento-reviews__page is-arrow" data-dir="-1" aria-label="Vorherige Bewertungen">&#8249;</button>
@@ -254,7 +269,7 @@
       var count = slider.querySelector('[data-zento-reviews-count]');
       var prev = nav.querySelector('[data-dir="-1"]');
       var next = nav.querySelector('[data-dir="1"]');
-      var cards = Array.prototype.slice.call(track.children);
+      var cards = Array.prototype.slice.call(track.querySelectorAll('.zento-reviews-card:not(.zento-reviews-card--cta)'));
 
       function visibleRange() {
         var box = track.getBoundingClientRect();
@@ -358,6 +373,19 @@
       "id": "button_label",
       "label": "\"Write a review\" button label",
       "default": "Bewertung schreiben"
+    },
+    {
+      "type": "text",
+      "id": "cta_heading",
+      "label": "Last card in the slider: heading",
+      "info": "The last card invites visitors to write a review and uses the button label above. Leave the button label empty to hide it.",
+      "default": "Du nutzt Zento?"
+    },
+    {
+      "type": "textarea",
+      "id": "cta_text",
+      "label": "Last card in the slider: text",
+      "default": "Teile deine Erfahrung und hilf anderen Mamas bei ihrer Entscheidung."
     },
     {
       "type": "header",
