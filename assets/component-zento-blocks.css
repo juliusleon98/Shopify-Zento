@@ -3129,10 +3129,24 @@ section.shopify-pc__banner__dialog {
   font-weight: 800;
 }
 
-.zento-reviews-card__stars {
+.zento-reviews-card__rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
   margin-bottom: 10px;
+}
+
+.zento-reviews-card__stars {
   font-size: 16px;
   color: #c9966f;
+}
+
+.zento-reviews-card__date {
+  color: #6f6d68;
+  font-size: 12.5px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
 }
 
 .zento-reviews-card h3 {

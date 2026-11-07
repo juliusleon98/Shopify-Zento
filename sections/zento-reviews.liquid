@@ -94,8 +94,9 @@
                 {%- assign card_meta = block.settings.author_label -%}
               {%- else -%}
                 {%- assign card_text = block.settings.text -%}
-                {%- assign card_meta = block.settings.date_text -%}
+                {%- assign card_meta = '' -%}
               {%- endif -%}
+              {%- assign card_date = block.settings.date_text -%}
               {%- if card_meta == blank -%}{%- assign card_meta = section.settings.default_label -%}{%- endif -%}
               {%- comment -%} Show only "First L." when a full first and last name was entered. {%- endcomment -%}
               {%- assign card_name = block.settings.author_name | strip -%}
@@ -114,8 +115,13 @@
                   </div>
                 {%- endif -%}
                 <div class="zento-reviews-card__body">
-                  <div class="zento-reviews-card__stars" aria-hidden="true">
-                    {%- for i in (1..5) -%}{% if i <= block.settings.rating %}★{% else %}☆{% endif %}{%- endfor -%}
+                  <div class="zento-reviews-card__rating">
+                    <div class="zento-reviews-card__stars" aria-hidden="true">
+                      {%- for i in (1..5) -%}{% if i <= block.settings.rating %}★{% else %}☆{% endif %}{%- endfor -%}
+                    </div>
+                    {%- if card_date != blank -%}
+                      <span class="zento-reviews-card__date">{{ card_date | escape }}</span>
+                    {%- endif -%}
                   </div>
                   <h3>{{ block.settings.heading | escape }}</h3>
                   <div class="zento-reviews-card__text">{{ card_text }}</div>
@@ -529,7 +535,12 @@
           "type": "text",
           "id": "author_label",
           "label": "Author label",
-          "default": "Verifizierte Kundin"
+          "default": "Verifizierte Kundin"        },
+        {
+          "type": "text",
+          "id": "date_text",
+          "label": "Date",
+          "info": "Shown at the right of the stars, e.g. 19.05.2025."
         },
         {
           "type": "text",
