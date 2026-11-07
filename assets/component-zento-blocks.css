@@ -3937,11 +3937,3 @@ section.shopify-pc__banner__dialog {
 .menu-drawer__utility-links:not(:has(.menu-drawer__localization, .list-social__item)) {
   display: none;
 }
-
-/* Contact page: "Wir sind für dich da" on one line on phones (the text column is only about 100vw - 110px wide there) */
-@media screen and (max-width: 749px) {
-  main:has(.contact) [id$="__rich_text_intro"] .rich-text__heading {
-    font-size: min(36px, calc((100vw - 110px) / 10.8));
-    white-space: nowrap;
-  }
-}
