@@ -3772,3 +3772,8 @@ section.shopify-pc__banner__dialog {
   color: rgba(var(--color-foreground), 0.7);
   font-size: 1.5rem;
 }
+
+/* Mobile menu: no empty grey footer bar when it holds neither language/country selectors nor social links */
+.menu-drawer__utility-links:not(:has(.menu-drawer__localization, .list-social__item)) {
+  display: none;
+}
