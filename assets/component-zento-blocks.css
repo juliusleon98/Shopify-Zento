@@ -3592,6 +3592,20 @@ section.shopify-pc__banner__dialog {
   .zento-reviews__title {
     margin-bottom: 1.4rem !important;
   }
+
+  /* Below the "x von 26" counter: same distance (26px) to the next section as between the cards and the counter */
+  #zento-reviews-anchor {
+    padding-bottom: 26px;
+  }
+
+  /* "Wenn Stillen nicht geht ...": same title-to-cards distance as the reviews (26px) */
+  .zento-problem-images__title {
+    margin-bottom: 1.4rem !important;
+  }
+
+  .zento-problem-images__header {
+    margin-bottom: 12px;
+  }
 }
 
 /* Comparison rows: short headings only, so the rows stay compact */
