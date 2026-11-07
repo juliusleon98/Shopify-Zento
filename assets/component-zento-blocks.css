@@ -2793,8 +2793,20 @@ cart-drawer .totals__total-value {
 }
 
 .zento-reviews__page.is-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  min-width: 38px;
+  height: 38px;
+  padding: 0;
   font-size: 20px;
   line-height: 1;
+}
+
+.zento-reviews__page.is-arrow svg {
+  display: block;
+  flex: none;
 }
 
 .zento-reviews__page.is-active {
@@ -2849,6 +2861,13 @@ cart-drawer .totals__total-value {
     height: 36px;
     padding: 0 8px;
     font-size: 14px;
+  }
+
+  .zento-reviews__page.is-arrow {
+    width: 36px;
+    min-width: 36px;
+    height: 36px;
+    padding: 0;
   }
 
   .zento-reviews__gap {
