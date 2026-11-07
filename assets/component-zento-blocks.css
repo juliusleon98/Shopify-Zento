@@ -3091,6 +3091,8 @@ section.shopify-pc__banner__dialog {
 }
 
 .zento-reviews-card__avatar--photo {
+  width: 48px;
+  height: 48px;
   overflow: hidden;
 }
 

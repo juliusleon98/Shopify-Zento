@@ -310,7 +310,6 @@
           "type": "feed_review",
           "settings": {
             "author_name": "Luisa",
-            "image_asset": "review-luisa.jpg",
             "date_text": "",
             "rating": 5,
             "heading": "Top für den Milchvorrat",
@@ -374,6 +373,7 @@
           "type": "feed_review",
           "settings": {
             "author_name": "Maren",
+            "image_asset": "review-maren.jpg",
             "date_text": "",
             "rating": 5,
             "heading": "Sehr sanft zur Brust",
