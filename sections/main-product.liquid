@@ -271,7 +271,7 @@
                     <p class="zento-payment-icons__label">{{ block.settings.payment_icons_label | escape }}</p>
                   {%- endif -%}
                   <ul class="list list-payment zento-payment-icons__list" role="list">
-                    {%- assign shown_payment_types = 'klarna,american_express,paypal,apple_pay,google_pay,master,visa' | split: ',' -%}
+                    {%- assign shown_payment_types = 'klarna,american_express,shopify_pay,apple_pay,google_pay,master,visa' | split: ',' -%}
                     {%- for type in shown_payment_types -%}
                       {%- if shop.enabled_payment_types contains type -%}
                         <li class="list-payment__item">
