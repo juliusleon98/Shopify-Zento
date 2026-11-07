@@ -12,14 +12,6 @@
     "rich_text_intro": {
       "type": "rich-text",
       "blocks": {
-        "caption": {
-          "type": "caption",
-          "settings": {
-            "caption": "Kontakt",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
         "heading": {
           "type": "heading",
           "settings": {
@@ -30,12 +22,11 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Du hast eine Frage zu deiner Bestellung, zu einem Produkt oder zur Garantie? Schreib uns, dein Zento-Team liest jede Nachricht und antwortet in der Regel innerhalb von 24 Stunden (werktags).</p><p>Direkt per E-Mail erreichst du uns unter <a href=\"mailto:hello@zento-home.com\">hello@zento-home.com</a>, oder du nutzt das Formular weiter unten.</p>"
+            "text": "<p>Du hast eine Frage zu deiner Bestellung, zu einem Produkt oder zur Garantie?<br>Schreib uns, dein Zento-Team liest jede Nachricht und antwortet in der Regel innerhalb von 24 Stunden (werktags).</p>"
           }
         }
       },
       "block_order": [
-        "caption",
         "heading",
         "text"
       ],
@@ -48,55 +39,6 @@
         "padding_bottom": 24
       }
     },
-    "trust_strip": {
-      "type": "zento-trust-strip",
-      "blocks": {
-        "item_1": {
-          "type": "item",
-          "settings": {
-            "icon": "chat_bubble",
-            "heading": "Antwort in 24 Stunden",
-            "text": "Werktags per E-Mail"
-          }
-        },
-        "item_2": {
-          "type": "item",
-          "settings": {
-            "icon": "truck",
-            "heading": "Kostenloser Versand",
-            "text": "Ab 50 € Bestellwert"
-          }
-        },
-        "item_3": {
-          "type": "item",
-          "settings": {
-            "icon": "return",
-            "heading": "14 Tage Widerruf",
-            "text": "Bei ungeöffneter Hygieneverpackung"
-          }
-        },
-        "item_4": {
-          "type": "item",
-          "settings": {
-            "icon": "check_mark",
-            "heading": "2 Jahre Garantie",
-            "text": "Auf unsere Produkte"
-          }
-        }
-      },
-      "block_order": [
-        "item_1",
-        "item_2",
-        "item_3",
-        "item_4"
-      ],
-      "settings": {
-        "badge_text": "So kümmern wir uns um dich",
-        "color_scheme": "scheme-2",
-        "padding_top": 16,
-        "padding_bottom": 24
-      }
-    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -104,6 +46,28 @@
         "heading_size": "h2",
         "color_scheme": "scheme-1",
         "padding_top": 48,
+        "padding_bottom": 16
+      }
+    },
+    "rich_text_email": {
+      "type": "rich-text",
+      "blocks": {
+        "email": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"mailto:hello@zento-home.com\">hello@zento-home.com</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "email"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 0,
         "padding_bottom": 48
       }
     },
@@ -251,8 +215,8 @@
   },
   "order": [
     "rich_text_intro",
-    "trust_strip",
     "form",
+    "rich_text_email",
     "collapsible_content_faq",
     "rich_text_company"
   ]
