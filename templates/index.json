@@ -167,6 +167,7 @@
             "heading": "Gute Qualität",
             "quote": "<p>„Ich bin wirklich zufrieden mit den Produkten, sie haben gute Qualität und fühlen sich weich an“</p>",
             "author_name": "Laura M.",
+            "image_asset": "review-laura-m.jpg",
             "author_label": "Verifizierte Kundin"
           }
         },
@@ -189,6 +190,7 @@
             "heading": "Funktioniert einwandfrei",
             "quote": "<p>„Ich hatte etwas Angst, da ich im Internet verschiedes zu Milchpumpen gehört habe, aber die Aufsätze fühlen sich sehr gut an und man kann alles anpassen“</p>",
             "author_name": "Amina R.",
+            "image_asset": "review-amina-r.jpg",
             "author_label": "Verifizierte Kundin"
           }
         },
@@ -196,6 +198,7 @@
           "type": "feed_review",
           "settings": {
             "author_name": "Janina",
+            "image_asset": "review-janina.jpg",
             "date_text": "",
             "rating": 5,
             "heading": "Sehr zufrieden",
@@ -226,6 +229,7 @@
           "type": "feed_review",
           "settings": {
             "author_name": "Mama von 2",
+            "image_asset": "review-mama-von-2.jpg",
             "date_text": "",
             "rating": 5,
             "heading": "Super für unterwegs",
@@ -256,6 +260,7 @@
           "type": "feed_review",
           "settings": {
             "author_name": "Luisa",
+            "image_asset": "review-luisa.jpg",
             "date_text": "",
             "rating": 5,
             "heading": "Top für den Milchvorrat",
@@ -276,6 +281,7 @@
           "type": "feed_review",
           "settings": {
             "author_name": "Jasmin T.",
+            "image_asset": "review-jasmin-t.jpg",
             "date_text": "",
             "rating": 5,
             "heading": "Macht genau was sie soll",
@@ -316,6 +322,7 @@
           "type": "feed_review",
           "settings": {
             "author_name": "Julia K.",
+            "image_asset": "review-julia-k.jpg",
             "date_text": "29.05.2026 · Verifizierte Kundin",
             "rating": 5,
             "heading": "Mehr Freiheit im Alltag",

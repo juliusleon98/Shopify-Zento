@@ -3090,6 +3090,17 @@ section.shopify-pc__banner__dialog {
   font-weight: 850;
 }
 
+.zento-reviews-card__avatar--photo {
+  overflow: hidden;
+}
+
+.zento-reviews-card__avatar--photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .zento-reviews-card__author strong {
   display: block;
   color: #17202f;

@@ -120,9 +120,21 @@
                   <h3>{{ block.settings.heading | escape }}</h3>
                   <div class="zento-reviews-card__text">{{ card_text }}</div>
                   <div class="zento-reviews-card__author">
-                    <span class="zento-reviews-card__avatar" aria-hidden="true">
-                      {{- card_name | slice: 0 | upcase -}}
-                    </span>
+                    {%- if block.settings.image_asset != blank -%}
+                      <span class="zento-reviews-card__avatar zento-reviews-card__avatar--photo">
+                        <img
+                          src="{{ block.settings.image_asset | asset_url }}"
+                          alt="{{ card_name | escape }}"
+                          width="72"
+                          height="72"
+                          loading="lazy"
+                        >
+                      </span>
+                    {%- else -%}
+                      <span class="zento-reviews-card__avatar" aria-hidden="true">
+                        {{- card_name | slice: 0 | upcase -}}
+                      </span>
+                    {%- endif -%}
                     <span>
                       <strong>{{ card_name | escape }}</strong>
                       {%- if card_meta != blank -%}<small>{{ card_meta | escape }}</small>{%- endif -%}
@@ -457,6 +469,12 @@
           "id": "author_label",
           "label": "Author label",
           "default": "Verifizierte Kundin"
+        },
+        {
+          "type": "text",
+          "id": "image_asset",
+          "label": "Reviewer photo (theme asset file name)",
+          "info": "Shown in the round avatar next to the name instead of the initial, e.g. review-name.jpg."
         }
       ]
     },
@@ -497,6 +515,12 @@
           "type": "image_picker",
           "id": "image",
           "label": "Image (optional)"
+        },
+        {
+          "type": "text",
+          "id": "image_asset",
+          "label": "Reviewer photo (theme asset file name)",
+          "info": "Shown in the round avatar next to the name instead of the initial, e.g. review-name.jpg."
         }
       ]
     }
