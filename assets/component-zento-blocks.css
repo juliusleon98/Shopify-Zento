@@ -761,6 +761,11 @@
   font-weight: 400;
 }
 
+/* The description (rich text) ends up as a plain paragraph in the column: no extra space above it, so it sits right under the image */
+.zento-solution-section__content > p:not(.zento-solution-section__text) {
+  margin-top: 0;
+}
+
 .zento-solution-section__benefits {
   display: grid;
   gap: 14px;
@@ -797,7 +802,7 @@
 @media screen and (max-width: 989px) {
   .zento-solution-section__inner {
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 32px;
     max-width: 720px;
     margin: 0 auto;
   }
@@ -813,7 +818,7 @@
 
 @media screen and (max-width: 749px) {
   .zento-solution-section__inner {
-    gap: 24px;
+    gap: 22px;
   }
 
   .zento-solution-section__image-wrap {
