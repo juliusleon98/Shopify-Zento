@@ -3609,7 +3609,7 @@ section.shopify-pc__banner__dialog {
   }
 
   .zento-reviews__title {
-    margin-bottom: 1.4rem !important;
+    margin-bottom: 1rem !important;
   }
 
   /* Below the "x von 26" counter: same distance (26px) to the next section as between the cards and the counter */
@@ -3617,13 +3617,17 @@ section.shopify-pc__banner__dialog {
     padding-bottom: 26px;
   }
 
-  /* "Wenn Stillen nicht geht ...": same title-to-cards distance as the reviews (26px) */
-  .zento-problem-images__title {
-    margin-bottom: 1.4rem !important;
+  /* Same distance from the title to the following element as in "Unser Versprechen" (22px on phones) */
+  .zento-comparison__header,
+  .zento-specs__header {
+    margin-bottom: 22px;
   }
+}
 
-  .zento-problem-images__header {
-    margin-bottom: 12px;
+/* Desktop: 32px from the title to the following element, as in "Unser Versprechen" */
+@media screen and (min-width: 750px) {
+  .zento-comparison__header {
+    margin-bottom: 32px;
   }
 }
 
