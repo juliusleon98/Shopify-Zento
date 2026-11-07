@@ -51,7 +51,6 @@
         "menu": "main-menu",
         "show_bestsellers": true,
         "bestsellers_collection": "all",
-        "hide_product_links": true,
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,
