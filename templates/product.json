@@ -193,8 +193,8 @@
       },
       "block_order": [
         "benefit_shipping",
-        "benefit_warranty",
         "benefit_tested",
+        "benefit_warranty",
         "benefit_support"
       ],
       "settings": {
