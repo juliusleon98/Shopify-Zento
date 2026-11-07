@@ -668,7 +668,7 @@
         "default_label": "Verifizierte Kundin",
         "button_label": "Bewertung schreiben",
         "form_eyebrow": "DEINE ERFAHRUNG",
-        "form_heading": "Bewertung schreiben",
+        "form_heading": "",
         "form_text": "<p>Teile deine Erfahrung mit Zento. Deine Bewertung hilft anderen Mamas bei ihrer Entscheidung.</p>",
         "form_submit_label": "Bewertung abschicken",
         "form_success_text": "Danke für deine Bewertung. Wir prüfen sie und veröffentlichen sie anschließend.",
