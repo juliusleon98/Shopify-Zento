@@ -727,6 +727,8 @@
   display: block;
   aspect-ratio: 1 / 0.86;
   object-fit: cover;
+  /* The image file has a light frame with rounded photo corners: scale it up so the rounded container crops them away */
+  transform: scale(1.09);
 }
 
 .zento-solution-section__content {
@@ -3622,6 +3624,11 @@ section.shopify-pc__banner__dialog {
   .zento-specs__header {
     margin-bottom: 22px;
   }
+}
+
+/* Comparison: no extra inner top padding, so the eyebrow sits as far from the top edge as in "Unser Versprechen" (bottom padding stays) */
+.zento-comparison {
+  padding-top: 0;
 }
 
 /* Desktop: 32px from the title to the following element, as in "Unser Versprechen" */
