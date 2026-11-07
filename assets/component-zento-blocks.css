@@ -3608,11 +3608,6 @@ section.shopify-pc__banner__dialog {
     margin-bottom: 1rem !important;
   }
 
-  /* Below the "x von 26" counter: same distance (26px) to the next section as between the cards and the counter */
-  #zento-reviews-anchor {
-    padding-bottom: 26px;
-  }
-
   /* Same distance from the title to the following element as in "Unser Versprechen" (22px on phones) */
   .zento-comparison__header,
   .zento-specs__header {
@@ -3620,9 +3615,10 @@ section.shopify-pc__banner__dialog {
   }
 }
 
-/* Comparison: no extra inner top padding, so the eyebrow sits as far from the top edge as in "Unser Versprechen" (bottom padding stays) */
+/* Comparison: no extra inner top/bottom padding, so the content sits as far from the section edges as in "Unser Versprechen" */
 .zento-comparison {
   padding-top: 0;
+  padding-bottom: 0;
 }
 
 /* Desktop: 32px from the title to the following element, as in "Unser Versprechen" */
