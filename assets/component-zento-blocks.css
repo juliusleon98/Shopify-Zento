@@ -2191,15 +2191,9 @@
   overflow: hidden;
 }
 
-/* Same space under the heading as the section's top padding above the eyebrow */
+/* The space under the heading comes from the heading's own margin (32px / 22px on phones, as in "Unser Versprechen") */
 [id$="__collapsible_content_faq"] .accordion:first-of-type {
-  margin-top: 2.4rem;
-}
-
-@media screen and (min-width: 750px) {
-  [id$="__collapsible_content_faq"] .accordion:first-of-type {
-    margin-top: 3.2rem;
-  }
+  margin-top: 0;
 }
 
 [id$="__collapsible_content_faq"] .accordion + .accordion {
