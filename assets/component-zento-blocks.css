@@ -2996,15 +2996,28 @@ section.shopify-pc__banner__dialog {
   grid-row: span 2;
 }
 
-/* Last card of the slider: invitation to write a review */
+/* Last card of the slider: invitation to write a review (same size as a normal text review) */
 .zento-reviews-card--cta {
-  grid-row: span 2;
   align-items: center;
   justify-content: center;
-  gap: 12px;
-  padding: 28px 24px;
+  gap: 10px;
+  padding: 22px 22px;
   text-align: center;
   background: #fff8ef;
+}
+
+/* Filled forest green with the same slight rounding as the buy button, slightly darker on hover */
+.zento-reviews-card--cta .zento-reviews__button {
+  border: none;
+  border-radius: 5px;
+  background: #2e4a3b;
+  color: #ffffff;
+}
+
+.zento-reviews-card--cta .zento-reviews__button:hover {
+  background: #243b2f;
+  color: #ffffff;
+  opacity: 1;
 }
 
 .zento-reviews-card--cta h3 {
