@@ -2968,8 +2968,10 @@ section.shopify-pc__banner__dialog {
   grid-template-rows: 1fr 1fr;
   gap: 18px;
   overflow-x: auto;
-  padding: 4px 2px 26px;
-  margin-bottom: -10px;
+  /* Room inside the scroller so the card shadow is not clipped; side margins offset the padding */
+  padding: 12px 16px 26px;
+  margin: 0 -14px -10px;
+  scroll-padding-inline: 16px;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
@@ -2987,6 +2989,7 @@ section.shopify-pc__banner__dialog {
   border: 1px solid rgba(23, 32, 47, 0.08);
   border-radius: 26px;
   overflow: hidden;
+  box-shadow: 0 5px 16px rgba(23, 32, 47, 0.07);
 }
 
 .zento-reviews-card--with-image {
@@ -3142,8 +3145,8 @@ section.shopify-pc__banner__dialog {
   .zento-reviews__track {
     grid-auto-columns: 82%;
     gap: 12px;
-    padding-bottom: 20px;
-    margin-bottom: -6px;
+    padding-bottom: 24px;
+    margin-bottom: -10px;
   }
 
   .zento-reviews-card {
