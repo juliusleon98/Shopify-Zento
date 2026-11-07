@@ -3708,3 +3708,67 @@ section.shopify-pc__banner__dialog {
     font-size: 1.25rem;
   }
 }
+
+/* Mobile menu: bestseller cards on top, main links, then a separated group of service links */
+.menu-drawer__bestsellers {
+  margin-bottom: 0;
+  padding: 2rem 3rem 2rem;
+}
+
+.menu-drawer__bestsellers-heading {
+  margin: 0 0 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.menu-drawer__bestsellers-grid {
+  gap: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-drawer__bestsellers-image {
+  border-radius: 1.2rem;
+  background: #f5f0eb;
+  margin-bottom: 0.8rem;
+}
+
+.menu-drawer__bestsellers-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.menu-drawer__bestsellers-price {
+  color: rgba(var(--color-foreground), 0.7);
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.menu-drawer__navigation {
+  padding: 1.2rem 0 2rem;
+}
+
+.menu-drawer__navigation .menu-drawer__menu.has-submenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-drawer__item--secondary {
+  order: 2;
+}
+
+.menu-drawer__item--secondary-first {
+  margin-top: 1.4rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(var(--color-foreground), 0.1);
+}
+
+.menu-drawer__item--secondary .menu-drawer__menu-item {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  color: rgba(var(--color-foreground), 0.7);
+  font-size: 1.5rem;
+}

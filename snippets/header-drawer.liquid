@@ -45,11 +45,36 @@
         <div class="menu-drawer__navigation-container">
           <nav class="menu-drawer__navigation">
             <ul class="menu-drawer__menu has-submenu list-menu" role="list">
+              {%- liquid
+                assign show_cards = false
+                if section.settings.show_bestsellers and section.settings.bestsellers_collection != blank
+                  assign show_cards = true
+                endif
+                assign secondary_seen = false
+              -%}
               {%- for link in section.settings.menu.links -%}
                 {%- comment -%} Mobile only: show the items of "Mehr" directly in the main list, without the "Mehr" button. {%- endcomment -%}
                 {%- if link.handle == 'mehr' and link.links != blank -%}
                   {%- for childlink in link.links -%}
-                    <li>
+                    {%- liquid
+                      assign child_is_product = false
+                      if childlink.url contains '/products/' or childlink.url contains '/collections/'
+                        assign child_is_product = true
+                      endif
+                      assign li_class = ''
+                      if child_is_product and show_cards and section.settings.hide_product_links and childlink.links == blank
+                        continue
+                      endif
+                      if child_is_product == false and childlink.url != routes.root_url and childlink.links == blank
+                        assign li_class = ' class="menu-drawer__item--secondary'
+                        if secondary_seen == false
+                          assign li_class = li_class | append: ' menu-drawer__item--secondary-first'
+                          assign secondary_seen = true
+                        endif
+                        assign li_class = li_class | append: '"'
+                      endif
+                    -%}
+                    <li{{ li_class }}>
                       <a
                         id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}"
                         href="{{ childlink.url }}"
@@ -64,7 +89,25 @@
                   {%- endfor -%}
                   {%- continue -%}
                 {%- endif -%}
-                <li>
+                {%- liquid
+                  assign link_is_product = false
+                  if link.url contains '/products/' or link.url contains '/collections/'
+                    assign link_is_product = true
+                  endif
+                  assign li_class = ''
+                  if link_is_product and show_cards and section.settings.hide_product_links and link.links == blank
+                    continue
+                  endif
+                  if link_is_product == false and link.url != routes.root_url and link.links == blank
+                    assign li_class = ' class="menu-drawer__item--secondary'
+                    if secondary_seen == false
+                      assign li_class = li_class | append: ' menu-drawer__item--secondary-first'
+                      assign secondary_seen = true
+                    endif
+                    assign li_class = li_class | append: '"'
+                  endif
+                -%}
+                <li{{ li_class }}>
                   {%- if link.links != blank -%}
                     <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
                       <summary
