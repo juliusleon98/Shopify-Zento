@@ -900,7 +900,7 @@
         "comparison_row_5": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "4 Modi, 15 Stufen",
+            "zento_heading": "Fein justierbar",
             "zento_text": "",
             "classic_heading": "Grob einstellbar",
             "classic_text": ""
@@ -909,9 +909,9 @@
         "comparison_row_3": {
           "type": "comparison_row",
           "settings": {
-            "zento_heading": "Unauffällig",
+            "zento_heading": "Diskret",
             "zento_text": "",
-            "classic_heading": "Oft sichtbar",
+            "classic_heading": "Auffällig",
             "classic_text": ""
           }
         },
