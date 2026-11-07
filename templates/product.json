@@ -269,6 +269,7 @@
           "type": "feed_review",
           "settings": {
             "author_name": "Caro",
+            "image_asset": "review-caro.jpg",
             "date_text": "",
             "rating": 5,
             "heading": "Fühlt sich angenehm an",
@@ -404,6 +405,7 @@
           "type": "feed_review",
           "settings": {
             "author_name": "Beatriz",
+            "image_asset": "review-beatriz.jpg",
             "date_text": "",
             "rating": 5,
             "heading": "Absolut empfehlenswert",

@@ -219,6 +219,7 @@
           "type": "feed_review",
           "settings": {
             "author_name": "Caro",
+            "image_asset": "review-caro.jpg",
             "date_text": "",
             "rating": 5,
             "heading": "Kein Zwicken",
