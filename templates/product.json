@@ -766,7 +766,7 @@
           "settings": {
             "icon": "cycle",
             "heading": "Laktation",
-            "text": "Schnell und langsam im Wechsel"
+            "text": "Wechselndes Tempo"
           }
         },
         "mode_bionic": {
@@ -774,7 +774,7 @@
           "settings": {
             "icon": "letter_a",
             "heading": "Bionik",
-            "text": "Rhythmus wie bei einem Baby"
+            "text": "Rhythmus wie ein Baby"
           }
         }
       },
