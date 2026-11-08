@@ -97,7 +97,7 @@
           "settings": {
             "heading": "Wo kann ich meine Bestellung verfolgen?",
             "icon": "none",
-            "row_content": "<p>Sobald deine Bestellung versendet wurde, schicken wir dir eine E-Mail mit einem Tracking-Link. Dort siehst du jederzeit, wo dein Paket gerade ist.</p><p>Nichts angekommen? Schau bitte im Spam-Ordner nach oder schreib uns mit deiner Bestellnummer an hello@zento-home.com.</p>",
+            "row_content": "<p>Sobald deine Bestellung versendet wurde, schicken wir dir eine E-Mail mit einem Tracking-Link. Dort siehst du jederzeit, wo dein Paket gerade ist.</p><p>Nichts angekommen? Schau bitte im Spam-Ordner nach oder schreib uns an hello@zento-home.com und nenne uns deine Bestellnummer.</p>",
             "page": ""
           }
         },
@@ -106,7 +106,7 @@
           "settings": {
             "heading": "Was ist, wenn mein Produkt beschädigt ankommt oder nicht funktioniert?",
             "icon": "none",
-            "row_content": "<p>Das tut uns leid. Schreib uns bitte mit deiner Bestellnummer und einem Foto oder kurzen Video des Problems an hello@zento-home.com. Wir prüfen den Fall und kümmern uns um Ersatz oder Reparatur.</p>",
+            "row_content": "<p>Das tut uns leid. Schreib uns bitte an hello@zento-home.com und nenne uns deine Bestellnummer, gern mit einem Foto oder kurzen Video des Problems. Wir prüfen den Fall und kümmern uns um Ersatz oder Reparatur.</p>",
             "page": ""
           }
         },
@@ -133,7 +133,7 @@
           "settings": {
             "heading": "Kann ich meine Bestellung ändern oder stornieren?",
             "icon": "none",
-            "row_content": "<p>Schreib uns so schnell wie möglich mit deiner Bestellnummer. Solange deine Bestellung noch nicht versendet wurde, können wir sie in der Regel anpassen oder stornieren.</p>",
+            "row_content": "<p>Schreib uns so schnell wie möglich und nenne uns deine Bestellnummer. Solange deine Bestellung noch nicht versendet wurde, können wir sie in der Regel anpassen oder stornieren.</p>",
             "page": ""
           }
         },
