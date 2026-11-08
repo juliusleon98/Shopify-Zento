@@ -3936,3 +3936,18 @@ section.shopify-pc__banner__dialog {
 .menu-drawer__utility-links:not(:has(.menu-drawer__localization, .list-social__item)) {
   display: none;
 }
+
+/* Tracking page (/apps/track123): white strip over the app's "Powered by Track123" label, which sits at the bottom of the form box and ignores display:none */
+#track123-powered-by {
+  pointer-events: none !important;
+}
+
+#track123-powered-by::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 2.2rem;
+  background: #fff;
+}
