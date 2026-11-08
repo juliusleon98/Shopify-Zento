@@ -37,7 +37,7 @@
           "settings": {
             "icon": "heart",
             "heading": "Respekt",
-            "text": "Jeder Weg zählt, ohne Bewertung."
+            "text": "Dein Weg, deine Entscheidung."
           }
         },
         "value_3": {
@@ -71,13 +71,54 @@
         "padding_bottom": 64
       }
     },
-    "cta": {
-      "type": "custom-liquid",
+    "image_banner_contact": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Noch Fragen?",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Schreib uns, wir antworten in der Regel innerhalb von 24 Stunden (werktags).",
+            "text_style": "body"
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Kontakt aufnehmen",
+            "button_link_1": "/pages/contact",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "buttons"
+      ],
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "custom_liquid": "{{ 'component-zento-blocks.css' | asset_url | stylesheet_tag }}\n<style>.zento-about-cta__buttons{display:flex;flex-wrap:wrap;justify-content:center;gap:1.2rem;margin-top:2.4rem}</style>\n<section class=\"zento-problem-images\"><div class=\"zento-problem-images__inner\"><div class=\"zento-problem-images__header\"><p class=\"zento-problem-images__eyebrow\">Kontakt</p><h2 class=\"zento-problem-images__title\">Noch Fragen?</h2><div class=\"zento-problem-images__subtitle\"><p>Schreib uns, wir antworten in der Regel innerhalb von 24 Stunden (werktags).</p></div><div class=\"zento-about-cta__buttons\"><a class=\"button\" href=\"/pages/contact\">Kontakt aufnehmen</a><a class=\"button button--secondary\" href=\"/products/zento-one-elektrische-milchpumpe-kabellos-leise-tragbar-1\">Zento One ansehen</a></div></div></div></section>",
+        "image": "shopify://shop_images/Zento_Produkte_Schwebend.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
         "color_scheme": "scheme-2",
-        "padding_top": 64,
-        "padding_bottom": 72
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false,
+        "show_text_box_mobile": true
       }
     }
   },
@@ -85,6 +126,6 @@
     "mission_vision",
     "values",
     "origin",
-    "cta"
+    "image_banner_contact"
   ]
 }
