@@ -3953,8 +3953,22 @@ section.shopify-pc__banner__dialog {
 }
 
 /* Tracking page: title and short text (theme layout) replace the app's banner image */
-.track123_tab_form_background {
+/* (the app's own stylesheet loads later and also uses !important, so the selectors are prefixed with #MainContent) */
+#MainContent .track123_tab_form_background {
   display: none !important;
+}
+
+#MainContent .track123_tab_form_main_wrapper {
+  height: auto !important;
+  margin-top: 0 !important;
+}
+
+#MainContent .track123_tab_form_main_wrapper.track123_layout_left {
+  justify-content: center !important;
+}
+
+#MainContent #track123_track_wrapper {
+  padding-bottom: 4.8rem !important;
 }
 
 .zento-track-intro .rich-text {
