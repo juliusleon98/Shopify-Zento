@@ -106,7 +106,7 @@
           "settings": {
             "heading": "Was ist, wenn mein Produkt beschädigt ankommt oder nicht funktioniert?",
             "icon": "none",
-            "row_content": "<p>Das tut uns leid. Schreib uns bitte mit deiner Bestellnummer und einem Foto oder kurzen Video des Problems an hello@zento-home.com. Wir prüfen den Fall und kümmern uns um Ersatz oder Reparatur.</p><p>Transportschäden melde uns bitte möglichst direkt nach Erhalt des Pakets.</p>",
+            "row_content": "<p>Das tut uns leid. Schreib uns bitte mit deiner Bestellnummer und einem Foto oder kurzen Video des Problems an hello@zento-home.com. Wir prüfen den Fall und kümmern uns um Ersatz oder Reparatur.</p>",
             "page": ""
           }
         },
@@ -115,7 +115,7 @@
           "settings": {
             "heading": "Wie funktioniert die Garantie?",
             "icon": "none",
-            "row_content": "<p>Auf unsere Produkte geben wir 2 Jahre Garantie ab Kaufdatum. Tritt in dieser Zeit ein Defekt auf, schreib uns mit deiner Bestellnummer und einer kurzen Beschreibung, gern mit Foto oder Video. Wir kümmern uns um Ersatz oder Reparatur.</p><p>Nicht abgedeckt sind Schäden durch unsachgemäße Nutzung sowie normaler Verschleiß. Deine gesetzlichen Rechte bleiben davon unberührt.</p>",
+            "row_content": "<p>Auf unsere Produkte geben wir 2 Jahre Garantie ab Kaufdatum. Tritt in dieser Zeit ein Defekt auf, schreib uns deine Bestellnummer und eine kurze Beschreibung, gern mit Foto oder Video. Wir kümmern uns um Ersatz oder Reparatur.</p><p>Nicht abgedeckt sind Schäden durch unsachgemäße Nutzung sowie normaler Verschleiß. Deine gesetzlichen Rechte bleiben davon unberührt.</p>",
             "page": ""
           }
         },
@@ -142,7 +142,7 @@
           "settings": {
             "heading": "Wie kann ich bezahlen?",
             "icon": "none",
-            "row_content": "<p>Du kannst unter anderem mit PayPal, Klarna, Kreditkarte (Visa, Mastercard, American Express), Apple Pay, Google Pay und Shop Pay bezahlen. Welche Zahlungsarten dir zur Verfügung stehen, siehst du im Checkout.</p>",
+            "row_content": "<p>Du kannst unter anderem mit Klarna, Kreditkarte (Visa, Mastercard, American Express), Apple Pay, Google Pay und Shop Pay bezahlen. Welche Zahlungsarten dir zur Verfügung stehen, siehst du im Checkout.</p>",
             "page": ""
           }
         },
