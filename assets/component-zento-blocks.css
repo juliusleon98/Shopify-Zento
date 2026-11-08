@@ -3951,3 +3951,17 @@ section.shopify-pc__banner__dialog {
   height: 2.2rem;
   background: #fff;
 }
+
+/* Solution section without an image (About page story): one centered text column instead of an empty second column */
+.zento-solution-section:not(:has(.zento-solution-section__image-wrap)) {
+  max-width: 76rem;
+  margin: 0 auto;
+}
+
+.zento-solution-section:not(:has(.zento-solution-section__image-wrap)) .zento-solution-section__inner {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.zento-solution-section:not(:has(.zento-solution-section__image-wrap)) .zento-solution-section__content {
+  max-width: none;
+}
