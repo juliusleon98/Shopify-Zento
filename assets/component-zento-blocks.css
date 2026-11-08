@@ -3952,6 +3952,23 @@ section.shopify-pc__banner__dialog {
   background: #fff;
 }
 
+/* Tracking page: title and short text (theme layout) replace the app's banner image */
+.track123_tab_form_background {
+  display: none !important;
+}
+
+.zento-track-intro .rich-text {
+  padding-top: 3.6rem;
+  padding-bottom: 0.6rem;
+}
+
+@media screen and (min-width: 750px) {
+  .zento-track-intro .rich-text {
+    padding-top: 4.8rem;
+    padding-bottom: 0.8rem;
+  }
+}
+
 /* Solution section without an image (About page story): one centered text column instead of an empty second column */
 .zento-solution-section:not(:has(.zento-solution-section__image-wrap)) {
   max-width: 76rem;

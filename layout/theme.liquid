@@ -311,6 +311,21 @@
     {% sections 'header-group' %}
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+      {%- if request.path contains '/apps/track123' -%}
+        {{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
+        <div class="isolate page-width zento-track-intro">
+          <div class="rich-text content-container color-scheme-1 gradient">
+            <div class="rich-text__wrapper rich-text__wrapper--center">
+              <div class="rich-text__blocks center">
+                <h1 class="rich-text__heading rte inline-richtext h1">Wo ist dein Paket?</h1>
+                <div class="rich-text__text rte">
+                  <p>Die Lieferung dauert in der Regel 5 bis 10 Werktage ab Bestellung. Sobald dein Paket unterwegs ist, erhältst du eine Versandbestätigung per E-Mail.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {%- endif -%}
       {{ content_for_layout }}
     </main>
 
