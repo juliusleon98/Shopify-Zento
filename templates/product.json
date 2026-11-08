@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -108,9 +99,9 @@
         "collapsible_tab_faq_7": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Sollte ich schon vor der Geburt kaufen?",
+            "heading": "Wie nutze ich die Zento One am besten?",
             "icon": "none",
-            "content": "<p>Das kommt auf deine Situation an. Manche Hebammen und Stillberaterinnen empfehlen, mit dem Abpumpen erst zu beginnen, wenn sich das Stillen eingespielt hat, meist nach den ersten Wochen, damit sich die Milchbildung natürlich einspielen kann. Andere Mamas kaufen bewusst vorher, um für den Fall der Fälle vorbereitet zu sein, etwa bei der Rückkehr in den Job oder bei Milchstau. Es gibt hier kein pauschal richtig oder falsch, sprich im Zweifel mit deiner Hebamme oder Stillberaterin, was für dich passt.</p>",
+            "content": "<p>So holst du das Beste aus deiner Zento One heraus:</p><ul><li><strong>Gut anlegen:</strong> Setz den Silikonrand fest und ohne Lücken an die Brust und richte die Brustwarze mittig aus. So entsteht die volle Saugkraft.</li><li><strong>Aufrecht sitzen:</strong> Sitz aufrecht oder leicht nach vorn geneigt, damit die Pumpe aufrecht bleibt. Lehn dich nicht stark zurück und leg dich nicht hin, sonst kann Milch zurückfließen.</li><li><strong>Sanft starten:</strong> Beginne im Massage-Modus auf einer niedrigen Stufe und erhöhe langsam, bis es sich angenehm anfühlt. Ein warmes Tuch vorher hilft beim Einstieg.</li><li><strong>Deinen Modus finden:</strong> Probier Abpump, Laktation und Bionik aus. Jeder Körper reagiert anders, und in jedem Modus hast du 15 Stufen.</li><li><strong>Sauber halten:</strong> Reinige alle Teile, die mit Milch in Kontakt kommen, vor und nach jeder Nutzung und lass sie vollständig trocknen.</li></ul>",
             "page": ""
           }
         },
