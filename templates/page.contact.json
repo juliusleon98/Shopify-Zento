@@ -22,7 +22,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Du hast eine Frage zur Bestellung, einem Produkt oder zur Garantie?<br><br>Dein Zento-Team liest jede Nachricht und antwortet in der Regel innerhalb von 24 Stunden (werktags).</p>"
+            "text": "<p>Dein Zento-Team liest jede Nachricht und antwortet in der Regel innerhalb von 24 Stunden (werktags).</p>"
           }
         }
       },
