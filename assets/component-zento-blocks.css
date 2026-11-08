@@ -3965,3 +3965,29 @@ section.shopify-pc__banner__dialog {
 .zento-solution-section:not(:has(.zento-solution-section__image-wrap)) .zento-solution-section__content {
   max-width: none;
 }
+
+/* "Noch Fragen?" banners (home and product pages): much shorter image, box nudged up, bottom of the image cut off */
+[id$="__image_banner_contact"] .banner__media img,
+[id$="__image_banner_xbJg6P"] .banner__media img {
+  object-position: center 30%;
+}
+
+@media screen and (min-width: 750px) {
+  [id$="__image_banner_contact"] .banner--large:not(.banner--adapt),
+  [id$="__image_banner_xbJg6P"] .banner--large:not(.banner--adapt) {
+    min-height: 34rem;
+  }
+
+  [id$="__image_banner_contact"] .banner__content,
+  [id$="__image_banner_xbJg6P"] .banner__content {
+    padding-bottom: 4rem;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  [id$="__image_banner_contact"] .banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content,
+  [id$="__image_banner_xbJg6P"] .banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {
+    min-height: 29rem;
+    padding-bottom: 3rem;
+  }
+}
