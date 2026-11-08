@@ -1,14 +1,5 @@
 {
   "sections": {
-    "hero": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{{ 'component-zento-blocks.css' | asset_url | stylesheet_tag }}\n<section class=\"zento-problem-images\"><div class=\"zento-problem-images__inner\"><div class=\"zento-problem-images__header\"><p class=\"zento-problem-images__eyebrow\">Über Zento</p><h1 class=\"zento-problem-images__title\">Ehrlich abpumpen.</h1><div class=\"zento-problem-images__subtitle\"><p>Zento gibt es, damit sich das Abpumpen nach deinem Alltag richtet und nicht umgekehrt.</p></div></div></div></section>",
-        "color_scheme": "scheme-1",
-        "padding_top": 64,
-        "padding_bottom": 24
-      }
-    },
     "origin": {
       "type": "zento-solution",
       "settings": {
@@ -16,7 +7,7 @@
         "eyebrow": "Warum es Zento gibt",
         "heading": "Wir bekamen ein Kind und wussten nicht, was wir kaufen sollen.",
         "text": "<p>2023 bekamen wir unser erstes Kind. Auf vieles hatte ich mich vorbereitet, auf die Einkaufsliste nicht. Kinderwagen, Babyphone, Milchpumpe: Plötzlich sollte ich Dutzende Entscheidungen treffen, und bei keiner wusste ich, was gut ist.</p><p>Also habe ich gesucht. Abends, wenn das Baby schlief, habe ich Bewertungen gelesen, Foren durchgeklickt und Produkte verglichen. Wochenlang. Je länger ich suchte, desto weniger wusste ich. Viele bekannte Marken kamen aus den USA, und ihre Preise konnte ich nicht nachvollziehen. Wäre etwas kaputtgegangen, wäre der Support weit weg gewesen.</p><p>Jungen Müttern in meinem Freundeskreis ging es ähnlich. Beim Thema Milchpumpe wurde es besonders deutlich. Die eine hatte eine Brusthaube, die nicht passte, und dachte, der Schmerz gehöre dazu. Die andere hatte eine Pumpe, die kaum Sog hatte. Eine dritte wartete wochenlang auf Ersatz, weil ein Teil ausgefallen war. Und alle fragten dasselbe: Welche Pumpe passt zu mir, und wen frage ich, wenn etwas nicht klappt?</p><p>Ich konnte ihnen keine ehrliche Antwort geben. Es gab sie nicht. Irgendwann habe ich mich gefragt: Muss das so schwer sein? Es muss besser gehen. Und es muss auch günstiger gehen. Mit einem Support, der nah ist und auf Deutsch antwortet. Und mit Informationen, die ehrlich sagen, was ein Produkt kann und was nicht.</p><p>Aus dieser Frage wurde ein Plan. Gemeinsam mit meinen Freundinnen habe ich Milchpumpen von verschiedenen Herstellern bestellt und getestet. Bei jeder stellten wir dieselben Fragen: Passt die Brusthaube? Saugt sie gleichmäßig? Lässt sie sich einfach reinigen? Und was passiert, wenn ein Teil ausfällt? Viele beantworteten eine dieser Fragen gut, aber selten alle. Also haben wir weitergetestet und mit Herstellern gesprochen, bis eine Pumpe unsere Fragen beantworten konnte: die Zento One.</p>",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -24,10 +15,10 @@
     "mission_vision": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{{ 'component-zento-blocks.css' | asset_url | stylesheet_tag }}\n<style>.zento-about-statements{max-width:90rem;margin:0 auto;text-align:center}.zento-about-statement{margin:0;color:#17202f;font-size:clamp(2.4rem,4.2vw,3.8rem);line-height:1.28;font-weight:700;letter-spacing:-.03em;text-wrap:balance}.zento-about-statement--vision{font-size:clamp(2rem,3.2vw,2.8rem);line-height:1.38;font-weight:500;letter-spacing:-.02em;color:#3d4655}.zento-about-hl{background:linear-gradient(transparent 56%,rgba(201,150,111,.4) 56%);padding:0 .15em;margin:0 -.15em;-webkit-box-decoration-break:clone;box-decoration-break:clone}.zento-about-line{width:5.6rem;height:.3rem;margin:4.4rem auto;border-radius:999px;background:#c9966f}@media screen and (max-width:749px){.zento-about-line{margin:3.2rem auto}}</style>\n<section class=\"zento-problem-images\"><div class=\"zento-problem-images__inner\"><div class=\"zento-problem-images__header\"><p class=\"zento-problem-images__eyebrow\">Was uns antreibt</p><h2 class=\"zento-problem-images__title\">Was wir tun und wohin wir wollen</h2><div class=\"zento-problem-images__subtitle\"><p>Zwei Sätze, an denen wir unsere Arbeit ausrichten.</p></div></div><div class=\"zento-about-statements\"><p class=\"zento-about-statement\">Wir machen Müttern das <span class=\"zento-about-hl\">Abpumpen leichter</span>: mit Produkten, die zu ihrem Alltag passen, und mit Informationen, auf die sie sich verlassen können.</p><div class=\"zento-about-line\" aria-hidden=\"true\"></div><p class=\"zento-about-statement zento-about-statement--vision\">Wir wünschen uns eine Welt, in der jede Mutter <span class=\"zento-about-hl\">selbst entscheidet</span>, wie sie ihr Baby füttert, und dafür gute Informationen und passende Produkte findet, ohne schlechtes Gewissen.</p></div></div></section>",
+        "custom_liquid": "{{ 'component-zento-blocks.css' | asset_url | stylesheet_tag }}\n<style>.zento-about-statements{max-width:90rem;margin:0 auto;text-align:center}.zento-about-statement{margin:0;color:#17202f;font-size:clamp(2.4rem,4.2vw,3.8rem);line-height:1.28;font-weight:700;letter-spacing:-.03em;text-wrap:balance}.zento-about-statement--vision{font-size:clamp(2rem,3.2vw,2.8rem);line-height:1.38;font-weight:500;letter-spacing:-.02em;color:#3d4655}.zento-about-hl{background:linear-gradient(transparent 56%,rgba(201,150,111,.4) 56%);padding:0 .15em;margin:0 -.15em;-webkit-box-decoration-break:clone;box-decoration-break:clone}.zento-about-line{width:5.6rem;height:.3rem;margin:4.4rem auto;border-radius:999px;background:#c9966f}@media screen and (max-width:749px){.zento-about-line{margin:3.2rem auto}}</style>\n<section class=\"zento-problem-images\"><div class=\"zento-problem-images__inner\"><div class=\"zento-problem-images__header\"><p class=\"zento-problem-images__eyebrow\">Was uns antreibt</p><h1 class=\"zento-problem-images__title\">Was wir tun und wohin wir wollen</h1><div class=\"zento-problem-images__subtitle\"><p>Zwei Sätze, an denen wir unsere Arbeit ausrichten.</p></div></div><div class=\"zento-about-statements\"><p class=\"zento-about-statement\">Wir machen Müttern das <span class=\"zento-about-hl\">Abpumpen leichter</span>: mit Produkten, die zu ihrem Alltag passen, und mit Informationen, auf die sie sich verlassen können.</p><div class=\"zento-about-line\" aria-hidden=\"true\"></div><p class=\"zento-about-statement zento-about-statement--vision\">Wir wünschen uns eine Welt, in der jede Mutter <span class=\"zento-about-hl\">selbst entscheidet</span>, wie sie ihr Baby füttert, und dafür gute Informationen und passende Produkte findet, ohne schlechtes Gewissen.</p></div></div></section>",
         "color_scheme": "scheme-1",
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 48
       }
     },
     "values": {
@@ -38,7 +29,7 @@
           "settings": {
             "icon": "shield",
             "heading": "Ehrlichkeit",
-            "text": "Wir sagen offen, was unsere Produkte können und was nicht. Passt etwas anderes besser zu dir, sagen wir das auch."
+            "text": "Wir sagen offen, was passt und was nicht."
           }
         },
         "value_2": {
@@ -46,7 +37,7 @@
           "settings": {
             "icon": "heart",
             "heading": "Respekt",
-            "text": "Stillen, Abpumpen, Flasche oder alles zusammen: Jede Familie findet ihren Weg. Wir bewerten ihn nicht."
+            "text": "Jede Familie findet ihren Weg, ohne Bewertung."
           }
         },
         "value_3": {
@@ -54,7 +45,7 @@
           "settings": {
             "icon": "star",
             "heading": "Klarheit",
-            "text": "Wir erklären verständlich und ohne Fachchinesisch, und zwar dort, wo du die Information brauchst."
+            "text": "Verständlich erklärt, ohne Fachchinesisch."
           }
         },
         "value_4": {
@@ -62,7 +53,7 @@
           "settings": {
             "icon": "lock",
             "heading": "Sorgfalt",
-            "text": "Wir behaupten nur, was wir belegen können. Bei Gesundheitsfragen verweisen wir auf Hebammen und Ärztinnen."
+            "text": "Wir behaupten nur, was wir belegen können."
           }
         }
       },
@@ -76,7 +67,7 @@
         "eyebrow": "Unsere Werte",
         "heading": "Daran kannst du uns messen",
         "color_scheme": "scheme-2",
-        "padding_top": 64,
+        "padding_top": 48,
         "padding_bottom": 64
       }
     },
@@ -84,17 +75,16 @@
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "{{ 'component-zento-blocks.css' | asset_url | stylesheet_tag }}\n<style>.zento-about-cta__buttons{display:flex;flex-wrap:wrap;justify-content:center;gap:1.2rem;margin-top:2.4rem}</style>\n<section class=\"zento-problem-images\"><div class=\"zento-problem-images__inner\"><div class=\"zento-problem-images__header\"><p class=\"zento-problem-images__eyebrow\">Kontakt</p><h2 class=\"zento-problem-images__title\">Noch Fragen?</h2><div class=\"zento-problem-images__subtitle\"><p>Schreib uns, wir antworten in der Regel innerhalb von 24 Stunden (werktags).</p></div><div class=\"zento-about-cta__buttons\"><a class=\"button\" href=\"/pages/contact\">Kontakt aufnehmen</a><a class=\"button button--secondary\" href=\"/products/zento-one-elektrische-milchpumpe-kabellos-leise-tragbar-1\">Zento One ansehen</a></div></div></div></section>",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "padding_top": 64,
         "padding_bottom": 72
       }
     }
   },
   "order": [
-    "hero",
-    "origin",
     "mission_vision",
     "values",
+    "origin",
     "cta"
   ]
 }
