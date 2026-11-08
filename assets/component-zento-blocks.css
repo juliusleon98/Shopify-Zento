@@ -3980,14 +3980,16 @@ section.shopify-pc__banner__dialog {
 
   [id$="__image_banner_contact"] .banner__content,
   [id$="__image_banner_xbJg6P"] .banner__content {
-    padding-bottom: 4rem;
+    padding-top: 7.6rem;
+    padding-bottom: 4.2rem;
   }
 }
 
 @media screen and (max-width: 749px) {
   [id$="__image_banner_contact"] .banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content,
   [id$="__image_banner_xbJg6P"] .banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {
-    min-height: 29rem;
-    padding-bottom: 3rem;
+    min-height: 30rem;
+    padding-top: 3.6rem;
+    padding-bottom: 3.3rem;
   }
 }
