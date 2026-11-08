@@ -1040,14 +1040,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Fragen? Wir helfen dir gern",
+            "heading": "Noch Fragen?",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Du hast eine Frage zu unseren Produkten oder zu deiner Bestellung? Schreib uns, wir antworten in der Regel innerhalb von 24 Stunden (werktags).",
+            "text": "Schreib uns, wir antworten in der Regel innerhalb von 24 Stunden (werktags).",
             "text_style": "body"
           }
         },
