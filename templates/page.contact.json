@@ -16,7 +16,8 @@
           "type": "heading",
           "settings": {
             "heading": "Wir sind für dich da",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "heading_as_h1": true
           }
         },
         "text": {
