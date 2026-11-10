@@ -136,7 +136,7 @@
                 {%- endcomment -%}
                 {%- if max_saving > 0 -%}
                   <div class="zento-sale-summary" {{ block.shopify_attributes }}>
-                    <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.on_sale' | t }}</span>
+                    <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">{% if block.settings.sale_label != blank %}{{ block.settings.sale_label | escape }}{% else %}{{ 'products.product.on_sale' | t }}{% endif %}</span>
                     <span class="zento-sale-summary__text">{% if product.price_varies %}Bis zu {{ max_saving }} % sparen{% else %}{{ max_saving }} % sparen{% endif %}</span>
                   </div>
                 {%- endif -%}
@@ -894,6 +894,12 @@
           "id": "warranty_note",
           "label": "Warranty note under the price",
           "info": "For example: 2 Jahre Garantie. Leave empty to hide."
+        },
+        {
+          "type": "text",
+          "id": "sale_label",
+          "label": "Sale label",
+          "info": "Replaces the default sale badge text above the variant cards, e.g. Early Black Friday. Leave empty for the default."
         }
       ]
     },

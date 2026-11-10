@@ -24,8 +24,9 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Bis zu -25% Herbst Sale",
-            "link": ""
+            "text": "Early Black Friday diese Woche",
+            "link": "",
+            "countdown_end": "2026-11-14T23:59:59+01:00"
           }
         }
       },
