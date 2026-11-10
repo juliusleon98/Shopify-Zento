@@ -14,24 +14,16 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_kXxRnd": {
-          "type": "announcement",
-          "settings": {
-            "text": "Kostenloser Versand ab 50€",
-            "link": ""
-          }
-        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Early Black Friday diese Woche",
-            "link": "",
+            "text": "Early Black Friday: bis zu 30 % Rabatt",
+            "link": "/products/zento-one-elektrische-milchpumpe-kabellos-leise-tragbar-1",
             "countdown_end": "2026-11-14T23:59:59+01:00"
           }
         }
       },
       "block_order": [
-        "announcement_kXxRnd",
         "announcement-bar-0"
       ],
       "settings": {

@@ -4032,3 +4032,10 @@ section.shopify-pc__banner__dialog {
     padding-bottom: 3.3rem;
   }
 }
+
+/* Custom sale label (e.g. Early Black Friday): black */
+.product__info-container .zento-sale-summary__badge--custom {
+  background-color: #111111;
+  border-color: #111111;
+  color: #ffffff;
+}

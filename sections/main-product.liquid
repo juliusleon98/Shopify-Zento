@@ -119,7 +119,7 @@
                   endfor
                   for variant in product.variants
                     if variant.compare_at_price > variant.price
-                      assign saving = variant.compare_at_price | minus: variant.price | times: 100 | divided_by: variant.compare_at_price
+                      assign saving = variant.compare_at_price | minus: variant.price | times: 100.0 | divided_by: variant.compare_at_price | round
                       if saving > max_saving
                         assign max_saving = saving
                       endif
@@ -136,7 +136,7 @@
                 {%- endcomment -%}
                 {%- if max_saving > 0 -%}
                   <div class="zento-sale-summary" {{ block.shopify_attributes }}>
-                    <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">{% if block.settings.sale_label != blank %}{{ block.settings.sale_label | escape }}{% else %}{{ 'products.product.on_sale' | t }}{% endif %}</span>
+                    <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}{% if block.settings.sale_label != blank %} zento-sale-summary__badge--custom{% endif %}">{% if block.settings.sale_label != blank %}{{ block.settings.sale_label | escape }}{% else %}{{ 'products.product.on_sale' | t }}{% endif %}</span>
                     <span class="zento-sale-summary__text">{% if product.price_varies %}Bis zu {{ max_saving }} % sparen{% else %}{{ max_saving }} % sparen{% endif %}</span>
                   </div>
                 {%- endif -%}
