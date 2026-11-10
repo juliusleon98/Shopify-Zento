@@ -6,7 +6,7 @@
         "rating_bar": {
           "type": "rating_bar",
           "settings": {
-            "rating_value": "4,8",
+            "rating_value": "4,7",
             "review_count_text": "1000+ Mamas vertrauen zento",
             "show_rating_value": true,
             "link_to_reviews": true,
@@ -670,7 +670,8 @@
         "form_error_text": "Bitte prüfe deine Eingaben und versuche es erneut.",
         "color_scheme": "scheme-1",
         "padding_top": 48,
-        "padding_bottom": 48
+        "padding_bottom": 48,
+        "score_override": "4,7"
       }
     },
     "zento_problem_images": {

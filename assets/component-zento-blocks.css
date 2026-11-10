@@ -4039,3 +4039,20 @@ section.shopify-pc__banner__dialog {
   border-color: #111111;
   color: #ffffff;
 }
+
+/* Reviews summary stars with a partly filled last star (e.g. 4,5 stars) */
+.zento-reviews__stars--partial {
+  position: relative;
+  display: inline-block;
+  color: #ddd5cc;
+  white-space: nowrap;
+}
+
+.zento-reviews__stars-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--zento-star-fill, 100%);
+  overflow: hidden;
+  color: #c9966f;
+}

@@ -44,14 +44,23 @@
               assign rating_avg = rating_sum | times: 1.0 | divided_by: rating_count
               assign rating_shown = rating_sum | times: 10 | divided_by: rating_count | divided_by: 10.0
               assign rating_rounded = rating_avg | round
+              assign score_value = rating_shown
+              if section.settings.score_override != blank
+                assign score_value = section.settings.score_override | replace: ',', '.' | plus: 0
+              endif
+              assign star_fill = score_value | times: 2 | round | divided_by: 2.0 | times: 20
+              assign score_text = score_value | replace: '.', ','
+              if section.settings.score_override != blank
+                assign score_text = section.settings.score_override
+              endif
             endif
           -%}
           <div class="zento-reviews__summary">
             {%- if use_auto -%}
-              <div class="zento-reviews__score">{{ rating_shown | replace: '.', ',' }}</div>
+              <div class="zento-reviews__score">{{ score_text }}</div>
               <div>
-                <div class="zento-reviews__stars" aria-hidden="true">
-                  {%- for i in (1..5) -%}{% if i <= rating_rounded %}★{% else %}☆{% endif %}{%- endfor -%}
+                <div class="zento-reviews__stars zento-reviews__stars--partial" style="--zento-star-fill: {{ star_fill }}%;" aria-hidden="true">
+                  <span class="zento-reviews__stars-fill">★★★★★</span>★★★★★
                 </div>
                 <p>{% if rating_count == 1 %}1 Bewertung{% else %}{{ rating_count }} Bewertungen{% endif %}</p>
               </div>
@@ -393,6 +402,12 @@
       "label": "Calculate rating and number of reviews from the reviews below",
       "info": "On: the score and the count are computed from the active review blocks, so they always match what is shown. Off: the two manual fields above are used.",
       "default": true
+    },
+    {
+      "type": "text",
+      "id": "score_override",
+      "label": "Displayed score (optional)",
+      "info": "Replaces the calculated score, e.g. 4,7. The stars fill to the nearest half star. The number of reviews is still calculated."
     },
     {
       "type": "text",
