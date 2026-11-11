@@ -493,6 +493,14 @@
     "image_with_text_zccxaF": {
       "type": "image-with-text",
       "blocks": {
+        "caption_VmK1": {
+          "type": "caption",
+          "settings": {
+            "caption": "Über Zento",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading_hRgDiY": {
           "type": "heading",
           "settings": {
@@ -517,6 +525,7 @@
         }
       },
       "block_order": [
+        "caption_VmK1",
         "heading_hRgDiY",
         "text_CbiJNX",
         "button_izQRGX"
