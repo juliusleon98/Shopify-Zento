@@ -4188,6 +4188,11 @@ section.shopify-pc__banner__dialog {
 }
 
 /* Info text section (sections/zento-info-text.liquid): eyebrow, title and a short centered text */
+/* Keep the title's bottom margin inside the colored band (otherwise it shows as a white stripe when the section has no bottom padding) */
+.zento-info {
+  display: flow-root;
+}
+
 .zento-info__text {
   max-width: 60rem;
   margin: 0 auto;
