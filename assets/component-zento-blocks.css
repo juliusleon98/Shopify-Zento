@@ -4137,11 +4137,11 @@ section.shopify-pc__banner__dialog {
   line-height: 1.5;
 }
 
-/* Mobile: less space between the process steps and the screen edge (theme default is 1.5rem) */
+/* Mobile: 30px between the process steps and the screen edge (theme default is 1.5rem) */
 @media screen and (max-width: 749px) {
   .zento-process.page-width {
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
