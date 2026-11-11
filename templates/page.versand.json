@@ -23,7 +23,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Die Lieferung dauert in der Regel 7 bis 10 Werktage ab Bestellung.</p><p>Sobald dein Paket unterwegs ist, erhältst du eine Versandbestätigung per E-Mail.</p>"
+            "text": "<p>Die Lieferung dauert in der Regel 7 bis 10 Werktage ab Bestellung.</p>"
           }
         }
       },
@@ -45,7 +45,8 @@
       "settings": {
         "color_scheme": "scheme-1",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 24,
+        "note": "Sobald dein Paket unterwegs ist, erhältst du eine Versandbestätigung per E-Mail."
       }
     },
     "rich_text_process": {

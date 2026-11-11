@@ -24,6 +24,9 @@
     <div id="track123-app">
       <div class="track123_loading"><span></span><span></span><span></span><span></span><span></span></div>
     </div>
+    {%- if section.settings.note != blank -%}
+      <p class="zento-tracking-widget__note">{{ section.settings.note | escape }}</p>
+    {%- endif -%}
     <p class="zento-tracking-widget__fallback" hidden>
       <a class="button button--secondary" href="/apps/track123">Sendung verfolgen</a>
     </p>
@@ -90,6 +93,11 @@
   "tag": "section",
   "class": "section",
   "settings": [
+    {
+      "type": "textarea",
+      "id": "note",
+      "label": "Text below the form"
+    },
     {
       "type": "color_scheme",
       "id": "color_scheme",

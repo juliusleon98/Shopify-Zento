@@ -4150,6 +4150,13 @@ section.shopify-pc__banner__dialog {
   padding-bottom: 1.6rem !important;
 }
 
+.zento-tracking-widget__note {
+  max-width: 40rem;
+  margin: 0 auto;
+  text-align: center;
+  text-wrap: balance;
+}
+
 .zento-tracking-widget__fallback {
   margin: 0;
   text-align: center;
