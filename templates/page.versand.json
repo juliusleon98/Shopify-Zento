@@ -87,7 +87,7 @@
         "step_4"
       ],
       "settings": {
-        "eyebrow": "In 4 Schritten",
+        "eyebrow": "Versand",
         "heading": "So läuft deine Bestellung ab",
         "color_scheme": "scheme-1",
         "padding_top": 16,
@@ -99,7 +99,7 @@
       "settings": {
         "eyebrow": "Rückgabe",
         "heading": "Widerruf in 14 Tagen",
-        "text": "<p>Du kannst deine Bestellung innerhalb von 14 Tagen nach Erhalt ohne Angabe von Gründen widerrufen. Schreib uns dafür mit deiner Bestellnummer an <a href=\"mailto:hello@zento-home.com\">hello@zento-home.com</a>.</p><p>Bei Hygieneartikeln ist der Widerruf ausgeschlossen, sobald die Hygieneverpackung geöffnet wurde. Die Kosten der Rücksendung trägst du.</p>",
+        "text": "<p>Du kannst deine Bestellung innerhalb von 14 Tagen nach Erhalt ohne Angabe von Gründen widerrufen. Schreib uns dafür mit deiner Bestellnummer an <a href=\"mailto:hello@zento-home.com\">hello@zento-home.com</a>.</p><p>Bei Hygieneartikeln wie der Zento One ist der Widerruf ausgeschlossen, sobald die Hygieneverpackung geöffnet wurde. Die Kosten der Rücksendung trägst du.</p>",
         "color_scheme": "scheme-1",
         "padding_top": 8,
         "padding_bottom": 48
