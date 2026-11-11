@@ -3534,6 +3534,7 @@ section.shopify-pc__banner__dialog {
 .zento-display-guide__title,
 .zento-process__heading,
 .zento-info__heading,
+.zento-bestsellers__heading,
 [id$="__collapsible_content_faq"] .collapsible-content__heading {
   max-width: 76rem;
   margin: 0 auto 3.2rem !important;
@@ -3570,6 +3571,7 @@ section.shopify-pc__banner__dialog {
   .zento-display-guide__title,
   .zento-process__heading,
   .zento-info__heading,
+  .zento-bestsellers__heading,
   [id$="__collapsible_content_faq"] .collapsible-content__heading {
     font-size: 30px !important;
   }
@@ -3589,6 +3591,7 @@ section.shopify-pc__banner__dialog {
   .zento-display-guide__title,
   .zento-process__heading,
   .zento-info__heading,
+  .zento-bestsellers__heading,
   [id$="__collapsible_content_faq"] .collapsible-content__heading {
     margin-bottom: 2.2rem !important;
     font-size: 28px !important;
@@ -3606,6 +3609,7 @@ section.shopify-pc__banner__dialog {
   .zento-display-guide__title,
   .zento-process__heading,
   .zento-info__heading,
+  .zento-bestsellers__heading,
   [id$="__collapsible_content_faq"] .collapsible-content__heading {
     font-size: 25px !important;
   }
@@ -3668,6 +3672,7 @@ section.shopify-pc__banner__dialog {
 .zento-display-guide__eyebrow,
 .zento-process__eyebrow,
 .zento-info__eyebrow,
+.zento-bestsellers__eyebrow,
 [id$="__collapsible_content_faq"] .collapsible-content__header .caption-with-letter-spacing {
   margin: 0 0 1rem;
   color: #c9966f;
@@ -3688,6 +3693,7 @@ section.shopify-pc__banner__dialog {
 .zento-display-guide__title,
 .zento-process__heading,
 .zento-info__heading,
+.zento-bestsellers__heading,
 [id$="__collapsible_content_faq"] .collapsible-content__heading {
   margin-top: 0 !important;
 }
@@ -3702,6 +3708,7 @@ section.shopify-pc__banner__dialog {
   .zento-display-guide__eyebrow,
   .zento-process__eyebrow,
   .zento-info__eyebrow,
+  .zento-bestsellers__eyebrow,
   [id$="__collapsible_content_faq"] .collapsible-content__header .caption-with-letter-spacing {
     font-size: 11px;
     letter-spacing: 0.14em;
@@ -4201,4 +4208,84 @@ section.shopify-pc__banner__dialog {
 
 .zento-info__text a {
   color: inherit;
+}
+
+/* Bestsellers section (sections/zento-bestsellers.liquid): three product cards like the mobile menu bestsellers */
+.zento-bestsellers__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+  max-width: 78rem;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.zento-bestsellers__item {
+  margin: 0;
+  padding: 0;
+}
+
+.zento-bestsellers__link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: #17202f;
+  text-decoration: none;
+}
+
+.zento-bestsellers__image {
+  aspect-ratio: 1 / 1;
+  margin-bottom: 1.2rem;
+  overflow: hidden;
+  border-radius: 2rem;
+  background: #fff;
+  box-shadow: 0 12px 32px rgba(23, 32, 47, 0.045);
+}
+
+.zento-bestsellers__image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.zento-bestsellers__link:hover .zento-bestsellers__image img {
+  transform: scale(1.03);
+}
+
+.zento-bestsellers__title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.zento-bestsellers__price {
+  margin-top: 0.4rem;
+  color: #6f6d68;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 749px) {
+  .zento-bestsellers__grid {
+    gap: 1.2rem;
+  }
+
+  .zento-bestsellers__image {
+    margin-bottom: 0.8rem;
+    border-radius: 1.2rem;
+  }
+
+  .zento-bestsellers__title {
+    font-size: 1.2rem;
+  }
+
+  .zento-bestsellers__price {
+    font-size: 1.2rem;
+  }
 }
