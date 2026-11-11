@@ -27,10 +27,7 @@
             <div class="zento-process__marker">
               <span class="zento-process__number">{{ forloop.index }}</span>
             </div>
-            <div class="zento-process__card">
-              <div class="zento-process__icon">
-                {% render 'icon-accordion', icon: block.settings.icon %}
-              </div>
+            <div class="zento-process__content">
               <h3 class="zento-process__title">{{ block.settings.heading | escape }}</h3>
               <p class="zento-process__text">{{ block.settings.text | escape }}</p>
             </div>
@@ -90,25 +87,6 @@
       "name": "Step",
       "settings": [
         {
-          "type": "select",
-          "id": "icon",
-          "label": "Icon",
-          "options": [
-            { "value": "box", "label": "Box" },
-            { "value": "chat_bubble", "label": "Chat bubble" },
-            { "value": "check_mark", "label": "Check mark" },
-            { "value": "clipboard", "label": "Clipboard" },
-            { "value": "heart", "label": "Heart" },
-            { "value": "lock", "label": "Lock" },
-            { "value": "map_pin", "label": "Map pin" },
-            { "value": "return", "label": "Return" },
-            { "value": "star", "label": "Star" },
-            { "value": "stopwatch", "label": "Stopwatch" },
-            { "value": "truck", "label": "Truck" }
-          ],
-          "default": "box"
-        },
-        {
           "type": "text",
           "id": "heading",
           "label": "Heading"
@@ -125,10 +103,10 @@
     {
       "name": "Zento process steps",
       "blocks": [
-        { "type": "step", "settings": { "icon": "clipboard", "heading": "Bestellung", "text": "Nach deiner Bestellung bekommst du eine Bestätigung per E-Mail." } },
-        { "type": "step", "settings": { "icon": "box", "heading": "Versand", "text": "Wir packen deine Bestellung und schicken dir eine Versandbestätigung mit Tracking-Link." } },
-        { "type": "step", "settings": { "icon": "truck", "heading": "Lieferung", "text": "In der Regel kommt dein Paket 7 bis 10 Werktage nach der Bestellung bei dir an." } },
-        { "type": "step", "settings": { "icon": "heart", "heading": "Auspacken", "text": "Bitte prüfe dein Paket direkt nach Erhalt." } }
+        { "type": "step", "settings": { "heading": "Bestellung", "text": "Nach deiner Bestellung bekommst du eine Bestätigung per E-Mail." } },
+        { "type": "step", "settings": { "heading": "Versand", "text": "Wir packen deine Bestellung und schicken dir eine Versandbestätigung mit Tracking-Link." } },
+        { "type": "step", "settings": { "heading": "Lieferung", "text": "In der Regel kommt dein Paket 7 bis 10 Werktage nach der Bestellung bei dir an." } },
+        { "type": "step", "settings": { "heading": "Auspacken", "text": "Bitte prüfe dein Paket direkt nach Erhalt." } }
       ]
     }
   ]

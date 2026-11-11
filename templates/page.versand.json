@@ -48,53 +48,12 @@
         "padding_bottom": 24
       }
     },
-    "rich_text_intro": {
-      "type": "rich-text",
-      "blocks": {
-        "caption": {
-          "type": "caption",
-          "settings": {
-            "caption": "Versand & Rückgabe",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Deine Bestellung, Schritt für Schritt",
-            "heading_size": "h2",
-            "heading_as_h1": false
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Hier erfährst du, wann dein Paket bei dir ankommt, wie du es verfolgen kannst und was du tun musst, wenn du etwas zurücksenden möchtest oder etwas nicht stimmt.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "caption",
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": false,
-        "padding_top": 24,
-        "padding_bottom": 24
-      }
-    },
     "rich_text_process": {
       "type": "zento-process-steps",
       "blocks": {
         "step_1": {
           "type": "step",
           "settings": {
-            "icon": "clipboard",
             "heading": "Bestellung",
             "text": "Nach deiner Bestellung bekommst du eine Bestätigung per E-Mail."
           }
@@ -102,7 +61,6 @@
         "step_2": {
           "type": "step",
           "settings": {
-            "icon": "box",
             "heading": "Versand",
             "text": "Wir packen deine Bestellung und übergeben sie an den Versanddienstleister. Sobald dein Paket unterwegs ist, erhältst du eine Versandbestätigung mit Tracking-Link."
           }
@@ -110,7 +68,6 @@
         "step_3": {
           "type": "step",
           "settings": {
-            "icon": "truck",
             "heading": "Lieferung",
             "text": "In der Regel kommt dein Paket 7 bis 10 Werktage nach der Bestellung bei dir an."
           }
@@ -118,7 +75,6 @@
         "step_4": {
           "type": "step",
           "settings": {
-            "icon": "heart",
             "heading": "Auspacken",
             "text": "Bitte prüfe dein Paket direkt nach Erhalt. Ist etwas beschädigt oder funktioniert etwas nicht, melde dich einfach bei uns."
           }
@@ -133,7 +89,7 @@
       "settings": {
         "heading": "So läuft deine Bestellung ab",
         "color_scheme": "scheme-1",
-        "padding_top": 32,
+        "padding_top": 16,
         "padding_bottom": 48
       }
     },
@@ -312,7 +268,6 @@
   "order": [
     "rich_text_tracking",
     "tracking_widget",
-    "rich_text_intro",
     "rich_text_process",
     "collapsible_content_faq",
     "image_banner_contact"
