@@ -4210,19 +4210,47 @@ section.shopify-pc__banner__dialog {
   color: inherit;
 }
 
-/* Bestsellers section (sections/zento-bestsellers.liquid): three product cards like the mobile menu bestsellers */
-.zento-bestsellers__grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 2rem;
-  max-width: 78rem;
-  margin: 0 auto;
+/* Bestsellers section (sections/zento-bestsellers.liquid): product cards moving slowly from right to left, endless loop */
+.zento-bestsellers__marquee {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent 0, #000 6%, #000 94%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0, #000 6%, #000 94%, transparent 100%);
+}
+
+.zento-bestsellers__track {
+  display: flex;
+  width: max-content;
+  animation: zento-bestsellers-scroll var(--zento-marquee-duration, 60s) linear infinite;
+}
+
+/* Two identical groups: moving by one group width (-50%) is seamless */
+.zento-bestsellers__group {
+  display: flex;
+  flex: none;
+  margin: 0;
   padding: 0;
 }
 
+.zento-bestsellers__marquee:hover .zento-bestsellers__track,
+.zento-bestsellers__marquee:focus-within .zento-bestsellers__track {
+  animation-play-state: paused;
+}
+
+@keyframes zento-bestsellers-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
 .zento-bestsellers__item {
+  flex: 0 0 26rem;
   margin: 0;
-  padding: 0;
+  padding: 1.2rem 2rem 1.6rem 0;
+  box-sizing: border-box;
 }
 
 .zento-bestsellers__link {
@@ -4272,8 +4300,9 @@ section.shopify-pc__banner__dialog {
 }
 
 @media screen and (max-width: 749px) {
-  .zento-bestsellers__grid {
-    gap: 1.2rem;
+  .zento-bestsellers__item {
+    flex-basis: 17rem;
+    padding-right: 1.2rem;
   }
 
   .zento-bestsellers__image {
@@ -4282,10 +4311,31 @@ section.shopify-pc__banner__dialog {
   }
 
   .zento-bestsellers__title {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   .zento-bestsellers__price {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
+  }
+}
+
+/* No automatic motion for visitors who turned it off: swipeable row instead */
+@media (prefers-reduced-motion: reduce) {
+  .zento-bestsellers__marquee {
+    overflow-x: auto;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .zento-bestsellers__track {
+    animation: none;
+  }
+
+  .zento-bestsellers__group[aria-hidden="true"] {
+    display: none;
+  }
+
+  .zento-bestsellers__item[aria-hidden="true"] {
+    display: none;
   }
 }

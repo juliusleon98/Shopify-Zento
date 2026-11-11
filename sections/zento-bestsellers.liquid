@@ -21,6 +21,28 @@
   endif
 -%}
 
+{%- capture cards -%}
+  {%- for product in source.products limit: 3 -%}
+    <li class="zento-bestsellers__item">
+      <a href="{{ product.url }}" class="zento-bestsellers__link">
+        <div class="zento-bestsellers__image">
+          {%- if product.featured_media -%}
+            {{
+              product.featured_media
+              | image_url: width: 600
+              | image_tag: loading: 'lazy', widths: '200, 300, 450, 600', sizes: '(min-width: 750px) 240px, 150px', alt: product.featured_media.alt
+            }}
+          {%- endif -%}
+        </div>
+        <span class="zento-bestsellers__title">{{ product.title }}</span>
+        <span class="zento-bestsellers__price">{{ product.price | money }}</span>
+      </a>
+    </li>
+  {%- endfor -%}
+{%- endcapture -%}
+{%- comment -%} Copies are hidden from screen readers and the tab order; they only fill the moving row. {%- endcomment -%}
+{%- assign cards_copy = cards | replace: '<li class="zento-bestsellers__item">', '<li class="zento-bestsellers__item" aria-hidden="true">' | replace: '<a href=', '<a tabindex="-1" href=' -%}
+
 <div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   <div class="zento-bestsellers page-width">
     {%- if section.settings.eyebrow != blank -%}
@@ -29,26 +51,17 @@
     {%- if section.settings.heading != blank -%}
       <h2 class="zento-bestsellers__heading">{{ section.settings.heading | escape }}</h2>
     {%- endif -%}
+  </div>
 
-    <ul class="zento-bestsellers__grid list-unstyled" role="list">
-      {%- for product in source.products limit: 3 -%}
-        <li class="zento-bestsellers__item">
-          <a href="{{ product.url }}" class="zento-bestsellers__link">
-            <div class="zento-bestsellers__image">
-              {%- if product.featured_media -%}
-                {{
-                  product.featured_media
-                  | image_url: width: 600
-                  | image_tag: loading: 'lazy', widths: '200, 300, 450, 600', sizes: '(min-width: 750px) 240px, 30vw', alt: product.featured_media.alt
-                }}
-              {%- endif -%}
-            </div>
-            <span class="zento-bestsellers__title">{{ product.title }}</span>
-            <span class="zento-bestsellers__price">{{ product.price | money }}</span>
-          </a>
-        </li>
-      {%- endfor -%}
-    </ul>
+  <div class="zento-bestsellers__marquee" style="--zento-marquee-duration: {{ section.settings.speed }}s;">
+    <div class="zento-bestsellers__track">
+      <ul class="zento-bestsellers__group list-unstyled" role="list">
+        {{ cards }}{{ cards_copy }}{{ cards_copy }}
+      </ul>
+      <ul class="zento-bestsellers__group list-unstyled" role="list" aria-hidden="true">
+        {{ cards_copy }}{{ cards_copy }}{{ cards_copy }}
+      </ul>
+    </div>
   </div>
 </div>
 
@@ -75,6 +88,17 @@
       "id": "collection",
       "label": "Collection",
       "info": "Shows the first 3 products, like the bestsellers in the mobile menu. Empty: all products."
+    },
+    {
+      "type": "range",
+      "id": "speed",
+      "min": 20,
+      "max": 120,
+      "step": 5,
+      "unit": "s",
+      "label": "Seconds per full loop",
+      "info": "Higher is slower.",
+      "default": 60
     },
     {
       "type": "color_scheme",
