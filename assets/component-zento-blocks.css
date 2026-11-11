@@ -4137,6 +4137,14 @@ section.shopify-pc__banner__dialog {
   line-height: 1.5;
 }
 
+/* Mobile: less space between the process steps and the screen edge (theme default is 1.5rem) */
+@media screen and (max-width: 749px) {
+  .zento-process.page-width {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+}
+
 /* Tracking widget on the Versand page: less space below the form so the next section sits closer */
 #MainContent .zento-tracking-widget #track123_track_wrapper {
   padding-bottom: 1.6rem !important;
