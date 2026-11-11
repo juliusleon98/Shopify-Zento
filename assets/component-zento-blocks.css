@@ -4120,7 +4120,7 @@ section.shopify-pc__banner__dialog {
   font-size: 18px;
   font-weight: 800;
   line-height: 1;
-  box-shadow: 0 0 0 6px #fff8ef;
+  box-shadow: 0 0 0 6px rgb(var(--color-background));
 }
 
 .zento-process__content {
