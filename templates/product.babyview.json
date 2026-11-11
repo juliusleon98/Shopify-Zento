@@ -219,7 +219,7 @@
           "type": "benefit",
           "settings": {
             "icon": "truck",
-            "heading": "Kostenloser Versand",
+            "heading": "Gratis Versand",
             "text": "Ab einem Bestellwert von 50 €"
           }
         },
@@ -235,7 +235,7 @@
           "type": "benefit",
           "settings": {
             "icon": "heart",
-            "heading": "Von Mamas getestet",
+            "heading": "Zufriedene Mamas",
             "text": "Über 1000 Mamas vertrauen Zento"
           }
         },
