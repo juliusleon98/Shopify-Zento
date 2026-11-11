@@ -66,6 +66,17 @@
       ],
       "settings": {}
     },
+    "bestsellers": {
+      "type": "zento-bestsellers",
+      "settings": {
+        "eyebrow": "Entdecken",
+        "heading": "Unsere Bestseller",
+        "speed": 60,
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 24
+      }
+    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
@@ -573,6 +584,7 @@
   "order": [
     "1780665668aa111eb6",
     "178066519293ed2304",
+    "bestsellers",
     "featured-collection",
     "178066703396371827",
     "custom_liquid_zcKqMe",
