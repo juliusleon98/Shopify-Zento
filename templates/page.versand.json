@@ -45,7 +45,7 @@
       "settings": {
         "color_scheme": "scheme-1",
         "padding_top": 0,
-        "padding_bottom": 24
+        "padding_bottom": 0
       }
     },
     "rich_text_process": {
@@ -62,7 +62,7 @@
           "type": "step",
           "settings": {
             "heading": "Versand",
-            "text": "Wir packen deine Bestellung und übergeben sie an den Versanddienstleister. Sobald dein Paket unterwegs ist, erhältst du eine Versandbestätigung mit Tracking-Link."
+            "text": "Wir packen deine Bestellung und übergeben sie an den Versanddienstleister."
           }
         },
         "step_3": {
