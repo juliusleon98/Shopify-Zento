@@ -87,6 +87,7 @@
         "step_4"
       ],
       "settings": {
+        "eyebrow": "In 4 Schritten",
         "heading": "So läuft deine Bestellung ab",
         "color_scheme": "scheme-1",
         "padding_top": 16,

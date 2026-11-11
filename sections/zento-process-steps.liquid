@@ -16,8 +16,11 @@
 
 <div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   <div class="zento-process page-width">
+    {%- if section.settings.eyebrow != blank -%}
+      <p class="zento-process__eyebrow">{{ section.settings.eyebrow | escape }}</p>
+    {%- endif -%}
     {%- if section.settings.heading != blank -%}
-      <h2 class="zento-process__heading h1">{{ section.settings.heading | escape }}</h2>
+      <h2 class="zento-process__heading">{{ section.settings.heading | escape }}</h2>
     {%- endif -%}
 
     {%- if section.blocks.size > 0 -%}
@@ -44,6 +47,12 @@
   "tag": "section",
   "class": "section",
   "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "In 4 Schritten"
+    },
     {
       "type": "text",
       "id": "heading",

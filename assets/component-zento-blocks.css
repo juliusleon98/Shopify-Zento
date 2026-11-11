@@ -3532,6 +3532,7 @@ section.shopify-pc__banner__dialog {
 .zento-specs__title,
 .zento-benefits__title,
 .zento-display-guide__title,
+.zento-process__heading,
 [id$="__collapsible_content_faq"] .collapsible-content__heading {
   max-width: 76rem;
   margin: 0 auto 3.2rem !important;
@@ -3566,6 +3567,7 @@ section.shopify-pc__banner__dialog {
   .zento-specs__title,
   .zento-benefits__title,
   .zento-display-guide__title,
+  .zento-process__heading,
   [id$="__collapsible_content_faq"] .collapsible-content__heading {
     font-size: 30px !important;
   }
@@ -3583,6 +3585,7 @@ section.shopify-pc__banner__dialog {
   .zento-specs__title,
   .zento-benefits__title,
   .zento-display-guide__title,
+  .zento-process__heading,
   [id$="__collapsible_content_faq"] .collapsible-content__heading {
     margin-bottom: 2.2rem !important;
     font-size: 28px !important;
@@ -3598,6 +3601,7 @@ section.shopify-pc__banner__dialog {
   .zento-specs__title,
   .zento-benefits__title,
   .zento-display-guide__title,
+  .zento-process__heading,
   [id$="__collapsible_content_faq"] .collapsible-content__heading {
     font-size: 25px !important;
   }
@@ -3658,6 +3662,7 @@ section.shopify-pc__banner__dialog {
 .zento-specs__eyebrow,
 .zento-benefits__eyebrow,
 .zento-display-guide__eyebrow,
+.zento-process__eyebrow,
 [id$="__collapsible_content_faq"] .collapsible-content__header .caption-with-letter-spacing {
   margin: 0 0 1rem;
   color: #c9966f;
@@ -3676,6 +3681,7 @@ section.shopify-pc__banner__dialog {
 .zento-specs__title,
 .zento-benefits__title,
 .zento-display-guide__title,
+.zento-process__heading,
 [id$="__collapsible_content_faq"] .collapsible-content__heading {
   margin-top: 0 !important;
 }
@@ -3688,6 +3694,7 @@ section.shopify-pc__banner__dialog {
   .zento-specs__eyebrow,
   .zento-benefits__eyebrow,
   .zento-display-guide__eyebrow,
+  .zento-process__eyebrow,
   [id$="__collapsible_content_faq"] .collapsible-content__header .caption-with-letter-spacing {
     font-size: 11px;
     letter-spacing: 0.14em;
@@ -4058,11 +4065,6 @@ section.shopify-pc__banner__dialog {
 }
 
 /* Process steps section (sections/zento-process-steps.liquid): vertical numbered timeline, column as wide as the tracking form (400px) so the badges line up with the form's left edge */
-.zento-process__heading {
-  margin: 0 0 2.8rem;
-  text-align: center;
-}
-
 .zento-process__steps {
   max-width: 40rem;
   margin: 0 auto;
