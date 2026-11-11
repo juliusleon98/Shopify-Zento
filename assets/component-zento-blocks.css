@@ -4339,3 +4339,10 @@ section.shopify-pc__banner__dialog {
     display: none;
   }
 }
+
+/* Home "Von Mamas für Mamas": picture rounded on all four corners (the theme squares the corners that touch the text column, i.e. the right ones on desktop and the lower ones on mobile) */
+[id$="__image_with_text_zccxaF"] .image-with-text__media-item:after,
+[id$="__image_with_text_zccxaF"] .image-with-text__media,
+[id$="__image_with_text_zccxaF"] .image-with-text__media img {
+  border-radius: var(--media-radius) !important;
+}
