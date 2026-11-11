@@ -4347,29 +4347,7 @@ section.shopify-pc__banner__dialog {
   border-radius: var(--media-radius) !important;
 }
 
-/* Home "Von Mamas für Mamas": eyebrow and title like the other section titles, wine-red pill button with arrow like the hero button */
-[id$="__image_with_text_zccxaF"] .image-with-text__text--caption {
-  margin: 0 0 1rem;
-  color: #c9966f;
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 0.16em;
-  line-height: 1.2;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-[id$="__image_with_text_zccxaF"] .image-with-text__heading {
-  margin: 0 0 1.6rem;
-  color: #17202f;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 1.18;
-  letter-spacing: -0.02em;
-  text-align: center;
-  text-wrap: balance;
-}
-
+/* Home "Von Mamas für Mamas": wine-red pill button with arrow like the hero button (the title is its own section above the picture) */
 [id$="__image_with_text_zccxaF"] .image-with-text__content .button {
   gap: 1.2rem;
   min-height: 0;
@@ -4402,10 +4380,4 @@ section.shopify-pc__banner__dialog {
   border-radius: 50%;
   box-shadow: none !important;
   background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236b2d3e' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12h14M13 6l6 6-6 6'/%3E%3C/svg%3E") center / 1.4rem no-repeat;
-}
-
-@media screen and (max-width: 749px) {
-  [id$="__image_with_text_zccxaF"] .image-with-text__heading {
-    font-size: 28px;
-  }
 }
