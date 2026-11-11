@@ -21,8 +21,8 @@
           "settings": {
             "background_image": "shopify://shop_images/Autumn_Hero_Banner_Desktop.jpg",
             "background_image_mobile": "shopify://shop_images/autumn_hero_mobile_under_500kb.jpg",
-            "min_height_desktop": 600,
-            "min_height_mobile": 400,
+            "min_height_desktop": 540,
+            "min_height_mobile": 360,
             "show_overlay": true,
             "overlay_color": "#000000",
             "overlay_opacity": 30,
@@ -91,7 +91,7 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 24,
-        "padding_bottom": 32
+        "padding_bottom": 20
       }
     },
     "178066703396371827": {
