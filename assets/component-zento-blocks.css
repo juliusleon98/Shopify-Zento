@@ -4056,3 +4056,179 @@ section.shopify-pc__banner__dialog {
   overflow: hidden;
   color: #c9966f;
 }
+
+/* Process steps section (sections/zento-process-steps.liquid): numbered timeline, 4 columns on desktop, vertical on mobile */
+.zento-process {
+  max-width: 1240px;
+}
+
+.zento-process__heading {
+  margin: 0 0 3.2rem;
+  text-align: center;
+}
+
+.zento-process__steps {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.zento-process__step {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Connecting line between the number badges */
+.zento-process__step:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  top: 21px;
+  left: calc(50% + 28px);
+  width: calc(100% + 18px - 56px);
+  border-top: 2px dashed rgba(146, 180, 203, 0.7);
+}
+
+.zento-process__marker {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 18px;
+}
+
+.zento-process__number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #b88b66;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1;
+  box-shadow: 0 0 0 6px #fff8ef;
+}
+
+.zento-process__card {
+  flex: 1 1 auto;
+  width: 100%;
+  padding: 26px 22px 24px;
+  text-align: center;
+  background: linear-gradient(180deg, #fbf8f4 0%, #f6f1ea 100%);
+  border: 1px solid rgba(155, 187, 209, 0.24);
+  border-radius: 26px;
+  box-shadow: 0 12px 32px rgba(23, 32, 47, 0.045);
+}
+
+.zento-process__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 16px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #a7c4d9 0%, #92b4cb 100%);
+  color: #fff;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.zento-process__icon svg {
+  width: 22px;
+  height: 22px;
+  fill: currentColor;
+}
+
+.zento-process__title {
+  margin: 0 0 8px;
+  color: #17202f;
+  font-size: 1.8rem;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.zento-process__text {
+  margin: 0;
+  color: #6f6d68;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 989px) {
+  .zento-process__steps {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
+
+  .zento-process__step {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 16px;
+    padding-bottom: 16px;
+  }
+
+  .zento-process__step:last-child {
+    padding-bottom: 0;
+  }
+
+  /* Vertical line behind the number badges */
+  .zento-process__step:not(:last-child)::before {
+    top: 44px;
+    bottom: 0;
+    left: 21px;
+    width: 0;
+    border-top: 0;
+    border-left: 2px dashed rgba(146, 180, 203, 0.7);
+  }
+
+  .zento-process__marker {
+    flex: none;
+    margin-bottom: 0;
+  }
+
+  .zento-process__card {
+    display: grid;
+    grid-template-columns: 50px minmax(0, 1fr);
+    column-gap: 14px;
+    align-items: start;
+    padding: 18px 16px;
+    text-align: left;
+    border-radius: 20px;
+  }
+
+  .zento-process__icon {
+    grid-row: span 2;
+    margin: 0;
+  }
+
+  .zento-process__title {
+    margin-bottom: 4px;
+    font-size: 1.6rem;
+  }
+
+  .zento-process__text {
+    font-size: 1.3rem;
+  }
+}
+
+/* Tracking widget on the Versand page */
+.zento-tracking-widget__fallback {
+  margin: 0;
+  text-align: center;
+}
+
+/* Versand page: balanced lines in the tracking intro text */
+[id$="__rich_text_tracking"] .rich-text__text p {
+  text-wrap: balance;
+}
+
+[id$="__rich_text_tracking"] .rich-text__text p + p {
+  margin-top: 1.6rem;
+}

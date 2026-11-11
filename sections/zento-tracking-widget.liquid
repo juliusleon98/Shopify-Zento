@@ -1,0 +1,130 @@
+{%- comment -%}
+  Track123 tracking form on any page (used on the Versand page).
+  The app only renders its tracking page via the app proxy (/apps/track123). This section loads that page in the
+  background, takes over the app's own config, styles and script, and mounts the form here. Settings changed in the
+  Track123 app therefore apply automatically. If anything fails, a button links to the app page instead.
+{%- endcomment -%}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+  <div class="zento-tracking-widget page-width" id="zento-tracking-{{ section.id }}">
+    <div id="track123-app">
+      <div class="track123_loading"><span></span><span></span><span></span><span></span><span></span></div>
+    </div>
+    <p class="zento-tracking-widget__fallback" hidden>
+      <a class="button button--secondary" href="/apps/track123">Sendung verfolgen</a>
+    </p>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var wrapper = document.getElementById('zento-tracking-{{ section.id }}');
+    if (!wrapper || window.zentoTrackingLoaded) return;
+    window.zentoTrackingLoaded = true;
+
+    function showFallback() {
+      var loading = wrapper.querySelector('.track123_loading');
+      if (loading) loading.remove();
+      var fallback = wrapper.querySelector('.zento-tracking-widget__fallback');
+      if (fallback) fallback.hidden = false;
+    }
+
+    fetch('/apps/track123', { credentials: 'same-origin' })
+      .then(function (response) {
+        if (!response.ok) throw new Error('track123 ' + response.status);
+        return response.text();
+      })
+      .then(function (html) {
+        var doc = new DOMParser().parseFromString(html, 'text/html');
+        var configScript = Array.prototype.find.call(doc.querySelectorAll('script:not([src])'), function (script) {
+          return script.textContent.indexOf('trackingPageConfig') !== -1;
+        });
+        var appScript = doc.querySelector('script[type="module"][src*="track123"]');
+        if (!configScript || !appScript) throw new Error('track123 markup not found');
+
+        doc.querySelectorAll('link[rel="stylesheet"][href*="track123"]').forEach(function (link) {
+          var copy = document.createElement('link');
+          copy.rel = 'stylesheet';
+          copy.href = link.href;
+          document.head.appendChild(copy);
+        });
+
+        doc.querySelectorAll('style').forEach(function (style) {
+          if (style.textContent.indexOf('track123') === -1) return;
+          var copy = document.createElement('style');
+          copy.textContent = style.textContent;
+          document.head.appendChild(copy);
+        });
+
+        var config = document.createElement('script');
+        config.textContent = configScript.textContent;
+        document.head.appendChild(config);
+
+        var app = document.createElement('script');
+        app.type = 'module';
+        app.src = appScript.src;
+        app.onerror = showFallback;
+        document.body.appendChild(app);
+      })
+      .catch(showFallback);
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Zento tracking widget",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 24
+    }
+  ],
+  "presets": [
+    {
+      "name": "Zento tracking widget"
+    }
+  ]
+}
+{% endschema %}

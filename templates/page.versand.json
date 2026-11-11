@@ -9,6 +9,45 @@
  */
 {
   "sections": {
+    "rich_text_tracking": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wo ist dein Paket?",
+            "heading_size": "h1",
+            "heading_as_h1": true
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die Lieferung dauert in der Regel 7 bis 10 Werktage ab Bestellung.</p><p>Sobald dein Paket unterwegs ist, erhältst du eine Versandbestätigung per E-Mail.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 8
+      }
+    },
+    "tracking_widget": {
+      "type": "zento-tracking-widget",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
     "rich_text_intro": {
       "type": "rich-text",
       "blocks": {
@@ -24,8 +63,8 @@
           "type": "heading",
           "settings": {
             "heading": "Deine Bestellung, Schritt für Schritt",
-            "heading_size": "h1",
-            "heading_as_h1": true
+            "heading_size": "h2",
+            "heading_as_h1": false
           }
         },
         "text": {
@@ -45,87 +84,57 @@
         "content_alignment": "center",
         "color_scheme": "scheme-1",
         "full_width": false,
-        "padding_top": 48,
-        "padding_bottom": 24
-      }
-    },
-    "trust_strip": {
-      "type": "zento-trust-strip",
-      "blocks": {
-        "item_1": {
-          "type": "item",
-          "settings": {
-            "icon": "truck",
-            "heading": "7–10 Werktage",
-            "text": "Lieferzeit ab Bestellung"
-          }
-        },
-        "item_2": {
-          "type": "item",
-          "settings": {
-            "icon": "price_tag",
-            "heading": "Kostenloser Versand",
-            "text": "Ab 50 € Bestellwert"
-          }
-        },
-        "item_3": {
-          "type": "item",
-          "settings": {
-            "icon": "return",
-            "heading": "14 Tage Widerruf",
-            "text": "Bei ungeöffneter Hygieneverpackung"
-          }
-        },
-        "item_4": {
-          "type": "item",
-          "settings": {
-            "icon": "chat_bubble",
-            "heading": "Hilfe in 24 Stunden",
-            "text": "Werktags per E-Mail"
-          }
-        }
-      },
-      "block_order": [
-        "item_1",
-        "item_2",
-        "item_3",
-        "item_4"
-      ],
-      "settings": {
-        "badge_text": "Auf einen Blick",
-        "color_scheme": "scheme-2",
-        "padding_top": 16,
+        "padding_top": 24,
         "padding_bottom": 24
       }
     },
     "rich_text_process": {
-      "type": "rich-text",
+      "type": "zento-process-steps",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "step_1": {
+          "type": "step",
           "settings": {
-            "heading": "So läuft deine Bestellung ab",
-            "heading_size": "h2"
+            "icon": "clipboard",
+            "heading": "Bestellung",
+            "text": "Nach deiner Bestellung bekommst du eine Bestätigung per E-Mail."
           }
         },
-        "text": {
-          "type": "text",
+        "step_2": {
+          "type": "step",
           "settings": {
-            "text": "<ol><li><strong>Bestellung:</strong> Nach deiner Bestellung bekommst du eine Bestätigung per E-Mail.</li><li><strong>Versand:</strong> Wir packen deine Bestellung und übergeben sie an den Versanddienstleister. Sobald dein Paket unterwegs ist, erhältst du eine Versandbestätigung mit Tracking-Link.</li><li><strong>Lieferung:</strong> In der Regel kommt dein Paket 7 bis 10 Werktage nach der Bestellung bei dir an.</li><li><strong>Auspacken:</strong> Bitte prüfe dein Paket direkt nach Erhalt. Ist etwas beschädigt oder funktioniert etwas nicht, melde dich einfach bei uns.</li></ol>"
+            "icon": "box",
+            "heading": "Versand",
+            "text": "Wir packen deine Bestellung und übergeben sie an den Versanddienstleister. Sobald dein Paket unterwegs ist, erhältst du eine Versandbestätigung mit Tracking-Link."
+          }
+        },
+        "step_3": {
+          "type": "step",
+          "settings": {
+            "icon": "truck",
+            "heading": "Lieferung",
+            "text": "In der Regel kommt dein Paket 7 bis 10 Werktage nach der Bestellung bei dir an."
+          }
+        },
+        "step_4": {
+          "type": "step",
+          "settings": {
+            "icon": "heart",
+            "heading": "Auspacken",
+            "text": "Bitte prüfe dein Paket direkt nach Erhalt. Ist etwas beschädigt oder funktioniert etwas nicht, melde dich einfach bei uns."
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "step_1",
+        "step_2",
+        "step_3",
+        "step_4"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
+        "heading": "So läuft deine Bestellung ab",
         "color_scheme": "scheme-1",
-        "full_width": false,
-        "padding_top": 40,
-        "padding_bottom": 40
+        "padding_top": 32,
+        "padding_bottom": 48
       }
     },
     "collapsible_content_faq": {
@@ -301,8 +310,9 @@
     }
   },
   "order": [
+    "rich_text_tracking",
+    "tracking_widget",
     "rich_text_intro",
-    "trust_strip",
     "rich_text_process",
     "collapsible_content_faq",
     "image_banner_contact"
