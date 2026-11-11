@@ -71,7 +71,7 @@
       "settings": {
         "eyebrow": "Entdecken",
         "heading": "Unsere Bestseller",
-        "speed": 60,
+        "speed": 20,
         "color_scheme": "scheme-2",
         "padding_top": 40,
         "padding_bottom": 24
@@ -129,54 +129,6 @@
         "color_scheme": "scheme-1",
         "padding_top": 48,
         "padding_bottom": 48
-      }
-    },
-    "image_with_text_zccxaF": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_hRgDiY": {
-          "type": "heading",
-          "settings": {
-            "heading": "Von Mamas für Mamas",
-            "heading_size": "h2"
-          }
-        },
-        "text_CbiJNX": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Zento ist aus den Fragen entstanden, die wir als Eltern selbst hatten. Darum gibt es bei uns durchdachte Babyprodukte, ehrliche Infos und faire Preise. Unser Herzstück: die kabellose Zento One, mit der du beide Hände für dein Baby frei hast.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_izQRGX": {
-          "type": "button",
-          "settings": {
-            "button_label": "Zento One entdecken",
-            "button_link": "shopify://products/zento-one-elektrische-milchpumpe-kabellos-leise-tragbar-1",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_hRgDiY",
-        "text_CbiJNX",
-        "button_izQRGX"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/Mother_and_baby_with_breast_pump.png",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "mobile_content_alignment": "center",
-        "section_color_scheme": "scheme-2",
-        "color_scheme": "scheme-2",
-        "padding_top": 28,
-        "padding_bottom": 28
       }
     },
     "zento_reviews": {
@@ -538,6 +490,54 @@
         "padding_bottom": 48
       }
     },
+    "image_with_text_zccxaF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hRgDiY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Von Mamas für Mamas",
+            "heading_size": "h2"
+          }
+        },
+        "text_CbiJNX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bei uns gibt es durchdachte Babyprodukte, ehrliche Infos und faire Preise. Unser Herzstück: die kabellose Zento One, mit der du beide Hände für dein Baby frei hast.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_izQRGX": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zento One entdecken",
+            "button_link": "shopify://products/zento-one-elektrische-milchpumpe-kabellos-leise-tragbar-1",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hRgDiY",
+        "text_CbiJNX",
+        "button_izQRGX"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Mother_and_baby_with_breast_pump.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
     "image_banner_xbJg6P": {
       "type": "image-banner",
       "blocks": {
@@ -599,8 +599,8 @@
     "bestsellers",
     "178066703396371827",
     "zento_benefits",
-    "image_with_text_zccxaF",
     "zento_reviews",
+    "image_with_text_zccxaF",
     "image_banner_xbJg6P",
     "1780853133e045e530"
   ]
