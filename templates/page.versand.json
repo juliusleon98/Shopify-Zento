@@ -113,7 +113,7 @@
           "settings": {
             "heading": "Wie lange dauert die Lieferung?",
             "icon": "none",
-            "row_content": "<p>Die Lieferung dauert in der Regel 7 bis 10 Werktage ab Bestellung. Sobald dein Paket unterwegs ist, erhältst du eine Versandbestätigung per E-Mail.</p>",
+            "row_content": "<p>Die Lieferung dauert in der Regel 7 bis 10 Werktage ab Bestellung. Eine Versandbestätigung mit Tracking-Link kommt per E-Mail.</p>",
             "page": ""
           }
         },
@@ -129,9 +129,9 @@
         "collapsible_row_3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Wo kann ich meine Bestellung verfolgen?",
+            "heading": "Wie verfolge ich meine Bestellung?",
             "icon": "none",
-            "row_content": "<p>Sobald deine Bestellung versendet wurde, schicken wir dir eine E-Mail mit einem Tracking-Link. Dort siehst du jederzeit, wo dein Paket gerade ist.</p><p>Keine E-Mail bekommen? Schau bitte im Spam-Ordner nach oder schreib uns mit deiner Bestellnummer an hello@zento-home.com.</p>",
+            "row_content": "<p>Gib oben auf dieser Seite deine Bestellnummer und E-Mail-Adresse oder deine Sendungsnummer ein. Du findest den Tracking-Link auch in der Versandbestätigung per E-Mail. Dort siehst du jederzeit, wo dein Paket gerade ist.</p><p>Keine E-Mail bekommen? Schau bitte im Spam-Ordner nach oder schreib uns mit deiner Bestellnummer an hello@zento-home.com.</p>",
             "page": ""
           }
         },
@@ -147,7 +147,7 @@
         "collapsible_row_5": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Mein Produkt ist beschädigt oder funktioniert nicht.",
+            "heading": "Was tun, wenn mein Produkt beschädigt ist oder nicht funktioniert?",
             "icon": "none",
             "row_content": "<p>Das tut uns leid. Schreib uns bitte mit deiner Bestellnummer und einem Foto oder kurzen Video des Problems an hello@zento-home.com. Wir prüfen den Fall und kümmern uns um Ersatz oder Reparatur.</p><p>Transportschäden melde uns bitte möglichst direkt nach Erhalt des Pakets.</p>",
             "page": ""
@@ -156,31 +156,13 @@
         "collapsible_row_6": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Kann ich meine Bestellung zurückgeben?",
+            "heading": "Wie funktionieren Widerruf und Rücksendung?",
             "icon": "none",
-            "row_content": "<p>Du kannst deine Bestellung innerhalb von 14 Tagen nach Erhalt ohne Angabe von Gründen widerrufen. Bei Hygieneartikeln wie der Milchpumpe ist der Widerruf ausgeschlossen, sobald die Hygieneverpackung geöffnet wurde.</p><p>Alle rechtlichen Details findest du in unseren AGB und in der Widerrufsbelehrung.</p>",
+            "row_content": "<p>Du kannst deine Bestellung innerhalb von 14 Tagen nach Erhalt ohne Angabe von Gründen widerrufen. Bei Hygieneartikeln wie der Zento One ist der Widerruf ausgeschlossen, sobald die Hygieneverpackung geöffnet wurde.</p><ol><li>Schreib uns innerhalb der 14 Tage an hello@zento-home.com, mit deiner Bestellnummer und dem Hinweis, dass du widerrufen möchtest.</li><li>Wir schicken dir die Adresse für die Rücksendung.</li><li>Sende das Produkt in der Originalverpackung an uns zurück. Bei Hygieneartikeln muss die Verpackung ungeöffnet sein.</li><li>Sobald deine Rücksendung bei uns eingegangen ist, kümmern wir uns um die Erstattung.</li></ol><p>Die Kosten der Rücksendung trägst du. Alle rechtlichen Details findest du in unseren <a href=\"/pages/agb\">AGB</a> und in der Widerrufsbelehrung.</p>",
             "page": ""
           }
         },
         "collapsible_row_7": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Wie funktioniert die Rücksendung?",
-            "icon": "none",
-            "row_content": "<ol><li>Schreib uns innerhalb der 14 Tage an hello@zento-home.com, mit deiner Bestellnummer und dem Hinweis, dass du widerrufen möchtest.</li><li>Wir schicken dir die Adresse für die Rücksendung.</li><li>Sende das Produkt in der Originalverpackung an uns zurück. Bei Hygieneartikeln muss die Verpackung ungeöffnet sein.</li><li>Sobald deine Rücksendung bei uns eingegangen ist, kümmern wir uns um die Erstattung.</li></ol>",
-            "page": ""
-          }
-        },
-        "collapsible_row_8": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Wer trägt die Kosten für die Rücksendung?",
-            "icon": "none",
-            "row_content": "<p>Die Kosten der Rücksendung trägst du.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_9": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Wann bekomme ich mein Geld zurück?",
@@ -189,7 +171,7 @@
             "page": ""
           }
         },
-        "collapsible_row_10": {
+        "collapsible_row_8": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Wie funktioniert die Garantie?",
@@ -207,9 +189,7 @@
         "collapsible_row_5",
         "collapsible_row_6",
         "collapsible_row_7",
-        "collapsible_row_8",
-        "collapsible_row_9",
-        "collapsible_row_10"
+        "collapsible_row_8"
       ],
       "settings": {
         "caption": "Häufige Fragen",
