@@ -62,21 +62,21 @@
           "type": "step",
           "settings": {
             "heading": "Versand",
-            "text": "Wir packen deine Bestellung und übergeben sie an den Versanddienstleister."
+            "text": "Wir packen deine Bestellung und übergeben sie an den Paketdienst."
           }
         },
         "step_3": {
           "type": "step",
           "settings": {
             "heading": "Lieferung",
-            "text": "In der Regel kommt dein Paket 7 bis 10 Werktage nach der Bestellung bei dir an."
+            "text": "In der Regel kommt dein Paket 7 bis 10 Werktage nach Bestellung bei dir an."
           }
         },
         "step_4": {
           "type": "step",
           "settings": {
             "heading": "Auspacken",
-            "text": "Bitte prüfe dein Paket direkt nach Erhalt auf Beschädigungen oder Funktion."
+            "text": "Bitte prüfe dein Paket nach Erhalt auf Beschädigungen oder Funktion."
           }
         }
       },
