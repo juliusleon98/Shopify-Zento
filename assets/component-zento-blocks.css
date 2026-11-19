@@ -2942,11 +2942,11 @@ section.shopify-pc__banner__dialog {
   font-weight: 600;
 }
 
-#shopify-pc__banner__btn-accept {
+#shopify-pc__banner__btn-decline {
   order: 1;
 }
 
-#shopify-pc__banner__btn-decline {
+#shopify-pc__banner__btn-accept {
   order: 2;
 }
 
